@@ -1,4 +1,3 @@
-import Categorias from "@/components/Categories";
 import MiddleHero from "../components/MiddleHero";
 import Hero from "./hero/page";
 import Categories from "@/components/Categories";
