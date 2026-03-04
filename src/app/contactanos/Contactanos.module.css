@@ -1,148 +1,97 @@
 .section {
   width: 100%;
-  background: #ffffff;
-  padding-bottom: 60px;
+  background: #f8fafc;
+  padding-bottom: 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Título superior */
+/* HERO */
 .header {
-  padding: 80px 20px;
-  text-align: left;
-  background: #004a80;
+  background: linear-gradient(135deg, #004a80, #0077b6);
+  padding: 90px 20px;
+  text-align: center;
+  color: white;
 }
 
 .header h1 {
-  font-size: 52px;
-  color: #ffffff;
-  margin-bottom: 10px;
+  font-size: 48px;
   font-weight: 900;
+  margin-bottom: 15px;
 }
 
 .header p {
   max-width: 600px;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* ---------- GRID PRINCIPAL ---------- */
-.container {
-  max-width: 1300px;
   margin: 0 auto;
-  padding: 60px 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-
-/* ---------- COLUMNA IZQUIERDA ---------- */
-.left h2 {
-  font-size: 38px;
-  margin-bottom: 10px;
-  font-weight: 900;
-  color: #000000;
-}
-
-.subTitle {
-  color: #5eb3e4;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.text {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  font-size: 18px;
   line-height: 1.6;
-  color: #808080;
 }
 
-.infoItem {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 25px;
-  align-items: center;
+/* CARDS */
+.cardsContainer {
+  max-width: 1100px;
+  margin: -60px auto 60px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
 }
 
-.icon {
-  font-size: 22px;
-  color: #f4c300;
-}
-
-.label {
-  font-weight: 700;
-  font-size: 14px;
-  color: #004a80;
-}
-
-.data {
-  font-size: 15px;
-  color: #000000;
-}
-
-/* ---------- FORMULARIO ---------- */
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.form label {
-  font-weight: 700;
-  margin-bottom: 4px;
-  color: #004a80;
-}
-
-.form input,
-.form textarea {
-  width: 100%;
-  padding: 14px;
-  border: 1.5px solid #5eb3e4;
-  border-radius: 6px;
-  font-size: 14px;
-  background: #ffffff;
-  color: #000000;
-}
-
-.form textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
-.button {
-  background: #f4c300;
-  color: #000000;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 700;
+.card {
+  background: white;
+  padding: 35px 30px;
+  border-radius: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #1a1a1a;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease;
 }
 
-.button:hover {
-  background: #c4911a;
+.card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.mapWrapper {
-  margin-top: 4rem;
+.icon {
+  font-size: 30px;
+  color: #0077b6;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* LOCATION */
+.locationSection {
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
+  padding: 0 20px;
 }
 
-.mapTitle {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
+.locationSection h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.locationSection p {
+  margin-bottom: 25px;
+  color: #555;
 }
 
 .mapContainer {
   width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  border-radius: 16px;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 .mapContainer iframe {
@@ -151,31 +100,13 @@
   border: 0;
 }
 
-/* ========== RESPONSIVE ========== */
-@media (max-width: 900px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-}
-
+/* RESPONSIVE */
 @media (max-width: 768px) {
+  .header h1 {
+    font-size: 36px;
+  }
+
   .mapContainer iframe {
     height: 300px;
-  }
-}
-
-@media (max-width: 480px) {
-  .mapContainer iframe {
-    height: 250px;
-  }
-}
-
-@media (max-width: 500px) {
-  .header h1 {
-    font-size: 38px;
-  }
-
-  .left h2 {
-    font-size: 28px;
   }
 }
