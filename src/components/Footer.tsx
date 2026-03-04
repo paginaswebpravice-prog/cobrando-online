@@ -4,6 +4,7 @@ import {
   faFacebook,
   faInstagram,
   faTiktok,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 
@@ -77,8 +78,21 @@ export default function Footer() {
 
       {/* COPYRIGHT */}
       <div className={styles.copy}>
-        © 2026 Pravice Abogados · Todos los derechos reservados
+        © {new Date().getFullYear()} Pravice Abogados · Todos los derechos
+        reservados
       </div>
+
+      {/* BOTÓN FIJO WHATSAPP */}
+      {/* BOTÓN FIJO WHATSAPP */}
+      <a
+        href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.whatsappFloat}
+        aria-label="Contactar por WhatsApp"
+      >
+        <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsappIcon} />
+      </a>
     </footer>
   );
 }
