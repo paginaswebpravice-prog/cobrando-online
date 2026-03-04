@@ -1,0 +1,163 @@
+/* =========================
+   CONTENEDOR GENERAL
+========================= */
+
+.articleContainer {
+  background: linear-gradient(180deg, #0b3c66 0%, #082c4a 100%);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* =========================
+   TARJETA DEL ARTÍCULO
+========================= */
+
+.article {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  padding: 60px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  margin-bottom: 40px;
+}
+
+.category {
+  display: inline-block;
+  background: #f5c400;
+  color: #0b3c66;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   TITULOS
+========================= */
+
+.article h1 {
+  font-size: 38px;
+  color: #0b3c66;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.article h2 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #0b3c66;
+}
+
+.article h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #0b3c66;
+}
+
+/* =========================
+   PÁRRAFOS
+========================= */
+
+.intro {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.article p {
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   LISTAS
+========================= */
+
+.article ul {
+  margin-top: 15px;
+  padding-left: 22px;
+}
+
+.article li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.article li strong {
+  color: #0b3c66;
+}
+
+/* =========================
+   SECCIONES
+========================= */
+
+.article section {
+  margin-bottom: 30px;
+}
+
+/* =========================
+   FAQ
+========================= */
+
+.faq {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.faq h2 {
+  margin-bottom: 25px;
+}
+
+/* =========================
+   ENLACES
+========================= */
+
+.article a {
+  color: #0b3c66;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(11, 60, 102, 0.3);
+  transition: all 0.2s ease;
+}
+
+.article a:hover {
+  color: #f5c400;
+  border-color: #f5c400;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .article {
+    padding: 35px 25px;
+  }
+
+  .article h1 {
+    font-size: 28px;
+  }
+
+  .article h2 {
+    font-size: 22px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+}

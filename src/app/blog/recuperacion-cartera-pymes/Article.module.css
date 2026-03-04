@@ -1,0 +1,112 @@
+/* ==============================
+   FONDO GENERAL (AZUL OSCURO)
+============================== */
+
+.articleContainer {
+  background-color: #123e63;
+  padding: 80px 20px;
+}
+
+/* ==============================
+   CARD BLANCA
+============================== */
+
+.article {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 70px;
+  line-height: 1.8;
+}
+
+/* ==============================
+   BADGE (Educativo)
+============================== */
+
+.category {
+  display: inline-block;
+  background-color: #f4c400;
+  color: #1e2a38;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+   TITULO PRINCIPAL
+============================== */
+
+.article h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #163b5c;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+   INTRO
+============================== */
+
+.intro {
+  font-size: 18px;
+  color: #5f6c7b;
+  margin-bottom: 40px;
+}
+
+/* ==============================
+   SUBTITULOS
+============================== */
+
+.article h2 {
+  font-size: 28px;
+  color: #1c4d75;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* ==============================
+   PÁRRAFOS
+============================== */
+
+.article p {
+  font-size: 17px;
+  color: #4f5b67;
+  margin-bottom: 18px;
+}
+
+/* ==============================
+   LISTAS
+============================== */
+
+.article ul {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.article li {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #2c3e50;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+  .article {
+    padding: 40px 25px;
+  }
+
+  .article h1 {
+    font-size: 28px;
+  }
+
+  .article h2 {
+    font-size: 22px;
+  }
+}

@@ -1,7 +1,7 @@
 /* ================= HERO ================= */
 .hero {
   padding: 90px 20px 60px;
-  background: linear-gradient(180deg, #0e2a38, #081a23);
+  background: linear-gradient(180deg, #123e63, #0f2f4a);
   color: white;
 }
 
@@ -13,8 +13,8 @@
 
 .badge {
   display: inline-block;
-  background: #f7c600;
-  color: #000;
+  background: #f4c400;
+  color: #1e2a38;
   font-weight: 600;
   padding: 6px 14px;
   border-radius: 20px;
@@ -28,26 +28,28 @@
 }
 
 .title span {
-  color: #f7c600;
+  color: #f4c400;
 }
 
 .description {
   max-width: 700px;
   margin: 20px auto 0;
   font-size: 17px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 /* ================= BLOG ================= */
 .blogSection {
   padding: 80px 20px;
-  background: #f9fafb;
+  background: #f4f6f8;
 }
 
 .sectionTitle {
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 50px;
+  color: #163b5c;
+  font-weight: 700;
 }
 
 .blogGrid {
@@ -59,10 +61,10 @@
 }
 
 .blogCard {
-  background: white;
+  background: #ffffff;
   padding: 26px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(18, 62, 99, 0.08);
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
@@ -70,32 +72,34 @@
 
 .blogCard:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 18px 40px rgba(18, 62, 99, 0.15);
 }
 
 .cardTag {
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
-  color: #f7c600;
+  color: #f4c400;
   margin-bottom: 10px;
 }
 
 .blogCard h3 {
   font-size: 18px;
   margin-bottom: 12px;
+  color: #163b5c;
+  font-weight: 700;
 }
 
 .blogCard p {
   font-size: 14.5px;
-  color: #555;
+  color: #4f5b67;
   line-height: 1.6;
 }
 
 /* ================= CALCULADORA ================= */
 .calculatorSection {
   padding: 80px 20px;
-  background: white;
+  background: #ffffff;
 }
 
 .calculatorWrapper {

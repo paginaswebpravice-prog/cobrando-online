@@ -3,6 +3,7 @@
 import styles from "./Blog.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Script from "next/script";
 
 const blogItems = [
   {
@@ -93,10 +94,35 @@ const blogItems = [
 ];
 
 export default function Blog() {
+  const baseUrl = "https://www.cobrandoonline.com/";
+
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "Blog de Recuperación de Cartera",
+    description:
+      "Artículos especializados sobre recuperación de cartera, cobro jurídico, cobro prejurídico y gestión financiera.",
+    url: `${baseUrl}/blog`,
+    blogPost: blogItems.map((item, index) => ({
+      "@type": "BlogPosting",
+      headline: item.title,
+      description: item.description,
+      url: `${baseUrl}/blog/${item.slug}`,
+      position: index + 1,
+    })),
+  };
+
   return (
-    <>
-      {/* ================= HERO ================= */}
-      <section className={styles.hero}>
+    <main>
+      {/* SCHEMA */}
+      <Script
+        id="blog-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
+      {/* HERO */}
+      <header className={styles.hero}>
         <motion.div
           className={styles.heroContent}
           initial={{ opacity: 0, y: 30 }}
@@ -107,8 +133,7 @@ export default function Blog() {
           <span className={styles.badge}>RECUPERACIÓN DE CARTERA</span>
 
           <h1 className={styles.title}>
-            Información clara para <br />
-            <span>recuperar tu dinero</span>
+            Información clara para <span>recuperar tu dinero</span>
           </h1>
 
           <p className={styles.description}>
@@ -116,10 +141,10 @@ export default function Blog() {
             comunes y calcula fácilmente tu comisión de recuperación.
           </p>
         </motion.div>
-      </section>
+      </header>
 
-      {/* ================= BLOG ================= */}
-      <section className={styles.blogSection}>
+      {/* BLOG LIST */}
+      <section className={styles.blogSection} aria-label="Listado de artículos">
         <h2 className={styles.sectionTitle}>
           Artículos sobre recuperación de cartera
         </h2>
@@ -127,16 +152,17 @@ export default function Blog() {
         <div className={styles.blogGrid}>
           {blogItems.map((item, index) => (
             <Link
-              key={index}
+              key={item.slug}
               href={`/blog/${item.slug}`}
               className={styles.cardLink}
+              aria-label={`Leer artículo ${item.title}`}
             >
               <motion.article
                 className={styles.blogCard}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0.05 }}
               >
                 <span className={styles.cardTag}>{item.tag}</span>
                 <h3>{item.title}</h3>
@@ -146,6 +172,6 @@ export default function Blog() {
           ))}
         </div>
       </section>
-    </>
+    </main>
   );
 }
