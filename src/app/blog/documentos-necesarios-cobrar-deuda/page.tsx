@@ -1,5 +1,8 @@
+"use client";
+
 import styles from "./Article.module.css";
 import Script from "next/script";
+import { motion } from "framer-motion";
 
 export default function DocumentosNecesariosCobrarDeuda() {
   const baseUrl = "https://www.cobrandonline.com";
@@ -29,8 +32,20 @@ export default function DocumentosNecesariosCobrarDeuda() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <article className={styles.article}>
-        <header className={styles.header}>
+      <motion.article
+        className={styles.article}
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        {/* ================= HEADER ================= */}
+
+        <motion.header
+          className={styles.header}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+        >
           <span className={styles.category}>Legal</span>
           <h1>Documentos necesarios para cobrar una deuda</h1>
 
@@ -40,73 +55,113 @@ export default function DocumentosNecesariosCobrarDeuda() {
             solo facilita la negociación, sino que también respalda un eventual
             proceso jurídico en caso de incumplimiento.
           </p>
-        </header>
+        </motion.header>
 
-        <section>
-          <h2>1. Contrato firmado</h2>
-          <p>
-            El contrato es la base legal de la obligación. Debe estar firmado
-            por ambas partes y contener condiciones claras sobre el servicio o
-            producto entregado, los plazos de pago y las consecuencias en caso
-            de mora.
-          </p>
-        </section>
+        {/* ================= SECCIONES NUMERADAS ================= */}
 
-        <section>
-          <h2>2. Facturas emitidas</h2>
-          <p>
-            Las facturas son el soporte contable de la deuda. Deben reflejar el
-            valor exacto adeudado, la fecha de emisión y el vencimiento. En
-            muchos casos, la factura electrónica tiene validez como título
-            ejecutivo.
-          </p>
-        </section>
+        {[
+          {
+            title: "1. Contrato firmado",
+            content:
+              "El contrato es la base legal de la obligación. Debe estar firmado por ambas partes y contener condiciones claras sobre el servicio o producto entregado, los plazos de pago y las consecuencias en caso de mora.",
+          },
+          {
+            title: "2. Facturas emitidas",
+            content:
+              "Las facturas son el soporte contable de la deuda. Deben reflejar el valor exacto adeudado, la fecha de emisión y el vencimiento. En muchos casos, la factura electrónica tiene validez como título ejecutivo.",
+          },
+          {
+            title: "3. Pagaré o título valor",
+            content:
+              "El pagaré es uno de los documentos más sólidos para cobrar una deuda, ya que constituye un título ejecutivo que facilita iniciar un proceso judicial de cobro si es necesario.",
+          },
+          {
+            title: "4. Soportes de entrega o prestación del servicio",
+            content:
+              "Es importante contar con pruebas que demuestren que el producto fue entregado o el servicio prestado correctamente. Esto puede incluir actas firmadas, guías de transporte, correos electrónicos de confirmación o cualquier evidencia documental.",
+          },
+        ].map((item, index) => (
+          <motion.section
+            key={index}
+            initial={{ opacity: 0, y: 35 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+          >
+            <motion.h2
+              initial={{ opacity: 0, x: -15 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+            >
+              {item.title}
+            </motion.h2>
 
-        <section>
-          <h2>3. Pagaré o título valor</h2>
-          <p>
-            El pagaré es uno de los documentos más sólidos para cobrar una
-            deuda, ya que constituye un título ejecutivo que facilita iniciar un
-            proceso judicial de cobro si es necesario.
-          </p>
-        </section>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.15 }}
+            >
+              {item.content}
+            </motion.p>
+          </motion.section>
+        ))}
 
-        <section>
-          <h2>4. Soportes de entrega o prestación del servicio</h2>
-          <p>
-            Es importante contar con pruebas que demuestren que el producto fue
-            entregado o el servicio prestado correctamente. Esto puede incluir
-            actas firmadas, guías de transporte, correos electrónicos de
-            confirmación o cualquier evidencia documental.
-          </p>
-        </section>
+        {/* ================= SECCIÓN FINAL ================= */}
 
-        <section>
+        <motion.section
+          initial={{ opacity: 0, y: 35 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
           <h2>¿Qué pasa si no tengo todos los documentos?</h2>
+
           <p>
             La ausencia de documentación puede dificultar la recuperación,
             especialmente en la etapa jurídica. Sin embargo, cada caso debe
             evaluarse individualmente para determinar las alternativas
             disponibles.
           </p>
-        </section>
+        </motion.section>
 
-        <section className={styles.faq}>
+        {/* ================= FAQ ================= */}
+
+        <motion.section
+          className={styles.faq}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
           <h2>Preguntas frecuentes</h2>
 
-          <h3>¿Es obligatorio tener un pagaré para cobrar una deuda?</h3>
-          <p>
-            No siempre, pero facilita significativamente el proceso jurídico al
-            constituir un título ejecutivo.
-          </p>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
+          >
+            <h3>¿Es obligatorio tener un pagaré para cobrar una deuda?</h3>
+            <p>
+              No siempre, pero facilita significativamente el proceso jurídico
+              al constituir un título ejecutivo.
+            </p>
+          </motion.div>
 
-          <h3>¿Una factura electrónica sirve para demandar?</h3>
-          <p>
-            En muchos casos sí, siempre que cumpla los requisitos legales
-            establecidos en la normativa vigente.
-          </p>
-        </section>
-      </article>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+          >
+            <h3>¿Una factura electrónica sirve para demandar?</h3>
+            <p>
+              En muchos casos sí, siempre que cumpla los requisitos legales
+              establecidos en la normativa vigente.
+            </p>
+          </motion.div>
+        </motion.section>
+      </motion.article>
     </main>
   );
 }

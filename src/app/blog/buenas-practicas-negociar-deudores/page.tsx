@@ -1,5 +1,8 @@
+"use client";
+
 import styles from "./Article.module.css";
 import Script from "next/script";
+import { motion } from "framer-motion";
 
 export default function BuenasPracticasNegociarDeudores() {
   const baseUrl = "https://www.cobrandoonline.com/";
@@ -30,7 +33,14 @@ export default function BuenasPracticasNegociarDeudores() {
       />
 
       <article className={styles.article}>
-        <header className={styles.header}>
+        {/* HEADER */}
+        <motion.header
+          className={styles.header}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <span className={styles.category}>Negociación</span>
           <h1>Buenas prácticas para negociar con deudores</h1>
           <p className={styles.intro}>
@@ -39,45 +49,73 @@ export default function BuenasPracticasNegociarDeudores() {
             llegar a acuerdos efectivos, reducir la mora y mantener la relación
             comercial.
           </p>
-        </header>
+        </motion.header>
 
-        <section>
+        {/* SECCIONES */}
+        <motion.section
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
           <h2>1. Mantener una comunicación clara y profesional</h2>
           <p>
             Una comunicación clara evita malentendidos y genera confianza.
             Explicar el estado de la deuda, los valores exactos y las posibles
             alternativas de pago facilita el proceso de negociación.
           </p>
-        </section>
+        </motion.section>
 
-        <section>
+        <motion.section
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+          viewport={{ once: true }}
+        >
           <h2>2. Escuchar antes de proponer soluciones</h2>
           <p>
             Entender la situación financiera del deudor permite estructurar un
             acuerdo realista. Escuchar activamente ayuda a identificar
             dificultades temporales y definir plazos viables.
           </p>
-        </section>
+        </motion.section>
 
-        <section>
+        <motion.section
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
           <h2>3. Formalizar los acuerdos por escrito</h2>
           <p>
             Todo acuerdo de pago debe quedar documentado. Esto protege a ambas
             partes y evita futuros incumplimientos. Se recomienda incluir
             fechas, montos y consecuencias en caso de mora.
           </p>
-        </section>
+        </motion.section>
 
-        <section>
+        <motion.section
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
+          viewport={{ once: true }}
+        >
           <h2>4. Realizar seguimiento constante</h2>
           <p>
             El seguimiento demuestra seriedad en la gestión de cobro. Recordar
             fechas de pago y verificar el cumplimiento reduce el riesgo de
             incumplimiento.
           </p>
-        </section>
+        </motion.section>
 
-        <section className={styles.faq}>
+        {/* FAQ */}
+        <motion.section
+          className={styles.faq}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <h2>Preguntas frecuentes sobre negociación con deudores</h2>
 
           <h3>¿Qué hacer si el deudor no responde?</h3>
@@ -91,7 +129,7 @@ export default function BuenasPracticasNegociarDeudores() {
             Cuando no existe voluntad de pago o se incumplen reiteradamente los
             acuerdos establecidos.
           </p>
-        </section>
+        </motion.section>
       </article>
     </main>
   );
