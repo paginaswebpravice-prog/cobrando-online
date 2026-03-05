@@ -16,6 +16,35 @@ const handleClick = () => {
 export default function About() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Person",
+                name: "Leidy (Apellido aquí)",
+                jobTitle: "Abogada especialista en recuperación de cartera",
+                description:
+                  "Abogada con amplia experiencia en recuperación de cartera y gestión jurídica empresarial en Colombia.",
+                image: "https://www.cobrandoonline.com/conocenos",
+                worksFor: {
+                  "@type": "Organization",
+                  name: "Cobrando Online",
+                },
+              },
+              {
+                "@type": "Organization",
+                name: "Pravice Abogados",
+                foundingDate: "1998",
+                description:
+                  "Firma jurídica especializada en recuperación de cartera y asesoría legal empresarial.",
+              },
+            ],
+          }),
+        }}
+      />
       <section className={styles.about}>
         {/* ============================
           IMAGEN IZQUIERDA ANIMADA
