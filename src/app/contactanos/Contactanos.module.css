@@ -65,7 +65,7 @@
 
 .card p {
   font-size: 14px;
-  color: #666;
+  color: #000;
   line-height: 1.5;
 }
 
@@ -84,7 +84,7 @@
 
 .locationSection p {
   margin-bottom: 25px;
-  color: #555;
+  color: #000;
 }
 
 .mapContainer {

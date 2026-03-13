@@ -52,7 +52,7 @@
 
 .intro {
   font-size: 18px;
-  color: #5f6c7b;
+  color: #000;
   margin-bottom: 40px;
 }
 
@@ -74,7 +74,7 @@
 
 .article p {
   font-size: 17px;
-  color: #4f5b67;
+  color: #000;
   margin-bottom: 18px;
 }
 
@@ -90,7 +90,7 @@
 .article li {
   margin-bottom: 10px;
   font-size: 17px;
-  color: #2c3e50;
+  color: #000;
 }
 
 /* ==============================

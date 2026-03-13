@@ -17,7 +17,7 @@
 
 /* CONTENIDO */
 .content small {
-  color: #5eb3e4;
+  color: #004a80;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -29,7 +29,7 @@
 }
 
 .content p {
-  color: #808080;
+  color: #000;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -76,7 +76,7 @@
 
 .item p {
   margin: 0;
-  color: #808080;
+  color: #000;
   font-size: 14px;
   line-height: 1.5;
 }

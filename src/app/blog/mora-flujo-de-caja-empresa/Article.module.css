@@ -76,12 +76,12 @@
 .intro {
   font-size: 18px;
   line-height: 1.8;
-  color: #444;
+  color: #000;
 }
 
 .article p {
   line-height: 1.8;
-  color: #555;
+  color: #000;
   margin-bottom: 18px;
   font-size: 16px;
 }

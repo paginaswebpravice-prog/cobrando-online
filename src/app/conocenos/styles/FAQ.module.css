@@ -5,7 +5,7 @@
 }
 
 .subtitle {
-  color: #5eb3e4;
+  color: #004a80;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -20,7 +20,7 @@
 .description {
   max-width: 800px;
   margin: 0 auto 40px auto;
-  color: #808080;
+  color: #000;
   font-size: 16px;
 }
 
@@ -45,7 +45,7 @@
   box-shadow: 0 2px 6px rgba(0, 74, 128, 0.1);
   cursor: pointer;
   transition: 0.2s ease;
-  border-left: 4px solid #5eb3e4;
+  border-left: 4px solid #004a80;
 }
 
 .card:hover {
@@ -69,7 +69,7 @@
 .answer {
   margin-top: 15px;
   text-align: left;
-  color: #808080;
+  color: #000;
   line-height: 1.4;
   padding-right: 10px;
   overflow: hidden;

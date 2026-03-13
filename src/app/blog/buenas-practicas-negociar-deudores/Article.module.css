@@ -37,7 +37,7 @@
 .intro {
   font-size: 18px;
   line-height: 1.6;
-  color: #444;
+  color: #000;
 }
 
 .article h2 {
@@ -56,7 +56,7 @@
 
 .article p {
   line-height: 1.7;
-  color: #555;
+  color: #000;
 }
 
 .faq {
