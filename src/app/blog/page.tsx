@@ -14,6 +14,13 @@ const blogItems = [
     tag: "Educativo",
   },
   {
+    slug: "como-recuperar-cartera-vencida",
+    title: "¿Cómo recuperar cartera vencida de manera efectiva?",
+    description:
+      "Conoce las estrategias legales y administrativas más efectivas para recuperar cartera vencida y mejorar el flujo de caja de tu empresa.",
+    tag: "Estrategia",
+  },
+  {
     slug: "tipos-de-recuperacion-de-cartera",
     title:
       "Tipos de recuperación de cartera: preventiva, administrativa y jurídica",
@@ -29,38 +36,10 @@ const blogItems = [
     tag: "Gestión",
   },
   {
-    slug: "errores-comunes-recuperacion-de-cartera",
-    title: "Errores comunes en la recuperación de cartera",
+    slug: "proceso-de-cobro-juridico-colombia",
+    title: "Proceso de cobro jurídico en Colombia",
     description:
-      "No documentar acuerdos, no hacer seguimiento y actuar tarde son errores frecuentes que reducen la efectividad del cobro.",
-    tag: "Consejos",
-  },
-  {
-    slug: "ventajas-tercerizar-recuperacion-de-cartera",
-    title: "Ventajas de tercerizar la recuperación de cartera",
-    description:
-      "Externalizar el cobro permite ahorrar recursos, mejorar resultados y conservar la relación comercial con el deudor.",
-    tag: "Estrategia",
-  },
-  {
-    slug: "mora-flujo-de-caja-empresa",
-    title: "¿Cómo afecta la mora al flujo de caja de una empresa?",
-    description:
-      "La cartera vencida impacta directamente la liquidez, limita la operación y puede poner en riesgo la sostenibilidad del negocio.",
-    tag: "Finanzas",
-  },
-  {
-    slug: "recuperacion-cartera-pymes",
-    title: "Recuperación de cartera para pequeñas y medianas empresas",
-    description:
-      "Las pymes requieren estrategias de cobro eficientes y proporcionales para proteger su estabilidad financiera.",
-    tag: "Empresas",
-  },
-  {
-    slug: "documentos-necesarios-cobrar-deuda",
-    title: "¿Qué documentos se necesitan para cobrar una deuda?",
-    description:
-      "Contar con contratos, facturas, pagarés y soportes adecuados facilita el proceso de recuperación de cartera.",
+      "Conoce las etapas del proceso de cobro jurídico, desde la demanda hasta el embargo y recuperación de la deuda.",
     tag: "Legal",
   },
   {
@@ -71,11 +50,32 @@ const blogItems = [
     tag: "Legal",
   },
   {
-    slug: "calcular-comision-recuperacion-cartera",
-    title: "¿Cómo calcular la comisión por recuperación de cartera?",
+    slug: "prescripcion-deudas-colombia",
+    title: "Prescripción de deudas en Colombia",
     description:
-      "La comisión depende del monto recuperado, la complejidad del caso y la etapa del proceso de cobro.",
-    tag: "Cálculo",
+      "Las deudas pueden prescribir si no se cobran a tiempo. Conoce los términos legales y evita perder el dinero.",
+    tag: "Legal",
+  },
+  {
+    slug: "documentos-necesarios-cobrar-deuda",
+    title: "¿Qué documentos se necesitan para cobrar una deuda?",
+    description:
+      "Contar con contratos, facturas, pagarés y soportes adecuados facilita el proceso de recuperación de cartera.",
+    tag: "Legal",
+  },
+  {
+    slug: "errores-comunes-recuperacion-de-cartera",
+    title: "Errores comunes en la recuperación de cartera",
+    description:
+      "No documentar acuerdos, no hacer seguimiento y actuar tarde son errores frecuentes que reducen la efectividad del cobro.",
+    tag: "Consejos",
+  },
+  {
+    slug: "estrategias-de-cobranza-efectiva",
+    title: "Estrategias de cobranza efectiva para empresas",
+    description:
+      "Aplicar estrategias de cobranza adecuadas aumenta la recuperación de cartera y reduce la morosidad.",
+    tag: "Estrategia",
   },
   {
     slug: "buenas-practicas-negociar-deudores",
@@ -85,11 +85,67 @@ const blogItems = [
     tag: "Negociación",
   },
   {
+    slug: "acuerdos-de-pago-con-deudores",
+    title: "Acuerdos de pago con deudores: cómo hacerlos correctamente",
+    description:
+      "Los acuerdos de pago permiten recuperar cartera sin procesos judiciales, pero deben hacerse correctamente.",
+    tag: "Negociación",
+  },
+  {
+    slug: "ventajas-tercerizar-recuperacion-de-cartera",
+    title: "Ventajas de tercerizar la recuperación de cartera",
+    description:
+      "Externalizar el cobro permite ahorrar recursos, mejorar resultados y conservar la relación comercial con el deudor.",
+    tag: "Estrategia",
+  },
+  {
+    slug: "externalizacion-de-cobranza",
+    title: "Externalización de cobranza: cuándo conviene",
+    description:
+      "Delegar la cobranza a expertos puede mejorar la recuperación de cartera y reducir costos administrativos.",
+    tag: "Empresas",
+  },
+  {
+    slug: "recuperacion-cartera-pymes",
+    title: "Recuperación de cartera para pequeñas y medianas empresas",
+    description:
+      "Las pymes requieren estrategias de cobro eficientes y proporcionales para proteger su estabilidad financiera.",
+    tag: "Empresas",
+  },
+  {
+    slug: "mora-flujo-de-caja-empresa",
+    title: "¿Cómo afecta la mora al flujo de caja de una empresa?",
+    description:
+      "La cartera vencida impacta directamente la liquidez, limita la operación y puede poner en riesgo la sostenibilidad del negocio.",
+    tag: "Finanzas",
+  },
+  {
+    slug: "indicadores-de-cartera-vencida",
+    title: "Indicadores de cartera vencida que toda empresa debe conocer",
+    description:
+      "Los indicadores de cartera permiten medir el riesgo, la mora y la efectividad de la gestión de cobro.",
+    tag: "Finanzas",
+  },
+  {
     slug: "seguimiento-recuperacion-cartera",
     title: "Importancia del seguimiento en la recuperación de cartera",
     description:
       "El seguimiento constante evita incumplimientos y demuestra seriedad en la gestión de cobro.",
     tag: "Gestión",
+  },
+  {
+    slug: "carta-cobro-prejuridico",
+    title: "Carta de cobro prejurídico: ejemplo y cómo hacerla",
+    description:
+      "La carta de cobro prejurídico es una herramienta efectiva para recuperar cartera antes de iniciar acciones legales.",
+    tag: "Legal",
+  },
+  {
+    slug: "calcular-comision-recuperacion-cartera",
+    title: "¿Cómo calcular la comisión por recuperación de cartera?",
+    description:
+      "La comisión depende del monto recuperado, la complejidad del caso y la etapa del proceso de cobro.",
+    tag: "Cálculo",
   },
 ];
 
