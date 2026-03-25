@@ -3,7 +3,7 @@
 ============================== */
 .section {
   width: 100%;
-  background: rgba(94, 179, 228, 0.12);
+  background: #f4f8fb; /* azul muy claro */
   padding: 64px 0;
 }
 
@@ -32,6 +32,7 @@
   padding: 32px 34px;
   border-radius: 18px;
 
+  border-left: 5px solid #004a80;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   transition:
     box-shadow 0.25s ease,
@@ -39,7 +40,9 @@
 }
 
 .card:hover {
+  transform: translateY(-4px);
   box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #f7c600;
 }
 
 /* ==============================
@@ -49,7 +52,7 @@
   font-size: 52px;
   font-weight: 700;
   line-height: 1;
-  color: #f4c300;
+  color: #f7c600;
   flex-shrink: 0;
 }
 
@@ -65,7 +68,7 @@
 .title {
   font-size: 20px;
   font-weight: 700;
-  color: #003f6b;
+  color: #004a80;
   line-height: 1.3;
 }
 

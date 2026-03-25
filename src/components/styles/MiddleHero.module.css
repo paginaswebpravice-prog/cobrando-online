@@ -24,11 +24,11 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   border-radius: 12px;
-  background: linear-gradient(135deg, #004a80, #5eb3e4);
+  background: linear-gradient(135deg, #004a80, #2f6fa3);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 25px rgba(0, 74, 128, 0.25);
   position: relative;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 /* Cuando pongas el video */
@@ -70,7 +70,7 @@
   margin-top: 10px;
   font-size: 42px;
   font-weight: 800;
-  color: #000000;
+  color: #004a80;
 }
 
 .description {
@@ -98,11 +98,11 @@
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  color: #000000;
+  color: #000;
 }
 
 .listItem svg {
-  color: #004a80;
+  color: #f7c600;
   font-size: 20px;
   min-width: 20px;
 }
@@ -117,18 +117,20 @@
 .button {
   margin-top: 30px;
   display: inline-block;
-  background: #f4c300;
-  color: #000000;
+  background: #f7c600;
+  color: #000;
   padding: 14px 28px;
   border-radius: 8px;
   font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: 0.25s ease;
 }
 
 .button:hover {
   background: #c4911a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 /* ===============================

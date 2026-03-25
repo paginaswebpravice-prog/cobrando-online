@@ -1,6 +1,6 @@
 .section {
   padding: 4rem 1.5rem;
-  background: #f8f9fb;
+  background: #ffffff;
 }
 
 .grid {
@@ -39,25 +39,27 @@
   justify-content: center;
 }
 
+/* ================= FRONT ================= */
 .front {
   background: #ffffff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 2px solid #004a80;
 }
 
 .icon {
   font-size: 2rem;
-  color: #1f3a8a;
+  color: #004a80;
   margin-bottom: 1rem;
 }
 
 .front h3 {
   font-size: 1.1rem;
   margin-bottom: 0.25rem;
+  color: #004a80;
 }
 
 .subtitle {
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #000;
   margin-bottom: 1rem;
 }
 
@@ -69,23 +71,31 @@
 .front li {
   font-size: 0.85rem;
   margin-bottom: 0.4rem;
-  color: #374151;
+  color: #000;
 }
 
+/* ================= BACK ================= */
 .back {
-  background: #1f3a8a;
+  background: #004a80;
   color: #ffffff;
   transform: rotateY(180deg);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 2px solid #004a80;
 }
 
 .back h3 {
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  color: #f7c600;
 }
 
 .back p {
   font-size: 0.9rem;
   line-height: 1.5;
-  color: #e5e7eb;
+  color: #ffffff;
+}
+
+/* Hover extra */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
 }
