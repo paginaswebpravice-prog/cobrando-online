@@ -12,10 +12,31 @@ const handleClick = () => {
 export default function MiddleHero() {
   return (
     <section className={styles.section} aria-labelledby="como-funciona-title">
+      {/* SCHEMA VIDEO SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: "Proceso de recuperación de cartera en Colombia",
+            description:
+              "Video representativo del proceso de recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá Colombia.",
+            thumbnailUrl: "https://www.cobrandoonline.com/thumbnail-video.jpg",
+            uploadDate: "2025-01-01",
+            contentUrl:
+              "https://www.cobrandoonline.com/videoCobrandoOnline.mp4",
+            embedUrl: "https://www.cobrandoonline.com/",
+            publisher: {
+              "@type": "Organization",
+              name: "Cobrando Online",
+            },
+          }),
+        }}
+      />
+
       <div className={styles.wrapper}>
-        {/* =====================================================
-            VIDEO IZQUIERDO (Placeholder)
-        ====================================================== */}
+        {/* VIDEO */}
         <motion.div
           className={styles.videoContainer}
           initial={{ opacity: 0, x: -80 }}
@@ -23,24 +44,26 @@ export default function MiddleHero() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* 
-            Aquí luego solo reemplazas este div por:
-            <video src="..." controls autoPlay muted loop />
-          */}
           <div className={styles.videoPlaceholder}>
             <video
               src="/"
-              controls
+              autoPlay
               muted
+              loop
               preload="metadata"
-              aria-label="Video explicativo del proceso de recuperación de cartera"
+              aria-label="Video representativo del proceso de recuperación de cartera en Bogotá Colombia y cobro jurídico"
             />
           </div>
+
+          {/* TEXTO SEO OCULTO */}
+          <p className={styles["sr-only"]}>
+            Video sobre recuperación de cartera en Colombia, cobro prejurídico,
+            cobro jurídico, cobranza para empresas en Bogotá y gestión de
+            cartera vencida.
+          </p>
         </motion.div>
 
-        {/* =====================================================
-            TEXTOS DERECHA
-        ====================================================== */}
+        {/* TEXTO */}
         <motion.div
           className={styles.textContainer}
           initial={{ opacity: 0, x: 80 }}
@@ -55,7 +78,7 @@ export default function MiddleHero() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            SOLUCIONES A TU MEDIDA
+            RECUPERACIÓN DE CARTERA EN COLOMBIA
           </motion.span>
 
           <motion.h2
@@ -66,7 +89,7 @@ export default function MiddleHero() {
             viewport={{ once: true }}
             transition={{ delay: 0.35, duration: 0.6 }}
           >
-            Cómo Funciona
+            Cómo funciona la recuperación de cartera
           </motion.h2>
 
           <motion.p
@@ -76,12 +99,15 @@ export default function MiddleHero() {
             viewport={{ once: true }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            En <strong>Cobrando Online</strong> gestionamos la
-            <strong> recuperación de cartera vencida</strong> de forma ágil,
-            segura y transparente. Nuestro proceso combina negociación directa,
-            gestión prejurídica y herramientas legales para lograr el
-            <strong> cobro efectivo de deudas</strong> en personas naturales,
-            empresas y entidades del sector salud.
+            En <strong>Cobrando Online</strong> somos especialistas en
+            <strong> recuperación de cartera en Colombia</strong>, ayudando a
+            empresas y personas a gestionar el <strong>cobro de deudas</strong>{" "}
+            de manera eficiente en <strong>Bogotá y todo el país</strong>.
+            Nuestro proceso combina <strong>cobro prejurídico</strong>,
+            negociación estratégica y{" "}
+            <strong>cobro jurídico en Colombia</strong>, permitiendo maximizar
+            la recuperación de cartera vencida de forma rápida, segura y
+            transparente.
           </motion.p>
 
           {/* LISTA */}
@@ -93,11 +119,12 @@ export default function MiddleHero() {
             transition={{ staggerChildren: 0.18 }}
           >
             {[
-              "Análisis del caso: evaluamos la información y la viabilidad real del cobro.",
-              "Gestión amistosa: negociación directa para acuerdos de pago sin procesos judiciales.",
-              "Proceso jurídico: activación de acciones legales cuando el caso lo requiere.",
-              "Seguimiento constante: información clara y acompañamiento en cada etapa.",
-              "Resultados efectivos: rapidez, control y enfoque en la recuperación.",
+              "Análisis del caso y viabilidad de recuperación de cartera.",
+              "Gestión amistosa y negociación de acuerdos de pago.",
+              "Cobro prejurídico para recuperación rápida de la deuda.",
+              "Proceso jurídico y demanda ejecutiva cuando es necesario.",
+              "Seguimiento constante y reporte del proceso.",
+              "Recuperación efectiva de cartera vencida.",
             ].map((item, index) => (
               <motion.li
                 key={index}
