@@ -46,7 +46,7 @@ export default function MiddleHero() {
         >
           <div className={styles.videoPlaceholder}>
             <video
-              src="/"
+              src="/videoCobrandoOnline.mp4"
               autoPlay
               muted
               loop
