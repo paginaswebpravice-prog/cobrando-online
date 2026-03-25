@@ -1,16 +1,16 @@
 .section {
   width: 100%;
-  background: #f8fafc;
+  background: #ffffff;
   padding-bottom: 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HERO */
 .header {
-  background: linear-gradient(135deg, #004a80, #0077b6);
+  background: #004a80;
   padding: 90px 20px;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .header h1 {
@@ -37,23 +37,25 @@
 }
 
 .card {
-  background: white;
+  background: #ffffff;
   padding: 35px 30px;
   border-radius: 18px;
   text-align: center;
   text-decoration: none;
-  color: #1a1a1a;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  color: #000;
+  border: 2px solid #004a80;
   transition: 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  background: #f7c600;
+  border: 2px solid #c4911a;
 }
 
+/* ICON */
 .icon {
   font-size: 30px;
-  color: #0077b6;
+  color: #004a80;
   margin-bottom: 15px;
 }
 
@@ -61,6 +63,7 @@
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
+  color: #004a80;
 }
 
 .card p {
@@ -80,6 +83,7 @@
 .locationSection h2 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #004a80;
 }
 
 .locationSection p {
@@ -91,7 +95,7 @@
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  border: 3px solid #004a80;
 }
 
 .mapContainer iframe {

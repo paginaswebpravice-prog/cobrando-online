@@ -1,8 +1,8 @@
 /* ================= HERO ================= */
 .hero {
   padding: 90px 20px 60px;
-  background: linear-gradient(180deg, #123e63, #0f2f4a);
-  color: white;
+  background: #004a80;
+  color: #ffffff;
 }
 
 .heroContent {
@@ -13,7 +13,7 @@
 
 .badge {
   display: inline-block;
-  background: #f4c400;
+  background: #f7c600;
   color: #000;
   font-weight: 600;
   padding: 6px 14px;
@@ -28,20 +28,20 @@
 }
 
 .title span {
-  color: #f4c400;
+  color: #f7c600;
 }
 
 .description {
   max-width: 700px;
   margin: 20px auto 0;
   font-size: 17px;
-  opacity: 0.95;
+  color: #ffffff;
 }
 
 /* ================= BLOG ================= */
 .blogSection {
   padding: 80px 20px;
-  background: #f4f6f8;
+  background: #ffffff;
 }
 
 .sectionTitle {
@@ -64,22 +64,23 @@
   background: #ffffff;
   padding: 26px;
   border-radius: 18px;
-  box-shadow: 0 8px 25px rgba(18, 62, 99, 0.08);
+  border: 2px solid #004a80;
   transition:
     transform 0.25s ease,
-    box-shadow 0.25s ease;
+    box-shadow 0.25s ease,
+    background 0.25s ease;
 }
 
 .blogCard:hover {
   transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(18, 62, 99, 0.15);
+  border: 2px solid #c4911a;
 }
 
 .cardTag {
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
-  color: #f4c400;
+  color: #c4911a;
   margin-bottom: 10px;
 }
 
