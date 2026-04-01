@@ -12,7 +12,7 @@ const handleClick = () => {
 export default function MiddleHero() {
   return (
     <section className={styles.section} aria-labelledby="como-funciona-title">
-      {/* SCHEMA VIDEO SEO */}
+      {/* ================= SCHEMA VIDEO SEO ================= */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -21,22 +21,24 @@ export default function MiddleHero() {
             "@type": "VideoObject",
             name: "Proceso de recuperación de cartera en Colombia",
             description:
-              "Video representativo del proceso de recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá Colombia.",
+              "Video sobre el proceso de recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá Colombia para empresas y personas.",
             thumbnailUrl: "https://www.cobrandoonline.com/thumbnail-video.jpg",
             uploadDate: "2025-01-01",
+            duration: "PT1M30S",
             contentUrl:
               "https://www.cobrandoonline.com/videoCobrandoOnline.mp4",
             embedUrl: "https://www.cobrandoonline.com/",
             publisher: {
               "@type": "Organization",
               name: "Cobrando Online",
+              url: "https://www.cobrandoonline.com",
             },
           }),
         }}
       />
 
       <div className={styles.wrapper}>
-        {/* VIDEO */}
+        {/* ================= VIDEO ================= */}
         <motion.div
           className={styles.videoContainer}
           initial={{ opacity: 0, x: -80 }}
@@ -44,26 +46,34 @@ export default function MiddleHero() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
+          {/* Título SEO del video */}
+          <h3 className={styles.videoTitle}>
+            Video: Cómo funciona la recuperación de cartera en Colombia
+          </h3>
+
           <div className={styles.videoPlaceholder}>
             <video
-              src="/videoCobrandoOnline.mp4"
-              autoPlay
-              muted
-              loop
+              controls
               preload="metadata"
-              aria-label="Video representativo del proceso de recuperación de cartera en Bogotá Colombia y cobro jurídico"
-            />
+              poster="/thumbnail-video.jpg"
+              width="100%"
+              aria-label="Video sobre recuperación de cartera en Colombia, cobro prejurídico y cobro jurídico en Bogotá"
+            >
+              <source src="/videoCobrandoOnline.mp4" type="video/mp4" />
+              Tu navegador no soporta video HTML5.
+            </video>
           </div>
 
           {/* TEXTO SEO OCULTO */}
           <p className={styles["sr-only"]}>
-            Video sobre recuperación de cartera en Colombia, cobro prejurídico,
-            cobro jurídico, cobranza para empresas en Bogotá y gestión de
-            cartera vencida.
+            Video explicativo sobre recuperación de cartera en Colombia,
+            servicios de cobro prejurídico, cobro jurídico, cobranza para
+            empresas en Bogotá, recuperación de cartera vencida y procesos de
+            demanda ejecutiva.
           </p>
         </motion.div>
 
-        {/* TEXTO */}
+        {/* ================= TEXTO ================= */}
         <motion.div
           className={styles.textContainer}
           initial={{ opacity: 0, x: 80 }}
