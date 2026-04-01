@@ -49,6 +49,30 @@
   object-fit: cover;
 }
 
+.videoTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #004a80;
+}
+
+.videoFigure {
+  margin: 0;
+}
+
+.videoCaption {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+}
+
+.videoDescription {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
 /* ===============================
    TEXTO
 ================================ */

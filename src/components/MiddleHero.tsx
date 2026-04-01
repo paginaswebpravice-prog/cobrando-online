@@ -11,7 +11,11 @@ const handleClick = () => {
 
 export default function MiddleHero() {
   return (
-    <section className={styles.section} aria-labelledby="como-funciona-title">
+    <section
+      className={styles.section}
+      aria-labelledby="como-funciona-title"
+      id="video-recuperacion-cartera"
+    >
       {/* ================= SCHEMA VIDEO SEO ================= */}
       <script
         type="application/ld+json"
@@ -27,7 +31,8 @@ export default function MiddleHero() {
             duration: "PT1M30S",
             contentUrl:
               "https://www.cobrandoonline.com/videoCobrandoOnline.mp4",
-            embedUrl: "https://www.cobrandoonline.com/",
+            embedUrl:
+              "https://www.cobrandoonline.com/#video-recuperacion-cartera",
             publisher: {
               "@type": "Organization",
               name: "Cobrando Online",
@@ -46,30 +51,34 @@ export default function MiddleHero() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* Título SEO del video */}
           <h3 className={styles.videoTitle}>
             Video: Cómo funciona la recuperación de cartera en Colombia
           </h3>
 
-          <div className={styles.videoPlaceholder}>
+          <figure className={styles.videoFigure}>
             <video
               controls
               preload="metadata"
               poster="/thumbnail-video.jpg"
               width="100%"
-              aria-label="Video sobre recuperación de cartera en Colombia, cobro prejurídico y cobro jurídico en Bogotá"
             >
               <source src="/videoCobrandoOnline.mp4" type="video/mp4" />
               Tu navegador no soporta video HTML5.
             </video>
-          </div>
 
-          {/* TEXTO SEO OCULTO */}
-          <p className={styles["sr-only"]}>
-            Video explicativo sobre recuperación de cartera en Colombia,
-            servicios de cobro prejurídico, cobro jurídico, cobranza para
-            empresas en Bogotá, recuperación de cartera vencida y procesos de
-            demanda ejecutiva.
+            <figcaption className={styles.videoCaption}>
+              Explicación del proceso de recuperación de cartera, cobro
+              prejurídico, cobro jurídico y gestión de cartera vencida en
+              Colombia.
+            </figcaption>
+          </figure>
+
+          {/* Texto descriptivo visible (importante para SEO) */}
+          <p className={styles.videoDescription}>
+            Este video explica el proceso de recuperación de cartera en
+            Colombia, incluyendo el cobro prejurídico, negociación de deudas,
+            acuerdos de pago, cobro jurídico y demanda ejecutiva para empresas y
+            personas en Bogotá y todo el país.
           </p>
         </motion.div>
 
@@ -81,53 +90,22 @@ export default function MiddleHero() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <motion.span
-            className={styles.smallTitle}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-          >
+          <motion.span className={styles.smallTitle}>
             RECUPERACIÓN DE CARTERA EN COLOMBIA
           </motion.span>
 
-          <motion.h2
-            className={styles.title}
-            id="como-funciona-title"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.35, duration: 0.6 }}
-          >
+          <motion.h2 className={styles.title} id="como-funciona-title">
             Cómo funciona la recuperación de cartera
           </motion.h2>
 
-          <motion.p
-            className={styles.description}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.5, duration: 0.6 }}
-          >
+          <motion.p className={styles.description}>
             En <strong>Cobrando Online</strong> somos especialistas en
             <strong> recuperación de cartera en Colombia</strong>, ayudando a
             empresas y personas a gestionar el <strong>cobro de deudas</strong>{" "}
             de manera eficiente en <strong>Bogotá y todo el país</strong>.
-            Nuestro proceso combina <strong>cobro prejurídico</strong>,
-            negociación estratégica y{" "}
-            <strong>cobro jurídico en Colombia</strong>, permitiendo maximizar
-            la recuperación de cartera vencida de forma rápida, segura y
-            transparente.
           </motion.p>
 
-          {/* LISTA */}
-          <motion.ul
-            className={styles.list}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ staggerChildren: 0.18 }}
-          >
+          <motion.ul className={styles.list}>
             {[
               "Análisis del caso y viabilidad de recuperación de cartera.",
               "Gestión amistosa y negociación de acuerdos de pago.",
@@ -136,32 +114,14 @@ export default function MiddleHero() {
               "Seguimiento constante y reporte del proceso.",
               "Recuperación efectiva de cartera vencida.",
             ].map((item, index) => (
-              <motion.li
-                key={index}
-                className={styles.listItem}
-                variants={{
-                  hidden: { opacity: 0, x: 20 },
-                  visible: { opacity: 1, x: 0 },
-                }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              >
+              <li key={index} className={styles.listItem}>
                 <FontAwesomeIcon icon={faCheckCircle} />
                 {item}
-              </motion.li>
+              </li>
             ))}
           </motion.ul>
 
-          {/* BOTÓN */}
-          <motion.button
-            className={styles.button}
-            onClick={handleClick}
-            whileHover={{ scale: 1.06 }}
-            whileTap={{ scale: 0.93 }}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.5 }}
-          >
+          <motion.button className={styles.button} onClick={handleClick}>
             Iniciar recuperación de cartera
           </motion.button>
         </motion.div>
