@@ -28,6 +28,23 @@ export default function Header() {
             </Link>
           </li>
 
+          {/* CONOCENOS */}
+          <li itemProp="name">
+            <Link
+              href="/conocenos"
+              title="Conócenos - Cobrando Online"
+              itemProp="url"
+            >
+              Conócenos
+            </Link>
+          </li>
+
+          <li itemProp="name">
+            <Link href="/" title="Inicio - Cobrando Online" itemProp="url">
+              Inicio
+            </Link>
+          </li>
+
           {/* SOLUCIONES */}
           <li className={styles.dropdown} itemProp="name">
             <span className={styles.dropdownTitle}>Soluciones</span>
@@ -86,6 +103,18 @@ export default function Header() {
               itemProp="url"
             >
               Blog
+            </Link>
+          </li>
+
+          {/* CONTACTO */}
+          <li itemProp="name">
+            <Link
+              href="/contactanos"
+              title="Contacto - Cobrando Online"
+              itemProp="url"
+              className={styles.contactLink}
+            >
+              Contacto
             </Link>
           </li>
         </ul>
