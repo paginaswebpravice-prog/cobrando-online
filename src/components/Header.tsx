@@ -33,14 +33,18 @@ export default function Header() {
             <span className={styles.dropdownTitle}>Soluciones</span>
 
             <div className={styles.dropdownMenu}>
-              <Link href="/recuperar-cartera-vencida">
+              <Link href="/soluciones/recuperar-cartera-vencida">
                 Recuperar cartera vencida
               </Link>
-              <Link href="/clientes-no-pagan">Clientes que no pagan</Link>
-              <Link href="/reducir-cartera-vencida">
+              <Link href="/soluciones/clientes-no-pagan">
+                Clientes que no pagan
+              </Link>
+              <Link href="/soluciones/reducir-cartera-vencida">
                 Reducir cartera morosa
               </Link>
-              <Link href="/mejorar-flujo-de-caja">Mejorar flujo de caja</Link>
+              <Link href="/soluciones/mejorar-flujo-de-caja">
+                Mejorar flujo de caja
+              </Link>
             </div>
           </li>
 
@@ -49,12 +53,15 @@ export default function Header() {
             <span className={styles.dropdownTitle}>Cómo funciona</span>
 
             <div className={styles.dropdownMenu}>
-              <Link href="/cobro-por-whatsapp">Cobro por WhatsApp</Link>
-              <Link href="/recordatorios-de-pago">
+              <Link href="/como-funciona/cobro-por-whatsapp">
+                Cobro por WhatsApp
+              </Link>
+              <Link href="/como-funciona/recordatorios-de-pago">
                 Recordatorios automáticos
               </Link>
-              <Link href="/link-de-pago">Link de pago</Link>
-              <Link href="/seguimiento-de-cartera">Seguimiento de cartera</Link>
+              <Link href="/como-funciona/seguimiento-de-cartera">
+                Seguimiento de cartera
+              </Link>
             </div>
           </li>
 
@@ -63,11 +70,11 @@ export default function Header() {
             <span className={styles.dropdownTitle}>Sectores</span>
 
             <div className={styles.dropdownMenu}>
-              <Link href="/recaudo-empresas">Empresas</Link>
-              <Link href="/recaudo-pymes">PYMES</Link>
-              <Link href="/recaudo-inmobiliarias">Inmobiliarias</Link>
-              <Link href="/recaudo-colegios">Colegios</Link>
-              <Link href="/recaudo-freelancers">Freelancers</Link>
+              <Link href="/sectores/recaudo-de-empresas">Empresas</Link>
+              <Link href="/sectores/recaudo-pymes">PYMES</Link>
+              <Link href="/sectores/recaudo-inmobiliarias">Inmobiliarias</Link>
+              <Link href="/sectores/recaudo-colegios">Colegios</Link>
+              <Link href="/sectores/recaudo-freelancers">Freelancers</Link>
             </div>
           </li>
 
