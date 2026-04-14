@@ -39,12 +39,6 @@ export default function Header() {
             </Link>
           </li>
 
-          <li itemProp="name">
-            <Link href="/" title="Inicio - Cobrando Online" itemProp="url">
-              Inicio
-            </Link>
-          </li>
-
           {/* SOLUCIONES */}
           <li className={styles.dropdown} itemProp="name">
             <span className={styles.dropdownTitle}>Soluciones</span>

@@ -83,7 +83,6 @@ export default function Footer() {
       </div>
 
       {/* BOTÓN FIJO WHATSAPP */}
-      {/* BOTÓN FIJO WHATSAPP */}
       <a
         href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
         target="_blank"
@@ -91,6 +90,11 @@ export default function Footer() {
         className={styles.whatsappFloat}
         aria-label="Contactar por WhatsApp"
       >
+        {/* TEXTO */}
+        <span className={styles.whatsappText}>
+          ¿Necesitas recuperar cartera? Escríbenos
+        </span>
+
         <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsappIcon} />
       </a>
     </footer>

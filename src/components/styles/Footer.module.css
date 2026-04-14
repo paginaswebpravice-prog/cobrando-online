@@ -32,7 +32,7 @@
 }
 
 .text {
-  line-height: 1.55;
+  line-height: 1.6;
   font-size: 15px;
   color: #b9e0f7;
   max-width: 520px;
@@ -42,11 +42,11 @@
 /* Nota institucional */
 .brandNote {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: rgba(255, 255, 255, 0.75);
   max-width: 520px;
   padding-left: 12px;
-  border-left: 3px solid #f4c300;
+  border-left: 3px solid #f7c600;
 }
 
 /* ==============================
@@ -61,7 +61,7 @@
 
 .icon {
   font-size: 26px;
-  color: #f4c300;
+  color: #f7c600;
   margin-top: 2px;
 }
 
@@ -106,10 +106,10 @@
 
 /* Hover elegante */
 .social a:hover {
-  background: #f4c300;
+  background: #f7c600;
   color: #004a80;
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 6px 18px rgba(244, 195, 0, 0.35);
+  box-shadow: 0 6px 18px rgba(247, 198, 0, 0.35);
 }
 
 /* ==============================
@@ -125,51 +125,88 @@
 }
 
 /* ==============================
-   BOTÓN FLOTANTE WHATSAPP
+   WHATSAPP FLOAT (PRO + TEXTO)
 ============================== */
-/* ==============================
-   BOTÓN FLOTANTE WHATSAPP PREMIUM
-============================== */
+
 .whatsappFloat {
   position: fixed;
   bottom: 26px;
   right: 26px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+  z-index: 9999;
+}
+
+/* TEXTO BURBUJA */
+.whatsappText {
+  background: #ffffff;
+  color: #004a80;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+
+  max-width: 200px;
+  text-align: center;
+
+  position: relative;
+  animation: fadeInUp 0.5s ease;
+}
+
+/* FLECHITA */
+.whatsappText::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-width: 6px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+/* BOTÓN */
+.whatsappIcon {
   width: 64px;
   height: 64px;
-
-  background: linear-gradient(135deg, #25d366, #1ebe5d);
-  color: #ffffff;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   border-radius: 50%;
-  text-decoration: none;
+
+  background: linear-gradient(135deg, #25d366, #1ebe5d);
+  color: #ffffff;
+
+  font-size: 30px;
 
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.25),
     0 0 0 0 rgba(37, 211, 102, 0.6);
 
   transition: all 0.3s ease;
-  z-index: 9999;
 }
 
-/* Icono */
-.whatsappIcon {
-  font-size: 30px;
-}
-
-/* Hover elegante */
-.whatsappFloat:hover {
+/* HOVER */
+.whatsappFloat:hover .whatsappIcon {
   transform: translateY(-6px) scale(1.08);
   box-shadow:
     0 16px 40px rgba(0, 0, 0, 0.35),
     0 0 20px rgba(37, 211, 102, 0.5);
 }
 
-/* Animación pulse sutil */
+/* PULSE */
 @keyframes whatsappPulse {
   0% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
@@ -182,8 +219,20 @@
   }
 }
 
-.whatsappFloat {
+.whatsappIcon {
   animation: whatsappPulse 2.8s infinite;
+}
+
+/* TEXTO ANIMACIÓN */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ==============================
@@ -209,12 +258,17 @@
 
   .brandNote {
     border-left: none;
-    border-top: 2px solid #f4c300;
+    border-top: 2px solid #f7c600;
     padding-left: 0;
     padding-top: 10px;
   }
 
   .schedule {
     justify-content: center;
+  }
+
+  .whatsappText {
+    font-size: 12px;
+    max-width: 160px;
   }
 }
