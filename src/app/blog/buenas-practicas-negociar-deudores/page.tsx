@@ -1,136 +1,91 @@
-"use client";
+import { Metadata } from "next";
+import BuenasPracticasNegociarDeudores from "./BuenasPracticasNegociarDeudores";
 
-import styles from "./Article.module.css";
-import Script from "next/script";
-import { motion } from "framer-motion";
+export const metadata: Metadata = {
+  title:
+    "Buenas prácticas para negociar con deudores en Colombia | Guía de cobranza",
+  description:
+    "Aprende las mejores prácticas para negociar con deudores en Colombia. Mejora la recuperación de cartera, logra acuerdos efectivos y reduce la mora.",
 
-export default function BuenasPracticasNegociarDeudores() {
-  const baseUrl = "https://www.cobrandoonline.com/";
+  alternates: {
+    canonical:
+      "https://cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
+  },
 
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Buenas prácticas para negociar con deudores",
+  openGraph: {
+    title: "Buenas prácticas para negociar con deudores en Colombia",
     description:
-      "Conoce las mejores prácticas para negociar con deudores y lograr acuerdos de pago efectivos en procesos de recuperación de cartera.",
-    author: {
-      "@type": "Organization",
-      name: "Cobrand Online",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Cobrand Online",
-    },
-    mainEntityOfPage: `${baseUrl}/blog/buenas-practicas-negociar-deudores`,
-  };
+      "Guía práctica para negociar con deudores, lograr acuerdos de pago efectivos y mejorar la recuperación de cartera.",
+    url: "https://cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
+    siteName: "Cobrando Online",
+    locale: "es_CO",
+    type: "article",
+  },
 
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default function Page() {
   return (
-    <main className={styles.articleContainer}>
-      <Script
-        id="article-schema"
+    <>
+      {/* SCHEMA SEO AVANZADO */}
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              headline: "Buenas prácticas para negociar con deudores",
+              description:
+                "Guía para negociar con deudores y mejorar la recuperación de cartera en Colombia.",
+              author: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+              },
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
+              },
+              datePublished: "2025-01-01",
+              dateModified: "2026-01-01",
+              inLanguage: "es",
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "¿Qué hacer si el deudor no responde?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Se recomienda insistir por diferentes canales y documentar cada intento antes de escalar el caso a cobro jurídico.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Cuándo pasar a cobro jurídico?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Cuando no existe voluntad de pago o se incumplen los acuerdos establecidos.",
+                  },
+                },
+              ],
+            },
+          ]),
+        }}
       />
 
-      <article className={styles.article}>
-        {/* HEADER */}
-        <motion.header
-          className={styles.header}
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-        >
-          <span className={styles.category}>Negociación</span>
-          <h1>Buenas prácticas para negociar con deudores</h1>
-          <p className={styles.intro}>
-            La negociación con deudores es una de las etapas más importantes en
-            la recuperación de cartera. Aplicar estrategias adecuadas permite
-            llegar a acuerdos efectivos, reducir la mora y mantener la relación
-            comercial.
-          </p>
-        </motion.header>
-
-        {/* SECCIONES */}
-        <motion.section
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          <h2>1. Mantener una comunicación clara y profesional</h2>
-          <p>
-            Una comunicación clara evita malentendidos y genera confianza.
-            Explicar el estado de la deuda, los valores exactos y las posibles
-            alternativas de pago facilita el proceso de negociación.
-          </p>
-        </motion.section>
-
-        <motion.section
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          viewport={{ once: true }}
-        >
-          <h2>2. Escuchar antes de proponer soluciones</h2>
-          <p>
-            Entender la situación financiera del deudor permite estructurar un
-            acuerdo realista. Escuchar activamente ayuda a identificar
-            dificultades temporales y definir plazos viables.
-          </p>
-        </motion.section>
-
-        <motion.section
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
-          <h2>3. Formalizar los acuerdos por escrito</h2>
-          <p>
-            Todo acuerdo de pago debe quedar documentado. Esto protege a ambas
-            partes y evita futuros incumplimientos. Se recomienda incluir
-            fechas, montos y consecuencias en caso de mora.
-          </p>
-        </motion.section>
-
-        <motion.section
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.25 }}
-          viewport={{ once: true }}
-        >
-          <h2>4. Realizar seguimiento constante</h2>
-          <p>
-            El seguimiento demuestra seriedad en la gestión de cobro. Recordar
-            fechas de pago y verificar el cumplimiento reduce el riesgo de
-            incumplimiento.
-          </p>
-        </motion.section>
-
-        {/* FAQ */}
-        <motion.section
-          className={styles.faq}
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          viewport={{ once: true }}
-        >
-          <h2>Preguntas frecuentes sobre negociación con deudores</h2>
-
-          <h3>¿Qué hacer si el deudor no responde?</h3>
-          <p>
-            Es recomendable insistir por diferentes canales y documentar cada
-            intento de contacto antes de escalar el caso a una etapa jurídica.
-          </p>
-
-          <h3>¿Cuándo pasar de negociación a cobro jurídico?</h3>
-          <p>
-            Cuando no existe voluntad de pago o se incumplen reiteradamente los
-            acuerdos establecidos.
-          </p>
-        </motion.section>
-      </article>
-    </main>
+      <BuenasPracticasNegociarDeudores />
+    </>
   );
 }

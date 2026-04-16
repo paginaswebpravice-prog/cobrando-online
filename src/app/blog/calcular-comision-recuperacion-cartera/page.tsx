@@ -1,156 +1,99 @@
-"use client";
+import { Metadata } from "next";
+import CalcularComisionRecuperacionCartera from "./CalcularComisionRecuperacionCartera";
 
-import styles from "./Article.module.css";
-import { motion } from "framer-motion";
+export const metadata: Metadata = {
+  title: "¿Cómo calcular la comisión por recuperación de cartera en Colombia?",
+  description:
+    "Aprende cómo se calcula la comisión por recuperación de cartera en Colombia. Factores, etapas y modelos de cobro explicados de forma clara.",
 
-export default function CalcularComisionRecuperacionCartera() {
+  alternates: {
+    canonical:
+      "https://cobrandoonline.com/blog/calcular-comision-recuperacion-cartera",
+  },
+
+  openGraph: {
+    title: "¿Cómo calcular la comisión por recuperación de cartera?",
+    description:
+      "Guía completa para entender cómo se calcula la comisión en procesos de recuperación de cartera en Colombia.",
+    url: "https://cobrandoonline.com/blog/calcular-comision-recuperacion-cartera",
+    siteName: "Cobrando Online",
+    locale: "es_CO",
+    type: "article",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default function Page() {
   return (
-    <main className={styles.articleContainer}>
-      <article className={styles.article}>
-        {/* CATEGORÍA */}
-        <motion.span
-          className={styles.category}
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-        >
-          Educativo
-        </motion.span>
+    <>
+      {/* SCHEMA SEO AVANZADO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              headline:
+                "¿Cómo se calcula la comisión en la recuperación de cartera?",
+              description:
+                "Explicación de cómo se calcula la comisión en procesos de recuperación de cartera en Colombia.",
+              author: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+              },
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id":
+                  "https://cobrandoonline.com/blog/calcular-comision-recuperacion-cartera",
+              },
+              datePublished: "2025-01-01",
+              dateModified: "2026-01-01",
+              inLanguage: "es",
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "¿Cómo se calcula la comisión por recuperación de cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Generalmente se calcula como un porcentaje sobre el valor efectivamente recuperado, dependiendo de la etapa del proceso y la complejidad del caso.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿La comisión es fija?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "No, la comisión puede variar según factores como la etapa del cobro, la antigüedad de la deuda y el nivel de dificultad del caso.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Se paga comisión si no se recupera la cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "En muchos modelos basados en resultados, solo se paga comisión sobre el dinero efectivamente recuperado.",
+                  },
+                },
+              ],
+            },
+          ]),
+        }}
+      />
 
-        {/* TÍTULO */}
-        <motion.h1
-          initial={{ opacity: 0, y: 35 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-        >
-          ¿Cómo se calcula la comisión en la recuperación de cartera?
-        </motion.h1>
-
-        {/* INTRO */}
-        <motion.p
-          className={styles.intro}
-          initial={{ opacity: 0, y: 35 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          La comisión en la recuperación de cartera no es un valor fijo ni único
-          para todos los casos. Generalmente se establece como un porcentaje
-          sobre el monto efectivamente recuperado, pero puede variar dependiendo
-          de la etapa del proceso, la complejidad del caso y las características
-          de la deuda.
-        </motion.p>
-
-        {/* BLOQUE 1 */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Factores que determinan la comisión
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          Cada proceso de recuperación tiene particularidades que influyen en la
-          estructura de honorarios. Por ello, la comisión se define con base en
-          diferentes variables:
-        </motion.p>
-
-        <motion.ul
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          viewport={{ once: true }}
-        >
-          <li>
-            <strong>Etapa del proceso:</strong> preventiva, administrativa
-            (prejurídica) o jurídica.
-          </li>
-          <li>
-            <strong>Complejidad del caso:</strong> existencia de garantías,
-            número de obligados o dificultades contractuales.
-          </li>
-          <li>
-            <strong>Monto de la deuda:</strong> cuantía total a recuperar.
-          </li>
-          <li>
-            <strong>Antigüedad de la obligación:</strong> el tiempo en mora
-            puede aumentar el nivel de dificultad.
-          </li>
-        </motion.ul>
-
-        {/* BLOQUE 2 */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Comisiones diferenciadas por etapa
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          En algunos casos, el proceso puede iniciar en etapa preventiva o
-          administrativa y posteriormente avanzar a una fase jurídica si no se
-          logra acuerdo de pago. Cada etapa implica un nivel distinto de gestión
-          y esfuerzo profesional.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          viewport={{ once: true }}
-        >
-          Por esta razón, la comisión puede variar entre etapas o ajustarse
-          según el momento en que se logre la recuperación.
-        </motion.p>
-
-        {/* BLOQUE 3 */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Modelo basado en resultados
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          En la mayoría de los esquemas de recuperación profesional, los
-          honorarios se calculan sobre el valor efectivamente recuperado. Esto
-          significa que el interés del gestor está alineado con el del acreedor:
-          lograr el recaudo de manera eficiente y legal.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          viewport={{ once: true }}
-        >
-          Antes de iniciar cualquier gestión, se establecen de forma clara las
-          condiciones económicas aplicables al caso específico.
-        </motion.p>
-      </article>
-    </main>
+      <CalcularComisionRecuperacionCartera />
+    </>
   );
 }
