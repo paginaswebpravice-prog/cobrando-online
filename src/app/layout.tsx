@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Cobrando Online | Recuperación de Cartera",
     description:
       "Recuperamos tu cartera de manera profesional, ágil y segura en Colombia.",
-    url: "https://www.cobrandoonline.com",
+    url: "https://cobrandoonline.com/",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
@@ -99,8 +99,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "FinancialService",
               name: "Cobrando Online",
-              url: "https://www.cobrandoonline.com",
-              logo: "https://www.cobrandoonline.com/logo-cobrando-online.jpg",
+              url: "https://cobrandoonline.com/",
+              logo: "https://cobrandoonline.com/logo-cobrando-online.jpg",
               areaServed: {
                 "@type": "Country",
                 name: "Colombia",
