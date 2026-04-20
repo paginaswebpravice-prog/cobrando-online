@@ -53,7 +53,7 @@ export default function Page() {
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
-                  "https://www.cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
+                  "https://cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
               },
               datePublished: "2025-01-01",
               dateModified: "2026-01-01",
