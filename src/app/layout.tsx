@@ -12,7 +12,7 @@ import CallAction from "@/components/CallAction";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.cobrandoonline.com"),
+  metadataBase: new URL("https://cobrandoonline.com"),
 
   title: {
     default: "Cobrando Online | Recuperación de Cartera",
