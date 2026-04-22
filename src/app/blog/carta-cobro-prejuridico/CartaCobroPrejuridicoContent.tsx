@@ -26,7 +26,8 @@ export default function CartaCobroPrejuridicoContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Carta de cobro prejurídico: ejemplo y cómo hacerla
+          Carta de cobro prejurídico en Colombia: ejemplo práctico y cómo
+          hacerla paso a paso
         </motion.h1>
 
         <motion.p
@@ -41,7 +42,9 @@ export default function CartaCobroPrejuridicoContent() {
           iniciar un cobro jurídico.
         </motion.p>
 
-        <motion.h2>¿Qué es una carta de cobro prejurídico?</motion.h2>
+        <motion.h2>
+          ¿Qué es una carta de cobro prejurídico y para qué sirve?
+        </motion.h2>
 
         <motion.p>
           La carta de cobro prejurídico es un documento formal en el que se le
@@ -50,7 +53,9 @@ export default function CartaCobroPrejuridicoContent() {
           deuda.
         </motion.p>
 
-        <motion.h2>¿Cuándo enviar una carta de cobro prejurídico?</motion.h2>
+        <motion.h2>
+          ¿Cuándo enviar una carta de cobro prejurídico en Colombia?
+        </motion.h2>
 
         <motion.p>
           La carta de cobro prejurídico se envía cuando el deudor ya tiene
@@ -58,7 +63,9 @@ export default function CartaCobroPrejuridicoContent() {
           pago o llamadas de cobranza.
         </motion.p>
 
-        <motion.h2>Qué debe incluir una carta de cobro prejurídico</motion.h2>
+        <motion.h2>
+          Qué debe incluir una carta de cobro prejurídico (estructura completa)
+        </motion.h2>
 
         <motion.ul>
           <li>Nombre del deudor.</li>
@@ -70,7 +77,9 @@ export default function CartaCobroPrejuridicoContent() {
           <li>Datos de contacto para realizar el pago.</li>
         </motion.ul>
 
-        <motion.h2>Ejemplo de carta de cobro prejurídico</motion.h2>
+        <motion.h2>
+          Ejemplo de carta de cobro prejurídico en Colombia (modelo práctico)
+        </motion.h2>
 
         <motion.p>
           A continuación se muestra un ejemplo básico de carta de cobro
@@ -101,7 +110,10 @@ export default function CartaCobroPrejuridicoContent() {
           [Nombre de la empresa o abogado]
         </motion.p>
 
-        <motion.h2>Conclusión</motion.h2>
+        <motion.h2>
+          Conclusión: cómo usar la carta de cobro para recuperar cartera más
+          rápido
+        </motion.h2>
 
         <motion.p>
           La carta de cobro prejurídico es una herramienta muy importante en la

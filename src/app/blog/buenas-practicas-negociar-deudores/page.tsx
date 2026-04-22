@@ -3,9 +3,9 @@ import BuenasPracticasNegociarDeudores from "./BuenasPracticasNegociarDeudores";
 
 export const metadata: Metadata = {
   title:
-    "Buenas prácticas para negociar con deudores en Colombia | Guía de cobranza",
+    "Cómo negociar con deudores en Colombia y lograr acuerdos de pago efectivos",
   description:
-    "Aprende las mejores prácticas para negociar con deudores en Colombia. Mejora la recuperación de cartera, logra acuerdos efectivos y reduce la mora.",
+    "Aprende las mejores prácticas para negociar con deudores en Colombia. Logra acuerdos de pago efectivos, reduce la mora y recupera tu dinero más rápido.",
 
   alternates: {
     canonical:
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Buenas prácticas para negociar con deudores en Colombia",
+    title: "Cómo negociar con deudores y recuperar cartera en Colombia",
     description:
-      "Guía práctica para negociar con deudores, lograr acuerdos de pago efectivos y mejorar la recuperación de cartera.",
+      "Guía práctica para negociar con deudores, lograr acuerdos efectivos y mejorar la recuperación de cartera.",
     url: "https://cobrandoonline.com/blog/buenas-practicas-negociar-deudores",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -39,7 +39,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Buenas prácticas para negociar con deudores",
+              headline:
+                "Cómo negociar con deudores en Colombia y lograr acuerdos de pago",
               description:
                 "Guía para negociar con deudores y mejorar la recuperación de cartera en Colombia.",
               author: {

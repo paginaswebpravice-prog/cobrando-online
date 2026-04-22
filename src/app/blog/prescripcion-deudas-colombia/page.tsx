@@ -3,9 +3,9 @@ import PrescripcionDeudasContent from "./PrescripcionDeudasContent";
 
 export const metadata: Metadata = {
   title:
-    "Prescripción de deudas en Colombia: tiempos y cómo evitar perder el dinero",
+    "Prescripción de deudas en Colombia (2026): tiempos, plazos y cómo evitar perder el dinero",
   description:
-    "Conoce los tiempos de prescripción de deudas en Colombia, cómo se calculan y cómo evitar perder el derecho a cobrar.",
+    "Conoce los tiempos de prescripción de deudas en Colombia, cómo se calculan y cómo evitar perder el derecho a cobrar antes de que venza el plazo.",
 
   keywords: [
     "prescripción de deudas Colombia",
@@ -21,9 +21,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Prescripción de deudas en Colombia",
+    title:
+      "Prescripción de deudas en Colombia: tiempos exactos y cómo evitar perder el dinero",
     description:
-      "Descubre los tiempos legales de prescripción de deudas y cómo evitar perder el derecho a cobrar.",
+      "Descubre los plazos reales de prescripción de deudas en Colombia y cómo evitar perder el derecho a cobrar.",
     url: "https://cobrandoonline.com/blog/prescripcion-deudas-colombia",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -46,7 +47,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Prescripción de deudas en Colombia",
+              headline:
+                "Prescripción de deudas en Colombia: tiempos y cómo evitar perder el dinero",
               description:
                 "Conoce los tiempos de prescripción de deudas y cómo evitar perder el derecho a cobrar.",
               author: {

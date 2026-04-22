@@ -3,7 +3,7 @@ import SeguimientoRecuperacionCartera from "./SeguimientoRecuperacionCartera";
 
 export const metadata: Metadata = {
   title:
-    "Importancia del seguimiento en la recuperación de cartera en Colombia",
+    "Seguimiento de cartera en Colombia: cómo aumentar el recaudo y reducir la mora",
   description:
     "Descubre por qué el seguimiento es clave en la recuperación de cartera en Colombia y cómo mejora la tasa de recaudo y el flujo de caja.",
 
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Importancia del seguimiento en la recuperación de cartera en Colombia",
+      "Seguimiento de cartera en Colombia: aumenta el recaudo y reduce la mora",
     description:
       "El seguimiento constante es clave para mejorar la recuperación de cartera y reducir la mora en empresas.",
     url: "https://cobrandoonline.com/blog/seguimiento-recuperacion-cartera",
@@ -50,7 +50,7 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               headline:
-                "Importancia del seguimiento en la recuperación de cartera en Colombia",
+                "Seguimiento de cartera en Colombia: cómo aumentar el recaudo y reducir la mora",
               description:
                 "El seguimiento en la recuperación de cartera mejora la tasa de recaudo y reduce la mora en empresas.",
               author: {

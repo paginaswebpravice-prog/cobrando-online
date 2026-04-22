@@ -16,7 +16,9 @@ export default function BuenasPracticasNegociarDeudores() {
           viewport={{ once: true }}
         >
           <span className={styles.category}>Negociación</span>
-          <h1>Buenas prácticas para negociar con deudores</h1>
+          <h1>
+            Cómo negociar con deudores y lograr acuerdos de pago efectivos
+          </h1>
           <p className={styles.intro}>
             La negociación con deudores es una de las etapas más importantes en
             la recuperación de cartera. Aplicar estrategias adecuadas permite
@@ -32,7 +34,7 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <h2>1. Mantener una comunicación clara y profesional</h2>
+          <h2>1. Cómo comunicarte con deudores de forma clara y profesional</h2>
           <p>
             Una comunicación clara evita malentendidos y genera confianza.
             Explicar el estado de la deuda, los valores exactos y las posibles
@@ -46,7 +48,7 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.15 }}
           viewport={{ once: true }}
         >
-          <h2>2. Escuchar antes de proponer soluciones</h2>
+          <h2>2. Por qué escuchar al deudor mejora la probabilidad de pago</h2>
           <p>
             Entender la situación financiera del deudor permite estructurar un
             acuerdo realista. Escuchar activamente ayuda a identificar
@@ -60,7 +62,9 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <h2>3. Formalizar los acuerdos por escrito</h2>
+          <h2>
+            3. Cómo formalizar acuerdos de pago para evitar incumplimientos
+          </h2>
           <p>
             Todo acuerdo de pago debe quedar documentado. Esto protege a ambas
             partes y evita futuros incumplimientos. Se recomienda incluir
@@ -74,7 +78,9 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.25 }}
           viewport={{ once: true }}
         >
-          <h2>4. Realizar seguimiento constante</h2>
+          <h2>
+            4. Seguimiento de pagos: clave para recuperar cartera efectivamente
+          </h2>
           <p>
             El seguimiento demuestra seriedad en la gestión de cobro. Recordar
             fechas de pago y verificar el cumplimiento reduce el riesgo de
@@ -90,7 +96,9 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.7, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <h2>Preguntas frecuentes sobre negociación con deudores</h2>
+          <h2>
+            Preguntas frecuentes sobre cómo negociar con deudores en Colombia
+          </h2>
 
           <h3>¿Qué hacer si el deudor no responde?</h3>
           <p>

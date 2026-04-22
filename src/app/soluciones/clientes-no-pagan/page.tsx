@@ -3,9 +3,10 @@ import ClientesNoPaganContent from "./ClientesNoPaganContent";
 
 export const metadata: Metadata = {
   title:
-    "Clientes que no pagan en Colombia | Cómo recuperar deudas efectivamente",
+    "¿Clientes que no pagan en Colombia? Recupera tu dinero rápido y legalmente",
   description:
-    "¿Tienes clientes que no pagan? Recupera tu dinero en Colombia con estrategias de cobro profesional, negociación y acciones legales efectivas.",
+    "¿Tienes clientes morosos en Colombia? Recupera tu dinero con estrategias de cobro profesional, negociación efectiva y acciones legales que sí funcionan.",
+
   keywords: [
     "clientes que no pagan",
     "recuperar deudas Colombia",
@@ -13,19 +14,22 @@ export const metadata: Metadata = {
     "deudores morosos",
     "cobrar clientes",
   ],
+
   alternates: {
     canonical: "https://cobrandoonline.com/servicios/clientes-que-no-pagan",
   },
+
   openGraph: {
     title:
-      "Clientes que no pagan en Colombia | Recuperación de cartera profesional",
+      "¿Clientes que no pagan? Recupera tu dinero en Colombia con expertos",
     description:
-      "Recupera tu dinero de clientes morosos en Colombia con estrategias de cobro estructurado, negociación y acciones legales.",
+      "Soluciones reales para recuperar deudas en Colombia: cobro profesional, negociación y acciones legales efectivas.",
     url: "https://cobrandoonline.com/servicios/clientes-que-no-pagan",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
   },
+
   robots: {
     index: true,
     follow: true,
@@ -44,7 +48,7 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "Article",
               headline:
-                "Clientes que no pagan en Colombia | Recuperación de cartera",
+                "¿Clientes que no pagan en Colombia? Recupera tu dinero de forma efectiva",
               description:
                 "Estrategias profesionales para recuperar deudas de clientes morosos en Colombia mediante cobranza estructurada y legal.",
               author: {

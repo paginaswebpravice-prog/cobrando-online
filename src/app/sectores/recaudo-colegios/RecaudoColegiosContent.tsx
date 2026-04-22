@@ -16,8 +16,8 @@ export default function RecaudoColegiosContent() {
             <span className={styles.badge}>Colegios en Colombia</span>
 
             <h1 className={styles.title}>
-              Recuperación de cartera para colegios y pensiones atrasadas en
-              Colombia
+              Recupera pensiones atrasadas en tu colegio y mejora el flujo de
+              caja
             </h1>
 
             <p className={styles.description}>
@@ -41,7 +41,7 @@ export default function RecaudoColegiosContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas frecuentes en la cartera de colegios en Colombia
+          Principales problemas de cartera en colegios en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -81,7 +81,7 @@ export default function RecaudoColegiosContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto de la cartera vencida en colegios
+          Cómo la cartera vencida afecta la estabilidad de tu colegio
         </h2>
 
         <div className={styles.infoGrid}>
@@ -123,7 +123,7 @@ export default function RecaudoColegiosContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo ayudamos a los colegios a recuperar cartera
+          Estrategia efectiva para recuperar cartera en colegios
         </h2>
 
         <p className={styles.text}>
@@ -147,10 +147,10 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
-      {/* PROCESO (REEMPLAZA steps - usando grid válido) */}
+      {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Proceso de recuperación de cartera educativa
+          Cómo funciona el proceso de recuperación de cartera
         </h2>
 
         <div className={styles.grid}>
@@ -175,7 +175,7 @@ export default function RecaudoColegiosContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios para colegios en Colombia
+          Beneficios de mejorar el recaudo en tu colegio
         </h2>
 
         <div className={styles.benefits}>
@@ -187,9 +187,11 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
-      {/* FAQ (REEMPLAZADO SIN clase faq) */}
+      {/* FAQ */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>Preguntas frecuentes</h2>
+        <h2 className={styles.subtitle}>
+          Preguntas frecuentes sobre cobranza en colegios
+        </h2>
 
         <div className={styles.infoGrid}>
           <div>
@@ -222,7 +224,7 @@ export default function RecaudoColegiosContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Mejora el recaudo de tu colegio en Colombia hoy
+            Empieza hoy a recuperar pensiones atrasadas en tu colegio
           </h2>
 
           <p className={styles.ctaText}>

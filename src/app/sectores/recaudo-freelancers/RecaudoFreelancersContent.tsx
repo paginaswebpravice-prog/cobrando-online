@@ -16,7 +16,8 @@ export default function RecaudoFreelancersContent() {
             <span className={styles.badge}>Freelancers en Colombia</span>
 
             <h1 className={styles.title}>
-              Cómo cobrar clientes que no pagan como freelancer en Colombia
+              Cómo cobrar clientes que no pagan y recuperar tu dinero como
+              freelancer
             </h1>
 
             <p className={styles.description}>
@@ -27,10 +28,10 @@ export default function RecaudoFreelancersContent() {
 
             <div className={styles.actions}>
               <a href="#contacto" className={styles.primary}>
-                Recuperar dinero
+                Recuperar mi dinero ahora
               </a>
               <a href="#proceso" className={styles.secondary}>
-                Cómo funciona
+                Ver cómo hacerlo
               </a>
             </div>
           </motion.div>
@@ -40,7 +41,8 @@ export default function RecaudoFreelancersContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas comunes de freelancers en Colombia
+          Por qué los freelancers en Colombia pierden dinero por clientes que no
+          pagan
         </h2>
 
         <p className={styles.text}>
@@ -78,7 +80,9 @@ export default function RecaudoFreelancersContent() {
 
       {/* IMPACTO */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>Impacto de clientes que no pagan</h2>
+        <h2 className={styles.subtitle}>
+          Cómo afectan los clientes morosos a tus ingresos como freelancer
+        </h2>
 
         <div className={styles.infoGrid}>
           <div>
@@ -110,7 +114,7 @@ export default function RecaudoFreelancersContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo cobrar clientes como freelancer en Colombia
+          Estrategias efectivas para cobrar clientes como freelancer en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -134,10 +138,10 @@ export default function RecaudoFreelancersContent() {
         </div>
       </section>
 
-      {/* PROCESO (adaptado sin steps) */}
+      {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Proceso para recuperar pagos de clientes
+          Paso a paso para recuperar pagos de clientes
         </h2>
 
         <div className={styles.grid}>
@@ -163,7 +167,7 @@ export default function RecaudoFreelancersContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera el dinero que te deben hoy mismo
+            Recupera los pagos atrasados de tus clientes hoy mismo
           </h2>
 
           <p className={styles.ctaText}>
@@ -177,7 +181,7 @@ export default function RecaudoFreelancersContent() {
               className={styles.primary}
               target="_blank"
             >
-              Solicitar asesoría
+              Solicitar asesoría ahora
             </a>
 
             <a

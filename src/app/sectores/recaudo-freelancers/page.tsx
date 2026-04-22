@@ -3,9 +3,9 @@ import RecaudoFreelancersContent from "./RecaudoFreelancersContent";
 
 export const metadata: Metadata = {
   title:
-    "Cobrar clientes como freelancer en Colombia | Recuperar pagos atrasados",
+    "Cómo cobrar clientes como freelancer en Colombia | Recupera pagos atrasados hoy",
   description:
-    "¿Clientes que no pagan? Recupera pagos atrasados como freelancer en Colombia con estrategias profesionales de cobro.",
+    "¿Clientes que no pagan? Aprende cómo cobrar y recuperar pagos atrasados como freelancer en Colombia sin conflictos y de forma profesional.",
 
   keywords: [
     "cobrar clientes freelancer Colombia",
@@ -19,9 +19,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Cobrar clientes como freelancer en Colombia",
+    title:
+      "Cómo cobrar clientes como freelancer en Colombia | Recupera tu dinero hoy",
     description:
-      "Recupera pagos atrasados como freelancer sin conflictos y de forma profesional.",
+      "Guía práctica para freelancers: cobra clientes morosos y recupera pagos atrasados sin afectar tu reputación.",
     url: "https://cobrandoonline.com/blog/cobrar-clientes-freelancer",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -39,9 +40,10 @@ export default function Page() {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      headline: "Cobrar clientes como freelancer en Colombia",
+      headline:
+        "Cómo cobrar clientes como freelancer en Colombia y recuperar pagos atrasados",
       description:
-        "Guía para freelancers sobre cómo recuperar pagos atrasados.",
+        "Guía práctica para freelancers sobre cómo cobrar clientes morosos y recuperar pagos pendientes en Colombia.",
       author: {
         "@type": "Organization",
         name: "Cobrando Online",

@@ -19,7 +19,7 @@ export default function MejorarFlujoCajaContent() {
             </span>
 
             <h1 className={styles.title}>
-              Cómo mejorar el flujo de caja de tu empresa en Colombia
+              ¿Problemas de liquidez? Mejora el flujo de caja de tu empresa hoy
             </h1>
 
             <p className={styles.description}>
@@ -44,7 +44,7 @@ export default function MejorarFlujoCajaContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué tu flujo de caja no es estable?
+          ¿Por qué tu flujo de caja es inestable y cómo solucionarlo?
         </h2>
 
         <p className={styles.text}>
@@ -83,7 +83,7 @@ export default function MejorarFlujoCajaContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto de un flujo de caja deficiente
+          Consecuencias de un flujo de caja deficiente en tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -133,7 +133,7 @@ export default function MejorarFlujoCajaContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Flujo de caja optimizado</h4>
+            <h4>✔ Flujo de caja optimizado y bajo control</h4>
             <ul>
               <li>Ingresos constantes</li>
               <li>Liquidez estable</li>
@@ -147,7 +147,7 @@ export default function MejorarFlujoCajaContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias para mejorar el flujo de caja
+          Estrategias efectivas para mejorar el flujo de caja en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -186,7 +186,7 @@ export default function MejorarFlujoCajaContent() {
       {/* FACTORES CLAVE */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Factores clave para un flujo de caja saludable
+          Claves para mantener un flujo de caja saludable y estable
         </h2>
 
         <div className={styles.grid}>
@@ -213,7 +213,7 @@ export default function MejorarFlujoCajaContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de mejorar tu flujo de caja
+          Beneficios de optimizar el flujo de caja de tu empresa
         </h2>
 
         <div className={styles.benefits}>
@@ -230,7 +230,7 @@ export default function MejorarFlujoCajaContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Optimiza el flujo de dinero en tu empresa
+            Toma el control de tu dinero y mejora tu flujo de caja hoy
           </h2>
 
           <p className={styles.ctaText}>

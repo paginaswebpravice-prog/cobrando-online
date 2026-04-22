@@ -3,9 +3,9 @@ import VentajasTercerizarRecuperacionDeCarteraContent from "./VentajasTercerizar
 
 export const metadata: Metadata = {
   title:
-    "Ventajas de tercerizar la recuperación de cartera en Colombia | Cobranza eficiente",
+    "¿Vale la pena tercerizar la recuperación de cartera en Colombia? Ventajas reales para empresas",
   description:
-    "Descubre las ventajas de tercerizar la recuperación de cartera en Colombia: mayor recaudo, reducción de riesgos y profesionalización del cobro.",
+    "Descubre por qué tercerizar la recuperación de cartera en Colombia aumenta el recaudo, reduce riesgos y mejora el flujo de caja empresarial.",
 
   keywords: [
     "tercerizar recuperacion de cartera",
@@ -22,9 +22,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Ventajas de tercerizar la recuperación de cartera",
+    title:
+      "¿Vale la pena tercerizar la recuperación de cartera? Ventajas para empresas en Colombia",
     description:
-      "Conoce por qué tercerizar la gestión de cartera mejora el recaudo y reduce el riesgo financiero.",
+      "Conoce cómo tercerizar la gestión de cartera mejora el recaudo y reduce el riesgo financiero.",
     url: "https://cobrandoonline.com/blog/ventajas-tercerizar-recuperacion-cartera",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -48,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Ventajas de tercerizar la recuperación de cartera",
+              headline:
+                "¿Vale la pena tercerizar la recuperación de cartera en Colombia?",
               description:
                 "Conoce las ventajas de tercerizar la gestión de cartera para mejorar el recaudo y reducir riesgos financieros.",
               author: {

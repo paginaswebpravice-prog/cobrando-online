@@ -3,9 +3,9 @@ import ExternalizacionCobranzaContent from "./ExternalizacionCobranzaContent";
 
 export const metadata: Metadata = {
   title:
-    "Externalización de cobranza en Colombia: cuándo conviene y beneficios",
+    "Externalizar cobranza en Colombia: cuándo hacerlo y cómo recuperar más cartera",
   description:
-    "Descubre cuándo externalizar la cobranza en Colombia, sus ventajas y cómo mejorar la recuperación de cartera empresarial.",
+    "Descubre cuándo externalizar la cobranza en Colombia, sus beneficios y cómo aumentar la recuperación de cartera de forma rápida y eficiente.",
 
   keywords: [
     "externalización de cobranza",
@@ -21,9 +21,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Externalización de cobranza: cuándo conviene",
+    title:
+      "Externalizar cobranza en Colombia: aumenta tu recuperación de cartera",
     description:
-      "Delegar la cobranza puede mejorar la recuperación de cartera y reducir costos operativos en tu empresa.",
+      "Delega la cobranza a expertos y recupera más dinero en menos tiempo con estrategias profesionales.",
     url: "https://cobrandoonline.com/blog/externalizacion-de-cobranza",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -47,9 +48,10 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Externalización de cobranza: cuándo conviene",
+              headline:
+                "Externalizar cobranza en Colombia: cuándo hacerlo y cómo recuperar más cartera",
               description:
-                "Delegar la cobranza a expertos puede mejorar la recuperación de cartera y reducir costos administrativos.",
+                "Descubre cuándo externalizar la cobranza, sus beneficios y cómo mejorar la recuperación de cartera empresarial.",
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",

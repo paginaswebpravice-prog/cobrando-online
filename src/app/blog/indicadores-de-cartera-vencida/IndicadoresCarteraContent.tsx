@@ -26,7 +26,8 @@ export default function IndicadoresCarteraContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Indicadores de cartera vencida que toda empresa debe conocer
+          Indicadores de cartera vencida en Colombia: las métricas clave que
+          debes controlar para reducir la mora
         </motion.h1>
 
         <motion.p
@@ -47,7 +48,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Qué son los indicadores de cartera?
+          ¿Qué son los indicadores de cartera y por qué son clave en tu empresa?
         </motion.h2>
 
         <motion.p
@@ -68,7 +69,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Principales indicadores de cartera vencida
+          Principales indicadores de cartera vencida que debes medir en Colombia
         </motion.h2>
 
         <motion.p
@@ -87,7 +88,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          1. Índice de cartera vencida
+          1. Índice de cartera vencida: cómo medir el nivel real de mora
         </motion.h2>
 
         <motion.p
@@ -116,7 +117,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          2. Rotación de cartera
+          2. Rotación de cartera: cuánto tiempo tardan tus clientes en pagar
         </motion.h2>
 
         <motion.p
@@ -136,7 +137,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          3. Edad de cartera
+          3. Edad de cartera: identifica deudas críticas antes de perderlas
         </motion.h2>
 
         <motion.p
@@ -155,7 +156,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          4. Índice de recaudo
+          4. Índice de recaudo: mide qué tan efectiva es tu cobranza
         </motion.h2>
 
         <motion.p
@@ -174,7 +175,7 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Por qué son importantes estos indicadores?
+          ¿Por qué estos indicadores son clave para reducir la cartera vencida?
         </motion.h2>
 
         <motion.ul
@@ -196,7 +197,8 @@ export default function IndicadoresCarteraContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión
+          Conclusión: cómo usar los indicadores de cartera para mejorar tu flujo
+          de caja
         </motion.h2>
 
         <motion.p

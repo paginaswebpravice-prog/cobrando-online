@@ -44,7 +44,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.span>
 
         <motion.h1 variants={fadeUp}>
-          Externalización de cobranza: cuándo conviene
+          Externalizar cobranza en Colombia: cuándo hacerlo y cómo recuperar más
+          cartera
         </motion.h1>
 
         <motion.p className={styles.intro} variants={fade}>
@@ -55,7 +56,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Qué es la externalización de cobranza?
+          ¿Qué es la externalización de cobranza y cómo funciona?
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -66,7 +67,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Cuándo conviene externalizar la cobranza?
+          ¿Cuándo conviene externalizar la cobranza en Colombia?
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -84,7 +85,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.ul>
 
         <motion.h2 variants={fadeUp}>
-          Ventajas de externalizar la cobranza
+          Beneficios de externalizar la cobranza y recuperar cartera más rápido
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -101,7 +102,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.ul>
 
         <motion.h2 variants={fadeUp}>
-          Externalización de cobranza prejurídica y jurídica
+          Cobranza prejurídica y jurídica: cómo trabajan las empresas externas
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -112,7 +113,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Externalizar o cobrar internamente?
+          ¿Qué es mejor: externalizar la cobranza o cobrar internamente?
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -122,7 +123,9 @@ export default function ExternalizacionCobranzaContent() {
           carga administrativa para la empresa.
         </motion.p>
 
-        <motion.h2 variants={fadeUp}>Conclusión</motion.h2>
+        <motion.h2 variants={fadeUp}>
+          Conclusión: ¿vale la pena externalizar la cobranza?
+        </motion.h2>
 
         <motion.p variants={fade}>
           La externalización de cobranza es una estrategia efectiva para mejorar

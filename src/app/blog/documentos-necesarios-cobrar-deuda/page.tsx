@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import DocumentosNecesariosCobrarDeudaContent from "./DocumentosNecesariosCobrarDeudaContent";
 
 export const metadata: Metadata = {
-  title: "Documentos necesarios para cobrar una deuda en Colombia",
+  title:
+    "Documentos para cobrar una deuda en Colombia: cuáles necesitas y cómo usarlos",
   description:
     "Descubre cuáles son los documentos necesarios para cobrar una deuda en Colombia y cómo respaldar un proceso de recuperación de cartera de forma efectiva.",
 
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Documentos necesarios para cobrar una deuda",
+    title:
+      "Documentos para cobrar una deuda: guía completa en Colombia (contrato, factura, pagaré)",
     description:
       "Conoce qué documentos necesitas para recuperar una deuda y respaldar un proceso jurídico en Colombia.",
     url: "https://cobrandoonline.com/blog/documentos-necesarios-cobrar-deuda",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Documentos necesarios para cobrar una deuda",
+              headline:
+                "Documentos para cobrar una deuda en Colombia: cuáles necesitas y cómo usarlos",
               description:
                 "Conoce cuáles son los documentos necesarios para cobrar una deuda de manera efectiva y respaldar un proceso de recuperación de cartera.",
               author: {

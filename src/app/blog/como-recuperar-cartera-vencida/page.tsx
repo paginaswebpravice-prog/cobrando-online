@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import ComoRecuperarCarteraContent from "./ComoRecuperarCarteraContent";
 
 export const metadata: Metadata = {
-  title: "¿Cómo recuperar cartera vencida en Colombia? Estrategias efectivas",
+  title:
+    "Cómo recuperar cartera vencida en Colombia (Guía paso a paso + Estrategias 2026)",
   description:
     "Aprende cómo recuperar cartera vencida en Colombia con estrategias prejurídicas y jurídicas. Mejora el flujo de caja de tu empresa.",
 
@@ -20,7 +21,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "¿Cómo recuperar cartera vencida de manera efectiva?",
+    title:
+      "Cómo recuperar cartera vencida en Colombia (Guía práctica paso a paso)",
     description:
       "Conoce estrategias efectivas para recuperar cartera vencida y mejorar la liquidez de tu empresa.",
     url: "https://cobrandoonline.com/blog/como-recuperar-cartera-vencida",
@@ -46,7 +48,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "¿Cómo recuperar cartera vencida de manera efectiva?",
+              headline:
+                "Cómo recuperar cartera vencida en Colombia: guía práctica paso a paso",
               description:
                 "Conoce las estrategias legales y administrativas más efectivas para recuperar cartera vencida y mejorar el flujo de caja.",
               author: {

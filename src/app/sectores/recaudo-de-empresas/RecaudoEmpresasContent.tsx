@@ -16,7 +16,8 @@ export default function RecaudoEmpresasContent() {
             <span className={styles.badge}>Empresas en Colombia</span>
 
             <h1 className={styles.title}>
-              Recuperación de cartera para empresas en Colombia
+              Recupera cartera vencida en tu empresa y aumenta el recaudo en
+              Colombia
             </h1>
 
             <p className={styles.description}>
@@ -27,10 +28,10 @@ export default function RecaudoEmpresasContent() {
 
             <div className={styles.actions}>
               <a href="#contacto" className={styles.primary}>
-                Recuperar cartera
+                Recuperar cartera ahora
               </a>
               <a href="#proceso" className={styles.secondary}>
-                Cómo funciona
+                Ver cómo funciona
               </a>
             </div>
           </motion.div>
@@ -40,7 +41,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= CONTEXTO ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          La realidad de la cartera empresarial en Colombia
+          ¿Por qué las empresas en Colombia pierden dinero por cartera vencida?
         </h2>
 
         <p className={styles.text}>
@@ -56,7 +57,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= PROBLEMAS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas comunes en empresas con cartera vencida
+          Problemas más comunes en empresas con cartera vencida
         </h2>
 
         <div className={styles.grid}>
@@ -84,7 +85,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= IMPACTO ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto de la cartera vencida en tu empresa
+          Cómo la cartera vencida afecta el crecimiento de tu empresa
         </h2>
 
         <div className={styles.infoGrid}>
@@ -113,7 +114,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= SOLUCIÓN ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Solución profesional de recuperación de cartera
+          Solución profesional para recuperar cartera y aumentar el recaudo
         </h2>
 
         <div className={styles.infoGrid}>
@@ -146,7 +147,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= PROCESO ================= */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funciona la recuperación de cartera
+          Cómo recuperar cartera en tu empresa paso a paso
         </h2>
 
         <div className={styles.infoGrid}>
@@ -175,7 +176,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= BENEFICIOS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios para empresas en Colombia
+          Beneficios de recuperar la cartera de tu empresa
         </h2>
 
         <div className={styles.benefits}>
@@ -191,7 +192,7 @@ export default function RecaudoEmpresasContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera la cartera de tu empresa en Colombia hoy
+            Empieza hoy a recuperar la cartera de tu empresa
           </h2>
 
           <p className={styles.ctaText}>
@@ -205,7 +206,7 @@ export default function RecaudoEmpresasContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20mi%20empresa%20en%20Colombia."
               className={styles.primary}
             >
-              Solicitar asesoría
+              Solicitar asesoría ahora
             </a>
 
             <a

@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import CartaCobroPrejuridicoContent from "./CartaCobroPrejuridicoContent";
 
 export const metadata: Metadata = {
-  title: "Carta de cobro prejurídico: ejemplo y cómo hacerla en Colombia",
+  title:
+    "Carta de cobro prejurídico en Colombia (Ejemplo + Guía paso a paso 2026)",
   description:
-    "Aprende cómo hacer una carta de cobro prejurídico en Colombia con ejemplo práctico. Recupera cartera antes de iniciar procesos legales.",
+    "Aprende cómo hacer una carta de cobro prejurídico en Colombia con ejemplo práctico. Recupera cartera antes de iniciar procesos legales y evita demandas.",
 
   keywords: [
     "carta de cobro prejuridico",
@@ -20,9 +21,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Carta de cobro prejurídico: ejemplo práctico en Colombia",
+    title:
+      "Carta de cobro prejurídico en Colombia (Ejemplo + Guía paso a paso)",
     description:
-      "Conoce cómo redactar una carta de cobro prejurídico efectiva y evita procesos judiciales innecesarios.",
+      "Descubre cómo redactar una carta de cobro prejurídico efectiva con ejemplo real y evita procesos judiciales innecesarios.",
     url: "https://cobrandoonline.com/blog/carta-cobro-prejuridico",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -46,7 +48,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Carta de cobro prejurídico: ejemplo y cómo hacerla",
+              headline:
+                "Carta de cobro prejurídico en Colombia: ejemplo práctico y guía paso a paso",
               description:
                 "La carta de cobro prejurídico es una herramienta efectiva para recuperar cartera antes de iniciar acciones legales.",
               author: {

@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import MoraFlujoDeCajaEmpresaContent from "./MoraFlujoDeCajaEmpresaContent";
 
 export const metadata: Metadata = {
-  title: "¿Cómo afecta la mora al flujo de caja de una empresa en Colombia?",
+  title:
+    "Cómo la mora afecta el flujo de caja en Colombia (y cómo evitar problemas de liquidez)",
   description:
-    "Descubre cómo la mora y la cartera vencida afectan el flujo de caja, la liquidez y la estabilidad financiera de las empresas en Colombia.",
+    "Descubre cómo la mora y la cartera vencida afectan el flujo de caja y la liquidez de tu empresa en Colombia, y cómo reducir su impacto.",
 
   keywords: [
     "mora flujo de caja",
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "¿Cómo afecta la mora al flujo de caja de una empresa?",
+    title: "Cómo la mora afecta el flujo de caja (y pone en riesgo tu empresa)",
     description:
-      "Conoce cómo la cartera vencida impacta la liquidez y estabilidad financiera de tu empresa.",
+      "Aprende cómo la cartera vencida impacta la liquidez y estabilidad financiera de tu empresa.",
     url: "https://cobrandoonline.com/blog/mora-flujo-de-caja-empresa",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -45,7 +46,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "¿Cómo afecta la mora al flujo de caja de una empresa?",
+              headline:
+                "Cómo la mora afecta el flujo de caja y la liquidez de una empresa",
               description:
                 "Descubre cómo la mora impacta la liquidez, el flujo de caja y la estabilidad financiera de las empresas.",
               author: {

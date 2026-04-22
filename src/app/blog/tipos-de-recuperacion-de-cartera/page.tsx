@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import TiposDeRecuperacionDeCarteraContent from "./TiposDeRecuperacionDeCarteraContent";
 
 export const metadata: Metadata = {
-  title: "Tipos de recuperación de cartera en Colombia: etapas y procesos",
+  title:
+    "Tipos de recuperación de cartera en Colombia: etapas clave para cobrar más rápido",
   description:
     "Conoce los tipos de recuperación de cartera en Colombia: preventiva, administrativa y jurídica. Aprende cómo funciona cada etapa del cobro.",
 
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Tipos de recuperación de cartera en Colombia",
+    title:
+      "Tipos de recuperación de cartera en Colombia: cómo cobrar más rápido",
     description:
       "Descubre las etapas de la recuperación de cartera: preventiva, administrativa y jurídica.",
     url: "https://cobrandoonline.com/blog/tipos-de-recuperacion-de-cartera",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Tipos de recuperación de cartera",
+              headline:
+                "Tipos de recuperación de cartera en Colombia: etapas clave para cobrar más rápido",
               description:
                 "Conoce las etapas de la recuperación de cartera: preventiva, administrativa y jurídica.",
               author: {

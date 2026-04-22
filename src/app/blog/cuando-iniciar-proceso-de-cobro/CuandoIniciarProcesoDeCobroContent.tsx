@@ -21,7 +21,10 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <span className={styles.category}>Gestión</span>
-          <h1>¿Cuándo iniciar un proceso de cobro de cartera?</h1>
+          <h1>
+            ¿Cuándo iniciar el cobro de cartera en Colombia y evitar perder el
+            dinero?
+          </h1>
 
           <p className={styles.intro}>
             Iniciar un proceso de cobro en el momento adecuado es clave para
@@ -39,7 +42,9 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Señales de alerta para iniciar la gestión de cobro</h2>
+          <h2>
+            Señales claras de alerta para iniciar el cobro de cartera a tiempo
+          </h2>
 
           <p>
             Existen indicadores claros que muestran cuándo es necesario pasar de
@@ -73,7 +78,7 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>La importancia del tiempo en la recuperación de cartera</h2>
+          <h2>Por qué el tiempo es clave para recuperar cartera en Colombia</h2>
 
           <p>
             Mientras más tiempo pase sin una acción concreta, menor será la
@@ -95,7 +100,9 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Cuándo pasar de cobro preventivo a cobro jurídico?</h2>
+          <h2>
+            ¿Cuándo pasar de cobro preventivo a cobro jurídico en Colombia?
+          </h2>
 
           <p>
             Si después de múltiples intentos de negociación no existe voluntad
@@ -113,7 +120,7 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre cuándo iniciar el cobro de cartera</h2>
 
           <motion.div
             initial={{ opacity: 0 }}
@@ -133,7 +140,9 @@ export default function CuandoIniciarProcesoDeCobroContent() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <h3>¿Es recomendable esperar demasiado antes de cobrar?</h3>
+            <h3>
+              ¿Es recomendable esperar demasiado antes de cobrar una deuda?
+            </h3>
             <p>
               No. Retrasar la gestión reduce la probabilidad de recuperación y
               puede afectar el flujo de caja.

@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import EstrategiasCobranzaContent from "./EstrategiasCobranzaContent";
 
 export const metadata: Metadata = {
-  title: "Estrategias de cobranza efectiva en Colombia para empresas",
+  title:
+    "10 estrategias de cobranza efectiva en Colombia que aumentan la recuperación de cartera",
   description:
     "Descubre las mejores estrategias de cobranza efectiva en Colombia para reducir la mora, recuperar cartera y mejorar el flujo de caja.",
 
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Estrategias de cobranza efectiva para empresas",
+    title:
+      "Estrategias de cobranza efectiva que aumentan la recuperación de cartera",
     description:
       "Aprende cómo mejorar la recuperación de cartera con estrategias de cobranza efectivas.",
     url: "https://cobrandoonline.com/blog/estrategias-de-cobranza-efectiva",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Estrategias de cobranza efectiva para empresas",
+              headline:
+                "Estrategias de cobranza efectiva que aumentan la recuperación de cartera en Colombia",
               description:
                 "Aplicar estrategias de cobranza adecuadas aumenta la recuperación de cartera y reduce la morosidad.",
               author: {

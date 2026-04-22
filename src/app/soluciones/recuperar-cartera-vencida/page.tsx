@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import RecuperarCarteraContent from "./RecuperarCarteraContent";
 
 export const metadata: Metadata = {
-  title: "Recuperar cartera vencida en Colombia | Cobro prejurídico y judicial",
+  title:
+    "Recuperar cartera vencida en Colombia rápido | Cobro prejurídico y judicial efectivo",
   description:
-    "Recupera cartera vencida en Colombia con estrategias profesionales de cobro prejurídico y judicial. Mejora tu flujo de caja y reduce la mora.",
+    "Recupera cartera vencida en Colombia de forma rápida y efectiva. Estrategias de cobro prejurídico y judicial para aumentar el recaudo y mejorar tu flujo de caja.",
 
   keywords: [
     "recuperar cartera Colombia",
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Recuperar cartera vencida en Colombia | Cobro prejurídico y judicial",
+      "Recuperar cartera vencida en Colombia rápido | Aumenta tu recaudo hoy",
     description:
-      "Recupera deudas en Colombia con estrategias profesionales de cobro prejurídico y judicial. Mejora tu flujo de caja.",
+      "Recupera deudas en Colombia con estrategias efectivas de cobro prejurídico y judicial. Mejora tu flujo de caja y reduce la mora.",
     url: "https://cobrandoonline.com/servicios/recuperar-cartera",
     siteName: "Cobrando Online",
     locale: "es_CO",

@@ -19,7 +19,8 @@ export default function ClientesNoPaganContent() {
             </span>
 
             <h1 className={styles.title}>
-              ¿Clientes que no pagan? Recupera tu dinero de forma efectiva
+              ¿Clientes que no pagan? Recupera tu dinero rápido y sin
+              complicaciones
             </h1>
 
             <p className={styles.description}>
@@ -44,7 +45,7 @@ export default function ClientesNoPaganContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          El problema de los clientes que no pagan
+          ¿Por qué tus clientes no pagan y cómo está afectando tu negocio?
         </h2>
 
         <p className={styles.text}>
@@ -84,7 +85,7 @@ export default function ClientesNoPaganContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo afectan los clientes morosos a tu negocio
+          Impacto real de los clientes morosos en tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -125,7 +126,7 @@ export default function ClientesNoPaganContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Sin gestión profesional</h4>
+            <h4>❌ Sin estrategia de cobro profesional</h4>
             <ul>
               <li>Clientes evaden el pago</li>
               <li>No hay seguimiento</li>
@@ -135,7 +136,7 @@ export default function ClientesNoPaganContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Con estrategia profesional</h4>
+            <h4>✔ Con gestión profesional de cartera</h4>
             <ul>
               <li>Seguimiento estructurado</li>
               <li>Negociación efectiva</li>
@@ -149,7 +150,7 @@ export default function ClientesNoPaganContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar clientes que no pagan
+          Cómo recuperar deudas de clientes que no pagan en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -188,7 +189,9 @@ export default function ClientesNoPaganContent() {
 
       {/* TIPOS DE CLIENTES */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>Tipos de clientes que no pagan</h2>
+        <h2 className={styles.subtitle}>
+          Tipos de clientes morosos y cómo cobrarles
+        </h2>
 
         <div className={styles.grid}>
           {[
@@ -213,7 +216,9 @@ export default function ClientesNoPaganContent() {
 
       {/* BENEFICIOS */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>Beneficios de actuar a tiempo</h2>
+        <h2 className={styles.subtitle}>
+          Beneficios de recuperar tu cartera a tiempo
+        </h2>
 
         <div className={styles.benefits}>
           <span>✔ Recuperación más rápida</span>
@@ -229,7 +234,7 @@ export default function ClientesNoPaganContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            No dejes que tus clientes se queden con tu dinero
+            Recupera tu dinero y deja de perder ingresos por clientes morosos
           </h2>
 
           <p className={styles.ctaText}>

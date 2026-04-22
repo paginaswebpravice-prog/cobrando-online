@@ -21,7 +21,10 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <span className={styles.category}>Legal</span>
-          <h1>Documentos necesarios para cobrar una deuda</h1>
+          <h1>
+            Documentos para cobrar una deuda en Colombia: cuáles necesitas y
+            cómo usarlos
+          </h1>
 
           <p className={styles.intro}>
             Contar con los documentos adecuados es fundamental para iniciar un
@@ -35,22 +38,23 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
 
         {[
           {
-            title: "1. Contrato firmado",
+            title: "1. Contrato firmado: la base legal para cobrar una deuda",
             content:
               "El contrato es la base legal de la obligación. Debe estar firmado por ambas partes y contener condiciones claras sobre el servicio o producto entregado, los plazos de pago y las consecuencias en caso de mora.",
           },
           {
-            title: "2. Facturas emitidas",
+            title: "2. Facturas emitidas: soporte clave de la deuda",
             content:
               "Las facturas son el soporte contable de la deuda. Deben reflejar el valor exacto adeudado, la fecha de emisión y el vencimiento. En muchos casos, la factura electrónica tiene validez como título ejecutivo.",
           },
           {
-            title: "3. Pagaré o título valor",
+            title:
+              "3. Pagaré o título valor: el documento más fuerte para cobrar",
             content:
               "El pagaré es uno de los documentos más sólidos para cobrar una deuda, ya que constituye un título ejecutivo que facilita iniciar un proceso judicial de cobro si es necesario.",
           },
           {
-            title: "4. Soportes de entrega o prestación del servicio",
+            title: "4. Soportes de entrega o servicio: prueba de cumplimiento",
             content:
               "Es importante contar con pruebas que demuestren que el producto fue entregado o el servicio prestado correctamente. Esto puede incluir actas firmadas, guías de transporte, correos electrónicos de confirmación o cualquier evidencia documental.",
           },
@@ -90,7 +94,7 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Qué pasa si no tengo todos los documentos?</h2>
+          <h2>¿Qué pasa si no tienes todos los documentos para cobrar?</h2>
 
           <p>
             La ausencia de documentación puede dificultar la recuperación,
@@ -109,7 +113,7 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre documentos para cobrar deudas</h2>
 
           <motion.div
             initial={{ opacity: 0 }}

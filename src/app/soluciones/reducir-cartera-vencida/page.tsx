@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import ReducirCarteraMorosaContent from "./ReducirCarteraMorosaContent";
 
 export const metadata: Metadata = {
-  title: "Reducir cartera morosa en Colombia | Mejora tu flujo de caja",
+  title:
+    "Cómo reducir cartera morosa en Colombia (rápido) | Mejora tu flujo de caja hoy",
   description:
-    "Reduce la cartera morosa de tu empresa en Colombia con estrategias profesionales de cobro, prevención y gestión financiera.",
+    "¿Alta cartera morosa? Reduce deudas y mejora tu flujo de caja en Colombia con estrategias efectivas de cobro, prevención y gestión financiera.",
 
   keywords: [
     "reducir cartera morosa",
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Reducir cartera morosa en Colombia | Mejora tu flujo de caja",
+    title: "Reducir cartera morosa en Colombia rápido | Más recaudo y liquidez",
     description:
-      "Estrategias profesionales para reducir cartera morosa, mejorar recaudo y optimizar flujo de caja en empresas en Colombia.",
+      "Estrategias probadas para reducir cartera morosa, aumentar recaudo y mejorar flujo de caja en empresas en Colombia.",
     url: "https://cobrandoonline.com/servicios/reducir-cartera-morosa",
     siteName: "Cobrando Online",
     locale: "es_CO",

@@ -22,7 +22,10 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
         >
           <span className={styles.category}>Educativo</span>
 
-          <h1>¿Qué es la recuperación de cartera?</h1>
+          <h1>
+            ¿Qué es la recuperación de cartera en Colombia y cómo funciona paso
+            a paso?
+          </h1>
 
           <p className={styles.intro}>
             La recuperación de cartera es el proceso mediante el cual una
@@ -40,7 +43,10 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>¿Por qué es importante la recuperación de cartera?</h2>
+          <h2>
+            ¿Por qué la recuperación de cartera es clave para la liquidez de tu
+            empresa?
+          </h2>
 
           <p>
             Una gestión adecuada de la cartera vencida permite mantener el
@@ -76,7 +82,9 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>¿En qué consiste el proceso de recuperación de cartera?</h2>
+          <h2>
+            ¿Cómo funciona el proceso de recuperación de cartera en Colombia?
+          </h2>
 
           <p>
             El proceso de cobro en Colombia suele dividirse en varias etapas:
@@ -109,7 +117,10 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>¿Cuándo implementar una estrategia de cobro?</h2>
+          <h2>
+            ¿Cuándo implementar una estrategia de recuperación de cartera
+            efectiva?
+          </h2>
 
           <p>
             Lo ideal es establecer políticas claras de crédito y cobranza desde
@@ -127,7 +138,7 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre recuperación de cartera</h2>
 
           <h3>¿La recuperación de cartera solo aplica a grandes empresas?</h3>
           <p>

@@ -16,7 +16,8 @@ export default function RecaudoInmobiliariasContent() {
             <span className={styles.badge}>Inmobiliarias en Colombia</span>
 
             <h1 className={styles.title}>
-              Recuperación de cartera para inmobiliarias y arriendos en Colombia
+              Cómo recuperar arriendos atrasados y reducir la mora en
+              inmobiliarias en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -41,7 +42,8 @@ export default function RecaudoInmobiliariasContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas comunes en inmobiliarias en Colombia
+          Principales problemas de cartera en inmobiliarias en Colombia (y por
+          qué aumentan)
         </h2>
 
         <p className={styles.text}>
@@ -80,7 +82,7 @@ export default function RecaudoInmobiliariasContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto de la cartera vencida en inmobiliarias
+          Cómo la cartera vencida afecta la rentabilidad de tu inmobiliaria
         </h2>
 
         <div className={styles.infoGrid}>
@@ -121,7 +123,8 @@ export default function RecaudoInmobiliariasContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo ayudamos a inmobiliarias a recuperar cartera
+          Estrategias efectivas para cobrar arriendos y recuperar cartera
+          inmobiliaria
         </h2>
 
         <p className={styles.text}>
@@ -146,10 +149,10 @@ export default function RecaudoInmobiliariasContent() {
         </div>
       </section>
 
-      {/* PROCESO (REEMPLAZADO SIN steps) */}
+      {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Proceso de recuperación de cartera inmobiliaria
+          Paso a paso para recuperar cartera de arriendos en Colombia
         </h2>
 
         <div className={styles.grid}>
@@ -175,7 +178,8 @@ export default function RecaudoInmobiliariasContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Mejora el recaudo de tu inmobiliaria en Colombia
+            Recupera arriendos atrasados y mejora el flujo de caja de tu
+            inmobiliaria hoy
           </h2>
 
           <p className={styles.ctaText}>

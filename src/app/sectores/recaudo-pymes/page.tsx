@@ -3,9 +3,10 @@ import RecaudoPymesContent from "./RecaudoPymesContent";
 
 export const metadata: Metadata = {
   title:
-    "Recuperación de cartera para PYMES en Colombia | Mejora tu flujo de caja",
+    "Cómo recuperar cartera en PYMES en Colombia y mejorar el flujo de caja rápido",
+
   description:
-    "Recupera cartera vencida en PYMES en Colombia. Reduce la mora, mejora el flujo de caja y optimiza tu gestión de cobro con estrategias efectivas.",
+    "Aprende cómo recuperar cartera vencida en PYMES en Colombia, reducir la mora y mejorar el flujo de caja con estrategias efectivas de cobranza.",
 
   keywords: [
     "recuperación de cartera pymes Colombia",
@@ -21,10 +22,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Recuperación de cartera para PYMES en Colombia | Mejora tu flujo de caja",
+    title: "Recupera cartera en tu PYME y mejora el flujo de caja en Colombia",
     description:
-      "Estrategias efectivas para recuperar cartera vencida en PYMES en Colombia.",
+      "Estrategias efectivas para reducir la mora y aumentar el recaudo en pequeñas y medianas empresas en Colombia.",
     url: "https://cobrandoonline.com/blog/recuperacion-cartera-pymes-colombia",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -43,7 +43,7 @@ export default function Page() {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       headline:
-        "Recuperación de cartera para pequeñas y medianas empresas en Colombia",
+        "Cómo recuperar cartera en PYMES y mejorar el flujo de caja en Colombia",
       description:
         "Guía sobre cómo las PYMES pueden mejorar su flujo de caja mediante una gestión efectiva de cartera.",
       author: {

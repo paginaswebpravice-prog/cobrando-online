@@ -25,7 +25,8 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          ¿Cómo se calcula la comisión en la recuperación de cartera?
+          Cómo calcular la comisión por recuperación de cartera en Colombia paso
+          a paso
         </motion.h1>
 
         {/* INTRO */}
@@ -50,7 +51,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Factores que determinan la comisión
+          Factores clave que determinan la comisión de recuperación de cartera
         </motion.h2>
 
         <motion.p
@@ -94,7 +95,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Comisiones diferenciadas por etapa
+          Cómo funcionan las comisiones según la etapa del cobro
         </motion.h2>
 
         <motion.p
@@ -126,7 +127,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Modelo basado en resultados
+          Modelo de comisión basado en resultados: cómo funciona
         </motion.h2>
 
         <motion.p

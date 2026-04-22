@@ -17,7 +17,8 @@ export default function SeguimientoCarteraContent() {
             <span className={styles.badge}>Gestión de cartera en Colombia</span>
 
             <h1 className={styles.title}>
-              Seguimiento de cartera con acceso en tiempo real y control total
+              Seguimiento de cartera en tiempo real con control total y
+              visibilidad completa
             </h1>
 
             <p className={styles.description}>
@@ -44,7 +45,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= PROBLEMA ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          El verdadero problema: falta de control
+          El problema real: no tener control sobre tu cartera
         </h2>
 
         <p className={styles.text}>
@@ -83,7 +84,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= SOLUCIÓN ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Seguimiento estructurado con acceso para clientes
+          Seguimiento de cartera con acceso en tiempo real para control total
         </h2>
 
         <p className={styles.text}>
@@ -123,7 +124,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= DIFERENCIAL ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Transparencia total en la recuperación de cartera
+          Transparencia total y control en cada etapa del cobro
         </h2>
 
         <p className={styles.text}>
@@ -158,7 +159,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= FUNCIONAMIENTO ================= */}
       <section id="funcionamiento" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funciona el seguimiento de cartera
+          Cómo funciona el seguimiento de cartera paso a paso
         </h2>
 
         <p className={styles.text}>
@@ -197,7 +198,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= BENEFICIOS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios del seguimiento de cartera en Colombia
+          Beneficios del seguimiento de cartera en Colombia para tu empresa
         </h2>
 
         <div className={styles.benefits}>
@@ -214,7 +215,7 @@ export default function SeguimientoCarteraContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Ten control total sobre tu cartera hoy
+            Controla tu cartera y mejora tu recaudo desde hoy
           </h2>
 
           <p className={styles.ctaText}>

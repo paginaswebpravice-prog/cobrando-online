@@ -6,22 +6,25 @@ import { motion } from "framer-motion";
 export default function ErroresComunesRecuperacionDeCarteraContent() {
   const errores = [
     {
-      title: "1. No documentar los acuerdos de pago",
+      title:
+        "1. No documentar los acuerdos de pago (error que puede hacerte perder la deuda)",
       content:
         "Uno de los errores más frecuentes es confiar únicamente en acuerdos verbales. Todo compromiso debe quedar por escrito, especificando montos, fechas y condiciones.",
     },
     {
-      title: "2. No hacer seguimiento constante",
+      title: "2. No hacer seguimiento constante y perder el control del pago",
       content:
         "La gestión de cobro no termina cuando el deudor promete pagar. Realizar seguimiento demuestra seriedad y reduce el riesgo de incumplimiento.",
     },
     {
-      title: "3. Actuar demasiado tarde",
+      title:
+        "3. Actuar demasiado tarde y reducir la probabilidad de recuperación",
       content:
         "Retrasar el inicio del proceso de cobro disminuye la probabilidad de recuperación. Las deudas envejecidas son más difíciles de cobrar.",
     },
     {
-      title: "4. Manejar el proceso de forma emocional",
+      title:
+        "4. Manejar el proceso de forma emocional y afectar la negociación",
       content:
         "La recuperación de cartera debe ser profesional y estratégica. Actuar con enojo o presión excesiva puede deteriorar la relación comercial.",
     },
@@ -44,7 +47,10 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <span className={styles.category}>Consejos</span>
-          <h1>Errores comunes en la recuperación de cartera</h1>
+          <h1>
+            7 errores en la recuperación de cartera que te hacen perder dinero
+            (y cómo evitarlos)
+          </h1>
 
           <p className={styles.intro}>
             La recuperación de cartera es un proceso estratégico que requiere
@@ -92,7 +98,9 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Cómo evitar estos errores?</h2>
+          <h2>
+            Cómo evitar estos errores y mejorar la recuperación de cartera
+          </h2>
 
           <p>
             Implementar políticas claras de crédito, establecer protocolos de
@@ -110,7 +118,9 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>
+            Preguntas frecuentes sobre errores en la recuperación de cartera
+          </h2>
 
           <motion.div
             initial={{ opacity: 0 }}

@@ -26,7 +26,8 @@ export default function ProcesoCobroJuridicoContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Proceso de cobro jurídico en Colombia
+          Proceso de cobro jurídico en Colombia paso a paso (demanda, embargo y
+          tiempos)
         </motion.h1>
 
         <motion.p
@@ -47,7 +48,7 @@ export default function ProcesoCobroJuridicoContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Qué es el cobro jurídico?
+          ¿Qué es el cobro jurídico y cuándo se debe iniciar?
         </motion.h2>
 
         <motion.p
@@ -68,7 +69,7 @@ export default function ProcesoCobroJuridicoContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Etapas del proceso de cobro jurídico
+          Etapas del cobro jurídico en Colombia (explicadas paso a paso)
         </motion.h2>
 
         <motion.p
@@ -82,17 +83,17 @@ export default function ProcesoCobroJuridicoContent() {
 
         {[
           {
-            title: "1. Presentación de la demanda",
+            title: "1. Presentación de la demanda ejecutiva",
             content:
               "El abogado presenta la demanda ejecutiva con los documentos que prueban la deuda.",
           },
           {
-            title: "2. Mandamiento de pago",
+            title: "2. Mandamiento de pago del juez",
             content:
               "El juez ordena al deudor pagar la deuda en un plazo determinado.",
           },
           {
-            title: "3. Medidas cautelares",
+            title: "3. Embargos y medidas cautelares",
             content:
               "Se pueden embargar cuentas, salarios o bienes del deudor.",
           },
@@ -102,12 +103,12 @@ export default function ProcesoCobroJuridicoContent() {
               "El deudor es informado y puede pagar o defenderse dentro del proceso.",
           },
           {
-            title: "5. Sentencia",
+            title: "5. Sentencia del proceso",
             content:
               "Si no paga, el juez ordena continuar con la ejecución de la deuda.",
           },
           {
-            title: "6. Remate de bienes",
+            title: "6. Remate de bienes embargados",
             content:
               "Los bienes embargados pueden ser vendidos para pagar la deuda.",
           },
@@ -143,7 +144,7 @@ export default function ProcesoCobroJuridicoContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Cuánto tiempo tarda un cobro jurídico?
+          ¿Cuánto tarda un cobro jurídico en Colombia? (tiempos reales)
         </motion.h2>
 
         <motion.p
@@ -161,9 +162,8 @@ export default function ProcesoCobroJuridicoContent() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
         >
-          ¿Qué documentos se necesitan?
+          Documentos necesarios para iniciar cobro jurídico en Colombia
         </motion.h2>
 
         <motion.ul
@@ -183,7 +183,7 @@ export default function ProcesoCobroJuridicoContent() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Conclusión
+          Conclusión: ¿vale la pena iniciar un cobro jurídico?
         </motion.h2>
 
         <motion.p

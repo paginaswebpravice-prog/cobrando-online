@@ -3,18 +3,18 @@ import AcuerdosPago from "./AcuerdosPago";
 
 export const metadata: Metadata = {
   title:
-    "Acuerdos de pago con deudores: cómo hacerlos correctamente en Colombia",
+    "Acuerdos de pago con deudores en Colombia: evita demandas y recupera tu dinero",
   description:
-    "Aprende cómo hacer acuerdos de pago con deudores en Colombia de forma legal y efectiva. Evita errores y mejora la recuperación de cartera sin procesos judiciales.",
+    "Aprende cómo hacer acuerdos de pago con deudores en Colombia de forma legal y efectiva. Evita procesos judiciales y recupera tu dinero más rápido.",
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog/acuerdos-de-pago-con-deudores",
   },
 
   openGraph: {
-    title: "Acuerdos de pago con deudores: guía completa en Colombia",
+    title: "Acuerdos de pago en Colombia: cómo recuperar deudas sin demandar",
     description:
-      "Conoce cómo estructurar acuerdos de pago efectivos y legales para recuperar cartera en Colombia sin necesidad de procesos judiciales.",
+      "Guía práctica para crear acuerdos de pago efectivos en Colombia y recuperar cartera sin procesos judiciales.",
     url: "https://cobrandoonline.com/blog/acuerdos-de-pago-con-deudores",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -39,7 +39,7 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               headline:
-                "Acuerdos de pago con deudores: cómo hacerlos correctamente",
+                "Acuerdos de pago con deudores en Colombia para recuperar dinero sin demandar",
               description:
                 "Guía sobre acuerdos de pago para recuperar cartera en Colombia sin procesos judiciales.",
               author: {

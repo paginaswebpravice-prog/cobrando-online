@@ -19,7 +19,7 @@ export default function CobroWhatsAppContent() {
             </span>
 
             <h1 className={styles.title}>
-              Cómo cobrar por WhatsApp de forma efectiva y profesional
+              Cómo cobrar por WhatsApp y recuperar deudas más rápido en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -42,7 +42,9 @@ export default function CobroWhatsAppContent() {
 
       {/* PROBLEMA */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>El error al cobrar por WhatsApp</h2>
+        <h2 className={styles.subtitle}>
+          Por qué tus cobros por WhatsApp no están funcionando
+        </h2>
 
         <p className={styles.text}>
           Muchas empresas intentan cobrar por WhatsApp de forma improvisada, lo
@@ -81,7 +83,7 @@ export default function CobroWhatsAppContent() {
       {/* IMPORTANCIA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué WhatsApp funciona para cobrar?
+          Por qué WhatsApp es el canal más efectivo para cobrar
         </h2>
 
         <p className={styles.text}>
@@ -122,7 +124,7 @@ export default function CobroWhatsAppContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Cobro sin estrategia</h4>
+            <h4>❌ Cobrar sin estrategia</h4>
             <ul>
               <li>Mensajes ignorados</li>
               <li>Clientes evasivos</li>
@@ -132,7 +134,7 @@ export default function CobroWhatsAppContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Cobro estratégico</h4>
+            <h4>✔ Cobrar con estrategia efectiva</h4>
             <ul>
               <li>Mensajes efectivos</li>
               <li>Mayor respuesta</li>
@@ -146,7 +148,7 @@ export default function CobroWhatsAppContent() {
       {/* ESTRATEGIA */}
       <section id="estrategia" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategia de cobro por WhatsApp paso a paso
+          Cómo cobrar por WhatsApp paso a paso (estrategia efectiva)
         </h2>
 
         <p className={styles.text}>
@@ -185,7 +187,7 @@ export default function CobroWhatsAppContent() {
       {/* MENSAJES */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Ejemplos de mensajes de cobro por WhatsApp
+          Ejemplos de mensajes de cobro por WhatsApp que sí funcionan
         </h2>
 
         <div className={styles.grid}>
@@ -209,7 +211,9 @@ export default function CobroWhatsAppContent() {
 
       {/* BENEFICIOS */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>Beneficios del cobro por WhatsApp</h2>
+        <h2 className={styles.subtitle}>
+          Beneficios de cobrar por WhatsApp en Colombia
+        </h2>
 
         <div className={styles.benefits}>
           <span>✔ Respuesta rápida</span>
@@ -225,7 +229,7 @@ export default function CobroWhatsAppContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza a cobrar por WhatsApp de forma efectiva
+            Empieza a recuperar deudas por WhatsApp hoy mismo
           </h2>
 
           <p className={styles.ctaText}>

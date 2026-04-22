@@ -22,8 +22,8 @@ export default function SeguimientoRecuperacionCartera() {
           <span className={styles.category}>Educativo</span>
 
           <h1>
-            Importancia del seguimiento en la recuperación de cartera en
-            Colombia
+            Seguimiento de cartera en Colombia: cómo aumentar el recaudo y
+            reducir la mora
           </h1>
 
           <p className={styles.intro}>
@@ -36,7 +36,9 @@ export default function SeguimientoRecuperacionCartera() {
 
         {/* SECTION 1 */}
         <section>
-          <h2>¿Por qué el seguimiento es clave en la cobranza?</h2>
+          <h2>
+            ¿Por qué el seguimiento de cartera es clave para cobrar más y mejor?
+          </h2>
 
           <p>
             Muchas empresas cometen el error de pensar que la gestión termina
@@ -55,7 +57,10 @@ export default function SeguimientoRecuperacionCartera() {
 
         {/* SECTION 2 */}
         <section>
-          <h2>Seguimiento antes y después del vencimiento</h2>
+          <h2>
+            Seguimiento antes y después del vencimiento: la clave para reducir
+            la mora
+          </h2>
 
           <p>
             Una estrategia profesional incluye recordatorios antes del
@@ -70,7 +75,7 @@ export default function SeguimientoRecuperacionCartera() {
 
         {/* SECTION 3 */}
         <section>
-          <h2>Seguimiento en acuerdos de pago</h2>
+          <h2>Cómo hacer seguimiento efectivo en acuerdos de pago</h2>
 
           <p>
             Cuando se firma un acuerdo, es fundamental establecer fechas claras,
@@ -85,7 +90,7 @@ export default function SeguimientoRecuperacionCartera() {
 
         {/* SECTION 4 */}
         <section>
-          <h2>Impacto en el flujo de caja</h2>
+          <h2>Impacto del seguimiento en el flujo de caja de tu empresa</h2>
 
           <p>
             El seguimiento adecuado impacta directamente el flujo de caja,
@@ -96,7 +101,7 @@ export default function SeguimientoRecuperacionCartera() {
 
         {/* FAQ */}
         <section className={styles.faq}>
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre seguimiento de cartera</h2>
 
           <h3>¿Por qué es importante el seguimiento en la cobranza?</h3>
           <p>

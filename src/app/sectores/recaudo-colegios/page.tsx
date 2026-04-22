@@ -3,9 +3,9 @@ import RecaudoColegiosContent from "./RecaudoColegiosContent";
 
 export const metadata: Metadata = {
   title:
-    "Recaudo de cartera para colegios en Colombia | Cobranza educativa profesional",
+    "Cómo recuperar pensiones atrasadas en colegios (rápido) | Recaudo educativo en Colombia",
   description:
-    "Recupera cartera vencida en colegios en Colombia. Gestiona pensiones atrasadas, mejora el flujo de caja y optimiza el recaudo con estrategias profesionales.",
+    "¿Tu colegio tiene mora en pensiones? Recupera cartera vencida en Colombia con estrategias efectivas de cobranza educativa y mejora tu flujo de caja.",
 
   keywords: [
     "recaudo de cartera colegios Colombia",
@@ -22,9 +22,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Recaudo de cartera para colegios en Colombia | Cobranza educativa",
+    title:
+      "Recupera pensiones atrasadas en colegios | Más recaudo y liquidez en Colombia",
     description:
-      "Recupera pensiones atrasadas en colegios en Colombia con estrategias profesionales de recaudo y gestión de cartera.",
+      "Estrategias profesionales para recuperar cartera educativa, reducir mora y mejorar el flujo de caja en colegios en Colombia.",
     url: "https://cobrandoonline.com/servicios/recaudo-de-cartera-colegios",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -48,7 +49,7 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              headline: "Recaudo de cartera para colegios en Colombia",
+              headline: "Cómo recuperar cartera en colegios en Colombia",
               description:
                 "Estrategias profesionales para recuperación de cartera educativa y mejora del flujo de caja en colegios en Colombia.",
               author: {

@@ -16,7 +16,8 @@ export default function RecaudoPymesContent() {
             <span className={styles.badge}>PYMES en Colombia</span>
 
             <h1 className={styles.title}>
-              Recuperación de cartera para pequeñas y medianas empresas
+              Cómo recuperar cartera en tu PYME y mejorar el flujo de caja en
+              Colombia
             </h1>
 
             <p className={styles.description}>
@@ -36,7 +37,8 @@ export default function RecaudoPymesContent() {
       {/* CONTEXTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          La realidad financiera de las PYMES en Colombia
+          La realidad de la cartera en PYMES en Colombia (y por qué afecta tu
+          liquidez)
         </h2>
 
         <p className={styles.text}>
@@ -53,7 +55,7 @@ export default function RecaudoPymesContent() {
       {/* PROBLEMAS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas más comunes en la gestión de cartera
+          Principales problemas de cartera en PYMES que reducen tu flujo de caja
         </h2>
 
         <div className={styles.grid}>
@@ -80,7 +82,7 @@ export default function RecaudoPymesContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo afecta la cartera vencida a una PYME
+          Cómo la cartera vencida frena el crecimiento de tu PYME
         </h2>
 
         <div className={styles.infoGrid}>
@@ -109,7 +111,7 @@ export default function RecaudoPymesContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo ayudamos a las PYMES a recuperar cartera
+          Estrategias efectivas para recuperar cartera en PYMES en Colombia
         </h2>
 
         <div className={styles.grid}>
@@ -137,7 +139,7 @@ export default function RecaudoPymesContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Mejora el flujo de caja de tu PYME hoy
+            Recupera tu cartera vencida y mejora el flujo de caja de tu PYME hoy
           </h2>
 
           <p className={styles.ctaText}>

@@ -19,7 +19,7 @@ export default function RecordatoriosAutomaticosContent() {
             </span>
 
             <h1 className={styles.title}>
-              Recordatorios automáticos de pago para reducir la cartera vencida
+              Automatiza recordatorios de pago y cobra más rápido en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -42,7 +42,9 @@ export default function RecordatoriosAutomaticosContent() {
 
       {/* PROBLEMA */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>El problema de cobrar manualmente</h2>
+        <h2 className={styles.subtitle}>
+          Por qué cobrar manualmente está afectando tu recaudo
+        </h2>
 
         <p className={styles.text}>
           Muchas empresas dependen de procesos manuales para cobrar, lo que
@@ -79,7 +81,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* IMPORTANCIA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué usar recordatorios automáticos?
+          Por qué los recordatorios automáticos aumentan los pagos
         </h2>
 
         <p className={styles.text}>
@@ -120,7 +122,7 @@ export default function RecordatoriosAutomaticosContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Cobro manual</h4>
+            <h4>❌ Cobro manual sin control</h4>
             <ul>
               <li>Dependencia de personas</li>
               <li>Errores frecuentes</li>
@@ -130,7 +132,7 @@ export default function RecordatoriosAutomaticosContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Cobro automatizado</h4>
+            <h4>✔ Cobro automatizado y eficiente</h4>
             <ul>
               <li>Procesos constantes</li>
               <li>Sin errores humanos</li>
@@ -144,7 +146,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* FUNCIONAMIENTO */}
       <section id="funcionamiento" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funcionan los recordatorios automáticos
+          Cómo funcionan los recordatorios automáticos de pago
         </h2>
 
         <p className={styles.text}>
@@ -183,7 +185,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* CASOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Quién debería usar recordatorios automáticos?
+          Qué empresas deberían automatizar sus cobros
         </h2>
 
         <div className={styles.grid}>
@@ -210,7 +212,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de automatizar recordatorios de pago
+          Beneficios de automatizar recordatorios de pago en Colombia
         </h2>
 
         <div className={styles.benefits}>
@@ -227,7 +229,7 @@ export default function RecordatoriosAutomaticosContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Automatiza tu gestión de cobros hoy
+            Empieza a automatizar tus cobros y recuperar cartera hoy
           </h2>
 
           <p className={styles.ctaText}>

@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import DiferenciasCobroPrejuridicoJuridicoContent from "./DiferenciasCobroPrejuridicoJuridicoContent";
 
 export const metadata: Metadata = {
-  title: "Diferencias entre cobro prejurídico y cobro jurídico en Colombia",
+  title:
+    "Cobro prejurídico vs cobro jurídico en Colombia: diferencias clave y cuándo usar cada uno",
   description:
     "Conoce las diferencias entre cobro prejurídico y cobro jurídico en Colombia, cuándo aplicar cada uno y cómo mejorar la recuperación de cartera.",
 
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Diferencias entre cobro prejurídico y cobro jurídico",
+    title:
+      "Cobro prejurídico vs jurídico: diferencias clave y cuándo usar cada uno en Colombia",
     description:
       "Aprende cuándo usar cobro prejurídico o jurídico y mejora tu estrategia de recuperación de cartera.",
     url: "https://cobrandoonline.com/blog/diferencias-cobro-prejuridico-juridico",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Diferencias entre cobro prejurídico y cobro jurídico",
+              headline:
+                "Cobro prejurídico vs cobro jurídico: diferencias clave y cuándo usar cada uno",
               description:
                 "Conoce las diferencias entre cobro prejurídico y cobro jurídico, cuándo aplicar cada uno y cómo impactan en la recuperación de cartera.",
               author: {

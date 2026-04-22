@@ -26,7 +26,8 @@ export default function EstrategiasCobranzaContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Estrategias de cobranza efectiva para empresas
+          10 estrategias de cobranza efectiva que aumentan la recuperación de
+          cartera
         </motion.h1>
 
         <motion.p
@@ -47,7 +48,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Por qué es importante una buena estrategia de cobranza?
+          ¿Por qué una estrategia de cobranza efectiva impacta tus ingresos?
         </motion.h2>
 
         <motion.p
@@ -68,7 +69,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Principales estrategias de cobranza efectiva
+          Principales estrategias de cobranza efectiva que debes aplicar
         </motion.h2>
 
         <motion.p
@@ -103,7 +104,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Políticas de crédito y cartera
+          Políticas de crédito: la base de una cobranza efectiva
         </motion.h2>
 
         <motion.p
@@ -124,7 +125,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Seguimiento de cartera
+          Seguimiento de cartera: clave para recuperar más rápido
         </motion.h2>
 
         <motion.p
@@ -144,7 +145,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cobro prejurídico
+          Cobro prejurídico: cómo recuperar cartera sin demandar
         </motion.h2>
 
         <motion.p
@@ -164,7 +165,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cobro jurídico
+          Cobro jurídico: cuándo escalar el proceso de cobranza
         </motion.h2>
 
         <motion.p
@@ -184,7 +185,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión
+          Conclusión: cómo mejorar la cobranza y recuperar cartera más rápido
         </motion.h2>
 
         <motion.p

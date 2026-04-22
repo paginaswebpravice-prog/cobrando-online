@@ -3,9 +3,9 @@ import IndicadoresCarteraContent from "./IndicadoresCarteraContent";
 
 export const metadata: Metadata = {
   title:
-    "Indicadores de cartera vencida en Colombia: métricas clave para empresas",
+    "Indicadores de cartera vencida en Colombia: cómo medir y reducir la mora",
   description:
-    "Aprende cuáles son los principales indicadores de cartera vencida en Colombia y cómo medir la mora y el recaudo.",
+    "Aprende cuáles son los principales indicadores de cartera vencida en Colombia y cómo medir la mora, el riesgo y el recaudo.",
 
   keywords: [
     "indicadores de cartera vencida",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Indicadores de cartera vencida que toda empresa debe conocer",
+    title: "Indicadores de cartera vencida: mide la mora y mejora tu recaudo",
     description:
-      "Conoce las métricas clave para medir la mora, el riesgo y la efectividad de la cobranza.",
+      "Conoce las métricas clave para controlar la cartera, reducir el riesgo y mejorar la cobranza en tu empresa.",
     url: "https://cobrandoonline.com/blog/indicadores-de-cartera-vencida",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -48,9 +48,9 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               headline:
-                "Indicadores de cartera vencida que toda empresa debe conocer",
+                "Indicadores de cartera vencida en Colombia: cómo medir y reducir la mora",
               description:
-                "Los indicadores de cartera permiten medir el riesgo, la mora y la efectividad de la gestión de cobro.",
+                "Conoce los indicadores clave para medir la mora, el riesgo financiero y mejorar la recuperación de cartera.",
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",

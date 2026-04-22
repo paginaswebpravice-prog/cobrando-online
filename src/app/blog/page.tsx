@@ -3,18 +3,19 @@ import BlogContent from "./BlogContent";
 
 export const metadata: Metadata = {
   title:
-    "Blog de recuperación de cartera en Colombia | Cobranza, deudas y estrategias",
+    "Recuperación de cartera en Colombia: guías, estrategias y cómo cobrar deudas",
   description:
-    "Aprende sobre recuperación de cartera, cobro jurídico, cobro prejurídico y estrategias de cobranza en Colombia. Guías prácticas para empresas y pymes.",
+    "Aprende a recuperar cartera en Colombia: cobro jurídico, prejurídico, estrategias efectivas y cómo evitar perder dinero por deudas.",
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog",
   },
 
   openGraph: {
-    title: "Blog de recuperación de cartera en Colombia | Estrategias y guías",
+    title:
+      "¿Cómo recuperar cartera en Colombia? Guías, estrategias y casos reales",
     description:
-      "Contenido especializado en cobranza, deudas y recuperación de cartera para empresas en Colombia.",
+      "Contenido práctico sobre cobranza, deudas y recuperación de cartera para empresas y pymes en Colombia.",
     url: "https://cobrandoonline.com/blog",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -75,7 +76,6 @@ export default function Page() {
 
   return (
     <>
-      {/* SCHEMA SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -3,7 +3,7 @@ import ErroresComunesRecuperacionDeCarteraContent from "./ErroresComunesRecupera
 
 export const metadata: Metadata = {
   title:
-    "Errores comunes en la recuperación de cartera en Colombia y cómo evitarlos",
+    "7 errores en la recuperación de cartera en Colombia que te hacen perder dinero (y cómo evitarlos)",
   description:
     "Descubre los errores más comunes en la recuperación de cartera en Colombia y aprende cómo evitarlos para mejorar la efectividad del cobro.",
 
@@ -22,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Errores comunes en la recuperación de cartera",
+    title:
+      "Errores en la recuperación de cartera que reducen tus ingresos (y cómo evitarlos)",
     description:
       "Evita errores frecuentes en la gestión de cobranza y mejora la recuperación de cartera en tu empresa.",
     url: "https://cobrandoonline.com/blog/errores-comunes-recuperacion-de-cartera",
@@ -48,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Errores comunes en la recuperación de cartera",
+              headline:
+                "Errores en la recuperación de cartera que reducen tus ingresos y cómo evitarlos",
               description:
                 "Conoce los errores más comunes en la recuperación de cartera y cómo evitarlos para mejorar la efectividad del cobro.",
               author: {

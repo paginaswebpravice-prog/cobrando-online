@@ -21,7 +21,8 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           <span className={styles.category}>Finanzas</span>
 
           <h1>
-            ¿Cómo afecta la mora al flujo de caja de una empresa en Colombia?
+            Cómo la mora afecta el flujo de caja en Colombia (y pone en riesgo
+            la liquidez de tu empresa)
           </h1>
 
           <p className={styles.intro}>
@@ -38,7 +39,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Qué es la mora y por qué afecta la liquidez?</h2>
+          <h2>Qué es la mora y por qué reduce la liquidez de tu empresa</h2>
 
           <p>
             La mora ocurre cuando un cliente no cumple con sus obligaciones en
@@ -54,7 +55,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Impactos principales de la mora en el flujo de caja</h2>
+          <h2>Impactos reales de la mora en el flujo de caja empresarial</h2>
 
           <ul className={styles.animatedList}>
             {[
@@ -83,7 +84,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Consecuencias a largo plazo</h2>
+          <h2>Consecuencias de la mora a largo plazo en tu empresa</h2>
 
           <p>
             Si la mora se mantiene en el tiempo, la empresa puede enfrentar
@@ -99,7 +100,9 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Cómo reducir el impacto de la mora?</h2>
+          <h2>
+            Cómo reducir el impacto de la mora y proteger tu flujo de caja
+          </h2>
 
           <p>
             Implementar políticas claras de crédito, realizar seguimiento
@@ -116,7 +119,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre mora y flujo de caja</h2>
 
           <motion.div
             initial={{ opacity: 0 }}

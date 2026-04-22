@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import QueEsLaRecuperacionDeCarteraContent from "./QueEsLaRecuperacionDeCarteraContent";
 
 export const metadata: Metadata = {
-  title: "¿Qué es la recuperación de cartera en Colombia? Guía completa",
+  title:
+    "¿Qué es la recuperación de cartera en Colombia? Cómo funciona y por qué es clave para tu empresa",
   description:
     "Aprende qué es la recuperación de cartera en Colombia, cómo funciona el proceso de cobro y por qué es clave para la liquidez empresarial.",
 
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "¿Qué es la recuperación de cartera y cómo funciona?",
+    title:
+      "¿Qué es la recuperación de cartera en Colombia? Cómo funciona paso a paso",
     description:
       "Descubre cómo funciona la recuperación de cartera en Colombia y cómo mejorar el flujo de caja de tu empresa.",
     url: "https://cobrandoonline.com/blog/que-es-la-recuperacion-de-cartera",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "¿Qué es la recuperación de cartera?",
+              headline:
+                "¿Qué es la recuperación de cartera en Colombia y cómo funciona?",
               description:
                 "Conoce qué es la recuperación de cartera en Colombia, cómo funciona el proceso de cobro y por qué es clave para la liquidez empresarial.",
               author: {

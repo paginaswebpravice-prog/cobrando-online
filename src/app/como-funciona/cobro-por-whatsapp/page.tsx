@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import CobroWhatsAppContent from "./CobroWhatsAppContent";
 
 export const metadata: Metadata = {
-  title: "Cobro por WhatsApp en Colombia | Cómo cobrar deudas efectivamente",
+  title:
+    "Cómo cobrar por WhatsApp en Colombia y recuperar deudas rápido (Guía efectiva)",
   description:
-    "Aprende cómo cobrar deudas por WhatsApp en Colombia con estrategias efectivas, mensajes correctos y técnicas profesionales de recuperación de cartera.",
+    "Aprende cómo cobrar por WhatsApp en Colombia con mensajes efectivos y estrategias profesionales para recuperar deudas más rápido y aumentar tu recaudo.",
 
   keywords: [
     "cobro por whatsapp Colombia",
@@ -21,9 +22,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Cobro por WhatsApp en Colombia | Estrategias de cobranza efectiva",
+    title: "Cómo cobrar por WhatsApp en Colombia y recuperar deudas más rápido",
     description:
-      "Aprende a cobrar deudas por WhatsApp en Colombia con mensajes efectivos y estrategias profesionales de recuperación de cartera.",
+      "Estrategias, ejemplos de mensajes y técnicas profesionales para cobrar por WhatsApp y aumentar el recaudo en Colombia.",
     url: "https://cobrandoonline.com/servicios/cobro-por-whatsapp-colombia",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -47,7 +48,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "webPage",
-              headline: "Cobro por WhatsApp en Colombia",
+              headline:
+                "Cómo cobrar por WhatsApp en Colombia y recuperar deudas",
               description:
                 "Estrategias profesionales para cobrar deudas por WhatsApp y mejorar la recuperación de cartera en Colombia.",
               author: {

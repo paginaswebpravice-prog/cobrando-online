@@ -17,7 +17,7 @@ export default function ReducirCarteraMorosaContent() {
             <span className={styles.badge}>Gestión financiera en Colombia</span>
 
             <h1 className={styles.title}>
-              Cómo reducir la cartera morosa y mejorar tu flujo de caja
+              Reduce tu cartera morosa en Colombia y recupera liquidez rápido
             </h1>
 
             <p className={styles.description}>
@@ -40,7 +40,9 @@ export default function ReducirCarteraMorosaContent() {
 
       {/* PROBLEMA */}
       <section className={styles.container}>
-        <h2 className={styles.subtitle}>¿Por qué aumenta la cartera morosa?</h2>
+        <h2 className={styles.subtitle}>
+          ¿Por qué tu cartera morosa sigue creciendo en Colombia?
+        </h2>
 
         <p className={styles.text}>
           La cartera morosa no aparece de un día para otro. Es el resultado de
@@ -79,7 +81,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto de la cartera morosa en tu empresa
+          Cómo la cartera morosa afecta tus finanzas y crecimiento
         </h2>
 
         <p className={styles.text}>
@@ -130,7 +132,7 @@ export default function ReducirCarteraMorosaContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Con gestión estratégica</h4>
+            <h4>✔ Con estrategia profesional de cobro</h4>
             <ul>
               <li>Control de pagos</li>
               <li>Seguimiento constante</li>
@@ -144,7 +146,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias para reducir la cartera morosa
+          Estrategias efectivas para reducir la cartera morosa
         </h2>
 
         <p className={styles.text}>
@@ -184,7 +186,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* INDICADORES */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Indicadores clave para controlar la cartera
+          Indicadores clave para controlar y reducir tu cartera
         </h2>
 
         <div className={styles.grid}>
@@ -210,7 +212,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de reducir la cartera morosa
+          Beneficios reales de reducir tu cartera morosa
         </h2>
 
         <div className={styles.benefits}>
@@ -227,7 +229,7 @@ export default function ReducirCarteraMorosaContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza a controlar tu cartera hoy
+            Reduce tu cartera morosa desde hoy y mejora tu liquidez
           </h2>
 
           <p className={styles.ctaText}>

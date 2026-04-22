@@ -19,7 +19,8 @@ export default function RecuperarCarteraContent() {
             </span>
 
             <h1 className={styles.title}>
-              Recuperar cartera vencida en Colombia de forma rápida y efectiva
+              Recupera cartera vencida en Colombia rápido y con resultados
+              reales
             </h1>
 
             <p className={styles.description}>
@@ -44,7 +45,7 @@ export default function RecuperarCarteraContent() {
       {/* CONTEXTO SEO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Qué es la recuperación de cartera y por qué es clave en Colombia?
+          ¿Qué es recuperar cartera y por qué es clave en Colombia hoy?
         </h2>
 
         <p className={styles.text}>
@@ -69,7 +70,7 @@ export default function RecuperarCarteraContent() {
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
           >
-            <h4>❌ Gestión interna sin estrategia</h4>
+            <h4>❌ Intentar cobrar sin estrategia profesional</h4>
             <ul>
               <li>Falta de seguimiento a deudores</li>
               <li>Baja tasa de recuperación</li>
@@ -83,7 +84,7 @@ export default function RecuperarCarteraContent() {
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
           >
-            <h4>✔ Recuperación con expertos</h4>
+            <h4>✔ Recuperar cartera con expertos en cobro</h4>
             <ul>
               <li>Estrategias jurídicas estructuradas</li>
               <li>Seguimiento constante</li>
@@ -97,7 +98,7 @@ export default function RecuperarCarteraContent() {
       {/* TIPOS DE CARTERA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Tipos de cartera que recuperamos en Colombia
+          Tipos de cartera que puedes recuperar en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -141,7 +142,7 @@ export default function RecuperarCarteraContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Proceso de recuperación de cartera paso a paso
+          Cómo recuperar cartera en Colombia paso a paso
         </h2>
 
         <div className={styles.infoGrid}>
@@ -169,7 +170,7 @@ export default function RecuperarCarteraContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de recuperar cartera con Cobrando Online
+          Beneficios de recuperar cartera con expertos
         </h2>
 
         <div className={styles.benefits}>
@@ -185,7 +186,7 @@ export default function RecuperarCarteraContent() {
       {/* FAQ */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Preguntas frecuentes sobre recuperación de cartera
+          Preguntas frecuentes sobre cómo recuperar cartera en Colombia
         </h2>
 
         <div className={styles.infoGrid}>
@@ -215,7 +216,9 @@ export default function RecuperarCarteraContent() {
       {/* CTA */}
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
-          <h2 className={styles.ctaTitle}>Empieza hoy a recuperar tu dinero</h2>
+          <h2 className={styles.ctaTitle}>
+            Empieza hoy a recuperar tu cartera sin perder más dinero
+          </h2>
 
           <p className={styles.ctaText}>
             No dejes que las deudas sigan afectando tu negocio. Te ayudamos a

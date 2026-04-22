@@ -3,7 +3,7 @@ import RecuperacionCarteraPymesContent from "./RecuperacionCarteraPymesContent";
 
 export const metadata: Metadata = {
   title:
-    "Recuperación de cartera para PYMES en Colombia: estrategias efectivas",
+    "Recuperación de cartera para PYMES en Colombia: cómo reducir la mora y mejorar el flujo de caja",
   description:
     "Aprende cómo hacer recuperación de cartera para PYMES en Colombia, reducir la mora y mejorar el flujo de caja con estrategias efectivas.",
 
@@ -21,7 +21,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Recuperación de cartera para PYMES en Colombia",
+    title:
+      "Recuperación de cartera para PYMES en Colombia: estrategias para reducir la mora",
     description:
       "Descubre cómo las PYMES pueden mejorar su liquidez con una gestión efectiva de recuperación de cartera.",
     url: "https://cobrandoonline.com/blog/recuperacion-cartera-pymes",
@@ -47,7 +48,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Recuperación de cartera para PYMES",
+              headline:
+                "Recuperación de cartera para PYMES en Colombia: cómo reducir la mora",
               description:
                 "Conoce cómo las PYMES en Colombia pueden gestionar la recuperación de cartera para mejorar su liquidez y reducir la mora.",
               author: {

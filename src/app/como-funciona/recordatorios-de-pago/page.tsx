@@ -3,9 +3,9 @@ import RecordatoriosAutomaticosContent from "./RecordatoriosAutomaticosContent";
 
 export const metadata: Metadata = {
   title:
-    "Recordatorios automáticos de pago en Colombia | Reduce cartera vencida",
+    "Recordatorios automáticos de pago en Colombia para cobrar más rápido (y reducir mora)",
   description:
-    "Implementa recordatorios automáticos de pago y reduce la cartera vencida. Automatiza el cobro y mejora tu flujo de caja en Colombia.",
+    "Automatiza recordatorios de pago en Colombia y cobra más rápido. Reduce la cartera vencida, mejora el recaudo y optimiza tu flujo de caja con cobros automáticos.",
 
   keywords: [
     "recordatorios de pago automáticos Colombia",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Recordatorios automáticos de pago en Colombia | Reduce cartera vencida",
+      "Recordatorios automáticos de pago en Colombia para cobrar más rápido",
     description:
-      "Automatiza tus cobros con recordatorios automáticos y mejora la recuperación de cartera en Colombia.",
+      "Automatiza tus cobros, reduce la mora y mejora tu flujo de caja con recordatorios automáticos de pago en Colombia.",
     url: "https://cobrandoonline.com/servicios/recordatorios-automaticos-pago",
     siteName: "Cobrando Online",
     locale: "es_CO",

@@ -21,7 +21,10 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <span className={styles.category}>Legal</span>
-          <h1>Diferencias entre cobro prejurídico y cobro jurídico</h1>
+          <h1>
+            Cobro prejurídico vs cobro jurídico: diferencias clave y cuándo usar
+            cada uno
+          </h1>
 
           <p className={styles.intro}>
             En los procesos de recuperación de cartera existen diferentes etapas
@@ -39,7 +42,7 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Qué es el cobro prejurídico?</h2>
+          <h2>Qué es el cobro prejurídico y cómo funciona en Colombia</h2>
 
           <p>
             El cobro prejurídico es la etapa en la que se busca llegar a un
@@ -79,7 +82,7 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Qué es el cobro jurídico?</h2>
+          <h2>Qué es el cobro jurídico y cuándo iniciar demanda</h2>
 
           <p>
             El cobro jurídico implica iniciar acciones legales formales ante un
@@ -119,7 +122,7 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Principales diferencias</h2>
+          <h2>Diferencias clave entre cobro prejurídico y jurídico</h2>
 
           <p>
             La diferencia principal radica en el nivel de formalidad y presión
@@ -155,7 +158,7 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes</h2>
+          <h2>Preguntas frecuentes sobre cobro de cartera en Colombia</h2>
 
           <motion.div
             initial={{ opacity: 0 }}

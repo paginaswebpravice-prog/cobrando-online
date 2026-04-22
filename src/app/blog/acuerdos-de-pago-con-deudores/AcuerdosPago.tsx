@@ -26,7 +26,8 @@ export default function AcuerdosPago() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Acuerdos de pago con deudores: cómo hacerlos correctamente
+          Acuerdos de pago con deudores: recupera tu dinero sin demandar en
+          Colombia
         </motion.h1>
 
         <motion.p
@@ -48,7 +49,7 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Qué es un acuerdo de pago?
+          Qué es un acuerdo de pago y cómo funciona en Colombia
         </motion.h2>
 
         <motion.p
@@ -69,7 +70,7 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Cuándo hacer un acuerdo de pago?
+          Cuándo hacer un acuerdo de pago para recuperar cartera
         </motion.h2>
 
         <motion.p
@@ -89,7 +90,7 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Qué debe tener un acuerdo de pago
+          Qué debe incluir un acuerdo de pago para que sea válido
         </motion.h2>
 
         <motion.ul
@@ -114,7 +115,7 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión
+          Conclusión: cómo usar acuerdos de pago para evitar procesos judiciales
         </motion.h2>
 
         <motion.p

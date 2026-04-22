@@ -3,9 +3,9 @@ import MejorarFlujoCajaContent from "./MejorarFlujoCajaContent";
 
 export const metadata: Metadata = {
   title:
-    "Mejorar flujo de caja en Colombia | Aumenta liquidez y control financiero",
+    "¿Problemas de liquidez? Mejora tu flujo de caja en Colombia rápido y efectivo",
   description:
-    "Aprende cómo mejorar el flujo de caja de tu empresa en Colombia con estrategias de cobro, control de cartera y optimización financiera.",
+    "Aprende cómo mejorar el flujo de caja de tu empresa en Colombia con estrategias reales de cobro, control de cartera y aumento de liquidez.",
 
   keywords: [
     "mejorar flujo de caja",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Mejorar flujo de caja en Colombia | Aumenta liquidez y control financiero",
+      "¿Cómo mejorar el flujo de caja en Colombia? Aumenta tu liquidez hoy",
     description:
-      "Optimiza la liquidez de tu empresa en Colombia con estrategias profesionales de recaudo y control de cartera.",
+      "Optimiza la liquidez de tu empresa en Colombia con estrategias efectivas de recaudo y control financiero.",
     url: "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -47,7 +47,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              headline: "Mejorar flujo de caja en Colombia",
+              headline:
+                "¿Cómo mejorar el flujo de caja en Colombia y aumentar la liquidez?",
               description:
                 "Estrategias para mejorar liquidez y flujo de caja en empresas en Colombia mediante gestión de cartera y recaudo eficiente.",
               author: {

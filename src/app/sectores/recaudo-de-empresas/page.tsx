@@ -3,9 +3,9 @@ import RecaudoEmpresasContent from "./RecaudoEmpresasContent";
 
 export const metadata: Metadata = {
   title:
-    "Recuperación de cartera para empresas en Colombia | Cobranza empresarial profesional",
+    "Recuperación de cartera para empresas en Colombia | Aumenta tu recaudo hoy",
   description:
-    "Recuperación de cartera para empresas en Colombia. Mejora el flujo de caja, reduce la mora y aumenta el recaudo con estrategias profesionales de cobranza.",
+    "Recupera cartera vencida en tu empresa en Colombia. Aumenta el recaudo, mejora el flujo de caja y reduce la mora con estrategias profesionales de cobranza.",
 
   keywords: [
     "recuperacion de cartera empresas Colombia",
@@ -22,9 +22,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Recuperación de cartera para empresas en Colombia",
+    title:
+      "Recuperación de cartera para empresas en Colombia | Más recaudo, menos mora",
     description:
-      "Estrategias profesionales para recuperación de cartera empresarial en Colombia.",
+      "Aumenta el recaudo de tu empresa en Colombia con estrategias profesionales de cobranza y recuperación de cartera.",
     url: "https://cobrandoonline.com/servicios/recuperacion-cartera-empresas",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -48,9 +49,10 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              headline: "Recuperación de cartera para empresas en Colombia",
+              headline:
+                "Recuperación de cartera para empresas en Colombia | Aumenta tu recaudo",
               description:
-                "Estrategias de cobranza y recuperación de cartera para empresas en Colombia para mejorar liquidez y flujo de caja.",
+                "Estrategias profesionales de cobranza para empresas en Colombia que permiten aumentar recaudo y mejorar el flujo de caja.",
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",

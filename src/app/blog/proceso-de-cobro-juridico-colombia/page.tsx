@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import ProcesoCobroJuridicoContent from "./ProcesoCobroJuridicoContent";
 
 export const metadata: Metadata = {
-  title: "Proceso de cobro jurídico en Colombia: etapas, tiempos y requisitos",
+  title:
+    "Cobro jurídico en Colombia (2026): proceso, etapas, tiempos y cómo recuperar una deuda",
   description:
-    "Conoce el proceso de cobro jurídico en Colombia, sus etapas, tiempos y cómo recuperar deudas mediante demanda ejecutiva y embargos.",
+    "Conoce el proceso de cobro jurídico en Colombia paso a paso, sus etapas, tiempos reales y cómo recuperar deudas con demanda ejecutiva y embargos.",
 
   keywords: [
     "cobro juridico Colombia",
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Proceso de cobro jurídico en Colombia paso a paso",
+    title:
+      "Cobro jurídico en Colombia: proceso paso a paso, tiempos y cómo recuperar una deuda",
     description:
       "Aprende cómo funciona el cobro jurídico en Colombia, desde la demanda hasta el embargo de bienes.",
     url: "https://cobrandoonline.com/blog/proceso-de-cobro-juridico-colombia",
@@ -47,7 +49,8 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Proceso de cobro jurídico en Colombia",
+              headline:
+                "Cobro jurídico en Colombia: proceso, etapas y cómo recuperar una deuda",
               description:
                 "Conoce las etapas del proceso de cobro jurídico en Colombia, desde la demanda hasta el embargo y recuperación de la deuda.",
               author: {

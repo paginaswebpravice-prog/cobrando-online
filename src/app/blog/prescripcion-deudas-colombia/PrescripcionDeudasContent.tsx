@@ -26,7 +26,8 @@ export default function PrescripcionDeudasContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Prescripción de deudas en Colombia: tiempos y cómo evitarla
+          Prescripción de deudas en Colombia: tiempos exactos y cómo evitar
+          perder el dinero
         </motion.h1>
 
         <motion.p
@@ -47,7 +48,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Qué es la prescripción de una deuda?
+          ¿Qué es la prescripción de una deuda y cuándo aplica en Colombia?
         </motion.h2>
 
         <motion.p
@@ -67,7 +68,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Tiempos de prescripción de deudas en Colombia
+          Tiempos de prescripción de deudas en Colombia (actualizado)
         </motion.h2>
 
         <motion.p
@@ -99,7 +100,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Desde cuándo se cuenta la prescripción?
+          ¿Desde cuándo empieza a contar la prescripción de una deuda?
         </motion.h2>
 
         <motion.p
@@ -118,7 +119,8 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Cómo evitar la prescripción de una deuda?
+          Cómo evitar la prescripción de una deuda y no perder el derecho a
+          cobrar
         </motion.h2>
 
         <motion.p
@@ -138,7 +140,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Interrupción de la prescripción
+          Formas legales de interrumpir la prescripción de una deuda
         </motion.h2>
 
         <motion.ul
@@ -159,7 +161,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Importancia de iniciar el cobro a tiempo
+          Por qué iniciar el cobro a tiempo evita perder dinero en Colombia
         </motion.h2>
 
         <motion.p
@@ -179,7 +181,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión
+          Conclusión: evita que tus deudas prescriban y protege tu flujo de caja
         </motion.h2>
 
         <motion.p

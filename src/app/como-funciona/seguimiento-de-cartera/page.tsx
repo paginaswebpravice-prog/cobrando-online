@@ -3,7 +3,7 @@ import SeguimientoCarteraContent from "./SeguimientoCarteraContent";
 
 export const metadata: Metadata = {
   title:
-    "Seguimiento de cartera en Colombia | Control y trazabilidad en tiempo real",
+    "Seguimiento de cartera en Colombia en tiempo real | Control total y más recaudo",
   description:
     "Seguimiento de cartera en Colombia con acceso en línea, control total y trazabilidad completa en cada etapa del proceso de cobro. Mejora tu recaudo.",
   keywords: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Seguimiento de cartera en Colombia | Control y trazabilidad en tiempo real",
+      "Seguimiento de cartera en Colombia en tiempo real | Control total y más recaudo",
     description:
       "Visualiza el estado de tu cartera en tiempo real en Colombia con seguimiento estructurado, control total y trazabilidad completa.",
     url: "https://cobrandoonline.com/servicios/seguimiento-de-cartera",
@@ -44,7 +44,7 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "Article",
               headline:
-                "Seguimiento de cartera en Colombia con control en tiempo real",
+                "Seguimiento de cartera en Colombia en tiempo real con control total",
               description:
                 "Sistema de seguimiento de cartera con trazabilidad completa, control y acceso en línea para empresas en Colombia.",
               author: {

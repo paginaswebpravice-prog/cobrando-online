@@ -28,7 +28,8 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Ventajas de tercerizar la recuperación de cartera
+          ¿Vale la pena tercerizar la recuperación de cartera? Ventajas reales
+          para empresas en Colombia
         </motion.h1>
 
         {/* INTRO */}
@@ -50,7 +51,7 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          ¿Por qué tercerizar la gestión de cartera?
+          ¿Por qué tercerizar la recuperación de cartera y aumentar el recaudo?
         </motion.h2>
 
         <motion.p
@@ -110,7 +111,7 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Reducción del riesgo financiero
+          Cómo tercerizar reduce el riesgo financiero y evita pérdidas
         </motion.h2>
 
         <motion.p
@@ -140,7 +141,7 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Profesionalización del proceso de cobro
+          Profesionalizar la cobranza: el verdadero beneficio de tercerizar
         </motion.h2>
 
         <motion.p
