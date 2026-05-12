@@ -13,11 +13,12 @@ export default function RecaudoColegiosContent() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <span className={styles.badge}>Colegios en Colombia</span>
+            <span className={styles.badge}>
+              Recuperación de cartera para colegios en Colombia
+            </span>
 
             <h1 className={styles.title}>
-              Recupera pensiones atrasadas en tu colegio y mejora el flujo de
-              caja
+              Recupera pensiones atrasadas en tu colegio y reduce la mora rápido
             </h1>
 
             <p className={styles.description}>
@@ -41,7 +42,7 @@ export default function RecaudoColegiosContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Principales problemas de cartera en colegios en Colombia
+          Los problemas de cartera que más afectan a los colegios en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -81,7 +82,8 @@ export default function RecaudoColegiosContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera vencida afecta la estabilidad de tu colegio
+          Cómo la cartera vencida puede poner en riesgo la estabilidad de tu
+          colegio
         </h2>
 
         <div className={styles.infoGrid}>
@@ -123,7 +125,7 @@ export default function RecaudoColegiosContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategia efectiva para recuperar cartera en colegios
+          Estrategias efectivas para recuperar cartera y pensiones escolares
         </h2>
 
         <p className={styles.text}>
@@ -150,7 +152,7 @@ export default function RecaudoColegiosContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funciona el proceso de recuperación de cartera
+          Cómo recuperar pensiones atrasadas en colegios paso a paso
         </h2>
 
         <div className={styles.grid}>
@@ -175,7 +177,7 @@ export default function RecaudoColegiosContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de mejorar el recaudo en tu colegio
+          Beneficios de reducir la mora y mejorar el recaudo en tu colegio
         </h2>
 
         <div className={styles.benefits}>
@@ -190,7 +192,7 @@ export default function RecaudoColegiosContent() {
       {/* FAQ */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Preguntas frecuentes sobre cobranza en colegios
+          Preguntas frecuentes sobre recuperación de cartera en colegios
         </h2>
 
         <div className={styles.infoGrid}>
@@ -224,7 +226,7 @@ export default function RecaudoColegiosContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza hoy a recuperar pensiones atrasadas en tu colegio
+            Empieza hoy a recuperar pensiones atrasadas y estabiliza tu colegio
           </h2>
 
           <p className={styles.ctaText}>
@@ -237,6 +239,8 @@ export default function RecaudoColegiosContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20colegios%20en%20Colombia."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -245,6 +249,7 @@ export default function RecaudoColegiosContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20hablar%20por%20WhatsApp%20sobre%20la%20recuperaci%C3%B3n%20de%20cartera%20en%20mi%20colegio."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

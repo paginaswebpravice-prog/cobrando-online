@@ -13,11 +13,13 @@ export default function RecaudoFreelancersContent() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <span className={styles.badge}>Freelancers en Colombia</span>
+            <span className={styles.badge}>
+              Cobro para freelancers en Colombia
+            </span>
 
             <h1 className={styles.title}>
-              Cómo cobrar clientes que no pagan y recuperar tu dinero como
-              freelancer
+              ¿Clientes que no pagan? Aprende cómo cobrar y recuperar tu dinero
+              como freelancer
             </h1>
 
             <p className={styles.description}>
@@ -41,8 +43,8 @@ export default function RecaudoFreelancersContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Por qué los freelancers en Colombia pierden dinero por clientes que no
-          pagan
+          La razón por la que muchos freelancers en Colombia terminan trabajando
+          sin recibir pago
         </h2>
 
         <p className={styles.text}>
@@ -81,7 +83,8 @@ export default function RecaudoFreelancersContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo afectan los clientes morosos a tus ingresos como freelancer
+          Cómo los clientes morosos afectan tus ingresos y estabilidad como
+          freelancer
         </h2>
 
         <div className={styles.infoGrid}>
@@ -114,7 +117,8 @@ export default function RecaudoFreelancersContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para cobrar clientes como freelancer en Colombia
+          Estrategias efectivas para cobrar clientes y evitar pérdidas como
+          freelancer
         </h2>
 
         <p className={styles.text}>
@@ -141,7 +145,7 @@ export default function RecaudoFreelancersContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Paso a paso para recuperar pagos de clientes
+          Cómo recuperar pagos atrasados de clientes paso a paso
         </h2>
 
         <div className={styles.grid}>
@@ -167,7 +171,8 @@ export default function RecaudoFreelancersContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera los pagos atrasados de tus clientes hoy mismo
+            Recupera pagos atrasados y deja de perder dinero por clientes
+            morosos
           </h2>
 
           <p className={styles.ctaText}>
@@ -180,6 +185,7 @@ export default function RecaudoFreelancersContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20ayuda%20para%20recuperar%20pagos%20como%20freelancer."
               className={styles.primary}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría ahora
             </a>
@@ -188,6 +194,7 @@ export default function RecaudoFreelancersContent() {
               href="https://api.whatsapp.com/send?phone=573234372766"
               className={styles.secondary}
               target="_blank"
+              rel="noopener noreferrer"
             >
               WhatsApp directo
             </a>

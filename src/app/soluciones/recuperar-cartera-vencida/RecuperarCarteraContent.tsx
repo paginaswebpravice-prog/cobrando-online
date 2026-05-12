@@ -19,8 +19,8 @@ export default function RecuperarCarteraContent() {
             </span>
 
             <h1 className={styles.title}>
-              Recupera cartera vencida en Colombia rápido y con resultados
-              reales
+              Recupera cartera vencida en Colombia y aumenta tu flujo de caja
+              rápidamente
             </h1>
 
             <p className={styles.description}>
@@ -45,7 +45,8 @@ export default function RecuperarCarteraContent() {
       {/* CONTEXTO SEO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Qué es recuperar cartera y por qué es clave en Colombia hoy?
+          ¿Qué es la recuperación de cartera y por qué hoy es clave para las
+          empresas en Colombia?
         </h2>
 
         <p className={styles.text}>
@@ -70,7 +71,7 @@ export default function RecuperarCarteraContent() {
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
           >
-            <h4>❌ Intentar cobrar sin estrategia profesional</h4>
+            <h4>❌ Cobrar sin una estrategia profesional de recuperación</h4>
             <ul>
               <li>Falta de seguimiento a deudores</li>
               <li>Baja tasa de recuperación</li>
@@ -84,7 +85,7 @@ export default function RecuperarCarteraContent() {
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
           >
-            <h4>✔ Recuperar cartera con expertos en cobro</h4>
+            <h4>✔ Recupera deudas con expertos en cobro y negociación</h4>
             <ul>
               <li>Estrategias jurídicas estructuradas</li>
               <li>Seguimiento constante</li>
@@ -98,7 +99,7 @@ export default function RecuperarCarteraContent() {
       {/* TIPOS DE CARTERA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Tipos de cartera que puedes recuperar en Colombia
+          Tipos de cartera vencida que ayudamos a recuperar en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -142,7 +143,7 @@ export default function RecuperarCarteraContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar cartera en Colombia paso a paso
+          Cómo recuperar cartera vencida en Colombia paso a paso
         </h2>
 
         <div className={styles.infoGrid}>
@@ -170,7 +171,7 @@ export default function RecuperarCarteraContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de recuperar cartera con expertos
+          Beneficios de recuperar cartera con expertos en cobro en Colombia
         </h2>
 
         <div className={styles.benefits}>
@@ -186,7 +187,7 @@ export default function RecuperarCarteraContent() {
       {/* FAQ */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Preguntas frecuentes sobre cómo recuperar cartera en Colombia
+          Preguntas frecuentes sobre recuperación de cartera en Colombia
         </h2>
 
         <div className={styles.infoGrid}>
@@ -217,7 +218,7 @@ export default function RecuperarCarteraContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza hoy a recuperar tu cartera sin perder más dinero
+            Empieza hoy a recuperar tu cartera y deja de perder dinero
           </h2>
 
           <p className={styles.ctaText}>
@@ -229,6 +230,8 @@ export default function RecuperarCarteraContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -236,6 +239,7 @@ export default function RecuperarCarteraContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
+              rel="noopener noreferrer"
               className={styles.secondary}
             >
               WhatsApp

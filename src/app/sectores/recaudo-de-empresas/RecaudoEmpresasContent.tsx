@@ -13,11 +13,13 @@ export default function RecaudoEmpresasContent() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <span className={styles.badge}>Empresas en Colombia</span>
+            <span className={styles.badge}>
+              Recuperación de cartera para empresas en Colombia
+            </span>
 
             <h1 className={styles.title}>
-              Recupera cartera vencida en tu empresa y aumenta el recaudo en
-              Colombia
+              Recupera cartera vencida rápido y aumenta el flujo de caja de tu
+              empresa en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -41,7 +43,8 @@ export default function RecaudoEmpresasContent() {
       {/* ================= CONTEXTO ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué las empresas en Colombia pierden dinero por cartera vencida?
+          La razón por la que muchas empresas en Colombia pierden dinero por
+          cartera vencida
         </h2>
 
         <p className={styles.text}>
@@ -57,7 +60,8 @@ export default function RecaudoEmpresasContent() {
       {/* ================= PROBLEMAS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Problemas más comunes en empresas con cartera vencida
+          Señales de que la cartera vencida está afectando el crecimiento de tu
+          empresa
         </h2>
 
         <div className={styles.grid}>
@@ -85,7 +89,8 @@ export default function RecaudoEmpresasContent() {
       {/* ================= IMPACTO ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera vencida afecta el crecimiento de tu empresa
+          Cómo la cartera vencida reduce la liquidez y frena el crecimiento de
+          tu empresa
         </h2>
 
         <div className={styles.infoGrid}>
@@ -114,7 +119,8 @@ export default function RecaudoEmpresasContent() {
       {/* ================= SOLUCIÓN ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Solución profesional para recuperar cartera y aumentar el recaudo
+          Estrategia profesional para recuperar cartera y aumentar el recaudo en
+          Colombia
         </h2>
 
         <div className={styles.infoGrid}>
@@ -147,7 +153,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= PROCESO ================= */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar cartera en tu empresa paso a paso
+          Cómo recuperamos la cartera vencida de tu empresa paso a paso
         </h2>
 
         <div className={styles.infoGrid}>
@@ -176,7 +182,7 @@ export default function RecaudoEmpresasContent() {
       {/* ================= BENEFICIOS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de recuperar la cartera de tu empresa
+          Beneficios de recuperar cartera vencida con una gestión profesional
         </h2>
 
         <div className={styles.benefits}>
@@ -192,7 +198,7 @@ export default function RecaudoEmpresasContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza hoy a recuperar la cartera de tu empresa
+            Empieza hoy a recuperar cartera y mejorar la liquidez de tu empresa
           </h2>
 
           <p className={styles.ctaText}>
@@ -205,6 +211,8 @@ export default function RecaudoEmpresasContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20mi%20empresa%20en%20Colombia."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría ahora
             </a>
@@ -213,6 +221,7 @@ export default function RecaudoEmpresasContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20hablar%20por%20WhatsApp%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20mi%20empresa."
               className={styles.secondary}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

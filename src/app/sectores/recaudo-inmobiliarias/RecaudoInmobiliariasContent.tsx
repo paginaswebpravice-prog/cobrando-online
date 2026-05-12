@@ -16,8 +16,8 @@ export default function RecaudoInmobiliariasContent() {
             <span className={styles.badge}>Inmobiliarias en Colombia</span>
 
             <h1 className={styles.title}>
-              Cómo recuperar arriendos atrasados y reducir la mora en
-              inmobiliarias en Colombia
+              Recupera arriendos atrasados más rápido y reduce la mora en tu
+              inmobiliaria
             </h1>
 
             <p className={styles.description}>
@@ -42,8 +42,8 @@ export default function RecaudoInmobiliariasContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Principales problemas de cartera en inmobiliarias en Colombia (y por
-          qué aumentan)
+          ¿Por qué las inmobiliarias en Colombia pierden dinero por mora en
+          arriendos?
         </h2>
 
         <p className={styles.text}>
@@ -82,7 +82,7 @@ export default function RecaudoInmobiliariasContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera vencida afecta la rentabilidad de tu inmobiliaria
+          Cómo la cartera vencida reduce la rentabilidad de tu inmobiliaria
         </h2>
 
         <div className={styles.infoGrid}>
@@ -123,8 +123,8 @@ export default function RecaudoInmobiliariasContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para cobrar arriendos y recuperar cartera
-          inmobiliaria
+          Estrategias efectivas para recuperar arriendos y aumentar el recaudo
+          inmobiliario
         </h2>
 
         <p className={styles.text}>
@@ -152,7 +152,7 @@ export default function RecaudoInmobiliariasContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Paso a paso para recuperar cartera de arriendos en Colombia
+          Cómo recuperar cartera de arriendos en Colombia paso a paso
         </h2>
 
         <div className={styles.grid}>
@@ -179,7 +179,7 @@ export default function RecaudoInmobiliariasContent() {
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
             Recupera arriendos atrasados y mejora el flujo de caja de tu
-            inmobiliaria hoy
+            inmobiliaria desde hoy
           </h2>
 
           <p className={styles.ctaText}>
@@ -192,6 +192,8 @@ export default function RecaudoInmobiliariasContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20inmobiliarias."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -200,6 +202,7 @@ export default function RecaudoInmobiliariasContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera%20para%20inmobiliarias."
               className={styles.secondary}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

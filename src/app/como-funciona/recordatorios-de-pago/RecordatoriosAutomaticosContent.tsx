@@ -19,7 +19,8 @@ export default function RecordatoriosAutomaticosContent() {
             </span>
 
             <h1 className={styles.title}>
-              Automatiza recordatorios de pago y cobra más rápido en Colombia
+              Cómo automatizar recordatorios de pago y recuperar cartera más
+              rápido en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -30,10 +31,10 @@ export default function RecordatoriosAutomaticosContent() {
 
             <div className={styles.actions}>
               <a href="#contacto" className={styles.primary}>
-                Automatizar cobros
+                Automatizar cobros ahora
               </a>
               <a href="#funcionamiento" className={styles.secondary}>
-                Cómo funciona
+                Ver cómo funciona
               </a>
             </div>
           </motion.div>
@@ -43,7 +44,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Por qué cobrar manualmente está afectando tu recaudo
+          Por qué cobrar manualmente está afectando el recaudo de tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -81,7 +82,8 @@ export default function RecordatoriosAutomaticosContent() {
       {/* IMPORTANCIA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Por qué los recordatorios automáticos aumentan los pagos
+          Por qué los recordatorios automáticos aumentan los pagos y reducen la
+          mora
         </h2>
 
         <p className={styles.text}>
@@ -146,7 +148,7 @@ export default function RecordatoriosAutomaticosContent() {
       {/* FUNCIONAMIENTO */}
       <section id="funcionamiento" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funcionan los recordatorios automáticos de pago
+          Cómo funcionan los recordatorios automáticos de pago paso a paso
         </h2>
 
         <p className={styles.text}>
@@ -185,7 +187,8 @@ export default function RecordatoriosAutomaticosContent() {
       {/* CASOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Qué empresas deberían automatizar sus cobros
+          Empresas que deberían automatizar sus recordatorios de pago en
+          Colombia
         </h2>
 
         <div className={styles.grid}>
@@ -212,7 +215,8 @@ export default function RecordatoriosAutomaticosContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de automatizar recordatorios de pago en Colombia
+          Beneficios de automatizar recordatorios de pago para empresas en
+          Colombia
         </h2>
 
         <div className={styles.benefits}>
@@ -229,7 +233,7 @@ export default function RecordatoriosAutomaticosContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza a automatizar tus cobros y recuperar cartera hoy
+            Automatiza tus cobros y empieza a recuperar cartera más rápido
           </h2>
 
           <p className={styles.ctaText}>
@@ -241,6 +245,8 @@ export default function RecordatoriosAutomaticosContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -249,6 +255,7 @@ export default function RecordatoriosAutomaticosContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

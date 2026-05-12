@@ -16,8 +16,8 @@ export default function RecaudoPymesContent() {
             <span className={styles.badge}>PYMES en Colombia</span>
 
             <h1 className={styles.title}>
-              Cómo recuperar cartera en tu PYME y mejorar el flujo de caja en
-              Colombia
+              Recupera cartera vencida en tu PYME y mejora tu flujo de caja más
+              rápido
             </h1>
 
             <p className={styles.description}>
@@ -37,8 +37,8 @@ export default function RecaudoPymesContent() {
       {/* CONTEXTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          La realidad de la cartera en PYMES en Colombia (y por qué afecta tu
-          liquidez)
+          ¿Por qué la cartera vencida está afectando la liquidez de muchas PYMES
+          en Colombia?
         </h2>
 
         <p className={styles.text}>
@@ -55,7 +55,7 @@ export default function RecaudoPymesContent() {
       {/* PROBLEMAS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Principales problemas de cartera en PYMES que reducen tu flujo de caja
+          Problemas de cartera más comunes que frenan el crecimiento de tu PYME
         </h2>
 
         <div className={styles.grid}>
@@ -82,7 +82,8 @@ export default function RecaudoPymesContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera vencida frena el crecimiento de tu PYME
+          Cómo la cartera vencida puede poner en riesgo el crecimiento de tu
+          PYME
         </h2>
 
         <div className={styles.infoGrid}>
@@ -111,7 +112,8 @@ export default function RecaudoPymesContent() {
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para recuperar cartera en PYMES en Colombia
+          Estrategias efectivas para recuperar cartera y aumentar el recaudo en
+          tu PYME
         </h2>
 
         <div className={styles.grid}>
@@ -139,7 +141,7 @@ export default function RecaudoPymesContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera tu cartera vencida y mejora el flujo de caja de tu PYME hoy
+            Recupera la cartera de tu PYME y mejora tu flujo de caja desde hoy
           </h2>
 
           <p className={styles.ctaText}>
@@ -150,6 +152,8 @@ export default function RecaudoPymesContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -158,6 +162,7 @@ export default function RecaudoPymesContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

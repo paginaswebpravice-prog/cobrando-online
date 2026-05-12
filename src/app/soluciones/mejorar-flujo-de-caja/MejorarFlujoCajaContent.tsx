@@ -19,7 +19,8 @@ export default function MejorarFlujoCajaContent() {
             </span>
 
             <h1 className={styles.title}>
-              ¿Problemas de liquidez? Mejora el flujo de caja de tu empresa hoy
+              ¿Problemas de liquidez? Mejora el flujo de caja y recupera
+              estabilidad financiera
             </h1>
 
             <p className={styles.description}>
@@ -44,7 +45,8 @@ export default function MejorarFlujoCajaContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué tu flujo de caja es inestable y cómo solucionarlo?
+          Por qué tu empresa tiene problemas de flujo de caja y cómo
+          solucionarlos
         </h2>
 
         <p className={styles.text}>
@@ -83,7 +85,7 @@ export default function MejorarFlujoCajaContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Consecuencias de un flujo de caja deficiente en tu empresa
+          Consecuencias de tener un flujo de caja desordenado en tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -123,7 +125,7 @@ export default function MejorarFlujoCajaContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Flujo de caja descontrolado</h4>
+            <h4>❌ Flujo de caja sin control</h4>
             <ul>
               <li>Pagos impredecibles</li>
               <li>Falta de liquidez</li>
@@ -133,7 +135,7 @@ export default function MejorarFlujoCajaContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Flujo de caja optimizado y bajo control</h4>
+            <h4>✔ Flujo de caja optimizado y estable</h4>
             <ul>
               <li>Ingresos constantes</li>
               <li>Liquidez estable</li>
@@ -147,7 +149,8 @@ export default function MejorarFlujoCajaContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para mejorar el flujo de caja en Colombia
+          Estrategias efectivas para mejorar la liquidez y el flujo de caja en
+          Colombia
         </h2>
 
         <p className={styles.text}>
@@ -186,7 +189,8 @@ export default function MejorarFlujoCajaContent() {
       {/* FACTORES CLAVE */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Claves para mantener un flujo de caja saludable y estable
+          Claves para mantener un flujo de caja saludable y evitar problemas
+          financieros
         </h2>
 
         <div className={styles.grid}>
@@ -213,7 +217,8 @@ export default function MejorarFlujoCajaContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de optimizar el flujo de caja de tu empresa
+          Beneficios de optimizar el flujo de caja y aumentar la liquidez
+          empresarial
         </h2>
 
         <div className={styles.benefits}>
@@ -230,7 +235,8 @@ export default function MejorarFlujoCajaContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Toma el control de tu dinero y mejora tu flujo de caja hoy
+            Recupera el control financiero y mejora el flujo de caja de tu
+            empresa hoy
           </h2>
 
           <p className={styles.ctaText}>
@@ -242,6 +248,8 @@ export default function MejorarFlujoCajaContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -250,6 +258,7 @@ export default function MejorarFlujoCajaContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

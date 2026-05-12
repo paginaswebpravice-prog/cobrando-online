@@ -17,8 +17,8 @@ export default function SeguimientoCarteraContent() {
             <span className={styles.badge}>Gestión de cartera en Colombia</span>
 
             <h1 className={styles.title}>
-              Seguimiento de cartera en tiempo real con control total y
-              visibilidad completa
+              Seguimiento de cartera en tiempo real para controlar y recuperar
+              pagos más rápido
             </h1>
 
             <p className={styles.description}>
@@ -32,7 +32,7 @@ export default function SeguimientoCarteraContent() {
                 href="https://legalapp.pravice.co/login.php"
                 className={styles.primary}
               >
-                Ver mi caso
+                Ver el estado de mi cartera
               </a>
               <a href="#funcionamiento" className={styles.secondary}>
                 Cómo funciona
@@ -45,7 +45,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= PROBLEMA ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          El problema real: no tener control sobre tu cartera
+          El problema de muchas empresas: perder control sobre su cartera
         </h2>
 
         <p className={styles.text}>
@@ -84,7 +84,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= SOLUCIÓN ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Seguimiento de cartera con acceso en tiempo real para control total
+          Seguimiento de cartera en línea con acceso y control en tiempo real
         </h2>
 
         <p className={styles.text}>
@@ -124,7 +124,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= DIFERENCIAL ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Transparencia total y control en cada etapa del cobro
+          Transparencia total y seguimiento constante en cada proceso de cobro
         </h2>
 
         <p className={styles.text}>
@@ -159,7 +159,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= FUNCIONAMIENTO ================= */}
       <section id="funcionamiento" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funciona el seguimiento de cartera paso a paso
+          Cómo funciona el seguimiento de cartera paso a paso en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -198,7 +198,7 @@ export default function SeguimientoCarteraContent() {
       {/* ================= BENEFICIOS ================= */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios del seguimiento de cartera en Colombia para tu empresa
+          Beneficios del seguimiento de cartera para empresas en Colombia
         </h2>
 
         <div className={styles.benefits}>
@@ -215,7 +215,7 @@ export default function SeguimientoCarteraContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Controla tu cartera y mejora tu recaudo desde hoy
+            Controla tu cartera y recupera pagos con mayor eficiencia desde hoy
           </h2>
 
           <p className={styles.ctaText}>
@@ -228,6 +228,8 @@ export default function SeguimientoCarteraContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20seguimiento%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -236,6 +238,7 @@ export default function SeguimientoCarteraContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20seguimiento%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

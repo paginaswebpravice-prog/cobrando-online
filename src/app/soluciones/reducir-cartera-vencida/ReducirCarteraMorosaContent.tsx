@@ -17,7 +17,8 @@ export default function ReducirCarteraMorosaContent() {
             <span className={styles.badge}>Gestión financiera en Colombia</span>
 
             <h1 className={styles.title}>
-              Reduce tu cartera morosa en Colombia y recupera liquidez rápido
+              Reduce tu cartera morosa en Colombia y mejora el flujo de caja de
+              tu empresa
             </h1>
 
             <p className={styles.description}>
@@ -41,7 +42,8 @@ export default function ReducirCarteraMorosaContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué tu cartera morosa sigue creciendo en Colombia?
+          ¿Por qué la cartera morosa sigue creciendo y afecta la liquidez de tu
+          empresa?
         </h2>
 
         <p className={styles.text}>
@@ -81,7 +83,8 @@ export default function ReducirCarteraMorosaContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera morosa afecta tus finanzas y crecimiento
+          Cómo la cartera vencida afecta el crecimiento y las finanzas de tu
+          negocio
         </h2>
 
         <p className={styles.text}>
@@ -122,7 +125,7 @@ export default function ReducirCarteraMorosaContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Sin control de cartera</h4>
+            <h4>❌ Gestionar cartera sin control ni seguimiento</h4>
             <ul>
               <li>Aumento constante de mora</li>
               <li>Clientes sin seguimiento</li>
@@ -132,7 +135,7 @@ export default function ReducirCarteraMorosaContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Con estrategia profesional de cobro</h4>
+            <h4>✔ Reduce la mora con una estrategia profesional de cobro</h4>
             <ul>
               <li>Control de pagos</li>
               <li>Seguimiento constante</li>
@@ -146,7 +149,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para reducir la cartera morosa
+          Estrategias efectivas para reducir la cartera morosa en Colombia
         </h2>
 
         <p className={styles.text}>
@@ -186,7 +189,7 @@ export default function ReducirCarteraMorosaContent() {
       {/* INDICADORES */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Indicadores clave para controlar y reducir tu cartera
+          Indicadores clave para controlar y disminuir tu cartera vencida
         </h2>
 
         <div className={styles.grid}>
@@ -212,7 +215,8 @@ export default function ReducirCarteraMorosaContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios reales de reducir tu cartera morosa
+          Beneficios de reducir la cartera morosa y recuperar liquidez
+          rápidamente
         </h2>
 
         <div className={styles.benefits}>
@@ -229,7 +233,7 @@ export default function ReducirCarteraMorosaContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Reduce tu cartera morosa desde hoy y mejora tu liquidez
+            Reduce tu cartera morosa desde hoy y recupera estabilidad financiera
           </h2>
 
           <p className={styles.ctaText}>
@@ -241,6 +245,8 @@ export default function ReducirCarteraMorosaContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -249,6 +255,7 @@ export default function ReducirCarteraMorosaContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>

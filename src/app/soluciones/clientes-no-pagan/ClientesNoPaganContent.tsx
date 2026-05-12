@@ -19,8 +19,8 @@ export default function ClientesNoPaganContent() {
             </span>
 
             <h1 className={styles.title}>
-              ¿Clientes que no pagan? Recupera tu dinero rápido y sin
-              complicaciones
+              ¿Clientes no te pagan? Recupera tu dinero rápido con cobranza
+              profesional en Colombia
             </h1>
 
             <p className={styles.description}>
@@ -45,7 +45,7 @@ export default function ClientesNoPaganContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          ¿Por qué tus clientes no pagan y cómo está afectando tu negocio?
+          Por qué tus clientes no pagan y cómo esto puede afectar tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -85,7 +85,8 @@ export default function ClientesNoPaganContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Impacto real de los clientes morosos en tu empresa
+          Cómo los clientes morosos afectan el flujo de caja y crecimiento de tu
+          empresa
         </h2>
 
         <p className={styles.text}>
@@ -126,7 +127,7 @@ export default function ClientesNoPaganContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Sin estrategia de cobro profesional</h4>
+            <h4>❌ Cobrar sin estrategia profesional</h4>
             <ul>
               <li>Clientes evaden el pago</li>
               <li>No hay seguimiento</li>
@@ -136,7 +137,7 @@ export default function ClientesNoPaganContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Con gestión profesional de cartera</h4>
+            <h4>✔ Recuperación de cartera con gestión profesional</h4>
             <ul>
               <li>Seguimiento estructurado</li>
               <li>Negociación efectiva</li>
@@ -150,7 +151,7 @@ export default function ClientesNoPaganContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar deudas de clientes que no pagan en Colombia
+          Cómo recuperar deudas de clientes morosos en Colombia paso a paso
         </h2>
 
         <p className={styles.text}>
@@ -190,7 +191,7 @@ export default function ClientesNoPaganContent() {
       {/* TIPOS DE CLIENTES */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Tipos de clientes morosos y cómo cobrarles
+          Tipos de clientes que no pagan y cómo lograr recuperar la deuda
         </h2>
 
         <div className={styles.grid}>
@@ -217,7 +218,7 @@ export default function ClientesNoPaganContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de recuperar tu cartera a tiempo
+          Beneficios de recuperar cartera vencida antes de perder el dinero
         </h2>
 
         <div className={styles.benefits}>
@@ -234,7 +235,8 @@ export default function ClientesNoPaganContent() {
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera tu dinero y deja de perder ingresos por clientes morosos
+            Recupera tu dinero y evita seguir perdiendo ingresos por cartera
+            vencida
           </h2>
 
           <p className={styles.ctaText}>
@@ -246,6 +248,8 @@ export default function ClientesNoPaganContent() {
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               className={styles.primary}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Solicitar asesoría
             </a>
@@ -254,6 +258,7 @@ export default function ClientesNoPaganContent() {
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20cartera."
               target="_blank"
               className={styles.secondary}
+              rel="noopener noreferrer"
             >
               Hablar por WhatsApp
             </a>
