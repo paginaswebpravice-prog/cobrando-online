@@ -26,8 +26,8 @@ export default function CartaCobroPrejuridicoContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Carta de cobro prejurídico en Colombia: ejemplo práctico y cómo
-          hacerla paso a paso
+          Cómo hacer una carta de cobro prejurídico efectiva en Colombia y
+          recuperar deudas más rápido
         </motion.h1>
 
         <motion.p
@@ -43,7 +43,8 @@ export default function CartaCobroPrejuridicoContent() {
         </motion.p>
 
         <motion.h2>
-          ¿Qué es una carta de cobro prejurídico y para qué sirve?
+          Qué es una carta de cobro prejurídico y cómo puede ayudarte a
+          recuperar una deuda
         </motion.h2>
 
         <motion.p>
@@ -54,7 +55,8 @@ export default function CartaCobroPrejuridicoContent() {
         </motion.p>
 
         <motion.h2>
-          ¿Cuándo enviar una carta de cobro prejurídico en Colombia?
+          Cuándo enviar una carta de cobro prejurídico para aumentar la
+          probabilidad de pago
         </motion.h2>
 
         <motion.p>
@@ -64,7 +66,8 @@ export default function CartaCobroPrejuridicoContent() {
         </motion.p>
 
         <motion.h2>
-          Qué debe incluir una carta de cobro prejurídico (estructura completa)
+          Qué debe incluir una carta de cobro prejurídico para que sea efectiva
+          y profesional
         </motion.h2>
 
         <motion.ul>
@@ -78,7 +81,8 @@ export default function CartaCobroPrejuridicoContent() {
         </motion.ul>
 
         <motion.h2>
-          Ejemplo de carta de cobro prejurídico en Colombia (modelo práctico)
+          Ejemplo de carta de cobro prejurídico en Colombia para cobrar deudas
+          correctamente
         </motion.h2>
 
         <motion.p>
@@ -111,8 +115,8 @@ export default function CartaCobroPrejuridicoContent() {
         </motion.p>
 
         <motion.h2>
-          Conclusión: cómo usar la carta de cobro para recuperar cartera más
-          rápido
+          Cómo usar una carta de cobro prejurídico para recuperar cartera sin
+          demandar
         </motion.h2>
 
         <motion.p>

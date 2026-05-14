@@ -3,7 +3,7 @@
 import styles from "./Article.module.css";
 import { motion } from "framer-motion";
 
-export default function VentajasTercerizarRecuperacionDeCarteraContent() {
+export default function TiposDeRecuperacionDeCarteraContent() {
   return (
     <main className={styles.articleContainer}>
       <motion.article
@@ -28,8 +28,8 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          ¿Vale la pena tercerizar la recuperación de cartera? Ventajas reales
-          para empresas en Colombia
+          Tipos de recuperación de cartera en Colombia: cuál necesitas para
+          cobrar más rápido y reducir la mora
         </motion.h1>
 
         {/* INTRO */}
@@ -39,130 +39,124 @@ export default function VentajasTercerizarRecuperacionDeCarteraContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.45, duration: 0.6 }}
         >
-          La tercerización de la recuperación de cartera permite a las empresas
-          mejorar sus índices de recaudo, optimizar recursos internos y contar
-          con respaldo jurídico especializado.
+          La recuperación de cartera puede dividirse en diferentes etapas según
+          el momento en que se encuentre la obligación y el nivel de mora del
+          deudor.
         </motion.p>
 
-        {/* SECTION 1 */}
-        <motion.h2
-          initial={{ opacity: 0, x: -50, scale: 0.98 }}
-          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+        {/* ================= PREVENTIVA ================= */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
         >
-          ¿Por qué tercerizar la recuperación de cartera y aumentar el recaudo?
-        </motion.h2>
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Recuperación preventiva: la estrategia que evita clientes morosos
+            desde el inicio
+          </motion.h2>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Se realiza antes de que la obligación entre en mora. Su objetivo es
+            evitar el incumplimiento mediante recordatorios oportunos.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Esta etapa fortalece la cultura de pago y reduce significativamente
+            el riesgo de cartera vencida.
+          </motion.p>
+        </motion.section>
+
+        {/* ================= ADMINISTRATIVA ================= */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
         >
-          Muchas empresas intentan manejar la cartera vencida internamente, pero
-          esto puede generar desgaste administrativo y baja efectividad en el
-          recaudo.
-        </motion.p>
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Recuperación administrativa o prejurídica: cómo cobrar deudas sin
+            demandar al cliente
+          </motion.h2>
 
-        <ul>
-          {[
-            {
-              title: "Ahorro de tiempo y recursos:",
-              text: " el equipo interno puede enfocarse en actividades estratégicas.",
-            },
-            {
-              title: "Mayor efectividad:",
-              text: " profesionales especializados aplican técnicas probadas.",
-            },
-            {
-              title: "Respaldo jurídico:",
-              text: " acompañamiento legal en caso de acciones formales.",
-            },
-            {
-              title: "Mejor manejo de relaciones comerciales:",
-              text: " gestión estructurada que reduce conflictos.",
-            },
-          ].map((item, index) => (
-            <motion.li
-              key={index}
-              initial={{ opacity: 0, y: 25 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.15, duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              <motion.strong
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.1 }}
-                viewport={{ once: true }}
-              >
-                {item.title}
-              </motion.strong>
-              {item.text}
-            </motion.li>
-          ))}
-        </ul>
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Aplica cuando la deuda ya está vencida y se busca una solución
+            amistosa sin acudir a instancias judiciales.
+          </motion.p>
 
-        {/* SECTION 2 */}
-        <motion.h2
-          initial={{ opacity: 0, x: -50, scale: 0.98 }}
-          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Una gestión administrativa eficiente puede evitar procesos legales
+            prolongados y reducir costos.
+          </motion.p>
+        </motion.section>
+
+        {/* ================= JURÍDICA ================= */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
         >
-          Cómo tercerizar reduce el riesgo financiero y evita pérdidas
-        </motion.h2>
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Recuperación jurídica: cuándo demandar para recuperar una deuda en
+            Colombia
+          </motion.h2>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Una empresa especializada implementa procesos preventivos,
-          administrativos y jurídicos según el nivel de mora.
-        </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Se inicia cuando el deudor incumple reiteradamente y no existe
+            voluntad de pago.
+          </motion.p>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.1, duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          La intervención oportuna evita la prescripción de la deuda y fortalece
-          la cultura de pago.
-        </motion.p>
-
-        {/* SECTION 3 */}
-        <motion.h2
-          initial={{ opacity: 0, x: -50, scale: 0.98 }}
-          whileInView={{ opacity: 1, x: 0, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Profesionalizar la cobranza: el verdadero beneficio de tercerizar
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Tercerizar no significa perder control, sino profesionalizar la
-          gestión mediante experiencia y metodología estructurada.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.1, duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Esto se traduce en mayor liquidez, mejor flujo de caja y estabilidad
-          financiera.
-        </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            La recuperación jurídica es el último recurso, pero resulta
+            necesaria cuando se requiere proteger los derechos del acreedor.
+          </motion.p>
+        </motion.section>
       </motion.article>
     </main>
   );

@@ -22,8 +22,8 @@ export default function CuandoIniciarProcesoDeCobroContent() {
         >
           <span className={styles.category}>Gestión</span>
           <h1>
-            ¿Cuándo iniciar el cobro de cartera en Colombia y evitar perder el
-            dinero?
+            ¿Cuándo iniciar el cobro de cartera en Colombia? La mayoría de
+            empresas actúa demasiado tarde
           </h1>
 
           <p className={styles.intro}>
@@ -43,7 +43,8 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           transition={{ duration: 0.6 }}
         >
           <h2>
-            Señales claras de alerta para iniciar el cobro de cartera a tiempo
+            3 señales de alerta que indican que debe iniciar el cobro de cartera
+            inmediatamente
           </h2>
 
           <p>
@@ -78,7 +79,10 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Por qué el tiempo es clave para recuperar cartera en Colombia</h2>
+          <h2>
+            Por qué esperar demasiado puede hacer que pierda la deuda en
+            Colombia
+          </h2>
 
           <p>
             Mientras más tiempo pase sin una acción concreta, menor será la
@@ -101,7 +105,8 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           transition={{ duration: 0.6 }}
         >
           <h2>
-            ¿Cuándo pasar de cobro preventivo a cobro jurídico en Colombia?
+            ¿Cuándo pasar de cobro preventivo a cobro jurídico en Colombia sin
+            seguir perdiendo tiempo?
           </h2>
 
           <p>
@@ -120,14 +125,20 @@ export default function CuandoIniciarProcesoDeCobroContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes sobre cuándo iniciar el cobro de cartera</h2>
+          <h2>
+            Preguntas frecuentes sobre cuándo iniciar el cobro de cartera en
+            Colombia
+          </h2>
 
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h3>¿Cuántos días de mora justifican iniciar un cobro formal?</h3>
+            <h3>
+              ¿Cuántos días de mora justifican iniciar un cobro formal en
+              Colombia?
+            </h3>
             <p>
               Generalmente a partir de 30 días de mora se recomienda
               intensificar la gestión, aunque depende de la política interna de

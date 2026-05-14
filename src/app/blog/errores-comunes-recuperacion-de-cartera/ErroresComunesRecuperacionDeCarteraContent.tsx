@@ -7,24 +7,25 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
   const errores = [
     {
       title:
-        "1. No documentar los acuerdos de pago (error que puede hacerte perder la deuda)",
+        "1. No documentar acuerdos de pago: el error que puede hacerte perder miles de pesos",
       content:
         "Uno de los errores más frecuentes es confiar únicamente en acuerdos verbales. Todo compromiso debe quedar por escrito, especificando montos, fechas y condiciones.",
     },
     {
-      title: "2. No hacer seguimiento constante y perder el control del pago",
+      title:
+        "2. No hacer seguimiento al deudor y dejar que la deuda siga creciendo",
       content:
         "La gestión de cobro no termina cuando el deudor promete pagar. Realizar seguimiento demuestra seriedad y reduce el riesgo de incumplimiento.",
     },
     {
       title:
-        "3. Actuar demasiado tarde y reducir la probabilidad de recuperación",
+        "3. Esperar demasiado para cobrar y reducir las posibilidades de recuperar el dinero",
       content:
         "Retrasar el inicio del proceso de cobro disminuye la probabilidad de recuperación. Las deudas envejecidas son más difíciles de cobrar.",
     },
     {
       title:
-        "4. Manejar el proceso de forma emocional y afectar la negociación",
+        "4. Cobrar de forma emocional y empeorar la negociación con el cliente",
       content:
         "La recuperación de cartera debe ser profesional y estratégica. Actuar con enojo o presión excesiva puede deteriorar la relación comercial.",
     },
@@ -48,8 +49,8 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
         >
           <span className={styles.category}>Consejos</span>
           <h1>
-            7 errores en la recuperación de cartera que te hacen perder dinero
-            (y cómo evitarlos)
+            7 errores en recuperación de cartera que hacen perder dinero a las
+            empresas en Colombia
           </h1>
 
           <p className={styles.intro}>
@@ -99,7 +100,8 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
         >
           <h2>
-            Cómo evitar estos errores y mejorar la recuperación de cartera
+            Cómo evitar errores en cobranza y recuperar cartera más rápido en
+            Colombia
           </h2>
 
           <p>
@@ -119,7 +121,7 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
           transition={{ duration: 0.7 }}
         >
           <h2>
-            Preguntas frecuentes sobre errores en la recuperación de cartera
+            Preguntas frecuentes sobre errores al recuperar cartera en Colombia
           </h2>
 
           <motion.div
@@ -127,7 +129,7 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h3>¿Por qué es importante documentar los acuerdos?</h3>
+            <h3>¿Por qué documentar acuerdos de pago puede evitar pérdidas?</h3>
             <p>
               Porque sirven como respaldo legal en caso de incumplimiento y
               fortalecen la posición de la empresa en un proceso judicial.
@@ -140,7 +142,7 @@ export default function ErroresComunesRecuperacionDeCarteraContent() {
             transition={{ delay: 0.3 }}
           >
             <h3>
-              ¿Cuándo es recomendable externalizar la recuperación de cartera?
+              ¿Cuándo conviene contratar expertos en recuperación de cartera?
             </h3>
             <p>
               Cuando la empresa no cuenta con recursos internos suficientes o

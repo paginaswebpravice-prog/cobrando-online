@@ -22,8 +22,8 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
         >
           <span className={styles.category}>Legal</span>
           <h1>
-            Cobro prejurídico vs cobro jurídico: diferencias clave y cuándo usar
-            cada uno
+            Cobro prejurídico vs cobro jurídico en Colombia: cuál recupera más
+            dinero y cuándo usar cada uno
           </h1>
 
           <p className={styles.intro}>
@@ -42,7 +42,10 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Qué es el cobro prejurídico y cómo funciona en Colombia</h2>
+          <h2>
+            Qué es el cobro prejurídico y por qué puede evitar demandas en
+            Colombia
+          </h2>
 
           <p>
             El cobro prejurídico es la etapa en la que se busca llegar a un
@@ -82,7 +85,9 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Qué es el cobro jurídico y cuándo iniciar demanda</h2>
+          <h2>
+            Qué es el cobro jurídico y cuándo realmente vale la pena demandar
+          </h2>
 
           <p>
             El cobro jurídico implica iniciar acciones legales formales ante un
@@ -122,7 +127,10 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Diferencias clave entre cobro prejurídico y jurídico</h2>
+          <h2>
+            Diferencias clave entre cobro prejurídico y cobro jurídico que toda
+            empresa debe conocer
+          </h2>
 
           <p>
             La diferencia principal radica en el nivel de formalidad y presión
@@ -158,14 +166,18 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes sobre cobro de cartera en Colombia</h2>
+          <h2>
+            Preguntas frecuentes sobre cobro prejurídico y jurídico en Colombia
+          </h2>
 
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h3>¿Siempre se debe iniciar con cobro prejurídico?</h3>
+            <h3>
+              ¿Siempre se debe iniciar con cobro prejurídico antes de demandar?
+            </h3>
             <p>
               En la mayoría de los casos sí, ya que permite intentar una
               solución amistosa antes de acudir a la vía judicial.
@@ -177,7 +189,9 @@ export default function DiferenciasCobroPrejuridicoJuridicoContent() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <h3>¿Cuándo conviene pasar a cobro jurídico?</h3>
+            <h3>
+              ¿Cuándo conviene pasar a cobro jurídico para recuperar la deuda?
+            </h3>
             <p>
               Cuando el deudor no responde, incumple acuerdos o existe riesgo de
               prescripción de la deuda.

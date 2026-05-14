@@ -16,9 +16,12 @@ export default function BuenasPracticasNegociarDeudores() {
           viewport={{ once: true }}
         >
           <span className={styles.category}>Negociación</span>
+
           <h1>
-            Cómo negociar con deudores y lograr acuerdos de pago efectivos
+            Cómo cobrar deudores difíciles y lograr acuerdos de pago efectivos
+            en Colombia
           </h1>
+
           <p className={styles.intro}>
             La negociación con deudores es una de las etapas más importantes en
             la recuperación de cartera. Aplicar estrategias adecuadas permite
@@ -34,7 +37,8 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <h2>1. Cómo comunicarte con deudores de forma clara y profesional</h2>
+          <h2>Cómo hablar con deudores y aumentar la probabilidad de pago</h2>
+
           <p>
             Una comunicación clara evita malentendidos y genera confianza.
             Explicar el estado de la deuda, los valores exactos y las posibles
@@ -48,7 +52,11 @@ export default function BuenasPracticasNegociarDeudores() {
           transition={{ duration: 0.6, delay: 0.15 }}
           viewport={{ once: true }}
         >
-          <h2>2. Por qué escuchar al deudor mejora la probabilidad de pago</h2>
+          <h2>
+            Por qué escuchar al deudor puede ayudarte a recuperar tu dinero más
+            rápido
+          </h2>
+
           <p>
             Entender la situación financiera del deudor permite estructurar un
             acuerdo realista. Escuchar activamente ayuda a identificar
@@ -63,8 +71,9 @@ export default function BuenasPracticasNegociarDeudores() {
           viewport={{ once: true }}
         >
           <h2>
-            3. Cómo formalizar acuerdos de pago para evitar incumplimientos
+            Cómo hacer acuerdos de pago legales y evitar nuevos incumplimientos
           </h2>
+
           <p>
             Todo acuerdo de pago debe quedar documentado. Esto protege a ambas
             partes y evita futuros incumplimientos. Se recomienda incluir
@@ -79,8 +88,10 @@ export default function BuenasPracticasNegociarDeudores() {
           viewport={{ once: true }}
         >
           <h2>
-            4. Seguimiento de pagos: clave para recuperar cartera efectivamente
+            Seguimiento de pagos: la estrategia clave para recuperar cartera en
+            Colombia
           </h2>
+
           <p>
             El seguimiento demuestra seriedad en la gestión de cobro. Recordar
             fechas de pago y verificar el cumplimiento reduce el riesgo de
@@ -97,16 +108,19 @@ export default function BuenasPracticasNegociarDeudores() {
           viewport={{ once: true }}
         >
           <h2>
-            Preguntas frecuentes sobre cómo negociar con deudores en Colombia
+            Preguntas frecuentes sobre cómo cobrar deudores y negociar pagos en
+            Colombia
           </h2>
 
           <h3>¿Qué hacer si el deudor no responde?</h3>
+
           <p>
             Es recomendable insistir por diferentes canales y documentar cada
             intento de contacto antes de escalar el caso a una etapa jurídica.
           </p>
 
           <h3>¿Cuándo pasar de negociación a cobro jurídico?</h3>
+
           <p>
             Cuando no existe voluntad de pago o se incumplen reiteradamente los
             acuerdos establecidos.

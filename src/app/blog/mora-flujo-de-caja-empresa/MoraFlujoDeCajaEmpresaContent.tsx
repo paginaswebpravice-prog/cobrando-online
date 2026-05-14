@@ -21,8 +21,8 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           <span className={styles.category}>Finanzas</span>
 
           <h1>
-            Cómo la mora afecta el flujo de caja en Colombia (y pone en riesgo
-            la liquidez de tu empresa)
+            Cómo la cartera vencida afecta el flujo de caja y pone en riesgo tu
+            empresa en Colombia
           </h1>
 
           <p className={styles.intro}>
@@ -39,7 +39,10 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Qué es la mora y por qué reduce la liquidez de tu empresa</h2>
+          <h2>
+            Qué es la mora y cómo puede afectar gravemente la liquidez de tu
+            empresa
+          </h2>
 
           <p>
             La mora ocurre cuando un cliente no cumple con sus obligaciones en
@@ -55,7 +58,9 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Impactos reales de la mora en el flujo de caja empresarial</h2>
+          <h2>
+            5 consecuencias de la mora que afectan el flujo de caja empresarial
+          </h2>
 
           <ul className={styles.animatedList}>
             {[
@@ -84,7 +89,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Consecuencias de la mora a largo plazo en tu empresa</h2>
+          <h2>Qué puede pasar si la mora sigue creciendo en tu empresa</h2>
 
           <p>
             Si la mora se mantiene en el tiempo, la empresa puede enfrentar
@@ -101,7 +106,7 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           transition={{ duration: 0.6 }}
         >
           <h2>
-            Cómo reducir el impacto de la mora y proteger tu flujo de caja
+            Cómo reducir la mora y proteger el flujo de caja de tu empresa
           </h2>
 
           <p>
@@ -119,14 +124,19 @@ export default function MoraFlujoDeCajaEmpresaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes sobre mora y flujo de caja</h2>
+          <h2>
+            Preguntas frecuentes sobre cartera vencida, mora y flujo de caja
+          </h2>
 
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h3>¿La cartera vencida siempre afecta el flujo de caja?</h3>
+            <h3>
+              ¿La cartera vencida siempre afecta el flujo de caja de una
+              empresa?
+            </h3>
             <p>
               Sí, porque representa ingresos proyectados que aún no han sido
               recibidos efectivamente por la empresa.
@@ -138,7 +148,9 @@ export default function MoraFlujoDeCajaEmpresaContent() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <h3>¿Cuándo la mora se convierte en un riesgo financiero?</h3>
+            <h3>
+              ¿Cuándo la mora comienza a convertirse en un riesgo financiero?
+            </h3>
             <p>
               Cuando el nivel de cartera vencida supera la capacidad operativa
               de la empresa para cubrir sus obligaciones.

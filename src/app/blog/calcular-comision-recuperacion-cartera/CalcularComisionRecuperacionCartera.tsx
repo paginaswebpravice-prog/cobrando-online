@@ -25,8 +25,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          Cómo calcular la comisión por recuperación de cartera en Colombia paso
-          a paso
+          Cómo se cobra una comisión por recuperación de cartera en Colombia
         </motion.h1>
 
         {/* INTRO */}
@@ -51,7 +50,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Factores clave que determinan la comisión de recuperación de cartera
+          Factores que influyen en la comisión de recuperación de cartera
         </motion.h2>
 
         <motion.p
@@ -75,13 +74,16 @@ export default function CalcularComisionRecuperacionCartera() {
             <strong>Etapa del proceso:</strong> preventiva, administrativa
             (prejurídica) o jurídica.
           </li>
+
           <li>
             <strong>Complejidad del caso:</strong> existencia de garantías,
             número de obligados o dificultades contractuales.
           </li>
+
           <li>
             <strong>Monto de la deuda:</strong> cuantía total a recuperar.
           </li>
+
           <li>
             <strong>Antigüedad de la obligación:</strong> el tiempo en mora
             puede aumentar el nivel de dificultad.
@@ -95,7 +97,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Cómo funcionan las comisiones según la etapa del cobro
+          Cómo funcionan los honorarios según la etapa del cobro de cartera
         </motion.h2>
 
         <motion.p
@@ -127,7 +129,7 @@ export default function CalcularComisionRecuperacionCartera() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Modelo de comisión basado en resultados: cómo funciona
+          Comisión por resultados: cómo funciona la recuperación de cartera
         </motion.h2>
 
         <motion.p

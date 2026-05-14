@@ -44,8 +44,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.span>
 
         <motion.h1 variants={fadeUp}>
-          Externalizar cobranza en Colombia: cuándo hacerlo y cómo recuperar más
-          cartera
+          ¿Vale la pena externalizar la cobranza en Colombia? Ventajas,
+          beneficios y cuándo hacerlo
         </motion.h1>
 
         <motion.p className={styles.intro} variants={fade}>
@@ -56,7 +56,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Qué es la externalización de cobranza y cómo funciona?
+          Qué es la externalización de cobranza y por qué muchas empresas la
+          están implementando
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -67,7 +68,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Cuándo conviene externalizar la cobranza en Colombia?
+          Cuándo conviene externalizar la cobranza y evitar que la cartera siga
+          creciendo
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -102,7 +104,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.ul>
 
         <motion.h2 variants={fadeUp}>
-          Cobranza prejurídica y jurídica: cómo trabajan las empresas externas
+          Cómo funcionan las empresas de cobranza prejurídica y jurídica en
+          Colombia
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -113,7 +116,8 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          ¿Qué es mejor: externalizar la cobranza o cobrar internamente?
+          Externalizar la cobranza vs cobrar internamente: cuál opción conviene
+          más
         </motion.h2>
 
         <motion.p variants={fade}>
@@ -124,7 +128,7 @@ export default function ExternalizacionCobranzaContent() {
         </motion.p>
 
         <motion.h2 variants={fadeUp}>
-          Conclusión: ¿vale la pena externalizar la cobranza?
+          Conclusión: cómo saber si tu empresa necesita externalizar la cobranza
         </motion.h2>
 
         <motion.p variants={fade}>

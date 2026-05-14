@@ -22,7 +22,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.span>
 
         <motion.h1>
-          Cómo recuperar cartera vencida en Colombia: guía práctica paso a paso
+          Cómo recuperar cartera vencida en Colombia y cobrar deudas más rápido
+          en 2026
         </motion.h1>
 
         <motion.p className={styles.intro}>
@@ -43,7 +44,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          ¿Qué es la cartera vencida y por qué afecta tu empresa?
+          Qué es la cartera vencida y cómo puede afectar el flujo de caja de tu
+          empresa
         </motion.h2>
         <motion.p>
           La cartera vencida es el conjunto de obligaciones financieras que no
@@ -71,7 +73,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          Pasos clave para recuperar cartera vencida de forma efectiva
+          Pasos clave para recuperar cartera vencida y aumentar la probabilidad
+          de pago
         </motion.h2>
         <motion.p>
           La recuperación de cartera no debe hacerse de forma improvisada. Un
@@ -110,7 +113,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          Cobro prejurídico: cómo recuperar cartera sin demandar
+          Cobro prejurídico en Colombia: cómo recuperar cartera sin iniciar
+          demandas
         </motion.h2>
         <motion.p>
           El cobro prejurídico es la etapa más importante en la recuperación de
@@ -138,7 +142,7 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          Cobro jurídico en Colombia: cuándo iniciar acciones legales
+          Cuándo iniciar un cobro jurídico en Colombia para recuperar una deuda
         </motion.h2>
         <motion.p>
           El cobro jurídico se inicia cuando el deudor no responde en la etapa
@@ -162,7 +166,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          Estrategias efectivas para recuperar cartera más rápido
+          Estrategias efectivas para recuperar cartera más rápido y evitar
+          pérdidas
         </motion.h2>
 
         <motion.p>
@@ -189,7 +194,8 @@ export default function ComoRecuperarCarteraContent() {
         </motion.p>
 
         <motion.h2>
-          Conclusión: cómo mejorar la recuperación de cartera en tu empresa
+          Cómo mejorar la recuperación de cartera y proteger la liquidez de tu
+          empresa
         </motion.h2>
         <motion.p>
           La recuperación de cartera vencida requiere organización, disciplina y

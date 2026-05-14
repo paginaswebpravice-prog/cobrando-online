@@ -26,8 +26,8 @@ export default function PrescripcionDeudasContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Prescripción de deudas en Colombia: tiempos exactos y cómo evitar
-          perder el dinero
+          Prescripción de deudas en Colombia: cuánto tiempo tienes antes de
+          perder el derecho a cobrar
         </motion.h1>
 
         <motion.p
@@ -48,7 +48,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Qué es la prescripción de una deuda y cuándo aplica en Colombia?
+          Qué es la prescripción de una deuda y cómo funciona en Colombia
         </motion.h2>
 
         <motion.p
@@ -68,7 +68,8 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Tiempos de prescripción de deudas en Colombia (actualizado)
+          Tiempos de prescripción de deudas en Colombia: pagarés, facturas y
+          contratos
         </motion.h2>
 
         <motion.p
@@ -100,7 +101,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Desde cuándo empieza a contar la prescripción de una deuda?
+          Desde cuándo empieza a correr la prescripción de una deuda
         </motion.h2>
 
         <motion.p
@@ -119,8 +120,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cómo evitar la prescripción de una deuda y no perder el derecho a
-          cobrar
+          Cómo evitar que una deuda prescriba y proteger el dinero de tu empresa
         </motion.h2>
 
         <motion.p
@@ -140,7 +140,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Formas legales de interrumpir la prescripción de una deuda
+          4 formas legales de interrumpir la prescripción de una deuda
         </motion.h2>
 
         <motion.ul
@@ -161,7 +161,7 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Por qué iniciar el cobro a tiempo evita perder dinero en Colombia
+          Por qué cobrar a tiempo puede evitar grandes pérdidas económicas
         </motion.h2>
 
         <motion.p
@@ -181,7 +181,8 @@ export default function PrescripcionDeudasContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión: evita que tus deudas prescriban y protege tu flujo de caja
+          Conclusión: cómo evitar la prescripción de deudas y recuperar cartera
+          a tiempo
         </motion.h2>
 
         <motion.p

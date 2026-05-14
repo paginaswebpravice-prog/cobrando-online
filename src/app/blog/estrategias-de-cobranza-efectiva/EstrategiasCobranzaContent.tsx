@@ -26,8 +26,8 @@ export default function EstrategiasCobranzaContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          10 estrategias de cobranza efectiva que aumentan la recuperación de
-          cartera
+          10 estrategias de cobranza efectiva para recuperar cartera más rápido
+          en Colombia
         </motion.h1>
 
         <motion.p
@@ -48,7 +48,8 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          ¿Por qué una estrategia de cobranza efectiva impacta tus ingresos?
+          Por qué una buena estrategia de cobranza puede salvar el flujo de caja
+          de tu empresa
         </motion.h2>
 
         <motion.p
@@ -69,7 +70,8 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Principales estrategias de cobranza efectiva que debes aplicar
+          Estrategias de cobranza efectiva que ayudan a recuperar dinero más
+          rápido
         </motion.h2>
 
         <motion.p
@@ -104,7 +106,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Políticas de crédito: la base de una cobranza efectiva
+          Políticas de crédito claras: el secreto para reducir clientes morosos
         </motion.h2>
 
         <motion.p
@@ -125,7 +127,8 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Seguimiento de cartera: clave para recuperar más rápido
+          Seguimiento de cartera: la estrategia que más mejora la recuperación
+          de pagos
         </motion.h2>
 
         <motion.p
@@ -145,7 +148,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cobro prejurídico: cómo recuperar cartera sin demandar
+          Cobro prejurídico: cómo recuperar cartera sin demandar al cliente
         </motion.h2>
 
         <motion.p
@@ -165,7 +168,7 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cobro jurídico: cuándo escalar el proceso de cobranza
+          Cobro jurídico en Colombia: cuándo demandar para recuperar una deuda
         </motion.h2>
 
         <motion.p
@@ -185,7 +188,8 @@ export default function EstrategiasCobranzaContent() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión: cómo mejorar la cobranza y recuperar cartera más rápido
+          Cómo mejorar la cobranza y recuperar cartera vencida sin afectar tu
+          negocio
         </motion.h2>
 
         <motion.p

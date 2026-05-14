@@ -18,7 +18,7 @@ export default function AcuerdosPago() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          Negociación
+          Negociación de Cartera
         </motion.span>
 
         <motion.h1
@@ -26,8 +26,8 @@ export default function AcuerdosPago() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Acuerdos de pago con deudores: recupera tu dinero sin demandar en
-          Colombia
+          Cómo hacer acuerdos de pago efectivos y recuperar deudas sin demandar
+          en Colombia
         </motion.h1>
 
         <motion.p
@@ -49,7 +49,8 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Qué es un acuerdo de pago y cómo funciona en Colombia
+          Qué es un acuerdo de pago y cómo recuperar cartera sin ir a juicio en
+          Colombia
         </motion.h2>
 
         <motion.p
@@ -70,7 +71,8 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Cuándo hacer un acuerdo de pago para recuperar cartera
+          Cuándo conviene hacer un acuerdo de pago para recuperar dinero más
+          rápido
         </motion.h2>
 
         <motion.p
@@ -90,7 +92,8 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Qué debe incluir un acuerdo de pago para que sea válido
+          Qué debe incluir un acuerdo de pago para evitar incumplimientos y
+          problemas legales
         </motion.h2>
 
         <motion.ul
@@ -115,7 +118,8 @@ export default function AcuerdosPago() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Conclusión: cómo usar acuerdos de pago para evitar procesos judiciales
+          Conclusión: cómo recuperar deudas con acuerdos de pago seguros y
+          efectivos
         </motion.h2>
 
         <motion.p

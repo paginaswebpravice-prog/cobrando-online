@@ -28,8 +28,8 @@ export default function TiposDeRecuperacionDeCarteraContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Tipos de recuperación de cartera en Colombia: etapas clave para cobrar
-          más rápido
+          Tipos de recuperación de cartera en Colombia: cómo cobrar más rápido y
+          reducir la mora
         </motion.h1>
 
         {/* INTRO */}
@@ -57,7 +57,8 @@ export default function TiposDeRecuperacionDeCarteraContent() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Recuperación preventiva: cómo evitar la mora desde el inicio
+            Recuperación preventiva: la estrategia que evita clientes morosos
+            desde el inicio
           </motion.h2>
 
           <motion.p
@@ -94,8 +95,8 @@ export default function TiposDeRecuperacionDeCarteraContent() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Recuperación administrativa o prejurídica: cómo negociar deudas sin
-            ir a juicio
+            Recuperación administrativa o prejurídica: cómo recuperar deudas sin
+            demandar
           </motion.h2>
 
           <motion.p
@@ -132,7 +133,8 @@ export default function TiposDeRecuperacionDeCarteraContent() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Recuperación jurídica: cuándo iniciar un cobro legal en Colombia
+            Recuperación jurídica: cuándo demandar para recuperar una deuda en
+            Colombia
           </motion.h2>
 
           <motion.p

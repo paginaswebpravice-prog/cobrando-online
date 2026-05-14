@@ -23,8 +23,8 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           <span className={styles.category}>Educativo</span>
 
           <h1>
-            ¿Qué es la recuperación de cartera en Colombia y cómo funciona paso
-            a paso?
+            Recuperación de cartera en Colombia: qué es, cómo funciona y cómo
+            evitar pérdidas por mora
           </h1>
 
           <p className={styles.intro}>
@@ -44,8 +44,8 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           viewport={{ once: true }}
         >
           <h2>
-            ¿Por qué la recuperación de cartera es clave para la liquidez de tu
-            empresa?
+            Por qué la recuperación de cartera es clave para proteger la
+            liquidez de tu empresa
           </h2>
 
           <p>
@@ -83,26 +83,27 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           viewport={{ once: true }}
         >
           <h2>
-            ¿Cómo funciona el proceso de recuperación de cartera en Colombia?
+            Cómo funciona el proceso de recuperación de cartera en Colombia paso
+            a paso
           </h2>
 
           <p>
             El proceso de cobro en Colombia suele dividirse en varias etapas:
           </p>
 
-          <h3>1. Gestión preventiva</h3>
+          <h3>1. Gestión preventiva para evitar la mora</h3>
           <p>
             Incluye recordatorios antes del vencimiento y seguimiento temprano
             al cliente.
           </p>
 
-          <h3>2. Gestión prejurídica</h3>
+          <h3>2. Gestión prejurídica para negociar y recuperar la deuda</h3>
           <p>
             Se realizan contactos formales, negociaciones y acuerdos de pago sin
             acudir a la vía judicial.
           </p>
 
-          <h3>3. Gestión jurídica</h3>
+          <h3>3. Gestión jurídica para cobrar la deuda legalmente</h3>
           <p>
             Cuando no hay voluntad de pago, se inicia un proceso legal para
             recuperar la deuda.
@@ -118,8 +119,8 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           viewport={{ once: true }}
         >
           <h2>
-            ¿Cuándo implementar una estrategia de recuperación de cartera
-            efectiva?
+            Cuándo implementar una estrategia de recuperación de cartera
+            efectiva en tu empresa
           </h2>
 
           <p>
@@ -138,7 +139,9 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>Preguntas frecuentes sobre recuperación de cartera</h2>
+          <h2>
+            Preguntas frecuentes sobre recuperación de cartera en Colombia
+          </h2>
 
           <h3>¿La recuperación de cartera solo aplica a grandes empresas?</h3>
           <p>
@@ -146,7 +149,7 @@ export default function QueEsLaRecuperacionDeCarteraContent() {
             para mantener estabilidad financiera.
           </p>
 
-          <h3>¿Qué pasa si no se gestiona la cartera vencida?</h3>
+          <h3>¿Qué pasa si no se gestiona correctamente la cartera vencida?</h3>
           <p>
             Puede afectar el flujo de caja, generar pérdidas y aumentar el
             riesgo financiero del negocio.

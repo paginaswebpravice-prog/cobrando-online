@@ -26,8 +26,8 @@ export default function RecuperacionCarteraPymesContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Recuperación de cartera para PYMES en Colombia: cómo reducir la mora y
-          mejorar el flujo de caja
+          Recuperación de cartera para PYMES en Colombia: cómo reducir la mora,
+          recuperar pagos y mejorar el flujo de caja
         </motion.h1>
 
         <motion.p
@@ -49,7 +49,7 @@ export default function RecuperacionCarteraPymesContent() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          ¿Por qué la mora impacta más a las PYMES en Colombia?
+          Por qué la mora afecta más a las PYMES y pone en riesgo su liquidez
         </motion.h2>
 
         <motion.p
@@ -87,7 +87,8 @@ export default function RecuperacionCarteraPymesContent() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Estrategias efectivas de recuperación de cartera para PYMES
+          Estrategias de recuperación de cartera que ayudan a las PYMES a cobrar
+          más rápido
         </motion.h2>
 
         <motion.p
@@ -124,7 +125,8 @@ export default function RecuperacionCarteraPymesContent() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Beneficios de una gestión profesional de cartera en PYMES
+          Beneficios de una gestión profesional de cartera para pequeñas y
+          medianas empresas
         </motion.h2>
 
         <motion.p
@@ -144,7 +146,8 @@ export default function RecuperacionCarteraPymesContent() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Conclusión: cómo mejorar la recuperación de cartera en tu PYME
+          Cómo mejorar la recuperación de cartera en tu PYME y evitar pérdidas
+          por mora
         </motion.h2>
 
         <motion.p

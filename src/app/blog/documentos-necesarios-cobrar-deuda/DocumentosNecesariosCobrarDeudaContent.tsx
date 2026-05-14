@@ -22,8 +22,8 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
         >
           <span className={styles.category}>Legal</span>
           <h1>
-            Documentos para cobrar una deuda en Colombia: cuáles necesitas y
-            cómo usarlos
+            Documentos para cobrar una deuda en Colombia: los que realmente
+            necesita para recuperar su dinero
           </h1>
 
           <p className={styles.intro}>
@@ -38,23 +38,26 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
 
         {[
           {
-            title: "1. Contrato firmado: la base legal para cobrar una deuda",
+            title:
+              "1. Contrato firmado: el documento que puede salvar un proceso de cobro",
             content:
               "El contrato es la base legal de la obligación. Debe estar firmado por ambas partes y contener condiciones claras sobre el servicio o producto entregado, los plazos de pago y las consecuencias en caso de mora.",
           },
           {
-            title: "2. Facturas emitidas: soporte clave de la deuda",
+            title:
+              "2. Facturas emitidas: el soporte clave para demostrar la deuda",
             content:
               "Las facturas son el soporte contable de la deuda. Deben reflejar el valor exacto adeudado, la fecha de emisión y el vencimiento. En muchos casos, la factura electrónica tiene validez como título ejecutivo.",
           },
           {
             title:
-              "3. Pagaré o título valor: el documento más fuerte para cobrar",
+              "3. Pagaré o título valor: el documento más fuerte para cobrar judicialmente",
             content:
               "El pagaré es uno de los documentos más sólidos para cobrar una deuda, ya que constituye un título ejecutivo que facilita iniciar un proceso judicial de cobro si es necesario.",
           },
           {
-            title: "4. Soportes de entrega o servicio: prueba de cumplimiento",
+            title:
+              "4. Soportes de entrega o servicio: la prueba que evita que el deudor niegue la obligación",
             content:
               "Es importante contar con pruebas que demuestren que el producto fue entregado o el servicio prestado correctamente. Esto puede incluir actas firmadas, guías de transporte, correos electrónicos de confirmación o cualquier evidencia documental.",
           },
@@ -94,7 +97,9 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2>¿Qué pasa si no tienes todos los documentos para cobrar?</h2>
+          <h2>
+            ¿Qué pasa si no tiene todos los documentos para cobrar una deuda?
+          </h2>
 
           <p>
             La ausencia de documentación puede dificultar la recuperación,
@@ -113,14 +118,18 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h2>Preguntas frecuentes sobre documentos para cobrar deudas</h2>
+          <h2>
+            Preguntas frecuentes sobre documentos para cobrar deudas en Colombia
+          </h2>
 
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h3>¿Es obligatorio tener un pagaré para cobrar una deuda?</h3>
+            <h3>
+              ¿Es obligatorio tener un pagaré para cobrar una deuda en Colombia?
+            </h3>
             <p>
               No siempre, pero facilita significativamente el proceso jurídico
               al constituir un título ejecutivo.
@@ -132,7 +141,7 @@ export default function DocumentosNecesariosCobrarDeudaContent() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <h3>¿Una factura electrónica sirve para demandar?</h3>
+            <h3>¿Una factura electrónica sirve para demandar una deuda?</h3>
             <p>
               En muchos casos sí, siempre que cumpla los requisitos legales
               establecidos en la normativa vigente.
