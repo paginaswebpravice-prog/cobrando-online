@@ -26,17 +26,15 @@ export default function MiddleHero() {
             name: "Proceso de recuperación de cartera en Colombia",
             description:
               "Video sobre el proceso de recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá Colombia para empresas y personas.",
-            thumbnailUrl: "https://www.cobrandoonline.com/thumbnail-video.jpg",
+            thumbnailUrl: "https://cobrandoonline.com/thumbnail-video.jpg",
             uploadDate: "2025-01-01",
             duration: "PT1M30S",
-            contentUrl:
-              "https://www.cobrandoonline.com/videoCobrandoOnline.mp4",
-            embedUrl:
-              "https://www.cobrandoonline.com/#video-recuperacion-cartera",
+            contentUrl: "https://cobrandoonline.com/videoCobrandoOnline.mp4",
+            embedUrl: "https://cobrandoonline.com/#video-recuperacion-cartera",
             publisher: {
               "@type": "Organization",
               name: "Cobrando Online",
-              url: "https://www.cobrandoonline.com",
+              url: "https://cobrandoonline.com",
             },
           }),
         }}

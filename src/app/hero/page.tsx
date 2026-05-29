@@ -16,7 +16,7 @@ function Hero() {
             "@context": "https://schema.org",
             "@type": "LegalService",
             name: "Cobrando Online",
-            url: "https://www.cobrandoonline.com",
+            url: "https://cobrandoonline.com",
             description:
               "Recuperación de cartera en Colombia y Bogotá. Especialistas en cobro prejurídico, cobro jurídico, procesos ejecutivos y recuperación de cartera vencida para empresas.",
             areaServed: {

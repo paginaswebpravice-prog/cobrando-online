@@ -28,7 +28,7 @@ export default function About() {
                 jobTitle: "Abogada especialista en recuperación de cartera",
                 description:
                   "Abogada con amplia experiencia en recuperación de cartera y gestión jurídica empresarial en Colombia.",
-                image: "https://www.cobrandoonline.com/conocenos",
+                image: "https://cobrandoonline.com/conocenos",
                 worksFor: {
                   "@type": "Organization",
                   name: "Cobrando Online",

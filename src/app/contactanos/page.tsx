@@ -93,13 +93,13 @@ export default function Contacto() {
             "@context": "https://schema.org",
             "@type": "ContactPage",
             name: "Contacto - Cobrando Online",
-            url: "https://www.cobrandoonline.com/contactanos",
+            url: "https://cobrandoonline.com/contactanos",
             description:
               "Contacta con Cobrando Online para recibir asesoría sobre recuperación de cartera, cobro prejurídico y cobro jurídico para empresas en Colombia.",
             mainEntity: {
               "@type": "Organization",
               name: "Cobrando Online",
-              url: "https://www.cobrandoonline.com",
+              url: "https://cobrandoonline.com",
               contactPoint: [
                 {
                   "@type": "ContactPoint",
