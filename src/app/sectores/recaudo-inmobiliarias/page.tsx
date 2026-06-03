@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/blog/recuperacion-cartera-inmobiliarias-colombia",
+    canonical: "https://cobrandoonline.com/sectores/recaudo-inmobiliarias",
   },
 
   openGraph: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
       "Cobro de arriendos en Colombia | Recupera cartera inmobiliaria y reduce la mora",
     description:
       "Estrategias efectivas para recuperar arriendos atrasados y mejorar el flujo de caja en inmobiliarias en Colombia.",
-    url: "https://cobrandoonline.com/blog/recuperacion-cartera-inmobiliarias-colombia",
+    url: "https://cobrandoonline.com/sectores/recaudo-inmobiliarias",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "article",
@@ -57,8 +56,7 @@ export default function Page() {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id":
-          "https://cobrandoonline.com/blog/recuperacion-cartera-inmobiliarias-colombia",
+        "@id": "https://cobrandoonline.com/sectores/recaudo-inmobiliarias",
       },
       datePublished: "2025-01-01",
       dateModified: "2026-01-01",

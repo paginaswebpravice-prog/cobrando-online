@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://cobrandoonline.com/servicios/recuperar-cartera",
+    canonical:
+      "https://cobrandoonline.com/soluciones/recuperar-cartera-vencida",
   },
 
   openGraph: {
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
       "Recuperar cartera vencida en Colombia rápido | Aumenta tu recaudo hoy",
     description:
       "Recupera deudas en Colombia con estrategias efectivas de cobro prejurídico y judicial. Mejora tu flujo de caja y reduce la mora.",
-    url: "https://cobrandoonline.com/servicios/recuperar-cartera",
+    url: "https://cobrandoonline.com/soluciones/recuperar-cartera-vencida",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",

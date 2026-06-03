@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/servicios/recaudo-de-cartera-colegios",
+    canonical: "https://cobrandoonline.com/sectores/recaudo-colegios",
   },
 
   openGraph: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
       "Recupera pensiones atrasadas en colegios | Más recaudo y liquidez en Colombia",
     description:
       "Estrategias profesionales para recuperar cartera educativa, reducir mora y mejorar el flujo de caja en colegios en Colombia.",
-    url: "https://cobrandoonline.com/servicios/recaudo-de-cartera-colegios",
+    url: "https://cobrandoonline.com/sectores/recaudo-colegios",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
@@ -62,8 +61,7 @@ export default function Page() {
               },
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id":
-                  "https://cobrandoonline.com/servicios/recaudo-de-cartera-colegios",
+                "@id": "https://cobrandoonline.com/sectores/recaudo-colegios",
               },
               inLanguage: "es",
             },

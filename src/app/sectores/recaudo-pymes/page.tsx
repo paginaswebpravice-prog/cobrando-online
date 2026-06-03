@@ -17,15 +17,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/blog/recuperacion-cartera-pymes-colombia",
+    canonical: "https://cobrandoonline.com/sectores/recaudo-pymes",
   },
 
   openGraph: {
     title: "Recupera cartera en tu PYME y mejora el flujo de caja en Colombia",
     description:
       "Estrategias efectivas para reducir la mora y aumentar el recaudo en pequeñas y medianas empresas en Colombia.",
-    url: "https://cobrandoonline.com/blog/recuperacion-cartera-pymes-colombia",
+    url: "https://cobrandoonline.com/sectores/recaudo-pymes",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "article",
@@ -56,8 +55,7 @@ export default function Page() {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id":
-          "https://cobrandoonline.com/blog/recuperacion-cartera-pymes-colombia",
+        "@id": "https://cobrandoonline.com/sectores/recaudo-pymes",
       },
       datePublished: "2025-01-01",
       dateModified: "2026-01-01",

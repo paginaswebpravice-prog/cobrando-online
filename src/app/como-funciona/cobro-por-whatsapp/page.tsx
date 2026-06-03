@@ -17,15 +17,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/servicios/cobro-por-whatsapp-colombia",
+    canonical: "https://cobrandoonline.com/como-funciona/cobro-por-whatsapp",
   },
 
   openGraph: {
     title: "Cómo cobrar por WhatsApp en Colombia y recuperar deudas más rápido",
     description:
       "Estrategias, ejemplos de mensajes y técnicas profesionales para cobrar por WhatsApp y aumentar el recaudo en Colombia.",
-    url: "https://cobrandoonline.com/servicios/cobro-por-whatsapp-colombia",
+    url: "https://cobrandoonline.com/como-funciona/cobro-por-whatsapp",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
@@ -63,7 +62,7 @@ export default function Page() {
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
-                  "https://cobrandoonline.com/servicios/cobro-por-whatsapp-colombia",
+                  "https://cobrandoonline.com/como-funciona/cobro-por-whatsapp",
               },
               inLanguage: "es",
             },

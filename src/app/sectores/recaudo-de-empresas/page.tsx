@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/servicios/recuperacion-cartera-empresas",
+    canonical: "https://cobrandoonline.com/sectores/recaudo-de-empresas",
   },
 
   openGraph: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
       "Recuperación de cartera para empresas en Colombia | Más recaudo, menos mora",
     description:
       "Aumenta el recaudo de tu empresa en Colombia con estrategias profesionales de cobranza y recuperación de cartera.",
-    url: "https://cobrandoonline.com/servicios/recuperacion-cartera-empresas",
+    url: "https://cobrandoonline.com/sectores/recaudo-de-empresas",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
@@ -64,7 +63,7 @@ export default function Page() {
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
-                  "https://cobrandoonline.com/servicios/recuperacion-cartera-empresas",
+                  "https://cobrandoonline.com/sectores/recaudo-de-empresas",
               },
               inLanguage: "es",
             },

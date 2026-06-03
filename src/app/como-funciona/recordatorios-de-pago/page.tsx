@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://cobrandoonline.com/servicios/recordatorios-automaticos-pago",
+    canonical: "https://cobrandoonline.com/como-funciona/recordatorios-de-pago",
   },
 
   openGraph: {
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
       "Recordatorios automáticos de pago en Colombia para cobrar más rápido",
     description:
       "Automatiza tus cobros, reduce la mora y mejora tu flujo de caja con recordatorios automáticos de pago en Colombia.",
-    url: "https://cobrandoonline.com/servicios/recordatorios-automaticos-pago",
+    url: "https://cobrandoonline.com/como-funciona/recordatorios-de-pago",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "website",
