@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://cobrandoonline.com/blog/cobrar-clientes-freelancer",
+    canonical: "https://cobrandoonline.com/sectores/recaudo-freelancers",
   },
 
   openGraph: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Cómo cobrar clientes como freelancer en Colombia | Recupera tu dinero hoy",
     description:
       "Guía práctica para freelancers: cobra clientes morosos y recupera pagos atrasados sin afectar tu reputación.",
-    url: "https://cobrandoonline.com/blog/cobrar-clientes-freelancer",
+    url: "https://cobrandoonline.com/sectores/recaudo-freelancers",
     siteName: "Cobrando Online",
     locale: "es_CO",
     type: "article",
@@ -54,7 +54,7 @@ export default function Page() {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://cobrandoonline.com/blog/cobrar-clientes-freelancer",
+        "@id": "https://cobrandoonline.com/sectores/recaudo-freelancers",
       },
       datePublished: "2025-01-01",
       dateModified: "2026-01-01",
