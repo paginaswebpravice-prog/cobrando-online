@@ -1,0 +1,133 @@
+/* ==============================
+   FONDO GENERAL AZUL
+============================== */
+
+.articleContainer {
+  background-color: #123e63;
+  padding: 80px 20px;
+}
+
+/* ==============================
+   CARD BLANCA
+============================== */
+
+.article {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 70px 80px;
+  line-height: 1.85;
+}
+
+/* ==============================
+   BADGE CATEGORÍA
+============================== */
+
+.category {
+  display: inline-block;
+  background-color: #f4c400;
+  color: #1e2a38;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+/* ==============================
+   TITULO PRINCIPAL
+============================== */
+
+.article h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #163b5c;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+/* ==============================
+   INTRO
+============================== */
+
+.intro {
+  font-size: 18px;
+  color: #5f6c7b;
+  margin-bottom: 45px;
+}
+
+/* ==============================
+   SUBTÍTULOS
+============================== */
+
+.article h2 {
+  font-size: 28px;
+  color: #1c4d75;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* ==============================
+   PÁRRAFOS
+============================== */
+
+.article p {
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 18px;
+}
+
+/* ==============================
+   LISTAS
+============================== */
+
+.article ul {
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.article li {
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 992px) {
+  .article {
+    padding: 50px 40px;
+  }
+
+  .article h1 {
+    font-size: 32px;
+  }
+
+  .article h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .article {
+    padding: 40px 25px;
+  }
+
+  .article h1 {
+    font-size: 26px;
+  }
+
+  .article h2 {
+    font-size: 20px;
+  }
+
+  .article p,
+  .article li {
+    font-size: 16px;
+  }
+}

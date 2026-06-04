@@ -146,6 +146,76 @@ const blogItems = [
       "La comisión depende del monto recuperado, la complejidad del caso y la etapa del proceso de cobro.",
     tag: "Cálculo",
   },
+  {
+    slug: "clientes-que-no-pagan-que-hacer-legalmente",
+    title: "Clientes que no pagan: qué hacer legalmente en Colombia",
+    description:
+      "Descubre qué acciones legales y estrategias puedes aplicar cuando un cliente incumple el pago y cómo recuperar tu dinero de forma efectiva.",
+    tag: "Legal",
+  },
+  {
+    slug: "como-cobrar-factura-vencida-sin-perder-cliente",
+    title: "¿Cómo cobrar una factura vencida sin perder al cliente?",
+    description:
+      "Aprende estrategias de cobranza efectivas para recuperar pagos pendientes manteniendo una buena relación comercial.",
+    tag: "Estrategia",
+  },
+  {
+    slug: "recuperacion-cartera-pymes-guia-colombia",
+    title: "Recuperación de cartera para PYMES: guía completa en Colombia",
+    description:
+      "Conoce cómo las pequeñas y medianas empresas pueden reducir la mora y mejorar su flujo de caja con una buena gestión de cartera.",
+    tag: "Empresas",
+  },
+  {
+    slug: "formato-acuerdo-pago-word-gratis",
+    title: "Formato de acuerdo de pago en Word [Gratis]",
+    description:
+      "Descarga un modelo de acuerdo de pago listo para usar y aprende cómo estructurarlo correctamente para evitar incumplimientos.",
+    tag: "Plantilla",
+  },
+  {
+    slug: "mensajes-whatsapp-cobrar-clientes",
+    title: "7 mensajes de WhatsApp para cobrar clientes sin sonar agresivo",
+    description:
+      "Conoce ejemplos de mensajes efectivos y profesionales para hacer seguimiento de pagos y recuperar cartera por WhatsApp.",
+    tag: "Cobranza",
+  },
+  {
+    slug: "como-recuperar-cartera-mas-360-dias",
+    title: "¿Cómo recuperar cartera de más de 360 días?",
+    description:
+      "Aprende qué hacer cuando una deuda lleva más de un año vencida y cómo aumentar las probabilidades de recuperación.",
+    tag: "Estrategia",
+  },
+  {
+    slug: "demanda-ejecutiva-por-deuda-colombia",
+    title: "Demanda ejecutiva por deuda en Colombia: guía paso a paso",
+    description:
+      "Conoce cómo funciona una demanda ejecutiva, cuáles son sus requisitos y qué bienes pueden ser embargados.",
+    tag: "Legal",
+  },
+  {
+    slug: "recuperacion-cartera-clinicas-ips",
+    title: "Recuperación de cartera para clínicas, IPS y sector salud",
+    description:
+      "Descubre estrategias de cobranza especializadas para clínicas, IPS y empresas del sector salud en Colombia.",
+    tag: "Sector Salud",
+  },
+  {
+    slug: "como-reducir-cartera-vencida-empresa",
+    title: "¿Cómo reducir la cartera vencida en una empresa?",
+    description:
+      "Implementa estrategias financieras y de seguimiento para disminuir la mora y proteger la liquidez de tu empresa.",
+    tag: "Finanzas",
+  },
+  {
+    slug: "mejores-estrategias-cobranza-2026",
+    title: "Mejores estrategias de cobranza efectiva en 2026",
+    description:
+      "Conoce las estrategias de cobranza más efectivas para reducir la morosidad y mejorar la recuperación de cartera este 2026.",
+    tag: "Estrategia",
+  },
 ];
 
 export default function BlogContent() {
