@@ -1,92 +1,46 @@
-"use client";
-
-import styles from "./Contactanos.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faLocationDot,
-  faComments,
-} from "@fortawesome/free-solid-svg-icons";
-import { motion } from "framer-motion";
+// page.tsx o Contacto.tsx
 import Script from "next/script";
+import ContactoContent from "./ContactoContent";
 
-export default function Contacto() {
-  const phoneNumber = "573234372766";
-  const whatsappMessage =
-    "Hola, quiero información sobre recuperación de cartera.";
+export const metadata = {
+  title:
+    "Contacto | Recuperación de Cartera y Cobro Jurídico en Bogotá Colombia",
+  description:
+    "Contacta expertos en recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá y toda Colombia. Ayudamos a empresas, clínicas, IPS y PYMES a recuperar cartera vencida.",
+  keywords: [
+    "recuperación de cartera Colombia",
+    "cobro jurídico Bogotá",
+    "cobranza empresarial Colombia",
+    "recuperar cartera vencida",
+    "abogados de cobranza Bogotá",
+    "cobro prejurídico Colombia",
+    "recuperación de cartera IPS",
+    "cobro de facturas vencidas",
+    "empresa de cobranza Bogotá",
+    "gestión de cartera Colombia",
+  ],
+  alternates: {
+    canonical: "https://cobrandoonline.com/contactanos",
+  },
+  openGraph: {
+    title: "Contacto | Recuperación de Cartera y Cobro Jurídico en Colombia",
+    description:
+      "Asesoría profesional para recuperación de cartera, cobro prejurídico y jurídico en Bogotá y toda Colombia.",
+    url: "https://cobrandoonline.com/contactanos",
+    siteName: "Cobrando Online",
+    locale: "es_CO",
+    type: "website",
+  },
+};
 
-  const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-    whatsappMessage,
-  )}`;
-
+export default function ContactoPage() {
   return (
     <>
-      <section className={styles.section}>
-        {/* HERO */}
-        <div className={styles.header}>
-          <h1>Hablemos</h1>
-          <p>
-            Estamos listos para ayudarte a recuperar tu cartera de manera ágil,
-            profesional y estratégica.
-          </p>
-        </div>
+      <ContactoContent />
 
-        {/* OPCIONES DE CONTACTO */}
-        <div className={styles.cardsContainer}>
-          <motion.a
-            href={whatsappURL}
-            target="_blank"
-            className={styles.card}
-            whileHover={{ y: -6 }}
-          >
-            <FontAwesomeIcon icon={faComments} className={styles.icon} />
-            <h3>WhatsApp</h3>
-            <p>Escríbenos directamente y recibe respuesta inmediata.</p>
-          </motion.a>
-
-          <motion.a
-            href="tel:+573234372766"
-            className={styles.card}
-            whileHover={{ y: -6 }}
-          >
-            <FontAwesomeIcon icon={faPhone} className={styles.icon} />
-            <h3>Llámanos</h3>
-            <p>Habla con un asesor y recibe orientación personalizada.</p>
-          </motion.a>
-
-          <motion.a
-            href="mailto:info.pravice@gmail.com"
-            className={styles.card}
-            whileHover={{ y: -6 }}
-          >
-            <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
-            <h3>Correo electrónico</h3>
-            <p>Envíanos tu caso y te responderemos lo antes posible.</p>
-          </motion.a>
-        </div>
-
-        {/* UBICACIÓN */}
-        <div className={styles.locationSection}>
-          <h2>
-            <FontAwesomeIcon icon={faLocationDot} /> Nuestra oficina
-          </h2>
-
-          <p>Calle 98 # 22 - 64 Of 716 · Bogotá</p>
-
-          <div className={styles.mapContainer}>
-            <iframe
-              src="https://www.google.com/maps?q=Abogados%20Especialistas%20Pravice%20Bogot%C3%A1&output=embed"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* SCHEMA SEO CONTACT PAGE */}
+      {/* CONTACT PAGE SCHEMA */}
       <Script
-        id="contact-schema"
+        id="contact-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -95,11 +49,27 @@ export default function Contacto() {
             name: "Contacto - Cobrando Online",
             url: "https://cobrandoonline.com/contactanos",
             description:
-              "Contacta con Cobrando Online para recibir asesoría sobre recuperación de cartera, cobro prejurídico y cobro jurídico para empresas en Colombia.",
+              "Página de contacto para servicios de recuperación de cartera, cobro jurídico y cobranza empresarial en Bogotá y Colombia.",
+            inLanguage: "es",
             mainEntity: {
               "@type": "Organization",
               name: "Cobrando Online",
               url: "https://cobrandoonline.com",
+              logo: "https://cobrandoonline.com/logo.png",
+              telephone: "+57 323 437 2766",
+              email: "info.pravice@gmail.com",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Calle 98 # 22 - 64 Oficina 716",
+                addressLocality: "Bogotá",
+                addressCountry: "CO",
+              },
+              areaServed: [
+                {
+                  "@type": "Country",
+                  name: "Colombia",
+                },
+              ],
               contactPoint: [
                 {
                   "@type": "ContactPoint",
@@ -110,13 +80,91 @@ export default function Contacto() {
                 },
                 {
                   "@type": "ContactPoint",
-                  contactType: "WhatsApp",
                   telephone: "+57 323 437 2766",
                   areaServed: "CO",
                   availableLanguage: ["Spanish"],
                 },
               ],
             },
+          }),
+        }}
+      />
+
+      {/* LOCAL BUSINESS SCHEMA */}
+      <Script
+        id="local-business-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LegalService",
+            name: "Cobrando Online",
+            image: "https://cobrandoonline.com/logo.png",
+            url: "https://cobrandoonline.com",
+            telephone: "+57 323 437 2766",
+            email: "info.pravice@gmail.com",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Calle 98 # 22 - 64 Oficina 716",
+              addressLocality: "Bogotá",
+              addressRegion: "Bogotá DC",
+              postalCode: "110221",
+              addressCountry: "CO",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 4.6845,
+              longitude: -74.0568,
+            },
+            openingHours: "Mo,Tu,We,Th,Fr 08:00-18:00",
+            areaServed: [
+              "Bogotá",
+              "Medellín",
+              "Cali",
+              "Barranquilla",
+              "Colombia",
+            ],
+            priceRange: "$$",
+            description:
+              "Servicios de recuperación de cartera, cobro prejurídico y cobro jurídico para empresas en Bogotá y Colombia.",
+          }),
+        }}
+      />
+
+      {/* FAQ SCHEMA */}
+      <Script
+        id="faq-schema-contacto"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "¿Qué servicios de recuperación de cartera ofrecen en Colombia?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ofrecemos recuperación de cartera, cobro prejurídico, cobro jurídico, acuerdos de pago y gestión de cobranza para empresas en Bogotá y toda Colombia.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "¿Atienden empresas fuera de Bogotá?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Sí. Atendemos empresas, clínicas, IPS y negocios en diferentes ciudades de Colombia.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "¿Cómo puedo contactar a Cobrando Online?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Puedes contactarnos vía WhatsApp, llamada telefónica o correo electrónico para recibir asesoría sobre recuperación de cartera.",
+                },
+              },
+            ],
           }),
         }}
       />
