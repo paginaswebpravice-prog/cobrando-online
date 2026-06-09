@@ -264,8 +264,12 @@ export default function BlogContent() {
                 transition={{ delay: index * 0.05 }}
               >
                 <span className={styles.cardTag}>{item.tag}</span>
+
                 <h3>{item.title}</h3>
+
                 <p>{item.description}</p>
+
+                <div className={styles.readMore}>Leer guía completa →</div>
               </motion.article>
             </Link>
           ))}
