@@ -509,15 +509,6 @@ const blogItems = [
   /* =========================================================
    6. FINANZAS E INDICADORES
 ========================================================= */
-
-  {
-    slug: "indicadores-de-cartera-vencida",
-    title: "Indicadores de cartera vencida",
-    description:
-      "Métricas clave para medir la eficiencia de la gestión de cobranza.",
-    tag: "Finanzas",
-    category: "finanzas",
-  },
   {
     slug: "dso-dias-cartera",
     title: "DSO: días de cartera promedio",
@@ -539,14 +530,6 @@ const blogItems = [
     title: "Antigüedad de cartera",
     description:
       "Clasificación de cartera según tiempo de vencimiento y riesgo.",
-    tag: "Finanzas",
-    category: "finanzas",
-  },
-  {
-    slug: "flujo-caja-mora",
-    title: "Impacto de la mora en flujo de caja",
-    description:
-      "Cómo la mora afecta directamente la liquidez de las empresas.",
     tag: "Finanzas",
     category: "finanzas",
   },
@@ -600,6 +583,22 @@ const blogItems = [
     slug: "dashboard-cartera",
     title: "Dashboard de cartera",
     description: "Visualización de KPIs para controlar la gestión de cartera.",
+    tag: "Finanzas",
+    category: "finanzas",
+  },
+  {
+    slug: "indice-morosidad",
+    title: "Índice de morosidad: cómo calcularlo",
+    description:
+      "Aprende a calcular el índice de morosidad y evaluar la salud financiera de tu cartera.",
+    tag: "Finanzas",
+    category: "finanzas",
+  },
+  {
+    slug: "provision-cartera",
+    title: "Provisión de cartera: qué es y cómo calcularla",
+    description:
+      "Guía para calcular provisiones de cartera y gestionar el riesgo financiero empresarial.",
     tag: "Finanzas",
     category: "finanzas",
   },
