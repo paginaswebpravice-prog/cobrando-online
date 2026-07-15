@@ -11,47 +11,50 @@ interface Question {
 
 const leftColumn: Question[] = [
   {
-    question: "¿Qué es Cobrando Online?",
+    question:
+      "¿Cómo ayuda Cobrando Online a recuperar cartera vencida de una empresa?",
     answer:
-      "Cobrando Online es una plataforma especializada en la gestión de cobros en Colombia, ayudando a empresas a recuperar facturas impagadas de forma rápida, segura y 100% digital.",
+      "Cobrando Online es una solución especializada en gestión de cobranza para empresas. Analizamos cada caso, definimos la estrategia de recuperación más adecuada y gestionamos las cuentas por cobrar mediante negociación, cobranza prejurídica y, cuando resulta necesario, recuperación judicial.",
   },
   {
-    question: "¿Cómo funciona el proceso de cobro?",
+    question: "¿Cómo funciona el proceso de gestión de cobranza?",
     answer:
-      "El proceso es simple: registras tu deuda en nuestra plataforma, evaluamos el caso y ponemos en marcha la recuperación mediante negociaciones estratégicas o acciones legales, si es necesario.",
+      "Una vez recibimos la información de la cartera, realizamos un diagnóstico, clasificamos las obligaciones y comenzamos la gestión de cobranza. Nuestro equipo mantiene seguimiento permanente, busca acuerdos de pago y solo cuando la negociación no es suficiente recomendamos iniciar acciones jurídicas.",
   },
   {
-    question: "¿Cuánto tiempo tarda en recuperarse una deuda?",
+    question:
+      "¿Cuánto tiempo puede tardar la recuperación de una factura vencida?",
     answer:
-      "El tiempo varía según el caso, pero nuestro objetivo es obtener resultados lo antes posible. En muchos casos, las gestiones extrajudiciales logran acuerdos en pocas semanas.",
+      "Cada caso depende de la antigüedad de la obligación, la disposición de pago del deudor y la documentación disponible. Muchas obligaciones pueden recuperarse mediante negociación en pocas semanas, mientras que otras requieren procesos más extensos.",
   },
   {
-    question: "¿Cuáles son los costos del servicio?",
+    question:
+      "¿Cuánto cuesta contratar un servicio de recuperación de cartera?",
     answer:
-      "Trabajamos con un modelo flexible y transparente. Solo cobramos una comisión sobre el monto recuperado, sin costos iniciales ni pagos adelantados.",
+      "Nuestro modelo está orientado a resultados. En la mayoría de los casos no existen pagos iniciales y los honorarios se generan sobre los valores efectivamente recuperados, brindando mayor tranquilidad para las empresas.",
   },
 ];
 
 const rightColumn: Question[] = [
   {
-    question: "¿Qué tipo de deudas puedo gestionar en Cobrando Online?",
+    question: "¿Qué tipo de cartera puede recuperar Cobrando Online?",
     answer:
-      "Gestionamos deudas comerciales entre empresas (B2B) y profesionales, incluyendo facturas impagadas y otros créditos pendientes.",
+      "Gestionamos cuentas por cobrar de empresas de diferentes sectores, incluyendo facturas vencidas, cartera comercial, obligaciones entre empresas y cartera del sector salud, siempre evaluando la viabilidad de recuperación antes de iniciar la gestión.",
   },
   {
-    question: "¿Qué pasa si el deudor no paga voluntariamente?",
+    question: "¿Qué sucede si el deudor no acepta un acuerdo de pago?",
     answer:
-      "Si la vía amistosa no da resultados, evaluamos acciones legales viables y acompañamos a nuestros clientes en el proceso judicial si así lo requieren.",
+      "Nuestro equipo agota primero las alternativas de negociación y cobranza prejurídica. Cuando estas no generan resultados, analizamos las opciones de recuperación judicial con el respaldo jurídico correspondiente para proteger los intereses de nuestros clientes.",
   },
   {
-    question: "¿Puedo hacer seguimiento de mi caso?",
+    question: "¿Puedo conocer el estado de la gestión de cobranza?",
     answer:
-      "Sí, en nuestra plataforma puedes consultar el estado de tu gestión en cualquier momento y recibir actualizaciones sobre el proceso.",
+      "Sí. Nuestros clientes reciben seguimiento continuo sobre el avance de cada gestión, los acuerdos alcanzados, las negociaciones realizadas y las siguientes etapas del proceso de recuperación.",
   },
   {
-    question: "¿Qué garantías tengo de éxito en la recuperación de mi deuda?",
+    question: "¿Cómo aumentar las probabilidades de recuperar una deuda?",
     answer:
-      "Si bien cada caso es diferente, nuestro equipo tiene experiencia y estrategias efectivas para maximizar la probabilidad de cobro.",
+      "La recuperación depende de factores como la documentación, la antigüedad de la obligación y la rapidez con la que se inicia la gestión. Actuar oportunamente y contar con un equipo especializado en cobranza aumenta significativamente las posibilidades de recaudo.",
   },
 ];
 
@@ -64,16 +67,16 @@ export default function FAQ() {
 
   return (
     <section className={styles.faqSection} id="faq">
-      <p className={styles.subtitle}>FAQ</p>
+      <p className={styles.subtitle}>PREGUNTAS FRECUENTES</p>
 
       <motion.h2
         className={styles.title}
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
       >
-        Preguntas Frecuentes
+        Resolvemos las dudas más frecuentes sobre gestión de cobranza y
+        recuperación de cartera
       </motion.h2>
 
       <motion.p
@@ -81,14 +84,14 @@ export default function FAQ() {
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
       >
-        En <b>Cobrando Online</b> sabemos que recuperar facturas impagadas puede
-        generar dudas. Aquí resolvemos las más frecuentes.
+        Conozca cómo funciona nuestro servicio de gestión de cobranza para
+        empresas, qué tipo de cartera recuperamos, cuánto puede tardar el
+        proceso y cuáles son las mejores estrategias para recuperar facturas
+        vencidas y cuentas por cobrar.
       </motion.p>
 
       <div className={styles.grid}>
-        {/* COLUMNA IZQUIERDA */}
         <div className={styles.column}>
           {leftColumn.map((item, index) => (
             <motion.div
@@ -96,10 +99,6 @@ export default function FAQ() {
               className={styles.card}
               onClick={() => toggleAnswer(index)}
               whileHover={{ scale: 1.02 }}
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
             >
               <div className={styles.cardHeader}>
                 <span>{item.question}</span>
@@ -108,14 +107,13 @@ export default function FAQ() {
                 </span>
               </div>
 
-              <AnimatePresence mode="wait">
+              <AnimatePresence>
                 {openIndex === index && (
                   <motion.div
                     className={styles.answer}
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.3 }}
                   >
                     {item.answer}
                   </motion.div>
@@ -125,7 +123,6 @@ export default function FAQ() {
           ))}
         </div>
 
-        {/* COLUMNA DERECHA */}
         <div className={styles.column}>
           {rightColumn.map((item, index) => {
             const adjustedIndex = index + leftColumn.length;
@@ -136,13 +133,6 @@ export default function FAQ() {
                 className={styles.card}
                 onClick={() => toggleAnswer(adjustedIndex)}
                 whileHover={{ scale: 1.02 }}
-                initial={{ opacity: 0, y: 15 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 0.4,
-                  delay: (index + 4) * 0.1,
-                }}
               >
                 <div className={styles.cardHeader}>
                   <span>{item.question}</span>
@@ -151,14 +141,13 @@ export default function FAQ() {
                   </span>
                 </div>
 
-                <AnimatePresence mode="wait">
+                <AnimatePresence>
                   {openIndex === adjustedIndex && (
                     <motion.div
                       className={styles.answer}
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: "auto" }}
                       exit={{ opacity: 0, height: 0 }}
-                      transition={{ duration: 0.3 }}
                     >
                       {item.answer}
                     </motion.div>

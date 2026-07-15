@@ -14,11 +14,11 @@ function Hero() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LegalService",
+            "@type": "ProfessionalService",
             name: "Cobrando Online",
             url: "https://cobrandoonline.com",
             description:
-              "Recuperación de cartera en Colombia y Bogotá. Especialistas en cobro prejurídico, cobro jurídico, procesos ejecutivos y recuperación de cartera vencida para empresas.",
+              "Empresa especializada en gestión de cobranza y recuperación de cartera para empresas en Colombia. Recuperamos cuentas por cobrar mediante cobranza preventiva, prejurídica, jurídica y procesos ejecutivos cuando son necesarios.",
             areaServed: {
               "@type": "Country",
               name: "Colombia",
@@ -29,10 +29,12 @@ function Hero() {
               addressCountry: "CO",
             },
             serviceType: [
-              "Recuperación de cartera",
-              "Cobro prejurídico",
-              "Cobro jurídico",
+              "Gestión de cobranza",
+              "Recuperación de cartera empresarial",
+              "Cobranza prejurídica",
+              "Cobranza jurídica",
               "Proceso ejecutivo",
+              "Recuperación de cuentas por cobrar",
             ],
           }),
         }}
@@ -47,27 +49,28 @@ function Hero() {
           transition={{ duration: 0.8 }}
         >
           <span className={styles.badge}>
-            Recuperación de cartera en Colombia y Bogotá
+            Gestión de cobranza y recuperación de cartera para empresas
           </span>
 
           <h1 id="hero-title" className={styles.title}>
-            Recuperación de cartera en Colombia{" "}
-            <span>cobro prejurídico y jurídico</span>
+            Recupere su cartera vencida con una{" "}
+            <span>gestión de cobranza efectiva</span>
           </h1>
 
           <p className={styles.description}>
-            Somos especialistas en recuperación de cartera vencida en Colombia y
-            Bogotá. Gestionamos cobro prejurídico, cobro jurídico y procesos
-            ejecutivos para empresas que necesitan recuperar deudas y mejorar su
-            flujo de caja.
+            En Cobrando Online ayudamos a empresas en Colombia a recuperar
+            facturas vencidas, disminuir la cartera morosa y mejorar el flujo de
+            caja mediante estrategias de cobranza preventiva, cobro prejurídico,
+            negociación extrajudicial y recuperación judicial cuando el caso lo
+            requiere.
           </p>
 
           <a
             href="/contactanos"
             className={styles.button}
-            title="Recuperación de cartera en Colombia"
+            title="Solicitar diagnóstico gratuito de cartera"
           >
-            Solicitar evaluación de cartera
+            Solicitar diagnóstico gratuito
           </a>
         </motion.div>
 
@@ -80,30 +83,36 @@ function Hero() {
         >
           <div className={styles.successWrapper}>
             <h2 className={styles.successTitle}>
-              Resultados en recuperación de cartera en Colombia
+              Casos de éxito en recuperación de cartera empresarial
             </h2>
 
             <div className={styles.successCard}>
-              <h3>Recuperación de cartera sector salud</h3>
-              <p>Monto gestionado: $48.000.000</p>
-              <p>Antigüedad: 2 años</p>
+              <h3>Empresa del sector salud</h3>
+
+              <p>Cartera gestionada: $48.000.000</p>
+
+              <p>Antigüedad de la deuda: 2 años</p>
+
               <span className={styles.highlight}>
-                82% recuperado en etapa prejurídica
+                82 % recuperado mediante cobranza prejurídica
               </span>
             </div>
 
             <div className={styles.successCard}>
-              <h3>Proceso ejecutivo judicial en Colombia</h3>
-              <p>Monto gestionado: $120.000.000</p>
+              <h3>Empresa del sector comercial</h3>
+
+              <p>Cartera gestionada: $120.000.000</p>
+
               <span className={styles.highlight}>
-                Embargo efectivo y recuperación de cartera
+                Recuperación mediante proceso ejecutivo y medidas cautelares
               </span>
             </div>
 
             <div className={styles.successCard}>
-              <h3>Cobro prejurídico Bogotá</h3>
+              <h3>Cobranza extrajudicial</h3>
+
               <span className={styles.highlight}>
-                Recuperación total sin proceso jurídico
+                Recuperación total sin necesidad de iniciar un proceso judicial
               </span>
             </div>
           </div>

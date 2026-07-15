@@ -703,20 +703,22 @@ const blogItems = [
 
 const categoryMeta: Record<string, { title: string; description: string }> = {
   fundamentos: {
-    title: "Fundamentos de recuperación de cartera",
+    title:
+      "Recuperación de cartera empresarial: todo lo que debes saber para cobrar más rápido",
     description:
       "Conceptos básicos para entender cómo funciona la recuperación de cartera en empresas.",
   },
   cobro_juridico: {
-    title: "Cobro jurídico y procesos legales",
+    title:
+      "Cobranza prejurídica y recuperación de cartera: cuándo iniciar cada etapa",
     description: "Guías prácticas sobre procesos legales de cobro en Colombia.",
   },
   estrategias: {
-    title: "Estrategias de cobranza efectiva",
+    title: "Gestión de cartera y control de facturas vencidas para empresas",
     description: "Métodos prácticos para mejorar la recuperación de cartera.",
   },
   negociacion: {
-    title: "Negociación y acuerdos de pago",
+    title: "Acuerdos de pago y negociación efectiva con clientes morosos",
     description: "Técnicas para negociar deudas sin perder clientes.",
   },
   sector: {
@@ -724,7 +726,8 @@ const categoryMeta: Record<string, { title: string; description: string }> = {
     description: "Estrategias adaptadas a diferentes industrias y negocios.",
   },
   finanzas: {
-    title: "Finanzas e indicadores de cartera",
+    title:
+      "Cómo mejorar el flujo de caja mediante una buena recuperación de cartera",
     description: "Métricas clave para analizar y optimizar la cobranza.",
   },
   plantillas: {
@@ -765,13 +768,15 @@ export default function BlogContent() {
           <span className={styles.badge}>RECUPERACIÓN DE CARTERA</span>
 
           <h1 className={styles.title}>
-            Aprende a <span>recuperar tu dinero</span> y mejorar tu flujo de
-            caja
+            Blog de recuperación de cartera para empresas: guías, estrategias y
+            mejores prácticas de cobranza en Colombia
           </h1>
 
           <p className={styles.description}>
-            Guías prácticas sobre cobranza, procesos legales, negociación y
-            estrategias para mejorar la recuperación de cartera en Colombia.
+            Aprende cómo recuperar cartera vencida, mejorar el flujo de caja de
+            tu empresa, reducir la morosidad y fortalecer la gestión de cobros
+            mediante estrategias prejurídicas, negociación de deudas, acuerdos
+            de pago y buenas prácticas de cobranza empresarial.
           </p>
         </motion.div>
       </header>

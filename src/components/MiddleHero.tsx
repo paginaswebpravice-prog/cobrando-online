@@ -23,9 +23,9 @@ export default function MiddleHero() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "VideoObject",
-            name: "Proceso de recuperación de cartera en Colombia",
+            name: "Cómo recuperar cartera vencida para empresas en Colombia",
             description:
-              "Video sobre el proceso de recuperación de cartera, cobro prejurídico y cobro jurídico en Bogotá Colombia para empresas y personas.",
+              "Conozca cómo funciona nuestro proceso de gestión de cobranza, recuperación de facturas vencidas, negociación de cartera y recuperación judicial para empresas en Colombia.",
             thumbnailUrl: "https://cobrandoonline.com/thumbnail-video.jpg",
             uploadDate: "2025-01-01",
             duration: "PT1M30S",
@@ -50,7 +50,8 @@ export default function MiddleHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h3 className={styles.videoTitle}>
-            Video: Cómo funciona la recuperación de cartera en Colombia
+            Video: Descubra cómo recuperar facturas vencidas y reducir la
+            cartera morosa
           </h3>
 
           <figure className={styles.videoFigure}>
@@ -65,18 +66,17 @@ export default function MiddleHero() {
             </video>
 
             <figcaption className={styles.videoCaption}>
-              Explicación del proceso de recuperación de cartera, cobro
-              prejurídico, cobro jurídico y gestión de cartera vencida en
-              Colombia.
+              Conozca nuestro proceso de gestión de cobranza, negociación de
+              cartera, recuperación prejurídica y recuperación judicial para
+              empresas.
             </figcaption>
           </figure>
 
-          {/* Texto descriptivo visible (importante para SEO) */}
           <p className={styles.videoDescription}>
-            Este video explica el proceso de recuperación de cartera en
-            Colombia, incluyendo el cobro prejurídico, negociación de deudas,
-            acuerdos de pago, cobro jurídico y demanda ejecutiva para empresas y
-            personas en Bogotá y todo el país.
+            En este video explicamos paso a paso cómo ayudamos a empresas de
+            diferentes sectores a recuperar cuentas por cobrar, disminuir la
+            cartera vencida y mejorar el flujo de caja mediante una gestión de
+            cobranza estratégica adaptada a cada caso.
           </p>
         </motion.div>
 
@@ -89,28 +89,30 @@ export default function MiddleHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.span className={styles.smallTitle}>
-            RECUPERACIÓN DE CARTERA EN COLOMBIA
+            GESTIÓN DE COBRANZA EMPRESARIAL
           </motion.span>
 
           <motion.h2 className={styles.title} id="como-funciona-title">
-            Cómo funciona la recuperación de cartera
+            Así recuperamos la cartera vencida de su empresa de forma eficiente
           </motion.h2>
 
           <motion.p className={styles.description}>
-            En <strong>Cobrando Online</strong> somos especialistas en
-            <strong> recuperación de cartera en Colombia</strong>, ayudando a
-            empresas y personas a gestionar el <strong>cobro de deudas</strong>{" "}
-            de manera eficiente en <strong>Bogotá y todo el país</strong>.
+            En <strong>Cobrando Online</strong> implementamos estrategias de
+            <strong> gestión de cobranza y recuperación de cartera</strong> para
+            ayudar a empresas a recuperar facturas vencidas, reducir la cartera
+            morosa y fortalecer su flujo de caja. Nuestro proceso combina
+            negociación especializada, seguimiento permanente y respaldo
+            jurídico cuando es necesario.
           </motion.p>
 
           <motion.ul className={styles.list}>
             {[
-              "Análisis del caso y viabilidad de recuperación de cartera.",
-              "Gestión amistosa y negociación de acuerdos de pago.",
-              "Cobro prejurídico para recuperación rápida de la deuda.",
-              "Proceso jurídico y demanda ejecutiva cuando es necesario.",
-              "Seguimiento constante y reporte del proceso.",
-              "Recuperación efectiva de cartera vencida.",
+              "Diagnóstico de la cartera y análisis de viabilidad de recuperación.",
+              "Clasificación de cuentas por cobrar según antigüedad y riesgo.",
+              "Cobranza preventiva y negociación de acuerdos de pago.",
+              "Cobro prejurídico orientado a recuperar la deuda sin acudir a juicio.",
+              "Recuperación judicial únicamente cuando la negociación no es suficiente.",
+              "Seguimiento permanente con reportes de avance para su empresa.",
             ].map((item, index) => (
               <li key={index} className={styles.listItem}>
                 <FontAwesomeIcon icon={faCheckCircle} />
@@ -120,7 +122,7 @@ export default function MiddleHero() {
           </motion.ul>
 
           <motion.button className={styles.button} onClick={handleClick}>
-            Iniciar recuperación de cartera
+            Conocer nuestro proceso de cobranza
           </motion.button>
         </motion.div>
       </div>

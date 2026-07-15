@@ -9,9 +9,13 @@ type Stat = {
 };
 
 const stats: Stat[] = [
-  { value: 21000, label: "Carteras gestionadas" },
-  { value: 670, label: "Empresas atendidas" },
-  { value: 500, suffix: "B+", label: "Capital recuperado" },
+  { value: 21000, label: "Obligaciones gestionadas" },
+  { value: 670, label: "Empresas que confían en nosotros" },
+  {
+    value: 500,
+    suffix: "B+",
+    label: "Valor recuperado para nuestros clientes",
+  },
 ];
 
 export default function Stats() {
@@ -51,20 +55,21 @@ export default function Stats() {
       itemType="https://schema.org/Organization"
     >
       <span className={styles.smallTitle}>
-        RESULTADOS QUE RESPALDAN NUESTRA EXPERIENCIA
+        GESTIÓN DE COBRANZA CON RESULTADOS COMPROBADOS
       </span>
 
       <h2 id="stats-title" itemProp="name">
-        Indicadores de recuperación de cartera
+        Más de dos décadas ayudando a empresas a recuperar sus cuentas por
+        cobrar
       </h2>
 
       <p itemProp="description">
-        En <strong>Cobrando Online</strong> contamos con una amplia trayectoria
-        en la <strong>recuperación de cartera</strong> y{" "}
-        <strong>gestión de cobros empresariales</strong>. Estos indicadores
-        reflejan el impacto de nuestro trabajo ayudando a empresas en Colombia y
-        España a recuperar facturas vencidas, mejorar su flujo de caja y reducir
-        la morosidad.
+        En <strong>Cobrando Online</strong> ayudamos a empresas de diferentes
+        sectores a recuperar facturas vencidas, disminuir la cartera morosa y
+        fortalecer su flujo de caja mediante procesos profesionales de gestión
+        de cobranza. Nuestra experiencia nos permite implementar estrategias de
+        recuperación adaptadas a cada empresa, priorizando acuerdos efectivos y
+        soluciones orientadas a resultados.
       </p>
 
       <div className={styles.stats} role="list">

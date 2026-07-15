@@ -32,7 +32,8 @@ export default function AboutMiddle() {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.4 }}
         >
-          <FontAwesomeIcon icon={faClock} /> SOLUCIONES DE COBRANZA EMPRESARIAL
+          <FontAwesomeIcon icon={faClock} /> GESTIÓN DE COBRANZA PARA EMPRESAS
+          EN COLOMBIA
         </motion.span>
 
         <motion.h1
@@ -41,7 +42,7 @@ export default function AboutMiddle() {
           viewport={{ once: true }}
           transition={{ delay: 0.35, duration: 0.45 }}
         >
-          ¿Tienes pagos vencidos que afectan el flujo de caja de tu empresa?
+          ¿Tu empresa tiene facturas vencidas o clientes que no pagan a tiempo?
         </motion.h1>
 
         <motion.p
@@ -50,11 +51,12 @@ export default function AboutMiddle() {
           viewport={{ once: true }}
           transition={{ delay: 0.45, duration: 0.45 }}
         >
-          En <strong>Cobrando Online</strong> somos especialistas en
-          recuperación de cartera y gestión de cobros para empresas. Nos
-          encargamos del seguimiento y la negociación de pagos pendientes
-          mediante procesos éticos, legales y estratégicos, ayudándote a
-          recuperar tu dinero sin deteriorar la relación con tus clientes.
+          En <strong>Cobrando Online</strong> ayudamos a empresas a recuperar
+          facturas pendientes, reducir la cartera vencida y mejorar el flujo de
+          caja mediante un servicio especializado de gestión de cobranza.
+          Diseñamos estrategias de seguimiento, negociación y recaudo adaptadas
+          a cada cliente, priorizando soluciones efectivas antes de considerar
+          procesos jurídicos.
         </motion.p>
 
         {/* LISTA CON ANIMACIÓN EN CASCADA */}
@@ -66,9 +68,9 @@ export default function AboutMiddle() {
           transition={{ staggerChildren: 0.2 }}
         >
           {[
-            "Recuperación de cartera rápida, segura y profesional",
-            "Modelo de cobro sin pagos anticipados ni costos ocultos",
-            "Gestión de cobranza respetuosa y alineada a la normativa legal",
+            "Recuperamos facturas vencidas y cuentas por cobrar empresariales.",
+            "Implementamos estrategias de cobranza adaptadas a cada deudor.",
+            "Reducimos la cartera morosa para mejorar el flujo de caja.",
           ].map((text, i) => (
             <motion.li
               key={i}
@@ -90,7 +92,8 @@ export default function AboutMiddle() {
           viewport={{ once: true }}
           transition={{ delay: 0.75, duration: 0.4 }}
         >
-          Recupera tu cartera vencida con el respaldo de expertos en cobranza.
+          Recupera liquidez y fortalece el flujo de caja con una gestión
+          profesional de cobranza.
         </motion.strong>
 
         <motion.button
@@ -103,7 +106,7 @@ export default function AboutMiddle() {
           viewport={{ once: true }}
           transition={{ delay: 0.85, duration: 0.45 }}
         >
-          Solicita tu recuperación de cartera
+          Solicita diagnostico de mi cartera
         </motion.button>
       </motion.div>
 

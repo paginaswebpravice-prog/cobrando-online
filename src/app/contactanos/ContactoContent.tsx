@@ -35,12 +35,13 @@ export default function ContactoContent() {
           transition={{ duration: 0.7 }}
         >
           <span className={styles.badge}>
-            Recuperación de cartera en Bogotá y toda Colombia
+            Solicita una evaluación de tu cartera vencida • Atención en toda
+            Colombia
           </span>
 
           <h1>
-            Contacta expertos en recuperación de cartera, cobro prejurídico y
-            cobro jurídico en Colombia
+            Solicita una evaluación de tu cartera vencida con expertos en
+            recuperación de cartera para empresas
           </h1>
 
           <p>
@@ -80,7 +81,7 @@ export default function ContactoContent() {
             className={styles.featureIcon}
           />
 
-          <h3>Recuperación de cartera empresarial</h3>
+          <h3>Recuperamos facturas vencidas de empresas</h3>
 
           <p>
             Gestionamos cartera vencida para empresas en Bogotá y Colombia con
@@ -94,7 +95,7 @@ export default function ContactoContent() {
             className={styles.featureIcon}
           />
 
-          <h3>Cobro prejurídico y jurídico</h3>
+          <h3>Gestión de cobranza antes y durante el proceso judicial</h3>
 
           <p>
             Escalamos procesos de cobranza cuando la gestión administrativa no
@@ -105,7 +106,7 @@ export default function ContactoContent() {
         <motion.div className={styles.featureCard} whileHover={{ y: -6 }}>
           <FontAwesomeIcon icon={faBuilding} className={styles.featureIcon} />
 
-          <h3>Soluciones para empresas y sector salud</h3>
+          <h3>Especialistas en empresas, IPS, clínicas y PYMES</h3>
 
           <p>
             Trabajamos con PYMES, clínicas, IPS, empresas comerciales y
@@ -116,7 +117,7 @@ export default function ContactoContent() {
         <motion.div className={styles.featureCard} whileHover={{ y: -6 }}>
           <FontAwesomeIcon icon={faClock} className={styles.featureIcon} />
 
-          <h3>Respuesta rápida y acompañamiento</h3>
+          <h3>Respuesta rápida para iniciar la recuperación de tu cartera</h3>
 
           <p>
             Analizamos tu caso rápidamente para ayudarte a tomar decisiones
@@ -135,7 +136,7 @@ export default function ContactoContent() {
         >
           <FontAwesomeIcon icon={faComments} className={styles.icon} />
 
-          <h3>WhatsApp</h3>
+          <h3>Habla con un especialista</h3>
 
           <p>
             Escríbenos directamente para recibir información sobre recuperación
@@ -152,7 +153,7 @@ export default function ContactoContent() {
         >
           <FontAwesomeIcon icon={faPhone} className={styles.icon} />
 
-          <h3>Llámanos</h3>
+          <h3>Recibe asesoría telefónica</h3>
 
           <p>
             Habla con un asesor especializado en cobro prejurídico y jurídico en
@@ -169,7 +170,7 @@ export default function ContactoContent() {
         >
           <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
 
-          <h3>Correo electrónico</h3>
+          <h3>Envíanos tu caso</h3>
 
           <p>
             Envíanos información sobre tu cartera vencida, facturas pendientes o
@@ -189,8 +190,7 @@ export default function ContactoContent() {
           transition={{ duration: 0.5 }}
         >
           <h2>
-            Expertos en recuperación de cartera y cobro jurídico en Bogotá,
-            Colombia
+            ¿Por qué contactar a Cobrando Online para recuperar cartera vencida?
           </h2>
 
           <p>
@@ -215,8 +215,8 @@ export default function ContactoContent() {
           </p>
 
           <h2>
-            Servicios de cobranza y recuperación de cartera para empresas en
-            Colombia
+            ¿Cómo podemos ayudar a recuperar las facturas pendientes de tu
+            empresa?
           </h2>
 
           <ul className={styles.seoList}>
@@ -231,7 +231,10 @@ export default function ContactoContent() {
             <li>Procesos jurídicos de recuperación.</li>
           </ul>
 
-          <h2>¿Necesitas ayuda para recuperar cartera vencida en Colombia?</h2>
+          <h2>
+            Solicita hoy mismo una estrategia para recuperar la cartera de tu
+            empresa
+          </h2>
 
           <p>
             Si tu empresa presenta clientes morosos, facturas vencidas o
@@ -251,7 +254,8 @@ export default function ContactoContent() {
       {/* UBICACIÓN */}
       <div className={styles.locationSection}>
         <h2>
-          <FontAwesomeIcon icon={faLocationDot} /> Oficina en Bogotá, Colombia
+          <FontAwesomeIcon icon={faLocationDot} /> Atendemos empresas desde
+          Bogotá con cobertura en toda Colombia
         </h2>
 
         <p>Calle 98 # 22 - 64 Oficina 716 · Bogotá, Colombia</p>

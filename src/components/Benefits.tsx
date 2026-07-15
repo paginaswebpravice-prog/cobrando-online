@@ -17,77 +17,91 @@ import styles from "./styles/Benefits.module.css";
 const items = [
   {
     icon: faUserTie,
-    title: "Gestión profesional de cobranza",
-    subtitle: "Recuperación de cartera estructurada",
+    title: "Gestión de cobranza especializada para empresas",
+    subtitle: "Recupere cuentas por cobrar con mayor eficiencia",
     highlights: [
-      "Cobranza ética y controlada",
-      "Gestión prejurídica y jurídica",
+      "Cobranza profesional y estratégica",
+      "Negociación personalizada con deudores",
     ],
     description:
-      "Nuestro equipo especializado en recuperación de cartera en Colombia administra tu cartera vencida mediante procesos profesionales de cobranza, negociación estratégica y acciones legales cuando es necesario, maximizando la recuperación de cartera sin afectar la relación comercial con tus clientes.",
+      "Nuestro equipo implementa estrategias de gestión de cobranza adaptadas al perfil de cada deudor para recuperar facturas vencidas, disminuir la cartera morosa y proteger la relación comercial con sus clientes. Cuando es necesario, el proceso cuenta con respaldo jurídico para incrementar las posibilidades de recuperación.",
   },
   {
     icon: faClock,
-    title: "Ahorro de tiempo y recursos",
-    subtitle: "Nosotros cobramos por ti",
-    highlights: ["Menos carga operativa", "Recuperación más rápida"],
+    title: "Ahorre tiempo mientras recuperamos su cartera",
+    subtitle: "Delegue el proceso de cobranza",
+    highlights: ["Menor carga administrativa", "Seguimiento permanente"],
     description:
-      "Al delegar la cobranza de cartera vencida, tu empresa reduce la carga operativa interna y optimiza recursos administrativos. Nuestro equipo se encarga del seguimiento completo del proceso de cobro mientras tú te enfocas en el crecimiento de tu negocio.",
+      "Externalizar la gestión de cobranza permite que su empresa concentre sus esfuerzos en vender y crecer mientras nuestro equipo administra el seguimiento, las negociaciones y la recuperación de las cuentas por cobrar.",
   },
   {
     icon: faCheckCircle,
-    title: "Alta tasa de recuperación",
-    subtitle: "Estrategias de cobro efectivas",
-    highlights: ["Casos personalizados", "Mayor probabilidad de pago"],
+    title: "Mayor recuperación de facturas vencidas",
+    subtitle: "Estrategias enfocadas en resultados",
+    highlights: [
+      "Análisis individual de cada caso",
+      "Mayor probabilidad de recaudo",
+    ],
     description:
-      "Aplicamos estrategias de cobro personalizadas según el perfil del deudor, tipo de obligación y antigüedad de la deuda, aumentando la probabilidad de recuperación de cartera prejurídica y jurídica.",
+      "Diseñamos estrategias de cobranza según la antigüedad de la obligación, el comportamiento del deudor y el tipo de cartera, incrementando las probabilidades de recuperación y reduciendo la mora empresarial.",
   },
   {
     icon: faGlobe,
-    title: "Plataforma online 24/7",
-    subtitle: "Control total en tiempo real",
+    title: "Seguimiento de cartera en línea las 24 horas",
+    subtitle: "Información disponible en tiempo real",
     highlights: ["Acceso desde cualquier lugar", "Reportes actualizados"],
     description:
-      "Consulta el estado de tus procesos de recuperación de cartera, acuerdos de pago, reportes y gestión de cobranza desde cualquier dispositivo a través de nuestra plataforma digital disponible las 24 horas.",
+      "Visualice el estado de sus procesos de cobranza, acuerdos de pago, compromisos adquiridos y avances de recuperación desde una plataforma digital diseñada para brindar transparencia y control.",
   },
   {
     icon: faHandHoldingUsd,
-    title: "Sin pagos por adelantado",
-    subtitle: "Modelo basado en resultados",
-    highlights: ["Sin costos iniciales", "Solo cobramos si recuperamos"],
+    title: "Honorarios basados en resultados",
+    subtitle: "Sin costos iniciales para comenzar",
+    highlights: [
+      "Sin pagos por adelantado",
+      "Nuestros resultados respaldan nuestro trabajo",
+    ],
     description:
-      "Nuestro modelo de cobranza está basado en resultados. Solo cobramos honorarios cuando logramos la recuperación de cartera, alineando nuestro trabajo directamente con los resultados de tu empresa.",
+      "Nuestro modelo de servicio está orientado al éxito de la recuperación. Los honorarios se generan únicamente cuando logramos resultados efectivos en la recuperación de la cartera asignada.",
   },
   {
     icon: faBalanceScale,
-    title: "Proceso legal transparente",
-    subtitle: "Cobro jurídico en Colombia",
-    highlights: ["Marco legal vigente", "Gestión documentada"],
+    title: "Respaldo jurídico cuando la negociación no funciona",
+    subtitle: "Una gestión integral de recuperación",
+    highlights: [
+      "Cumplimiento de la legislación colombiana",
+      "Proceso documentado",
+    ],
     description:
-      "Todos nuestros procesos de cobro jurídico cumplen con la legislación colombiana, incluyendo procesos ejecutivos, demandas y acuerdos de pago, reduciendo riesgos legales y protegiendo a nuestros clientes.",
+      "Siempre priorizamos la negociación y la cobranza prejurídica. Si el caso lo requiere, el proceso continúa con el acompañamiento jurídico correspondiente para aumentar las posibilidades de recuperar la obligación.",
   },
   {
     icon: faUserCog,
-    title: "Asesoramiento personalizado",
-    subtitle: "Estrategia de recuperación",
-    highlights: ["Análisis de cartera", "Decisiones informadas"],
+    title: "Diagnóstico y estrategia para su cartera",
+    subtitle: "Decisiones basadas en información",
+    highlights: [
+      "Análisis de cartera vencida",
+      "Recomendaciones personalizadas",
+    ],
     description:
-      "Brindamos asesoría legal y financiera en recuperación de cartera, análisis de cartera vencida, políticas de crédito y estrategias de cobranza para mejorar la recuperación y reducir la mora.",
+      "Evaluamos la composición de la cartera, el riesgo de recuperación y las oportunidades de mejora para ayudar a su empresa a optimizar sus políticas de crédito, disminuir la mora y fortalecer la gestión de cobranza.",
   },
   {
     icon: faChartLine,
-    title: "Mejora del flujo de caja",
-    subtitle: "Liquidez para tu empresa",
-    highlights: ["Ingresos recuperados", "Estabilidad financiera"],
+    title: "Mejore el flujo de caja de su empresa",
+    subtitle: "Más liquidez para seguir creciendo",
+    highlights: [
+      "Mayor disponibilidad de efectivo",
+      "Reducción de cartera morosa",
+    ],
     description:
-      "La recuperación efectiva de cartera vencida mejora el flujo de caja de tu empresa, aumenta la liquidez y fortalece la estabilidad financiera del negocio.",
+      "Recuperar oportunamente las cuentas por cobrar permite fortalecer la liquidez, mejorar el flujo de caja y generar mayor estabilidad financiera para impulsar el crecimiento sostenible de la empresa.",
   },
 ];
 
 export default function Benefits() {
   return (
     <section className={styles.section}>
-      {/* TITULO */}
       <motion.div
         style={{ textAlign: "center", marginBottom: "50px" }}
         initial={{ opacity: 0, y: 40 }}
@@ -96,12 +110,14 @@ export default function Benefits() {
         transition={{ duration: 0.6 }}
       >
         <h2>
-          Beneficios de la recuperación de cartera para empresas en Colombia
+          ¿Por qué las empresas confían en nuestra gestión de cobranza y
+          recuperación de cartera?
         </h2>
+
         <p>
-          Conoce las ventajas de contratar un servicio profesional de cobranza,
-          recuperación de cartera vencida, cobro prejurídico y cobro jurídico en
-          Colombia.
+          Descubra cómo una estrategia profesional de gestión de cobranza ayuda
+          a recuperar facturas vencidas, reducir la cartera morosa y mejorar el
+          flujo de caja sin afectar la relación con sus clientes.
         </p>
       </motion.div>
 
@@ -121,7 +137,6 @@ export default function Benefits() {
             whileHover={{ y: -8, scale: 1.02 }}
           >
             <div className={styles.inner}>
-              {/* Front */}
               <div className={styles.front}>
                 <motion.div
                   className={styles.icon}
@@ -130,8 +145,11 @@ export default function Benefits() {
                 >
                   <FontAwesomeIcon icon={item.icon} />
                 </motion.div>
+
                 <h3>{item.title}</h3>
+
                 <p className={styles.subtitle}>{item.subtitle}</p>
+
                 <ul>
                   {item.highlights.map((point, i) => (
                     <li key={i}>{point}</li>
@@ -139,7 +157,6 @@ export default function Benefits() {
                 </ul>
               </div>
 
-              {/* Back */}
               <div className={styles.back}>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>

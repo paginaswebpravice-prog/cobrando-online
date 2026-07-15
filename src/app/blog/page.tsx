@@ -3,19 +3,33 @@ import BlogContent from "./BlogContent";
 
 export const metadata: Metadata = {
   title:
-    "Recuperación de cartera en Colombia: guías, estrategias y cómo cobrar deudas",
+    "Blog de Recuperación de Cartera | Estrategias de Cobranza para Empresas en Colombia",
+
   description:
-    "Aprende a recuperar cartera en Colombia: cobro jurídico, prejurídico, estrategias efectivas y cómo evitar perder dinero por deudas.",
+    "Guías prácticas sobre recuperación de cartera, cobranza empresarial, facturas vencidas, acuerdos de pago y gestión de cartera para empresas en Colombia.",
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog",
   },
 
+  keywords: [
+    "recuperación de cartera",
+    "gestión de cartera",
+    "cobranza empresarial",
+    "cartera vencida",
+    "facturas vencidas",
+    "clientes morosos",
+    "acuerdos de pago",
+    "flujo de caja",
+    "empresas Colombia",
+  ],
+
   openGraph: {
-    title:
-      "¿Cómo recuperar cartera en Colombia? Guías, estrategias y casos reales",
+    title: "Blog de Recuperación de Cartera para Empresas | Cobrando Online",
+
     description:
-      "Contenido práctico sobre cobranza, deudas y recuperación de cartera para empresas y pymes en Colombia.",
+      "Aprende cómo recuperar facturas vencidas, reducir la mora y mejorar el flujo de caja con estrategias de cobranza empresarial.",
+
     url: "https://cobrandoonline.com/blog",
     siteName: "Cobrando Online",
     locale: "es_CO",
@@ -58,10 +72,20 @@ export default function Page() {
     {
       "@context": "https://schema.org",
       "@type": "Blog",
-      name: "Blog de recuperación de cartera",
+      name: "Blog de recuperación de cartera y cobranza empresarial en Colombia",
       description:
-        "Artículos sobre cobranza, deudas, cobro jurídico y estrategias de recuperación de cartera en Colombia.",
+        "Guías especializadas sobre recuperación de cartera, cobranza empresarial, gestión de cartera, acuerdos de pago, clientes morosos y estrategias para mejorar el flujo de caja de las empresas en Colombia.",
       url: `${baseUrl}/blog`,
+      publisher: {
+        "@type": "Organization",
+        name: "Cobrando Online",
+        url: "https://cobrandoonline.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://cobrandoonline.com/logo.png",
+        },
+      },
+      inLanguage: "es-CO",
     },
     {
       "@context": "https://schema.org",
@@ -71,6 +95,17 @@ export default function Page() {
         position: index + 1,
         url: `${baseUrl}/blog/${slug}`,
       })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      url: baseUrl,
+      name: "Cobrando Online",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${baseUrl}/blog?search={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
     },
   ];
 
