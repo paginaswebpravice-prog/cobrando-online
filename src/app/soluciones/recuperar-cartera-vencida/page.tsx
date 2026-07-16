@@ -3,16 +3,27 @@ import RecuperarCarteraContent from "./RecuperarCarteraContent";
 
 export const metadata: Metadata = {
   title:
-    "Recuperar cartera vencida en Colombia rápido | Cobro prejurídico y judicial efectivo",
+    "Recuperación de cartera vencida en Colombia | Cobro prejurídico y jurídico para empresas",
+
   description:
-    "Recupera cartera vencida en Colombia de forma rápida y efectiva. Estrategias de cobro prejurídico y judicial para aumentar el recaudo y mejorar tu flujo de caja.",
+    "¿Tu empresa tiene clientes morosos o facturas vencidas? Recupera cartera en Colombia mediante cobro prejurídico, negociación y cobro jurídico. Solicita asesoría especializada.",
 
   keywords: [
-    "recuperar cartera Colombia",
-    "cobro prejurídico Colombia",
-    "cobranza judicial Colombia",
+    "recuperación de cartera",
+    "recuperar cartera vencida",
+    "recuperación de cartera Colombia",
+    "empresa de cobranza",
+    "empresa de recuperación de cartera",
+    "cobro prejurídico",
+    "cobro jurídico",
+    "gestión de cartera",
+    "cobranza empresarial",
+    "recuperación de deudas",
+    "recuperar facturas vencidas",
+    "clientes morosos",
     "cartera vencida Bogotá",
-    "recuperación de deudas Colombia",
+    "servicio de cobranza",
+    "empresa de cobro de cartera",
   ],
 
   alternates: {
@@ -22,12 +33,17 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Recuperar cartera vencida en Colombia rápido | Aumenta tu recaudo hoy",
+      "Recuperación de cartera vencida en Colombia para empresas | Cobrando Online",
+
     description:
-      "Recupera deudas en Colombia con estrategias efectivas de cobro prejurídico y judicial. Mejora tu flujo de caja y reduce la mora.",
+      "Recupera facturas vencidas y deudas comerciales mediante cobro prejurídico y jurídico. Ayudamos a empresas de toda Colombia a mejorar su flujo de caja.",
+
     url: "https://cobrandoonline.com/soluciones/recuperar-cartera-vencida",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "website",
   },
 
@@ -44,18 +60,57 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Recuperación de cartera en Colombia",
-            description:
-              "Servicio de recuperación de cartera vencida en Colombia mediante cobro prejurídico y judicial.",
-            areaServed: "Colombia",
-            provider: {
-              "@type": "Organization",
-              name: "Cobrando Online",
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Service",
+              name: "Servicio de recuperación de cartera vencida",
+
+              serviceType: "Recuperación de cartera",
+
+              description:
+                "Servicio especializado en recuperación de cartera vencida mediante cobro prejurídico, negociación y cobro jurídico para empresas en Colombia.",
+
+              areaServed: {
+                "@type": "Country",
+                name: "Colombia",
+              },
+
+              provider: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+                url: "https://cobrandoonline.com",
+              },
+
+              url: "https://cobrandoonline.com/soluciones/recuperar-cartera-vencida",
             },
-          }),
+
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Inicio",
+                  item: "https://cobrandoonline.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Soluciones",
+                  item: "https://cobrandoonline.com/soluciones",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: "Recuperar cartera vencida",
+                  item: "https://cobrandoonline.com/soluciones/recuperar-cartera-vencida",
+                },
+              ],
+            },
+          ]),
         }}
       />
 

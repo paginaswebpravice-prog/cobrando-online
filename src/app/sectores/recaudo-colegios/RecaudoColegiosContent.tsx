@@ -14,17 +14,20 @@ export default function RecaudoColegiosContent() {
             animate={{ opacity: 1, y: 0 }}
           >
             <span className={styles.badge}>
-              Recuperación de cartera para colegios en Colombia
+              Especialistas en recaudo para instituciones educativas
             </span>
 
             <h1 className={styles.title}>
-              Recupera pensiones atrasadas en tu colegio y reduce la mora rápido
+              Recupera pensiones escolares atrasadas, reduce la mora y mejora el
+              flujo de caja de tu colegio
             </h1>
 
             <p className={styles.description}>
-              Ayudamos a colegios en Colombia a recuperar pensiones vencidas,
-              reducir la mora estudiantil y mejorar el flujo de caja sin afectar
-              la relación con padres de familia ni la reputación institucional.
+              Ayudamos a colegios privados, jardines infantiles e instituciones
+              educativas en Colombia a recuperar cartera vencida, reducir la
+              mora en pensiones escolares y mejorar el recaudo mediante
+              estrategias preventivas, seguimiento especializado, negociación de
+              acuerdos de pago y gestión profesional de cobranza.
             </p>
 
             <div className={styles.actions}>
@@ -42,7 +45,8 @@ export default function RecaudoColegiosContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Los problemas de cartera que más afectan a los colegios en Colombia
+          ¿Por qué aumenta la mora en pensiones escolares y cómo afecta las
+          finanzas de un colegio?
         </h2>
 
         <p className={styles.text}>
@@ -79,11 +83,58 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
+      {/* CAUSAS DE LA MORA */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Por qué aumenta la cartera vencida en los colegios privados de
+          Colombia?
+        </h2>
+
+        <p className={styles.text}>
+          La mayoría de instituciones educativas no presentan problemas por
+          falta de estudiantes, sino porque una parte importante de las
+          pensiones no se paga oportunamente. Cuando no existe una política
+          clara de recaudo, la mora se acumula mes tras mes hasta afectar la
+          estabilidad financiera del colegio.
+        </p>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>✔ Falta de seguimiento oportuno</h4>
+            <p>
+              Muchos padres solo reciben recordatorios cuando la deuda ya es muy
+              alta.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Procesos manuales</h4>
+            <p>
+              La gestión mediante llamadas y hojas de cálculo reduce la
+              eficiencia.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Ausencia de políticas de cobro</h4>
+            <p>No existen protocolos definidos para cada etapa de la mora.</p>
+          </div>
+
+          <div>
+            <h4>✔ Seguimiento tardío</h4>
+            <p>
+              Mientras más tiempo pasa, menor es la probabilidad de
+              recuperación.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo la cartera vencida puede poner en riesgo la estabilidad de tu
-          colegio
+          Cómo la cartera vencida afecta el flujo de caja, la operación y el
+          crecimiento de tu institución educativa
         </h2>
 
         <div className={styles.infoGrid}>
@@ -122,10 +173,71 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
+      {/* CONSECUENCIAS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Consecuencias de no controlar la cartera vencida en un colegio
+        </h2>
+
+        <p className={styles.text}>
+          La falta de recaudo oportuno genera efectos que impactan directamente
+          la operación académica y financiera de la institución.
+        </p>
+
+        <div className={styles.grid}>
+          {[
+            "Retrasos en el pago de nómina",
+            "Problemas para pagar proveedores",
+            "Disminución del flujo de caja",
+            "Limitación para invertir en infraestructura",
+            "Aumento de costos financieros",
+            "Mayor riesgo de incobrabilidad",
+          ].map((item, i) => (
+            <div key={i} className={styles.card}>
+              <p>{item}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.warningBox}>
+          Mientras más antigua es la deuda, más difícil resulta recuperarla.
+        </div>
+      </section>
+
+      {/* ETAPAS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Etapas para recuperar la cartera vencida en colegios de manera
+          efectiva
+        </h2>
+
+        <p className={styles.text}>
+          Una estrategia profesional de recuperación de cartera combina acciones
+          preventivas, persuasivas y jurídicas para aumentar el recaudo sin
+          afectar la imagen institucional.
+        </p>
+
+        <div className={styles.grid}>
+          {[
+            "Prevención antes del vencimiento",
+            "Recordatorios automáticos",
+            "Seguimiento telefónico",
+            "Negociación de acuerdos de pago",
+            "Cobranza prejurídica",
+            "Proceso jurídico cuando sea necesario",
+          ].map((item, i) => (
+            <div key={i} className={styles.card}>
+              <p>{item}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* SOLUCIÓN */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para recuperar cartera y pensiones escolares
+          Cómo recuperar pensiones atrasadas sin deteriorar la relación con los
+          padres de familia
         </h2>
 
         <p className={styles.text}>
@@ -152,7 +264,8 @@ export default function RecaudoColegiosContent() {
       {/* PROCESO */}
       <section id="proceso" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar pensiones atrasadas en colegios paso a paso
+          Nuestro proceso para recuperar cartera educativa de forma organizada y
+          efectiva
         </h2>
 
         <div className={styles.grid}>
@@ -174,10 +287,62 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
+      {/* BENEFICIOS EMPRESARIALES */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Qué obtiene un colegio al mejorar su proceso de recaudo?
+        </h2>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>✔ Mayor liquidez</h4>
+            <p>Disponibilidad de recursos para la operación diaria.</p>
+          </div>
+
+          <div>
+            <h4>✔ Mejor planeación financiera</h4>
+            <p>Ingresos más predecibles durante todo el año escolar.</p>
+          </div>
+
+          <div>
+            <h4>✔ Reducción de cartera morosa</h4>
+            <p>Menor acumulación de deudas difíciles de recuperar.</p>
+          </div>
+
+          <div>
+            <h4>✔ Menor carga administrativa</h4>
+            <p>El personal puede concentrarse en actividades académicas.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* KPIS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Indicadores que permiten medir la efectividad del recaudo en colegios
+        </h2>
+
+        <div className={styles.grid}>
+          {[
+            "Porcentaje de recaudo mensual",
+            "Índice de mora",
+            "Antigüedad de cartera",
+            "Tiempo promedio de recuperación",
+            "Valor recuperado cada mes",
+            "Número de acuerdos de pago cumplidos",
+          ].map((item, i) => (
+            <div key={i} className={styles.card}>
+              <p>{item}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de reducir la mora y mejorar el recaudo en tu colegio
+          Beneficios de implementar una estrategia profesional de recaudo para
+          colegios
         </h2>
 
         <div className={styles.benefits}>
@@ -192,7 +357,8 @@ export default function RecaudoColegiosContent() {
       {/* FAQ */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Preguntas frecuentes sobre recuperación de cartera en colegios
+          Preguntas frecuentes sobre cobranza y recuperación de pensiones
+          escolares en Colombia
         </h2>
 
         <div className={styles.infoGrid}>
@@ -222,17 +388,55 @@ export default function RecaudoColegiosContent() {
         </div>
       </section>
 
+      {/* DIFERENCIAL */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Por qué elegir a Cobrando Online para recuperar la cartera de tu
+          colegio?
+        </h2>
+
+        <p className={styles.text}>
+          Nuestro equipo combina experiencia en gestión de cartera, negociación,
+          automatización y procesos jurídicos para ayudar a instituciones
+          educativas a recuperar recursos sin afectar la relación con
+          estudiantes y padres de familia.
+        </p>
+
+        <div className={styles.grid}>
+          {[
+            "Especialistas en recuperación de cartera",
+            "Cobranza prejurídica y jurídica",
+            "Seguimiento permanente",
+            "Mayor porcentaje de recuperación",
+            "Procesos personalizados",
+            "Cobertura en toda Colombia",
+          ].map((item, i) => (
+            <div key={i} className={styles.card}>
+              <p>{item}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.highlightBox}>
+          Recuperar cartera no consiste únicamente en cobrar; implica
+          implementar una estrategia que fortalezca la estabilidad financiera
+          del colegio y reduzca la morosidad de forma sostenible.
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Empieza hoy a recuperar pensiones atrasadas y estabiliza tu colegio
+            Recupera la cartera vencida de tu colegio y mejora la estabilidad
+            financiera desde hoy
           </h2>
 
           <p className={styles.ctaText}>
-            Recupera las pensiones atrasadas con una estrategia profesional de
-            cobranza que protege la relación con padres de familia y mejora la
-            estabilidad financiera de tu institución.
+            Nuestro equipo ayuda a instituciones educativas en Colombia a
+            recuperar pensiones escolares vencidas mediante una gestión
+            profesional, respetuosa y efectiva que mejora el recaudo sin afectar
+            la relación con los padres de familia.
           </p>
 
           <div className={styles.actions}>

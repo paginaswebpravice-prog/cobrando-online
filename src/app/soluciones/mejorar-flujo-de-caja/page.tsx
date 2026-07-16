@@ -3,9 +3,9 @@ import MejorarFlujoCajaContent from "./MejorarFlujoCajaContent";
 
 export const metadata: Metadata = {
   title:
-    "¿Problemas de liquidez? Mejora tu flujo de caja en Colombia rápido y efectivo",
+    "Cómo mejorar el flujo de caja de tu empresa | Reduce la cartera vencida y aumenta la liquidez",
   description:
-    "Aprende cómo mejorar el flujo de caja de tu empresa en Colombia con estrategias reales de cobro, control de cartera y aumento de liquidez.",
+    "Descubre cómo mejorar el flujo de caja de tu empresa mediante estrategias de recuperación de cartera, reducción de la mora, control financiero y aumento de la liquidez. Soluciones para empresas en Colombia.",
 
   keywords: [
     "mejorar flujo de caja",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "¿Cómo mejorar el flujo de caja en Colombia? Aumenta tu liquidez hoy",
+      "Cómo mejorar el flujo de caja y recuperar la liquidez de tu empresa",
     description:
       "Optimiza la liquidez de tu empresa en Colombia con estrategias efectivas de recaudo y control financiero.",
     url: "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
@@ -46,25 +46,175 @@ export default function Page() {
           __html: JSON.stringify([
             {
               "@context": "https://schema.org",
-              "@type": "Article",
-              headline:
-                "¿Cómo mejorar el flujo de caja en Colombia y aumentar la liquidez?",
+              "@type": "Service",
+
+              name: "Servicio para mejorar el flujo de caja empresarial en Colombia",
+
+              serviceType:
+                "Optimización del flujo de caja y recuperación de cartera",
+
               description:
-                "Estrategias para mejorar liquidez y flujo de caja en empresas en Colombia mediante gestión de cartera y recaudo eficiente.",
-              author: {
+                "Ayudamos a empresas en Colombia a mejorar el flujo de caja mediante recuperación de cartera, estrategias de recaudo, reducción de la mora y optimización de la liquidez.",
+
+              url: "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
+
+              provider: {
                 "@type": "Organization",
                 name: "Cobrando Online",
+                url: "https://cobrandoonline.com",
               },
-              publisher: {
-                "@type": "Organization",
-                name: "Cobrando Online",
+
+              areaServed: {
+                "@type": "Country",
+                name: "Colombia",
               },
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id":
-                  "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
+
+              audience: {
+                "@type": "BusinessAudience",
+                audienceType: "Empresas",
               },
-              inLanguage: "es",
+
+              offers: {
+                "@type": "Offer",
+                availability: "https://schema.org/InStock",
+              },
+
+              keywords: [
+                "mejorar flujo de caja",
+                "flujo de caja empresarial",
+                "liquidez empresa",
+                "aumentar liquidez",
+                "gestión de cartera",
+                "recuperación de cartera",
+              ],
+            },
+            {
+              "@context": "https://schema.org",
+
+              "@type": "WebPage",
+
+              name: "Cómo mejorar el flujo de caja de una empresa en Colombia",
+
+              url: "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
+
+              description:
+                "Conoce cómo mejorar el flujo de caja mediante estrategias de recuperación de cartera, recaudo y optimización financiera.",
+
+              inLanguage: "es-CO",
+
+              datePublished: "2026-07-16",
+
+              dateModified: "2026-07-16",
+
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: [".title", ".description"],
+              },
+            },
+            {
+              "@context": "https://schema.org",
+
+              "@type": "BreadcrumbList",
+
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Inicio",
+                  item: "https://cobrandoonline.com",
+                },
+
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Servicios",
+                  item: "https://cobrandoonline.com/servicios",
+                },
+
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: "Mejorar flujo de caja",
+                  item: "https://cobrandoonline.com/servicios/mejorar-flujo-de-caja",
+                },
+              ],
+            },
+            {
+              "@context": "https://schema.org",
+
+              "@type": "Organization",
+
+              name: "Cobrando Online",
+
+              url: "https://cobrandoonline.com",
+
+              logo: "https://cobrandoonline.com/logo.png",
+
+              areaServed: "Colombia",
+
+              knowsAbout: [
+                "Recuperación de cartera",
+                "Cobro prejurídico",
+                "Cobranza empresarial",
+                "Liquidez empresarial",
+                "Flujo de caja",
+                "Gestión financiera",
+              ],
+            },
+            {
+              "@context": "https://schema.org",
+
+              "@type": "FAQPage",
+
+              mainEntity: [
+                {
+                  "@type": "Question",
+
+                  name: "¿Cómo mejorar el flujo de caja de una empresa?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Implementando estrategias de recuperación de cartera, seguimiento permanente a las cuentas por cobrar, reducción de la mora y políticas claras de recaudo.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué causa problemas de flujo de caja?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Los pagos atrasados de clientes, la cartera vencida, el exceso de gastos y la falta de control financiero son las principales causas.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cómo aumentar la liquidez empresarial?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Recuperando cartera vencida, reduciendo los tiempos de cobro y optimizando la administración del capital de trabajo.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿La recuperación de cartera mejora el flujo de caja?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Sí. Recuperar oportunamente las cuentas por cobrar permite disponer de efectivo para cubrir gastos, invertir y mantener la estabilidad financiera.",
+                  },
+                },
+              ],
             },
           ]),
         }}

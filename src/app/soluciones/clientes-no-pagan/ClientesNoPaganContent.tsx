@@ -15,19 +15,22 @@ export default function ClientesNoPaganContent() {
             transition={{ duration: 0.6 }}
           >
             <span className={styles.badge}>
-              Soluciones para empresas en Colombia
+              Clientes morosos • Recuperación de cartera empresarial
             </span>
 
             <h1 className={styles.title}>
-              ¿Clientes no te pagan? Recupera tu dinero rápido con cobranza
-              profesional en Colombia
+              ¿Tus clientes no pagan las facturas? Recupera tu dinero con
+              cobranza profesional en Colombia
             </h1>
 
             <p className={styles.description}>
-              Si tienes clientes que no responden, retrasan pagos o evitan sus
-              obligaciones, necesitas una estrategia profesional. Te ayudamos a
-              recuperar tu dinero en Colombia mediante negociación, cobro
-              estructurado y acciones legales.
+              Si tienes clientes que incumplen los plazos de pago, acumulan
+              facturas vencidas o simplemente dejaron de responder, en{" "}
+              <strong>Cobrando Online</strong> diseñamos estrategias de
+              recuperación de cartera para empresas en Colombia. Combinamos
+              negociación, cobro prejurídico y acciones jurídicas cuando son
+              necesarias para aumentar las probabilidades de recuperar tu
+              dinero.
             </p>
 
             <div className={styles.actions}>
@@ -45,7 +48,8 @@ export default function ClientesNoPaganContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Por qué tus clientes no pagan y cómo esto puede afectar tu empresa
+          ¿Por qué tus clientes no pagan sus facturas y cómo recuperar ese
+          dinero?
         </h2>
 
         <p className={styles.text}>
@@ -85,8 +89,8 @@ export default function ClientesNoPaganContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo los clientes morosos afectan el flujo de caja y crecimiento de tu
-          empresa
+          Cómo los clientes morosos afectan el flujo de caja, la liquidez y la
+          rentabilidad de tu empresa
         </h2>
 
         <p className={styles.text}>
@@ -127,7 +131,9 @@ export default function ClientesNoPaganContent() {
       <section className={styles.container}>
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Cobrar sin estrategia profesional</h4>
+            <h4>
+              ❌ Intentar cobrar clientes morosos sin una estrategia profesional
+            </h4>
             <ul>
               <li>Clientes evaden el pago</li>
               <li>No hay seguimiento</li>
@@ -137,7 +143,10 @@ export default function ClientesNoPaganContent() {
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Recuperación de cartera con gestión profesional</h4>
+            <h4>
+              ✔ Recupera facturas vencidas con una estrategia profesional de
+              cobranza
+            </h4>
             <ul>
               <li>Seguimiento estructurado</li>
               <li>Negociación efectiva</li>
@@ -151,7 +160,7 @@ export default function ClientesNoPaganContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo recuperar deudas de clientes morosos en Colombia paso a paso
+          Cómo cobrar a un cliente que no paga en Colombia: proceso paso a paso
         </h2>
 
         <p className={styles.text}>
@@ -191,7 +200,8 @@ export default function ClientesNoPaganContent() {
       {/* TIPOS DE CLIENTES */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Tipos de clientes que no pagan y cómo lograr recuperar la deuda
+          Tipos de clientes morosos y la mejor estrategia para recuperar cada
+          deuda
         </h2>
 
         <div className={styles.grid}>
@@ -218,7 +228,7 @@ export default function ClientesNoPaganContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de recuperar cartera vencida antes de perder el dinero
+          Beneficios de actuar rápido cuando un cliente deja de pagar
         </h2>
 
         <div className={styles.benefits}>
@@ -231,12 +241,143 @@ export default function ClientesNoPaganContent() {
         </div>
       </section>
 
+      {/* ¿POR QUÉ LOS CLIENTES DEJAN DE PAGAR? */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Por qué algunos clientes dejan de pagar y cómo recuperar la deuda
+          antes de que sea demasiado tarde?
+        </h2>
+
+        <p className={styles.text}>
+          Existen diferentes razones por las que un cliente puede incumplir el
+          pago de una factura o una obligación. Algunas corresponden a problemas
+          financieros, otras a diferencias comerciales y, en muchos casos,
+          simplemente a una falta de seguimiento por parte del acreedor.
+        </p>
+
+        <p className={styles.text}>
+          Mientras más tiempo permanezca una deuda sin gestión, menores suelen
+          ser las probabilidades de recuperación. Por eso es recomendable
+          iniciar una estrategia de cobranza profesional desde las primeras
+          etapas de mora, documentando cada comunicación y evaluando la mejor
+          alternativa para cada deudor.
+        </p>
+
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h3>Problemas de liquidez</h3>
+            <p>
+              Algunos clientes atraviesan dificultades financieras temporales y
+              pueden cumplir mediante acuerdos de pago estructurados.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Incumplimiento voluntario</h3>
+            <p>
+              Existen deudores que retrasan deliberadamente el pago cuando no
+              existe una gestión profesional de recuperación.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Conflictos comerciales</h3>
+            <p>
+              Diferencias sobre facturación, contratos o entregas pueden
+              retrasar el pago si no se manejan oportunamente.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Falta de seguimiento</h3>
+            <p>
+              Muchas empresas permiten que la cartera envejezca simplemente
+              porque no cuentan con un proceso de cobranza definido.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CUÁNDO BUSCAR AYUDA */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Cuándo es recomendable buscar apoyo profesional para cobrar una
+          deuda?
+        </h2>
+
+        <p className={styles.text}>
+          Muchas empresas esperan varios meses antes de iniciar acciones para
+          recuperar su cartera. Sin embargo, cuanto antes se implemente una
+          estrategia de cobranza, mayores suelen ser las posibilidades de
+          obtener el pago.
+        </p>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>✔ Facturas vencidas</h4>
+            <p>
+              Cuando el cliente supera el plazo de pago acordado sin ofrecer una
+              solución clara.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Incumplimientos repetitivos</h4>
+            <p>
+              Si el cliente promete pagar constantemente pero nunca cumple los
+              compromisos adquiridos.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Falta de comunicación</h4>
+            <p>
+              Cuando deja de responder llamadas, correos o mensajes relacionados
+              con la deuda.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Alto impacto financiero</h4>
+            <p>
+              Cuando la deuda comienza a afectar la liquidez y el funcionamiento
+              de la empresa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* RESULTADOS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Qué ventajas tiene recuperar la cartera antes de iniciar una demanda?
+        </h2>
+
+        <p className={styles.text}>
+          En muchos casos es posible obtener el pago mediante una estrategia de
+          cobro organizada antes de acudir a un proceso judicial. Esto puede
+          representar un ahorro importante de tiempo y permitir conservar la
+          relación comercial con determinados clientes.
+        </p>
+
+        <div className={styles.benefits}>
+          <span>✔ Mayor probabilidad de recaudo.</span>
+          <span>✔ Menor tiempo de recuperación.</span>
+          <span>✔ Disminución del riesgo financiero.</span>
+          <span>
+            ✔ Conservación de relaciones comerciales cuando es posible.
+          </span>
+          <span>✔ Documentación organizada para futuras acciones.</span>
+          <span>✔ Mejor control de la cartera empresarial.</span>
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Recupera tu dinero y evita seguir perdiendo ingresos por cartera
-            vencida
+            No dejes que las facturas vencidas sigan afectando tu empresa:
+            recupera tu dinero hoy
           </h2>
 
           <p className={styles.ctaText}>

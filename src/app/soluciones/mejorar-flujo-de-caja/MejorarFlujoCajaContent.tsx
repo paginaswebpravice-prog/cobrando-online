@@ -15,19 +15,22 @@ export default function MejorarFlujoCajaContent() {
             transition={{ duration: 0.6 }}
           >
             <span className={styles.badge}>
-              Optimización financiera en Colombia
+              Mejora el flujo de caja • Reduce la cartera vencida • Aumenta la
+              liquidez
             </span>
 
             <h1 className={styles.title}>
-              ¿Problemas de liquidez? Mejora el flujo de caja y recupera
-              estabilidad financiera
+              Cómo mejorar el flujo de caja de tu empresa y aumentar la liquidez
+              en Colombia
             </h1>
 
             <p className={styles.description}>
-              El flujo de caja es el motor financiero de cualquier negocio. Te
-              ayudamos a optimizar ingresos, reducir retrasos en pagos y mejorar
-              la liquidez mediante estrategias efectivas de gestión de cartera y
-              recaudo.
+              El flujo de caja determina la capacidad de una empresa para pagar
+              proveedores, nómina, impuestos e invertir en su crecimiento. En
+              Cobrando Online ayudamos a mejorar la liquidez mediante
+              recuperación de cartera, reducción de la mora, procesos de recaudo
+              eficientes y estrategias que aceleran el ingreso de dinero sin
+              afectar la relación con tus clientes.
             </p>
 
             <div className={styles.actions}>
@@ -45,8 +48,8 @@ export default function MejorarFlujoCajaContent() {
       {/* PROBLEMA */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Por qué tu empresa tiene problemas de flujo de caja y cómo
-          solucionarlos
+          ¿Por qué una empresa tiene problemas de flujo de caja y cómo mejorar
+          su liquidez?
         </h2>
 
         <p className={styles.text}>
@@ -85,7 +88,7 @@ export default function MejorarFlujoCajaContent() {
       {/* IMPACTO */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Consecuencias de tener un flujo de caja desordenado en tu empresa
+          Consecuencias de un flujo de caja deficiente para una empresa
         </h2>
 
         <p className={styles.text}>
@@ -149,8 +152,7 @@ export default function MejorarFlujoCajaContent() {
       {/* SOLUCIÓN */}
       <section id="solucion" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Estrategias efectivas para mejorar la liquidez y el flujo de caja en
-          Colombia
+          Cómo mejorar el flujo de caja de una empresa paso a paso
         </h2>
 
         <p className={styles.text}>
@@ -186,11 +188,60 @@ export default function MejorarFlujoCajaContent() {
         </div>
       </section>
 
+      {/* SEÑALES DE QUE TU EMPRESA NECESITA MEJORAR EL FLUJO DE CAJA */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Señales de que tu empresa necesita mejorar urgentemente el flujo de
+          caja
+        </h2>
+
+        <p className={styles.text}>
+          Muchas empresas creen que el problema está en vender poco, cuando en
+          realidad el dinero tarda demasiado en ingresar. Si identificas varias
+          de estas situaciones, probablemente necesites fortalecer tu proceso de
+          recuperación de cartera y recaudo.
+        </p>
+
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h3>Clientes pagan fuera de plazo</h3>
+            <p>
+              Tus facturas vencen constantemente y debes esperar semanas o meses
+              para recibir el dinero.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Dependes de créditos</h3>
+            <p>
+              Necesitas préstamos para cubrir gastos que deberían pagarse con el
+              recaudo normal de la empresa.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>Aumenta la cartera vencida</h3>
+            <p>
+              Cada mes existen más cuentas pendientes de pago y disminuye la
+              capacidad de recuperación.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h3>No existe seguimiento de cobro</h3>
+            <p>
+              Las cuentas por cobrar no tienen responsables ni estrategias
+              definidas para recuperar el dinero oportunamente.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FACTORES CLAVE */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Claves para mantener un flujo de caja saludable y evitar problemas
-          financieros
+          Buenas prácticas para mantener un flujo de caja positivo durante todo
+          el año
         </h2>
 
         <div className={styles.grid}>
@@ -217,8 +268,7 @@ export default function MejorarFlujoCajaContent() {
       {/* BENEFICIOS */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios de optimizar el flujo de caja y aumentar la liquidez
-          empresarial
+          Beneficios de mejorar el flujo de caja y reducir la cartera vencida
         </h2>
 
         <div className={styles.benefits}>
@@ -228,6 +278,95 @@ export default function MejorarFlujoCajaContent() {
           <span>✔ Crecimiento sostenible</span>
           <span>✔ Mejor toma de decisiones</span>
           <span>✔ Control total del negocio</span>
+        </div>
+      </section>
+
+      {/* RESULTADOS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Qué resultados puede obtener una empresa al mejorar su flujo de caja?
+        </h2>
+
+        <p className={styles.text}>
+          Un flujo de caja saludable permite que la empresa opere con mayor
+          estabilidad financiera y aproveche oportunidades de crecimiento sin
+          depender constantemente del endeudamiento.
+        </p>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>Mayor liquidez disponible</h4>
+            <p>
+              Disponibilidad permanente de recursos para cubrir obligaciones.
+            </p>
+          </div>
+
+          <div>
+            <h4>Disminución de la cartera vencida</h4>
+            <p>Recuperación más rápida del dinero pendiente de cobro.</p>
+          </div>
+
+          <div>
+            <h4>Mayor capacidad de inversión</h4>
+            <p>
+              Posibilidad de expandir operaciones sin afectar la estabilidad
+              financiera.
+            </p>
+          </div>
+
+          <div>
+            <h4>Mejor rentabilidad</h4>
+            <p>
+              Menores costos asociados a la mora y mayor disponibilidad de
+              efectivo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* PREGUNTAS FRECUENTES */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Preguntas frecuentes sobre cómo mejorar el flujo de caja
+        </h2>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>¿Cómo mejorar el flujo de caja de una empresa?</h4>
+            <p>
+              Reduciendo los tiempos de cobro, recuperando cartera vencida,
+              estableciendo políticas de crédito, negociando mejores plazos y
+              realizando seguimiento permanente a las cuentas por cobrar.
+            </p>
+          </div>
+
+          <div>
+            <h4>¿Qué afecta el flujo de caja?</h4>
+            <p>
+              Los pagos atrasados, la cartera vencida, el exceso de gastos, la
+              falta de planeación financiera y una gestión ineficiente del
+              recaudo.
+            </p>
+          </div>
+
+          <div>
+            <h4>¿Cómo aumentar la liquidez de una empresa?</h4>
+            <p>
+              Recuperando deudas pendientes, optimizando el recaudo, reduciendo
+              la mora y mejorando la administración del capital de trabajo.
+            </p>
+          </div>
+
+          <div>
+            <h4>
+              ¿Por qué la recuperación de cartera mejora el flujo de caja?
+            </h4>
+            <p>
+              Porque acelera el ingreso de efectivo, disminuye la cartera
+              vencida y permite disponer de recursos para la operación diaria y
+              el crecimiento del negocio.
+            </p>
+          </div>
         </div>
       </section>
 

@@ -6,7 +6,7 @@ import styles from "../../../components/styles/Services.module.css";
 export default function SeguimientoCarteraContent() {
   return (
     <main className={styles.pageWrapper}>
-      {/* ================= HERO ================= */}
+      {/*  HERO  */}
       <section className={styles.hero}>
         <div className={styles.heroContainer}>
           <motion.div
@@ -14,17 +14,19 @@ export default function SeguimientoCarteraContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className={styles.badge}>Gestión de cartera en Colombia</span>
+            <span className={styles.badge}>
+              Control y seguimiento de cartera empresarial
+            </span>
 
             <h1 className={styles.title}>
-              Seguimiento de cartera en tiempo real para controlar y recuperar
-              pagos más rápido
+              Seguimiento de cartera en Colombia: controla tus cobros y conoce
+              el estado de cada cuenta en tiempo real
             </h1>
 
             <p className={styles.description}>
-              Visualiza el estado de tu cartera en cualquier momento. Accede a
-              información clara, seguimiento constante y trazabilidad completa
-              de cada proceso de cobro en Colombia.
+              Gestiona tu cartera con mayor organización, visibilidad y
+              trazabilidad. Consulta avances, controla gestiones realizadas y
+              toma mejores decisiones para mejorar el recaudo de tu empresa.
             </p>
 
             <div className={styles.actions}>
@@ -32,44 +34,65 @@ export default function SeguimientoCarteraContent() {
                 href="https://legalapp.pravice.co/login.php"
                 className={styles.primary}
               >
-                Ver el estado de mi cartera
+                Consultar estado de cartera
               </a>
+
               <a href="#funcionamiento" className={styles.secondary}>
-                Cómo funciona
+                Conocer cómo funciona
               </a>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* ================= PROBLEMA ================= */}
+      {/*  PROBLEMA  */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          El problema de muchas empresas: perder control sobre su cartera
+          Sin seguimiento de cartera pierdes visibilidad sobre tus pagos
+          pendientes
         </h2>
 
         <p className={styles.text}>
-          Muchas empresas en Colombia pierden dinero no por falta de clientes,
-          sino por no tener visibilidad sobre su cartera. La falta de
-          seguimiento genera desorden, retrasos y decisiones basadas en
-          información incompleta.
+          Muchas empresas tienen clientes con obligaciones pendientes, pero no
+          cuentan con información clara sobre qué gestiones se han realizado,
+          cuáles son los casos más críticos y qué acciones deben priorizar.
+          <br />
+          <br />
+          La falta de seguimiento genera retrasos, pérdida de oportunidades de
+          pago y dificultad para tomar decisiones oportunas sobre la cartera.
         </p>
 
         <div className={styles.grid}>
           {[
-            "No saber en qué estado está cada deuda",
-            "Falta de seguimiento constante",
-            "Información dispersa o desactualizada",
-            "Clientes sin contacto oportuno",
-            "Procesos manuales desorganizados",
-            "Pérdida de oportunidades de pago",
+            "No conocer el estado actual de cada cuenta",
+
+            "Dificultad para medir avances de recuperación",
+
+            "Información dispersa entre diferentes áreas",
+
+            "Falta de historial de gestiones realizadas",
+
+            "Seguimientos manuales difíciles de controlar",
+
+            "Decisiones tomadas sin información actualizada",
           ].map((item, i) => (
             <motion.div
               key={i}
               className={styles.card}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
+              initial={{
+                opacity: 0,
+                y: 30,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+              }}
+              viewport={{
+                once: true,
+              }}
+              transition={{
+                delay: i * 0.1,
+              }}
             >
               <p>{item}</p>
             </motion.div>
@@ -77,151 +100,237 @@ export default function SeguimientoCarteraContent() {
         </div>
 
         <div className={styles.warningBox}>
-          ⚠ Si no tienes control sobre tu cartera, no puedes mejorar tu recaudo.
+          ⚠ Si no puedes medir el estado de tu cartera, es más difícil mejorar
+          tus resultados de recaudo.
         </div>
       </section>
 
-      {/* ================= SOLUCIÓN ================= */}
+      {/*  DEFINICIÓN  */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Seguimiento de cartera en línea con acceso y control en tiempo real
+          ¿Qué es el seguimiento de cartera y por qué es clave para una empresa?
         </h2>
 
         <p className={styles.text}>
-          Implementamos un sistema de seguimiento que permite registrar cada
-          gestión de cobro y brindar acceso a nuestros clientes para consultar
-          en tiempo real el estado de su cartera.
+          El seguimiento de cartera es el proceso de controlar y monitorear cada
+          obligación pendiente, registrando las acciones realizadas, avances de
+          gestión y estado actual de cada cuenta.
+          <br />
+          <br />A diferencia de una gestión de cobro aislada, el seguimiento
+          permite tener una visión completa del comportamiento de la cartera y
+          conocer qué estrategias están funcionando para recuperar pagos.
         </p>
 
         <div className={styles.infoGrid}>
           <div>
-            <h4>✔ Registro completo</h4>
-            <p>Cada deuda queda documentada desde el inicio.</p>
+            <h4>✔ Control permanente</h4>
+
+            <p>
+              Conoce qué sucede con cada cuenta pendiente y evita perder casos
+              importantes.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Historial de gestión</h4>
-            <p>Accede a cada acción realizada sobre el caso.</p>
+            <h4>✔ Información organizada</h4>
+
+            <p>
+              Centraliza datos, avances y gestiones realizadas durante el
+              proceso.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Estado actualizado</h4>
-            <p>Visualiza el avance en tiempo real.</p>
+            <h4>✔ Mayor capacidad de decisión</h4>
+
+            <p>
+              Identifica prioridades y enfoca esfuerzos donde existe mayor
+              oportunidad de recuperación.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Acceso en línea</h4>
-            <p>Consulta tu cartera cuando lo necesites.</p>
+            <h4>✔ Trazabilidad completa</h4>
+
+            <p>Mantén historial de acciones y evolución de cada obligación.</p>
           </div>
         </div>
 
         <div className={styles.highlightBox}>
-          ✔ Tendrás visibilidad total del proceso sin depender de reportes
-          manuales.
+          ✔ El seguimiento convierte una cartera desorganizada en información
+          útil para tomar decisiones estratégicas.
         </div>
       </section>
 
-      {/* ================= DIFERENCIAL ================= */}
+      {/*  DIFERENCIAL  */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Transparencia total y seguimiento constante en cada proceso de cobro
+          Seguimiento de cartera con información clara en cada etapa del cobro
         </h2>
 
         <p className={styles.text}>
-          Nuestro enfoque se basa en brindar información clara y accesible para
-          que siempre sepas qué está pasando con tu cartera y cómo avanza cada
-          proceso de cobro.
+          Tener una cartera organizada no solamente significa saber cuánto se
+          debe, sino conocer qué acciones se han realizado, qué clientes tienen
+          mayor probabilidad de pago y cuáles requieren una estrategia
+          diferente.
         </p>
 
         <div className={styles.comparison}>
           <div className={`${styles.compareBox} ${styles.bad}`}>
-            <h4>❌ Sin seguimiento</h4>
+            <h4>❌ Sin seguimiento estructurado</h4>
+
             <ul>
-              <li>No sabes qué está pasando</li>
-              <li>Falta de control</li>
-              <li>Información desorganizada</li>
-              <li>Decisiones a ciegas</li>
+              <li>No existe control sobre cada caso</li>
+
+              <li>Información desactualizada</li>
+
+              <li>Dificultad para priorizar cobros</li>
+
+              <li>Pérdida de oportunidades de recuperación</li>
             </ul>
           </div>
 
           <div className={`${styles.compareBox} ${styles.good}`}>
-            <h4>✔ Con nuestra gestión</h4>
+            <h4>✔ Con seguimiento digital de cartera</h4>
+
             <ul>
-              <li>Acceso en tiempo real</li>
-              <li>Control total de cartera</li>
-              <li>Información clara</li>
-              <li>Decisiones informadas</li>
+              <li>Estado actualizado de cada cuenta</li>
+
+              <li>Historial completo de gestiones</li>
+
+              <li>Mayor control sobre los procesos</li>
+
+              <li>Mejores decisiones empresariales</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* ================= FUNCIONAMIENTO ================= */}
+      {/*  FUNCIONAMIENTO  */}
       <section id="funcionamiento" className={styles.container}>
         <h2 className={styles.subtitle}>
-          Cómo funciona el seguimiento de cartera paso a paso en Colombia
+          Cómo funciona el seguimiento de cartera paso a paso
         </h2>
 
         <p className={styles.text}>
-          Nuestro proceso está diseñado para garantizar control, continuidad y
-          resultados en cada etapa del cobro.
+          El proceso permite organizar la información de cada obligación y
+          mantener un control constante sobre las acciones realizadas para
+          mejorar la recuperación de cartera.
         </p>
 
         <div className={styles.infoGrid}>
           <div>
-            <h4>✔ Registro del caso</h4>
-            <p>Se documenta la deuda y datos del cliente.</p>
+            <h4>✔ Registro inicial de cartera</h4>
+
+            <p>
+              Se identifica cada obligación, cliente y estado inicial del
+              proceso.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Gestión de cobro</h4>
-            <p>Se ejecutan acciones estratégicas.</p>
+            <h4>✔ Seguimiento de gestiones</h4>
+
+            <p>Cada contacto, avance o compromiso queda registrado.</p>
           </div>
 
           <div>
-            <h4>✔ Actualización constante</h4>
-            <p>Cada gestión queda registrada.</p>
+            <h4>✔ Actualización del estado</h4>
+
+            <p>
+              La información se mantiene organizada para conocer la evolución de
+              cada cuenta.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Consulta en línea</h4>
-            <p>El cliente accede al estado en cualquier momento.</p>
+            <h4>✔ Control de avances</h4>
+
+            <p>
+              Permite identificar pagos realizados, pendientes y próximos pasos.
+            </p>
           </div>
 
           <div>
-            <h4>✔ Seguimiento continuo</h4>
-            <p>Se mantiene la gestión hasta el pago.</p>
+            <h4>✔ Seguimiento hasta recuperación</h4>
+
+            <p>
+              Mantiene continuidad hasta lograr la normalización de la
+              obligación.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ================= BENEFICIOS ================= */}
+      {/*  CASOS  */}
       <section className={styles.container}>
         <h2 className={styles.subtitle}>
-          Beneficios del seguimiento de cartera para empresas en Colombia
+          Empresas que necesitan mayor control y seguimiento de cartera
+        </h2>
+
+        <p className={styles.text}>
+          Una herramienta de seguimiento es especialmente útil para empresas que
+          manejan múltiples clientes, pagos pendientes o procesos constantes de
+          recuperación.
+        </p>
+
+        <div className={styles.grid}>
+          {[
+            "Empresas con cartera comercial activa",
+
+            "Negocios con pagos recurrentes",
+
+            "Instituciones de salud y servicios",
+
+            "Empresas con alto volumen de clientes",
+
+            "Organizaciones que necesitan trazabilidad",
+
+            "Empresas que buscan mejorar su flujo de caja",
+          ].map((item, i) => (
+            <div key={i} className={styles.card}>
+              <p>{item}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.highlightBox}>
+          ✔ Tener información actualizada permite enfocar esfuerzos en los casos
+          con mayor oportunidad de recuperación.
+        </div>
+      </section>
+
+      {/*  BENEFICIOS  */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          Beneficios de implementar seguimiento de cartera para tu empresa
         </h2>
 
         <div className={styles.benefits}>
-          <span>✔ Control total de tu cartera</span>
-          <span>✔ Seguimiento en tiempo real</span>
-          <span>✔ Mayor transparencia</span>
-          <span>✔ Mejor toma de decisiones</span>
-          <span>✔ Incremento en recaudo</span>
-          <span>✔ Reducción de cartera vencida</span>
+          <span>✔ Control completo de cuentas pendientes</span>
+
+          <span>✔ Mayor organización del proceso de cobro</span>
+
+          <span>✔ Historial de gestiones realizadas</span>
+
+          <span>✔ Información disponible para decisiones</span>
+
+          <span>✔ Reducción de cartera sin seguimiento</span>
+
+          <span>✔ Mejora en la eficiencia del recaudo</span>
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
+      {/*  CTA  */}
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
           <h2 className={styles.ctaTitle}>
-            Controla tu cartera y recupera pagos con mayor eficiencia desde hoy
+            Controla tu cartera, mejora tu seguimiento y toma mejores decisiones
           </h2>
 
           <p className={styles.ctaText}>
-            Accede a información clara, seguimiento constante y mejora el
-            recaudo de tu cartera en Colombia con un enfoque profesional y
-            estructurado.
+            Obtén mayor visibilidad sobre tus cuentas pendientes y gestiona tu
+            cartera con información organizada, trazabilidad y control.
           </p>
 
           <div className={styles.actions}>
@@ -231,13 +340,13 @@ export default function SeguimientoCarteraContent() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Solicitar asesoría
+              Solicitar información
             </a>
 
             <a
               href="https://api.whatsapp.com/send?phone=573234372766&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20seguimiento%20de%20cartera."
-              target="_blank"
               className={styles.secondary}
+              target="_blank"
               rel="noopener noreferrer"
             >
               Hablar por WhatsApp
