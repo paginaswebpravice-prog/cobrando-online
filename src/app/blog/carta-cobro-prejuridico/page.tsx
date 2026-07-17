@@ -3,17 +3,22 @@ import CartaCobroPrejuridicoContent from "./CartaCobroPrejuridicoContent";
 
 export const metadata: Metadata = {
   title:
-    "Carta de cobro prejurídico en Colombia (Ejemplo + Guía paso a paso 2026)",
+    "Carta de cobro prejurídico en Colombia: ejemplo, formato y cómo redactarla | Guía 2026",
+
   description:
-    "Aprende cómo hacer una carta de cobro prejurídico en Colombia con ejemplo práctico. Recupera cartera antes de iniciar procesos legales y evita demandas.",
+    "Aprende cómo elaborar una carta de cobro prejurídico en Colombia. Incluye ejemplo, formato, estructura, recomendaciones y buenas prácticas para recuperar cartera antes de iniciar otras etapas de gestión.",
 
   keywords: [
-    "carta de cobro prejuridico",
+    "carta de cobro prejurídico",
+    "modelo carta de cobro",
     "ejemplo carta de cobro",
-    "cobro prejuridico Colombia",
-    "modelo carta cobro deuda",
-    "recuperacion de cartera Colombia",
-    "cobranza prejuridica",
+    "formato carta cobro prejurídico",
+    "cobranza prejurídica",
+    "cobro administrativo",
+    "recuperación de cartera",
+    "carta de cobranza",
+    "gestión de cartera",
+    "cartera vencida",
   ],
 
   alternates: {
@@ -22,12 +27,17 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Carta de cobro prejurídico en Colombia (Ejemplo + Guía paso a paso)",
+      "Carta de cobro prejurídico: ejemplo, formato y guía para recuperar cartera",
+
     description:
-      "Descubre cómo redactar una carta de cobro prejurídico efectiva con ejemplo real y evita procesos judiciales innecesarios.",
+      "Descubre cómo redactar una carta de cobro prejurídico profesional, qué información incluir y cómo aumentar la probabilidad de pago mediante una gestión de cobranza organizada.",
+
     url: "https://cobrandoonline.com/blog/carta-cobro-prejuridico",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -48,26 +58,51 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
+
               headline:
-                "Carta de cobro prejurídico en Colombia: ejemplo práctico y guía paso a paso",
+                "Carta de cobro prejurídico en Colombia: ejemplo, formato y cómo redactarla para recuperar cartera",
+
               description:
-                "La carta de cobro prejurídico es una herramienta efectiva para recuperar cartera antes de iniciar acciones legales.",
+                "Guía completa sobre cómo elaborar una carta de cobro prejurídico en Colombia. Conoce qué debe incluir, cuándo enviarla, ejemplos prácticos y recomendaciones para mejorar la recuperación de cartera mediante una gestión administrativa organizada.",
+
+              keywords: [
+                "carta de cobro prejurídico",
+                "modelo carta de cobro",
+                "ejemplo carta de cobro",
+                "formato carta de cobro",
+                "carta de cobranza",
+                "cobranza prejurídica",
+                "recuperación de cartera",
+                "cobro administrativo",
+                "gestión de cartera",
+                "cartera vencida",
+              ],
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
                   "https://cobrandoonline.com/blog/carta-cobro-prejuridico",
               },
+
               datePublished: "2025-01-01",
-              dateModified: "2026-01-01",
+
+              dateModified: "2026-07-17",
+
               inLanguage: "es",
+
+              articleSection: "Recuperación de Cartera",
+
+              wordCount: "2800",
             },
             {
               "@context": "https://schema.org",
@@ -78,15 +113,47 @@ export default function Page() {
                   name: "¿Qué es una carta de cobro prejurídico?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Es un documento formal que se envía al deudor antes de iniciar acciones legales para exigir el pago de una deuda.",
+                    text: "Es una comunicación formal dirigida al deudor para informarle sobre una obligación pendiente de pago e invitarlo a regularizar la deuda mediante un pago o un acuerdo, antes de avanzar a otras etapas de gestión de cobranza.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "¿Cuándo enviar una carta de cobro prejurídico?",
+                  name: "¿Cuándo se recomienda enviar una carta de cobro prejurídico?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Se recomienda enviarla cuando la deuda ya presenta mora y no ha habido respuesta a recordatorios previos.",
+                    text: "Generalmente se envía cuando la deuda presenta mora y los recordatorios de pago, llamadas o comunicaciones iniciales no han generado una respuesta satisfactoria por parte del deudor.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Qué información debe contener una carta de cobro prejurídico?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Debe identificar al deudor, indicar el valor pendiente, la fecha de vencimiento, el plazo para realizar el pago, los canales de contacto y una invitación clara para llegar a un acuerdo de pago.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Una carta de cobro prejurídico ayuda a recuperar cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Sí. Una comunicación clara, respetuosa y enviada oportunamente puede aumentar la probabilidad de pago, facilitar negociaciones y reducir los tiempos de recuperación de cartera.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Se puede utilizar un modelo de carta de cobro para diferentes clientes?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Sí, siempre que el contenido se adapte a cada caso y refleje correctamente los datos del deudor, el valor de la obligación, las fechas relevantes y las condiciones de pago aplicables.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Cuál es el objetivo principal de una carta de cobro prejurídico?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Su objetivo es promover el pago voluntario de la obligación, fortalecer la comunicación con el cliente y mejorar la recuperación de cartera mediante una gestión administrativa organizada.",
                   },
                 },
               ],

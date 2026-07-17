@@ -18,16 +18,17 @@ export default function CartaCobroPrejuridicoContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          Legal
+          Cobranza Administrativa
         </motion.span>
 
+        {/*  HERO  */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Cómo hacer una carta de cobro prejurídico efectiva en Colombia y
-          recuperar deudas más rápido
+          Carta de cobro prejurídico en Colombia: cómo hacerla, qué debe incluir
+          y ejemplo para recuperar cartera
         </motion.h1>
 
         <motion.p
@@ -36,24 +37,49 @@ export default function CartaCobroPrejuridicoContent() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          La carta de cobro prejurídico es una comunicación formal que se envía
-          al deudor antes de iniciar un proceso judicial. Esta carta busca que
-          el deudor pague la deuda o llegue a un acuerdo de pago antes de
-          iniciar un cobro jurídico.
+          La carta de cobro prejurídico es una de las herramientas más
+          utilizadas en la recuperación de cartera porque permite establecer una
+          comunicación formal con el deudor antes de avanzar a otras etapas de
+          gestión. Una carta bien estructurada ayuda a informar el estado de la
+          obligación, promover acuerdos de pago y aumentar la probabilidad de
+          recaudo mediante una cobranza administrativa organizada. En esta guía
+          encontrarás qué debe contener una carta de cobro prejurídico, cuándo
+          enviarla, un ejemplo práctico y las mejores recomendaciones para
+          mejorar la recuperación de cartera.
         </motion.p>
 
+        {/* QUE ES UNA CARTA DE COBRO PREJURIDICO */}
         <motion.h2>
-          Qué es una carta de cobro prejurídico y cómo puede ayudarte a
-          recuperar una deuda
+          ¿Qué es una carta de cobro prejurídico y para qué sirve en la
+          recuperación de cartera?
         </motion.h2>
 
         <motion.p>
-          La carta de cobro prejurídico es un documento formal en el que se le
-          informa al deudor que tiene una obligación pendiente de pago y que, en
-          caso de no pagar, se podrán iniciar acciones legales para recuperar la
-          deuda.
+          La carta de cobro prejurídico es una comunicación formal utilizada
+          dentro de la gestión administrativa de cartera para informar al deudor
+          que existe una obligación pendiente de pago y solicitar su
+          normalización mediante un pago voluntario o un acuerdo. Su principal
+          objetivo es abrir un canal de diálogo antes de que la mora continúe
+          aumentando y afecte el flujo de caja de la empresa.
         </motion.p>
 
+        <motion.p>
+          A diferencia de un simple recordatorio de pago, este documento
+          presenta de forma organizada la información de la obligación,
+          identifica el valor adeudado, establece un plazo razonable para
+          atender la deuda e invita al cliente a comunicarse para encontrar una
+          solución. Esto permite que muchas empresas recuperen cartera sin
+          necesidad de escalar inmediatamente la gestión a etapas posteriores.
+        </motion.p>
+
+        <motion.p>
+          Además de fortalecer la comunicación con el deudor, una carta de cobro
+          prejurídico transmite seriedad, mejora la organización del proceso de
+          cobranza y deja evidencia de las gestiones realizadas, lo que facilita
+          el seguimiento interno de cada cuenta por cobrar.
+        </motion.p>
+
+        {/* CUANDO ENVIAR UNA CARTA DE COBRO PREJURIDICO */}
         <motion.h2>
           Cuándo enviar una carta de cobro prejurídico para aumentar la
           probabilidad de pago

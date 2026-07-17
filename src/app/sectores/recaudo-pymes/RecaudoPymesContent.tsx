@@ -390,6 +390,195 @@ export default function RecaudoPymesContent() {
         </div>
       </section>
 
+      {/* COMPARATIVO */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          La diferencia entre reaccionar cuando la cartera ya está vencida y
+          gestionar el recaudo de forma estratégica
+        </h2>
+
+        <p className={styles.text}>
+          Muchas pequeñas y medianas empresas solo comienzan a cobrar cuando la
+          deuda lleva varios meses vencida. Sin embargo, una estrategia de
+          seguimiento permanente permite reducir significativamente la mora,
+          mejorar el flujo de caja y aumentar las probabilidades de recuperar
+          cada factura pendiente.
+        </p>
+
+        <div className={styles.comparison}>
+          <div className={`${styles.compareBox} ${styles.bad}`}>
+            <h4>PYMES sin un proceso de cobranza definido</h4>
+
+            <ul>
+              <li>La cartera vencida aumenta mes tras mes.</li>
+              <li>Los clientes pagan únicamente cuando quieren.</li>
+              <li>
+                Se pierde demasiado tiempo haciendo llamadas improvisadas.
+              </li>
+              <li>
+                No existe seguimiento después del vencimiento de las facturas.
+              </li>
+              <li>Los acuerdos de pago rara vez quedan documentados.</li>
+              <li>
+                La liquidez disminuye y aparecen problemas para cubrir gastos.
+              </li>
+              <li>
+                El equipo administrativo dedica más tiempo a cobrar que a
+                vender.
+              </li>
+              <li>
+                Cada mes es más difícil recuperar las obligaciones antiguas.
+              </li>
+            </ul>
+          </div>
+
+          <div className={`${styles.compareBox} ${styles.good}`}>
+            <h4>
+              PYMES con una estrategia profesional de recuperación de cartera
+            </h4>
+
+            <ul>
+              <li>Seguimiento preventivo antes y después del vencimiento.</li>
+              <li>Clasificación de clientes según su nivel de riesgo.</li>
+              <li>Recordatorios oportunos y comunicación profesional.</li>
+              <li>Negociación de acuerdos de pago realistas.</li>
+              <li>Control permanente de cada factura pendiente.</li>
+              <li>Mayor recuperación de cartera en menor tiempo.</li>
+              <li>Mejor flujo de caja para operar y crecer.</li>
+              <li>Menor desgaste para el equipo comercial y administrativo.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className={styles.warningBox}>
+          Entre más tiempo permanece una factura sin gestión de cobro, menores
+          suelen ser las probabilidades de recuperación. Actuar de forma
+          temprana permite reducir la mora y proteger la estabilidad financiera
+          de la empresa.
+        </div>
+      </section>
+
+      {/* TIPOS DE CARTERA */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Qué tipo de cartera ayudamos a recuperar en pequeñas y medianas
+          empresas en Colombia?
+        </h2>
+
+        <p className={styles.text}>
+          Cada PYME tiene una dinámica comercial diferente, pero todas comparten
+          un mismo desafío: clientes que retrasan sus pagos y afectan el flujo
+          de caja. Diseñamos estrategias de recuperación adaptadas al tipo de
+          cartera, al sector económico y al comportamiento de cada deudor,
+          buscando maximizar el recaudo sin deteriorar las relaciones
+          comerciales.
+        </p>
+
+        <div className={styles.grid}>
+          {[
+            "Facturas electrónicas vencidas por venta de productos o prestación de servicios.",
+            "Cartera comercial con clientes empresariales (B2B).",
+            "Cuentas por cobrar a clientes personas naturales.",
+            "Obligaciones con pagos parciales o acuerdos incumplidos.",
+            "Facturas con vencimientos entre 30 y más de 360 días.",
+            "Clientes recurrentes con historial de mora constante.",
+            "Cartera de distribuidores, aliados comerciales y revendedores.",
+            "Obligaciones derivadas de órdenes de compra, contratos o cotizaciones aceptadas.",
+          ].map((item, i) => (
+            <motion.div
+              key={i}
+              className={styles.card}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <p>{item}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className={styles.highlightBox}>
+          No todas las cuentas por cobrar requieren el mismo tratamiento.
+          Analizar la antigüedad de la deuda, el perfil del cliente y el
+          historial de pago permite aplicar estrategias de cobranza más
+          efectivas y aumentar las probabilidades de recuperación.
+        </div>
+      </section>
+
+      {/* POR QUÉ ELEGIRNOS */}
+      <section className={styles.container}>
+        <h2 className={styles.subtitle}>
+          ¿Por qué elegir un servicio especializado de recuperación de cartera
+          para tu PYME?
+        </h2>
+
+        <p className={styles.text}>
+          Muchas pequeñas y medianas empresas intentan gestionar la cobranza de
+          forma interna, pero a medida que la cartera vencida crece, el
+          seguimiento se vuelve más complejo y consume tiempo que debería
+          destinarse a ventas, servicio al cliente y crecimiento del negocio.
+          Contar con un proceso especializado permite recuperar más dinero,
+          reducir la mora y mantener un flujo de caja más estable.
+        </p>
+
+        <div className={styles.infoGrid}>
+          <div>
+            <h4>✔ Seguimiento profesional</h4>
+            <p>
+              Cada cuenta por cobrar recibe un control constante y organizado
+              para evitar que la deuda continúe creciendo.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Estrategias adaptadas a PYMES</h4>
+            <p>
+              Diseñamos procesos de cobranza acordes con el tamaño, sector y
+              tipo de clientes de tu empresa.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Más tiempo para tu negocio</h4>
+            <p>
+              Tu equipo deja de invertir horas persiguiendo pagos y puede
+              enfocarse en actividades que generan ingresos.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Comunicación respetuosa</h4>
+            <p>
+              Gestionamos el recaudo de manera profesional para proteger la
+              relación comercial con tus clientes.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Reportes claros</h4>
+            <p>
+              Obtienes información sobre recuperación, acuerdos de pago y
+              comportamiento de la cartera para tomar mejores decisiones
+              financieras.
+            </p>
+          </div>
+
+          <div>
+            <h4>✔ Enfoque en resultados</h4>
+            <p>
+              Nuestro objetivo es convertir cuentas por cobrar en flujo de caja
+              real y sostenible para la empresa.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.highlightBox}>
+          Una gestión especializada de cartera permite reducir la mora,
+          recuperar pagos pendientes y fortalecer la estabilidad financiera de
+          la PYME sin necesidad de aumentar la carga administrativa interna.
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="contacto" className={styles.container}>
         <div className={styles.cta}>
