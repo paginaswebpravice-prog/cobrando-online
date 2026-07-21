@@ -1,134 +1,11 @@
 "use client";
 
-import Head from "next/head";
 import { motion } from "framer-motion";
 import styles from "./Article.module.css";
 
 export default function ClientesNoPagan() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Clientes que no pagan en Colombia: cómo recuperar una deuda legalmente",
-    description:
-      "Aprende qué hacer cuando un cliente no paga en Colombia. Conoce estrategias de cobro jurídico, recuperación de cartera y procesos legales en Bogotá y toda Colombia.",
-    author: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://pravice.co/clientes-que-no-pagan-colombia",
-    },
-    keywords: [
-      "clientes que no pagan",
-      "cobro jurídico Colombia",
-      "recuperación de cartera Bogotá",
-      "clientes morosos Colombia",
-      "abogados cobranza Bogotá",
-      "cómo cobrar una deuda",
-      "demanda ejecutiva Colombia",
-      "empresa de cobranza Bogotá",
-      "cartera vencida",
-      "recuperar dinero de clientes",
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "¿Qué hacer si un cliente no paga una factura en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Lo primero es validar que la deuda tenga soporte documental como facturas, contratos, órdenes de servicio o correos. Después se recomienda iniciar un proceso de cobro prejurídico y, si no hay respuesta, avanzar hacia un cobro jurídico.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cuándo iniciar un cobro jurídico en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Cuando el cliente incumple acuerdos de pago, ignora requerimientos formales o existe mora prolongada que afecta el flujo de caja de la empresa.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Qué documentos sirven para cobrar una deuda legalmente?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Facturas electrónicas, pagarés, contratos, órdenes de compra, correos electrónicos, chats y comprobantes de entrega pueden servir como soporte en un proceso de recuperación de cartera.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Se puede demandar a un cliente que no paga en Bogotá?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Sí. En Bogotá y en toda Colombia se puede iniciar una demanda ejecutiva o un proceso de cobro jurídico cuando exista soporte de la deuda y el cliente incumpla sus obligaciones.",
-        },
-      },
-    ],
-  };
-
   return (
     <>
-      <Head>
-        <title>
-          Clientes que no pagan en Colombia | Cómo recuperar una deuda
-        </title>
-
-        <meta
-          name="description"
-          content="Descubre qué hacer cuando un cliente no paga en Colombia. Aprende estrategias de recuperación de cartera, cobro jurídico y demandas ejecutivas en Bogotá y toda Colombia."
-        />
-
-        <meta
-          name="keywords"
-          content="
-            clientes que no pagan,
-            cobro jurídico Colombia,
-            recuperación de cartera Bogotá,
-            clientes morosos Colombia,
-            abogados cobranza Bogotá,
-            cómo cobrar una deuda,
-            demanda ejecutiva Colombia,
-            empresa de cobranza,
-            cartera vencida,
-            recuperación de dinero
-          "
-        />
-
-        <meta name="robots" content="index, follow" />
-
-        <meta property="og:title" content="Clientes que no pagan en Colombia" />
-
-        <meta
-          property="og:description"
-          content="Aprende cómo recuperar deudas y actuar legalmente contra clientes morosos en Bogotá y Colombia."
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData),
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      </Head>
-
       <main className={styles.articleContainer}>
         <motion.article
           className={styles.article}
@@ -145,6 +22,7 @@ export default function ClientesNoPagan() {
             Cobro Jurídico en Colombia
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -188,12 +66,13 @@ export default function ClientesNoPagan() {
             incumplidas.
           </motion.p>
 
+          {/* QUÉ HACER CUANDO UN CLIENTE NO PAGA UNA DEUDA EN COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            Qué hacer cuando un cliente no paga una deuda en Colombia
+            ¿Qué hacer cuando un cliente no paga una deuda empresarial?
           </motion.h2>
 
           <motion.p
@@ -201,10 +80,12 @@ export default function ClientesNoPagan() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            El primer paso es verificar que la deuda esté correctamente
-            soportada. En Colombia, los documentos y evidencias son
-            fundamentales para cualquier proceso de recuperación de cartera o
-            demanda ejecutiva.
+            Cuando un cliente incumple un pago, lo primero es analizar la
+            situación y determinar si existe una obligación claramente
+            soportada. Antes de iniciar cualquier acción de recuperación, la
+            empresa debe verificar facturas, contratos, órdenes de compra,
+            entregas realizadas y cualquier evidencia que permita demostrar la
+            existencia de la deuda.
           </motion.p>
 
           <motion.p
@@ -212,11 +93,27 @@ export default function ClientesNoPagan() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            Algunas empresas en Bogotá cometen el error de prestar servicios o
-            vender productos sin contratos claros o sin evidencia suficiente.
-            Esto dificulta posteriormente el cobro legal.
+            Una gestión temprana aumenta las posibilidades de recuperar el
+            dinero. Muchas obligaciones pueden solucionarse mediante
+            comunicación efectiva, negociación y acuerdos de pago antes de que
+            la cartera alcance niveles elevados de mora.
           </motion.p>
 
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Confirmar el valor pendiente y la fecha de vencimiento.</li>
+            <li>Revisar los documentos que respaldan la obligación.</li>
+            <li>
+              Contactar al cliente para conocer la causa del incumplimiento.
+            </li>
+            <li>Establecer compromisos de pago por escrito.</li>
+            <li>Realizar seguimiento hasta lograr el recaudo.</li>
+          </motion.ul>
+
+          {/* DOCUMENTOS IMPORTANTES PARA COBRAR UNA DEUDA */}
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -241,6 +138,50 @@ export default function ClientesNoPagan() {
             <li>Comprobantes de consignación.</li>
           </motion.ul>
 
+          {/* DIFERENCIA ENTRE UN CLIENTE MOROSO Y UNA CARTERA VENCIDA */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Diferencia entre un cliente moroso y una cartera vencida
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Un cliente moroso es aquel que incumple una obligación de pago
+            dentro del plazo acordado. Sin embargo, no todas las obligaciones
+            vencidas tienen el mismo nivel de riesgo, ya que factores como el
+            tiempo de mora, el historial del cliente y la capacidad de pago
+            influyen en la posibilidad de recuperación.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La cartera vencida requiere seguimiento constante porque una deuda
+            que no se gestiona oportunamente puede volverse más difícil de
+            recuperar con el paso del tiempo.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Cartera corriente: obligaciones próximas a vencer.</li>
+            <li>Cartera vencida temprana: pagos con pocos días de retraso.</li>
+            <li>
+              Cartera de difícil recuperación: obligaciones con alta antigüedad.
+            </li>
+          </motion.ul>
+
+          {/* COMO RECUPERAR CARTERA VENCIDA EN BOGOTÁ Y COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -270,6 +211,7 @@ export default function ClientesNoPagan() {
             una demanda.
           </motion.p>
 
+          {/* ESTRATEGIAS EFECTIVAS DE COBRANZA EMPRESARIAL */}
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -292,6 +234,104 @@ export default function ClientesNoPagan() {
             <li>Escalar el caso a cobro jurídico si es necesario.</li>
           </motion.ul>
 
+          {/* COMO COBRAR UNA DEUDA SIN AFECTAR LA RELACIÓN COMERCIAL */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            ¿Cómo cobrar una deuda sin afectar la relación comercial?
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La recuperación de cartera no debe enfocarse únicamente en exigir el
+            pago, sino en encontrar alternativas que permitan recuperar los
+            recursos y conservar relaciones comerciales importantes.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Una comunicación profesional, acuerdos claros y seguimiento
+            constante suelen generar mejores resultados que esperar hasta que la
+            deuda tenga una mayor antigüedad.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Escuchar las razones del incumplimiento.</li>
+            <li>Proponer alternativas realistas de pago.</li>
+            <li>Formalizar compromisos adquiridos.</li>
+            <li>Mantener seguimiento periódico.</li>
+          </motion.ul>
+
+          {/* PROCESO RECOMENDADO PARA RECUPERAR DINERO DE CLIENTES MOROSOS */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Proceso recomendado para recuperar dinero de clientes morosos
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La recuperación de cartera funciona mejor cuando la empresa cuenta
+            con un proceso definido y actúa de manera organizada desde los
+            primeros días de incumplimiento. No gestionar una deuda a tiempo
+            puede aumentar la posibilidad de que se convierta en una obligación
+            difícil de recuperar.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Un proceso adecuado de recuperación de cartera normalmente incluye
+            las siguientes etapas:
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>
+              <strong>1. Identificación de la deuda:</strong> revisar valores
+              pendientes, fechas de vencimiento y soportes disponibles.
+            </li>
+            <li>
+              <strong>2. Contacto inicial:</strong> comunicar al cliente la
+              obligación pendiente y buscar una solución temprana.
+            </li>
+            <li>
+              <strong>3. Seguimiento organizado:</strong> registrar llamadas,
+              comunicaciones y compromisos adquiridos.
+            </li>
+            <li>
+              <strong>4. Negociación:</strong> establecer acuerdos de pago según
+              la capacidad del cliente.
+            </li>
+            <li>
+              <strong>5. Escalamiento:</strong> cuando no existen resultados,
+              evaluar otras alternativas de recuperación.
+            </li>
+          </motion.ul>
+
+          {/* CUANDO INICIAR UN COBRO JURÍDICO EN COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -331,6 +371,7 @@ export default function ClientesNoPagan() {
             financieras derivadas de clientes morosos.
           </motion.p>
 
+          {/* ERRORES COMUNES AL COBRAR UNA DEUDA EMPRESARIAL */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -353,6 +394,51 @@ export default function ClientesNoPagan() {
             <li>Realizar acuerdos verbales sin evidencia.</li>
           </motion.ul>
 
+          {/* SENALES DE ALERTA DE CLIENTES QUE PUEDE CONVERTIRSE EN MOROSOS */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Señales de alerta de clientes que pueden convertirse en morosos
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Identificar comportamientos de riesgo permite actuar antes de que
+            una deuda se convierta en cartera vencida. Muchas empresas pueden
+            reducir pérdidas si detectan oportunamente cambios en el
+            comportamiento de pago de sus clientes.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Retrasos frecuentes en fechas de pago.</li>
+            <li>
+              Solicitudes constantes de ampliación de plazo sin justificación.
+            </li>
+            <li>Falta de respuesta ante comunicaciones de seguimiento.</li>
+            <li>Incremento progresivo del valor adeudado.</li>
+            <li>Incumplimiento de acuerdos previamente establecidos.</li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La prevención permite que las empresas gestionen mejor su liquidez y
+            reduzcan la cantidad de obligaciones que llegan a etapas avanzadas
+            de recuperación.
+          </motion.p>
+
+          {/* COMO PREVENIR CLIENTES MOROSOS EN COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -384,6 +470,7 @@ export default function ClientesNoPagan() {
             <li>Establecer políticas claras de crédito.</li>
           </motion.ul>
 
+          {/* PREGUNTAS FRECUENTES SOBRE CLIENTES QUE NO PAGAN */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -444,13 +531,54 @@ export default function ClientesNoPagan() {
             jurídico para proteger los intereses financieros de la empresa.
           </motion.p>
 
+          {/* HERRAMIENTAS PARA MEJORAR LA RECUPERACIÓN DE CARTERA EMPRESARIAL */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            Conclusión: cómo actuar frente a clientes morosos en Bogotá y
-            Colombia
+            Herramientas para mejorar la recuperación de cartera empresarial
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La tecnología permite organizar mejor los procesos de cobranza,
+            reducir tiempos de seguimiento y mantener información actualizada
+            sobre cada cliente con obligaciones pendientes.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Sistemas de gestión y seguimiento de cartera.</li>
+            <li>Automatización de recordatorios de pago.</li>
+            <li>Segmentación de clientes según nivel de riesgo.</li>
+            <li>Reportes de recuperación y comportamiento de pago.</li>
+            <li>Historial de comunicaciones y compromisos.</li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Contar con información organizada facilita tomar mejores decisiones
+            y priorizar aquellas obligaciones con mayor posibilidad de
+            recuperación.
+          </motion.p>
+
+          {/* CONCLUSION: COMO ACTUAR FRENTE A CLIENTES MOROSOS EN BOGOTÁ Y COLOMBIA */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Conclusión: cómo recuperar dinero cuando un cliente no paga
           </motion.h2>
 
           <motion.p
@@ -459,10 +587,10 @@ export default function ClientesNoPagan() {
             viewport={{ once: true }}
           >
             Tener clientes que no pagan puede afectar seriamente la estabilidad
-            financiera de cualquier empresa. Por eso, actuar rápidamente,
-            documentar correctamente la deuda y aplicar estrategias de cobranza
-            efectivas aumenta significativamente las probabilidades de recuperar
-            el dinero.
+            financiera de una empresa. Por esta razón, gestionar la cartera
+            desde los primeros días de atraso permite aumentar las posibilidades
+            de recuperación y evitar que las obligaciones pendientes continúen
+            creciendo.
           </motion.p>
 
           <motion.p
@@ -470,10 +598,20 @@ export default function ClientesNoPagan() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            En Bogotá y toda Colombia, contar con apoyo profesional en
-            recuperación de cartera y cobro jurídico puede ayudar a reducir
-            pérdidas, mejorar el flujo de caja y proteger la operación de la
-            empresa frente a clientes morosos e incumplimientos comerciales.
+            Una estrategia efectiva combina seguimiento oportuno, comunicación
+            adecuada, documentación de la deuda, negociación y herramientas que
+            permitan controlar cada etapa del proceso de recuperación.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Para las empresas en Colombia, contar con procesos organizados de
+            gestión de cartera ayuda a proteger el flujo de caja, reducir
+            pérdidas por morosidad y mejorar la recuperación de recursos
+            pendientes.
           </motion.p>
         </motion.article>
       </main>
