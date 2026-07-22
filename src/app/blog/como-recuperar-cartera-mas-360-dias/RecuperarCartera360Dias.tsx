@@ -1,134 +1,11 @@
 "use client";
 
-import Head from "next/head";
 import styles from "./Article.module.css";
 import { motion } from "framer-motion";
 
 export default function RecuperarCartera360Dias() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "¿Cómo recuperar cartera de más de 360 días en Colombia?",
-    description:
-      "Aprende cómo recuperar cartera vencida de más de 360 días en Bogotá y Colombia con estrategias de cobranza, recuperación de cartera y cobro jurídico.",
-    author: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://pravice.co/recuperar-cartera-360-dias-colombia",
-    },
-    keywords: [
-      "recuperar cartera vencida",
-      "cartera de más de 360 días",
-      "recuperación de cartera Colombia",
-      "cobro jurídico Bogotá",
-      "clientes morosos Colombia",
-      "cartera castigada",
-      "cobranza empresarial",
-      "recuperar deudas antiguas",
-      "cobro prejurídico Colombia",
-      "cartera vencida Bogotá",
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "¿Se puede recuperar cartera de más de 360 días en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Sí. Aunque la recuperación es más compleja, aún existen posibilidades de recuperar parcial o totalmente la deuda mediante cobranza especializada y acciones jurídicas oportunas.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Qué pasa si una deuda lleva más de un año vencida?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Entre más tiempo pase, mayores son los riesgos de evasión, pérdida de contacto, dificultades financieras del deudor y posibles problemas legales relacionados con la prescripción.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cuándo iniciar cobro jurídico por cartera vencida?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Cuando la cobranza amistosa no genera resultados, el cliente incumple acuerdos o la deuda representa un riesgo financiero importante para la empresa.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cómo aumentar la recuperación de cartera antigua?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Manteniendo seguimiento constante, actualizando información del cliente, negociando acuerdos de pago y actuando jurídicamente antes de que la obligación prescriba.",
-        },
-      },
-    ],
-  };
-
   return (
     <>
-      <Head>
-        <title>¿Cómo recuperar cartera de más de 360 días en Colombia?</title>
-
-        <meta
-          name="description"
-          content="Descubre cómo recuperar cartera vencida de más de 360 días en Bogotá y Colombia mediante estrategias de cobranza, acuerdos de pago y cobro jurídico."
-        />
-
-        <meta
-          name="keywords"
-          content="
-            recuperar cartera vencida,
-            recuperación de cartera Colombia,
-            cartera de más de 360 días,
-            cobro jurídico Bogotá,
-            clientes morosos Colombia,
-            cobranza empresarial,
-            recuperar deudas antiguas,
-            cobro prejurídico,
-            recuperación de cartera empresarial,
-            cartera castigada
-          "
-        />
-
-        <meta name="robots" content="index, follow" />
-
-        <meta
-          property="og:title"
-          content="¿Cómo recuperar cartera de más de 360 días en Colombia?"
-        />
-
-        <meta
-          property="og:description"
-          content="Aprende estrategias efectivas para recuperar cartera vencida y clientes morosos en Bogotá y Colombia."
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(articleSchema),
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      </Head>
-
       <main className={styles.articleContainer}>
         <motion.article
           className={styles.article}
@@ -142,15 +19,17 @@ export default function RecuperarCartera360Dias() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Estrategias de Recuperación de Cartera en Colombia
+            Recuperación de Cartera
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            ¿Cómo recuperar cartera de más de 360 días en Colombia?
+            Cómo recuperar cartera de más de 360 días en Colombia: estrategias
+            que realmente aumentan las probabilidades de cobro
           </motion.h1>
 
           <motion.p
@@ -159,11 +38,14 @@ export default function RecuperarCartera360Dias() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Recuperar una deuda con más de 360 días de mora puede convertirse en
-            uno de los mayores desafíos financieros para empresas en Bogotá y
-            Colombia. Entre más tiempo pasa, menores suelen ser las
-            probabilidades de pago, especialmente cuando no existió seguimiento
-            constante ni estrategias claras de recuperación de cartera.
+            Recuperar una cartera con más de <strong>360 días de mora</strong>{" "}
+            representa uno de los mayores retos para cualquier empresa. A medida
+            que transcurre el tiempo, disminuyen las probabilidades de recaudo,
+            aumenta el riesgo de incumplimiento definitivo y la gestión se
+            vuelve más compleja. Sin embargo, una deuda antigua no significa
+            necesariamente una deuda perdida. Con una estrategia adecuada es
+            posible incrementar las opciones de recuperación, proteger el flujo
+            de caja y reducir las pérdidas financieras.
           </motion.p>
 
           <motion.p
@@ -171,52 +53,408 @@ export default function RecuperarCartera360Dias() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Muchas empresas dejan acumular cartera vencida durante meses o años
-            hasta que el problema afecta directamente la liquidez, el flujo de
-            caja y la estabilidad financiera del negocio.
+            En esta guía encontrarás las principales estrategias para recuperar
+            cartera vencida de más de un año, los errores que reducen las
+            posibilidades de éxito, cuándo conviene negociar, cuándo evaluar un
+            proceso de cobro jurídico y qué acciones permiten mejorar los
+            resultados sin deteriorar innecesariamente la relación comercial con
+            el cliente.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            Sin embargo, incluso cuando una deuda supera los 360 días, todavía
-            es posible recuperar parcial o totalmente la obligación mediante
-            estrategias de cobranza profesional, negociación, cobro prejurídico
-            y acciones legales oportunas en Colombia.
-          </motion.p>
-
+          {/* POR QUE ES MAS DIFICIL RECUPERAR UNA CARTERA CON MAS DE 360 DIAS */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Qué significa tener cartera vencida de más de 360 días
+            ¿Por qué es más difícil recuperar una cartera con más de 360 días de
+            mora?
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Una cartera de más de 360 días corresponde a obligaciones que llevan
-            más de un año sin ser pagadas. Este tipo de cartera suele
-            considerarse de alto riesgo debido a las menores probabilidades de
-            recuperación y al desgaste natural del proceso de cobranza.
+            Una cartera que supera los <strong>360 días de vencimiento</strong>{" "}
+            suele presentar mayores dificultades de recuperación porque el paso
+            del tiempo incrementa la incertidumbre sobre la capacidad de pago
+            del deudor y reduce la efectividad de las gestiones tradicionales de
+            cobranza. Mientras más antigua sea la obligación, mayor es la
+            probabilidad de enfrentar cambios en la situación económica del
+            cliente, pérdida de contacto o incluso inconvenientes relacionados
+            con la documentación que soporta la deuda.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            En Bogotá y Colombia, muchas empresas clasifican este tipo de
-            obligaciones como cartera crítica o cartera castigada debido al
-            impacto financiero que puede generar sobre las operaciones del
-            negocio.
+            Esto no significa que la recuperación sea imposible. De hecho,
+            muchas empresas logran recuperar obligaciones con más de un año de
+            mora cuando aplican una estrategia estructurada que combina análisis
+            financiero, actualización de la información del deudor, negociación
+            profesional, seguimiento permanente y, cuando corresponde, el inicio
+            oportuno de actuaciones prejurídicas o jurídicas.
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Antes de considerar una deuda como incobrable, es recomendable
+            evaluar diferentes variables como el monto adeudado, la existencia
+            de documentos que respalden la obligación, el historial de pago del
+            cliente, su actividad económica actual y las posibilidades reales de
+            alcanzar un acuerdo que permita recuperar total o parcialmente los
+            recursos adeudados.
+          </motion.p>
+
+          {/* PRINCIPALES CAUSAS POR LAS QUE UNA CARTERA SUPERA LOS 360 DIAS DE MORA */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Principales causas por las que una cartera supera los 360 días de
+            mora
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            En la mayoría de los casos, una cartera no llega a superar los 360
+            días de vencimiento por un único motivo. Generalmente es el
+            resultado de una combinación de factores relacionados con la gestión
+            de crédito, el seguimiento de los pagos y la situación financiera
+            del deudor. Identificar estas causas permite definir una estrategia
+            de recuperación mucho más efectiva.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Entre más tiempo permanezca una obligación sin gestión, mayores
+            serán los costos financieros para la empresa y menores las
+            probabilidades de recaudo. Por ello es importante intervenir la
+            cartera antes de que el deterioro sea irreversible.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <li>Falta de seguimiento durante los primeros días de mora.</li>
+            <li>
+              Procesos internos de cobranza poco estructurados o inconsistentes.
+            </li>
+            <li>
+              Clientes que presentan problemas temporales o permanentes de
+              liquidez.
+            </li>
+            <li>
+              Cambios en la ubicación, teléfonos o información de contacto del
+              deudor.
+            </li>
+            <li>
+              Ausencia de políticas claras para otorgar crédito comercial.
+            </li>
+            <li>
+              Demoras excesivas para iniciar una gestión prejurídica o jurídica
+              cuando ya era necesaria.
+            </li>
+            <li>
+              Falta de documentación suficiente para respaldar la obligación.
+            </li>
+            <li>
+              Exceso de confianza en clientes antiguos sin realizar seguimiento
+              a los compromisos adquiridos.
+            </li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Comprender cuál fue la causa del envejecimiento de la cartera
+            permite elegir la mejor alternativa de recuperación. No es lo mismo
+            gestionar una deuda cuyo deudor atraviesa dificultades económicas
+            temporales que una obligación frente a un cliente que simplemente ha
+            decidido incumplir de manera reiterada.
+          </motion.p>
+
+          {/* ESTRATEGIAS QUE REALMENTE FUNCIONAN PARA RECUPERAR CARTERA DE MAS DE 360 DIAS */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Estrategias que realmente funcionan para recuperar cartera de más de
+            360 días
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Recuperar una deuda con más de un año de mora exige un enfoque
+            diferente al utilizado durante las primeras etapas de cobranza. En
+            este punto ya no basta con enviar recordatorios de pago o realizar
+            llamadas ocasionales. Es necesario implementar una estrategia
+            integral que permita conocer la situación actual del deudor,
+            priorizar las cuentas con mayor probabilidad de recaudo y actuar de
+            manera rápida para evitar que la obligación continúe deteriorándose.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Las empresas que obtienen mejores resultados suelen combinar
+            herramientas de análisis, negociación, seguimiento permanente y
+            recuperación prejurídica o jurídica, según las características de
+            cada caso. No todas las obligaciones requieren el mismo tratamiento,
+            por lo que segmentar la cartera es una de las primeras decisiones
+            que debe tomarse.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            1. Analizar cada deuda antes de iniciar la gestión
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Antes de contactar nuevamente al cliente es recomendable revisar el
+            historial completo de la obligación. Esto incluye el valor adeudado,
+            la fecha de vencimiento, los pagos parciales realizados, las
+            comunicaciones anteriores, los acuerdos incumplidos y toda la
+            documentación disponible. Este análisis permite definir la
+            estrategia de recuperación más adecuada.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            2. Actualizar la información del deudor
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Después de varios meses es común que hayan cambiado los teléfonos,
+            correos electrónicos, representantes legales o direcciones del
+            cliente. Contar con información actualizada facilita el contacto y
+            evita perder tiempo utilizando datos que ya no son válidos.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            3. Negociar cuando exista intención real de pago
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Muchos clientes incumplen por problemas temporales de liquidez y no
+            por falta de voluntad. En estos casos, ofrecer acuerdos de pago
+            razonables puede incrementar significativamente la probabilidad de
+            recuperación sin afectar la relación comercial construida durante
+            años.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Lo importante es que cualquier acuerdo quede documentado y
+            establezca fechas, valores, condiciones de incumplimiento y
+            mecanismos de seguimiento para reducir nuevos retrasos.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            4. No esperar indefinidamente para escalar la gestión
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Uno de los errores más frecuentes consiste en mantener durante meses
+            una misma estrategia que claramente no está generando resultados.
+            Cuando el cliente no responde, incumple reiteradamente los acuerdos
+            o evita cualquier comunicación, es recomendable evaluar el paso
+            hacia una gestión prejurídica o jurídica, siempre después de
+            analizar la documentación y la viabilidad del caso.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            5. Dar prioridad a las cuentas con mayor probabilidad de
+            recuperación
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            No todas las deudas ofrecen las mismas posibilidades de recaudo.
+            Clasificar la cartera según el monto, la antigüedad, la
+            documentación disponible y la situación financiera del deudor
+            permite concentrar esfuerzos en aquellas obligaciones con mayores
+            probabilidades de éxito, optimizando el tiempo y los recursos
+            destinados a la cobranza.
+          </motion.p>
+
+          {/*  ERRORES QUE HACEN CASI IMPOSIBLE RECUPERAR UNA CARTERA CON MAS DE 360 DIAS  */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Errores que hacen casi imposible recuperar una cartera con más de
+            360 días
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            En muchos casos, las dificultades para recuperar una cartera antigua
+            no se deben únicamente al comportamiento del deudor, sino también a
+            errores cometidos por la empresa durante la administración de sus
+            cuentas por cobrar. Detectar estos problemas permite corregir
+            procesos internos y aumentar las probabilidades de recaudo tanto de
+            las obligaciones actuales como de las futuras.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Mientras más tiempo permanezca una deuda sin gestión, mayores serán
+            las dificultades para localizar al cliente, negociar un acuerdo o
+            iniciar otras acciones de recuperación. Por ello, evitar los
+            siguientes errores resulta fundamental para cualquier empresa que
+            administre cartera.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <li>
+              Esperar varios meses antes de realizar el primer contacto con el
+              cliente.
+            </li>
+            <li>
+              No actualizar periódicamente los datos de contacto del deudor.
+            </li>
+            <li>
+              Perder contratos, facturas, pagarés o documentos que soportan la
+              obligación.
+            </li>
+            <li>
+              No registrar las llamadas, correos electrónicos y compromisos
+              adquiridos durante la negociación.
+            </li>
+            <li>
+              Mantener la misma estrategia de cobranza durante meses sin obtener
+              resultados.
+            </li>
+            <li>
+              Ofrecer acuerdos de pago sin establecer fechas claras ni
+              consecuencias por incumplimiento.
+            </li>
+            <li>
+              No clasificar la cartera según el nivel de riesgo y la
+              probabilidad de recuperación.
+            </li>
+            <li>
+              Posponer indefinidamente la evaluación de alternativas
+              prejurídicas cuando las gestiones amistosas ya no producen
+              resultados.
+            </li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Corregir estos errores permite optimizar la gestión de cobranza,
+            disminuir el envejecimiento de la cartera y aumentar
+            significativamente las probabilidades de recuperar obligaciones
+            incluso cuando superan los 360 días de mora.
+          </motion.p>
+
+          {/*  PORQUE UNA DEUDA ANTIGUA ES MAS DIFICIL DE RECUPERAR  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -257,6 +495,7 @@ export default function RecuperarCartera360Dias() {
             recuperación de cartera se vuelva más compleja en Colombia.
           </motion.p>
 
+          {/*  COMO RECUPERAR UNA DEUDA ANTIGUA EN BOGOTÁ Y COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -284,31 +523,7 @@ export default function RecuperarCartera360Dias() {
             capacidad de recuperación del cliente.
           </motion.p>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            Estrategias efectivas para recuperar cartera vencida
-          </motion.h2>
-
-          <motion.ul
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <li>Actualizar datos de contacto del deudor.</li>
-            <li>Revisar contratos, pagarés y facturas.</li>
-            <li>Organizar todos los soportes disponibles.</li>
-            <li>Retomar seguimiento profesional.</li>
-            <li>Enviar notificaciones formales de cobro.</li>
-            <li>Negociar acuerdos de pago flexibles.</li>
-            <li>Ofrecer alternativas de normalización.</li>
-            <li>Automatizar recordatorios de cobranza.</li>
-            <li>Escalar rápidamente a cobro prejurídico.</li>
-            <li>Analizar viabilidad jurídica del caso.</li>
-          </motion.ul>
-
+          {/*  IMPORTANCIA DE LA DOCUMENTACION EN EL PROCESO DE COBRO  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -350,6 +565,7 @@ export default function RecuperarCartera360Dias() {
             <li>Acuerdos de pago anteriores.</li>
           </motion.ul>
 
+          {/*  CUANDO INICIAR UN COBRO JURÍDICO EN COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -387,29 +603,7 @@ export default function RecuperarCartera360Dias() {
             probabilidades de recuperación de cartera empresarial.
           </motion.p>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            Errores comunes al recuperar cartera de más de 360 días
-          </motion.h2>
-
-          <motion.ul
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <li>Dejar de hacer seguimiento durante meses.</li>
-            <li>No documentar acuerdos de pago.</li>
-            <li>Perder soportes importantes.</li>
-            <li>No actualizar información del cliente.</li>
-            <li>Esperar demasiado para actuar jurídicamente.</li>
-            <li>No segmentar la cartera por antigüedad.</li>
-            <li>No contar con procesos especializados de cobranza.</li>
-            <li>Descuidar la comunicación con el deudor.</li>
-          </motion.ul>
-
+          {/*  COMO EVITAR ACUMULACION DE CARTERA VENCIDA EN EMPRESAS  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -442,6 +636,7 @@ export default function RecuperarCartera360Dias() {
             <li>Implementar procesos de cobranza preventiva.</li>
           </motion.ul>
 
+          {/*  PREGUNTAS FRECUENTES SOBRE RECUPERACIÓN DE CARTERA ANTIGUA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -504,6 +699,7 @@ export default function RecuperarCartera360Dias() {
             la empresa.
           </motion.p>
 
+          {/*  CONCLUSIÓN: COMO AUMENTAR LAS PROBABILIDADES DE RECUPERACIÓN DE CARTERA ANTIGUA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
