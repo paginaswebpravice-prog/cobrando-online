@@ -16,23 +16,72 @@ export default function DsrCartera() {
           className={styles.category}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          transition={{ duration: 0.4 }}
         >
-          Finanzas y Cobranza
+          Indicadores Financieros y Recuperación de Cartera
         </motion.span>
 
-        <h1>
-          DSR en cartera: indicador para medir el desempeño de recuperación
-        </h1>
+        {/*  HERO  */}
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+        >
+          ¿Qué es el DSR en recuperación de cartera? Cómo interpretar este
+          indicador y mejorar la eficiencia de la cobranza empresarial
+        </motion.h1>
 
-        <p className={styles.intro}>
-          El DSR (Debt Service Ratio o indicador de desempeño de recuperación,
-          según la metodología utilizada por cada organización) es una métrica
-          que permite evaluar la efectividad de los procesos de cobranza y la
-          capacidad de recuperación de las cuentas por cobrar. Su análisis ayuda
-          a identificar tendencias, optimizar estrategias y mejorar los
-          resultados financieros de la empresa.
-        </p>
+        <motion.p
+          className={styles.intro}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+        >
+          Medir los resultados de la gestión de cobranza es indispensable para
+          tomar decisiones financieras acertadas. Entre los diferentes
+          indicadores utilizados por las empresas se encuentra el{" "}
+          <strong>DSR</strong>, una métrica que permite evaluar el desempeño de
+          la recuperación de cartera y determinar qué tan efectivas están siendo
+          las estrategias implementadas para recaudar las cuentas por cobrar.
+        </motion.p>
 
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+        >
+          Aunque el significado específico del DSR puede variar según la
+          metodología utilizada por cada organización, en la gestión de cartera
+          suele emplearse como un indicador para medir el nivel de recuperación
+          alcanzado durante un período, comparar resultados históricos, evaluar
+          equipos de cobranza y detectar oportunidades de mejora en los procesos
+          de recaudo.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6 }}
+        >
+          Comprender cómo interpretar este KPI permite optimizar la
+          administración de cuentas por cobrar, reducir la cartera vencida,
+          fortalecer el flujo de caja y establecer estrategias preventivas que
+          disminuyan el riesgo de mora sin tener que acudir inmediatamente a
+          procesos judiciales.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7 }}
+        >
+          En esta guía encontrarás qué es el DSR, cómo interpretarlo, qué
+          factores afectan este indicador, cuáles métricas financieras deben
+          analizarse junto con él y qué acciones ayudan a mejorar la
+          recuperación de cartera de manera sostenible.
+        </motion.p>
+
+        {/*   QUE ES EL DSR  */}
         <h2>¿Qué es el DSR en cartera?</h2>
 
         <p>

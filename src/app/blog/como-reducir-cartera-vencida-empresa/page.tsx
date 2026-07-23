@@ -2,9 +2,28 @@ import { Metadata } from "next";
 import ReducirCarteraVencidaEmpresa from "./ReducirCarteraVencidaEmpresa";
 
 export const metadata: Metadata = {
-  title: "¿Cómo reducir la cartera vencida en una empresa? | Guía financiera",
+  title:
+    "Cómo reducir la cartera vencida en una empresa en Colombia: 12 estrategias para mejorar el flujo de caja (Guía 2026)",
+
   description:
-    "Aprende estrategias efectivas para reducir la cartera vencida, mejorar el flujo de caja y proteger la liquidez de tu empresa en Colombia.",
+    "Descubre cómo reducir la cartera vencida en tu empresa mediante estrategias de cobranza preventiva, seguimiento de clientes, indicadores financieros y procesos de recuperación que fortalecen el flujo de caja en Colombia.",
+
+  keywords: [
+    "cómo reducir cartera vencida",
+    "reducir cartera vencida empresa",
+    "disminuir cartera morosa",
+    "gestión de cartera empresarial",
+    "seguimiento de cartera",
+    "cómo mejorar flujo de caja",
+    "recuperación de cartera",
+    "estrategias de cobranza",
+    "indicadores de cartera",
+    "cartera vencida empresas Colombia",
+    "cuentas por cobrar",
+    "mora empresarial",
+    "cobranza preventiva",
+    "software de cartera",
+  ],
 
   alternates: {
     canonical:
@@ -12,12 +31,18 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "¿Cómo reducir la cartera vencida en una empresa?",
+    title:
+      "Cómo reducir la cartera vencida en una empresa | Estrategias para mejorar el recaudo y el flujo de caja",
+
     description:
-      "Conoce estrategias de seguimiento y cobranza para disminuir la mora y mejorar la estabilidad financiera de tu empresa.",
+      "Aprende cómo disminuir la cartera vencida con políticas de crédito, seguimiento de clientes, indicadores financieros y procesos de cobranza más eficientes.",
+
     url: "https://cobrandoonline.com/blog/como-reducir-cartera-vencida-empresa",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -30,7 +55,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {/* SCHEMA SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -38,52 +62,121 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "¿Cómo reducir la cartera vencida en una empresa?",
+
+              headline:
+                "Cómo reducir la cartera vencida en una empresa en Colombia: estrategias para mejorar el flujo de caja",
+
               description:
-                "Guía para disminuir la mora empresarial y mejorar la recuperación de cartera en Colombia.",
+                "Guía completa para disminuir la cartera vencida mediante estrategias preventivas, seguimiento de clientes, indicadores de cartera y recuperación eficiente.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
                   "https://cobrandoonline.com/blog/como-reducir-cartera-vencida-empresa",
               },
+
               datePublished: "2025-01-01",
-              dateModified: "2026-01-01",
+
+              dateModified: "2026-07-22",
+
               inLanguage: "es",
+
+              keywords: [
+                "cartera vencida",
+                "reducir cartera vencida",
+                "gestión de cartera",
+                "flujo de caja",
+                "cobranza empresarial",
+                "seguimiento de cartera",
+                "indicadores financieros",
+              ],
             },
+
             {
               "@context": "https://schema.org",
+
               "@type": "FAQPage",
+
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "¿Qué causa la cartera vencida en una empresa?",
+
+                  name: "¿Cómo reducir la cartera vencida en una empresa?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "La falta de seguimiento, políticas débiles de crédito y retrasos en cobranza son causas frecuentes de cartera vencida.",
+
+                    text: "Reducir la cartera vencida requiere combinar políticas de crédito, seguimiento oportuno, automatización de recordatorios, negociación de acuerdos de pago y una estrategia de recuperación estructurada.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Cómo reducir la mora empresarial?",
+
+                  name: "¿Qué causa el aumento de la cartera vencida?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Implementando seguimiento constante, automatización y estrategias preventivas de cobranza.",
+
+                    text: "Las causas más frecuentes son la falta de seguimiento, procesos manuales de cobranza, políticas débiles de crédito, demoras en iniciar el cobro y ausencia de indicadores financieros.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Por qué es importante controlar la cartera vencida?",
+
+                  name: "¿Cómo mejorar el flujo de caja mediante la recuperación de cartera?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Porque la mora afecta directamente la liquidez y estabilidad financiera de la empresa.",
+
+                    text: "Reduciendo los tiempos de recaudo, clasificando la cartera por antigüedad, automatizando recordatorios y realizando seguimiento permanente a los clientes.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué indicadores ayudan a controlar la cartera vencida?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Indicadores como porcentaje de cartera vencida, días promedio de recaudo (DSO), índice de recuperación y antigüedad de cartera permiten evaluar la efectividad de la gestión.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cuándo iniciar un proceso prejurídico?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Cuando las gestiones iniciales de cobranza no generan resultados y el cliente presenta incumplimientos reiterados en sus obligaciones.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cómo evitar que aumente nuevamente la cartera vencida?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Implementando políticas claras de crédito, monitoreo permanente, segmentación de clientes según riesgo y procesos preventivos de cobranza desde antes del vencimiento.",
                   },
                 },
               ],

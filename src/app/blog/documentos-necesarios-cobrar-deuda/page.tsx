@@ -3,17 +3,24 @@ import DocumentosNecesariosCobrarDeudaContent from "./DocumentosNecesariosCobrar
 
 export const metadata: Metadata = {
   title:
-    "Documentos para cobrar una deuda en Colombia: cuáles necesitas y cómo usarlos",
+    "Documentos para cobrar una deuda en Colombia: guía completa para empresas (2026)",
+
   description:
-    "Descubre cuáles son los documentos necesarios para cobrar una deuda en Colombia y cómo respaldar un proceso de recuperación de cartera de forma efectiva.",
+    "Conozca cuáles son los documentos más importantes para cobrar una deuda en Colombia. Aprenda cuándo una factura, contrato, pagaré o título ejecutivo facilitan la recuperación de cartera y reducen el riesgo de perder su dinero.",
 
   keywords: [
-    "documentos para cobrar deuda",
-    "cobro de cartera Colombia",
-    "titulo ejecutivo Colombia",
-    "factura electronica cobrar deuda",
+    "documentos para cobrar una deuda",
+    "documentos necesarios para cobrar una deuda",
+    "cómo cobrar una deuda en Colombia",
+    "recuperación de cartera empresas",
+    "factura electrónica título ejecutivo",
     "pagaré Colombia",
-    "recuperacion de cartera documentos",
+    "contrato para cobrar deuda",
+    "documentos recuperación de cartera",
+    "cobro prejurídico",
+    "cobro jurídico",
+    "cartera empresarial",
+    "título ejecutivo Colombia",
   ],
 
   alternates: {
@@ -23,12 +30,17 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Documentos para cobrar una deuda: guía completa en Colombia (contrato, factura, pagaré)",
+      "¿Qué documentos necesita para cobrar una deuda en Colombia? Guía completa 2026",
+
     description:
-      "Conoce qué documentos necesitas para recuperar una deuda y respaldar un proceso jurídico en Colombia.",
+      "Descubra qué documentos realmente aumentan las probabilidades de recuperar una deuda: contratos, facturas, pagarés, soportes de entrega y mucho más.",
+
     url: "https://cobrandoonline.com/blog/documentos-necesarios-cobrar-deuda",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -41,53 +53,111 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {/* SCHEMA SEO AVANZADO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
             {
               "@context": "https://schema.org",
+
               "@type": "BlogPosting",
+
               headline:
-                "Documentos para cobrar una deuda en Colombia: cuáles necesitas y cómo usarlos",
+                "Documentos para cobrar una deuda en Colombia: guía completa para empresas",
+
               description:
-                "Conoce cuáles son los documentos necesarios para cobrar una deuda de manera efectiva y respaldar un proceso de recuperación de cartera.",
+                "Conozca cuáles son los documentos necesarios para recuperar una deuda mediante cobro prejurídico o jurídico en Colombia.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
+
                 "@id":
                   "https://cobrandoonline.com/blog/documentos-necesarios-cobrar-deuda",
               },
+
               datePublished: "2025-01-01",
-              dateModified: "2026-01-01",
+
+              dateModified: "2026-07-23",
+
               inLanguage: "es",
+
+              keywords:
+                "documentos para cobrar deuda, factura electrónica, pagaré, recuperación de cartera, título ejecutivo",
             },
+
             {
               "@context": "https://schema.org",
+
               "@type": "FAQPage",
+
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "¿Es obligatorio tener un pagaré para cobrar una deuda?",
+
+                  name: "¿Qué documento tiene más fuerza para cobrar una deuda?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "No siempre, pero facilita significativamente el proceso jurídico al constituir un título ejecutivo.",
+
+                    text: "Depende de cada caso. Sin embargo, documentos como el pagaré, la factura electrónica con los requisitos legales o algunos títulos ejecutivos permiten iniciar procesos de cobro con mayores posibilidades de éxito.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Una factura electrónica sirve para demandar?",
+
+                  name: "¿Una factura electrónica sirve para cobrar una deuda judicialmente?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "En muchos casos sí, siempre que cumpla los requisitos legales establecidos en Colombia.",
+
+                    text: "En muchos casos sí. Siempre que cumpla los requisitos establecidos por la legislación colombiana puede constituir un título ejecutivo.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Es obligatorio tener un pagaré para recuperar una cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "No. Existen diferentes documentos que pueden respaldar una obligación, aunque contar con un pagaré suele facilitar considerablemente el proceso de recuperación.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué pasa si solo tengo correos electrónicos o conversaciones de WhatsApp?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Dependiendo del caso, estos soportes pueden complementar otras pruebas y ayudar a demostrar la existencia de la obligación.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué documentos debería conservar una empresa para reducir el riesgo de cartera vencida?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Lo recomendable es conservar contratos, órdenes de compra, facturas, soportes de entrega, comprobantes de pago, correos electrónicos, acuerdos de pago y cualquier evidencia relacionada con la obligación.",
                   },
                 },
               ],

@@ -22,6 +22,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             Finanzas Empresariales
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -54,6 +55,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             financiera empresarial.
           </motion.p>
 
+          {/*  QUE ES LA CARTERA VENCIDA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -86,6 +88,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             cuentas por cobrar sin gestión adecuada de recuperación.
           </motion.p>
 
+          {/*  PRINCIPALES CAUSAS DE CARTERA VENCIDA EN EMPRESAS COLOMBIANAS   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -111,6 +114,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             <li>Deficiente control administrativo.</li>
           </motion.ul>
 
+          {/*  ESTRATEGIAS EFECTIVAS PARA REDUCIR LA CARTERA VENCIDA EN COLOMBIA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -150,6 +154,70 @@ export default function ReducirCarteraVencidaEmpresa() {
             <li>Escalar rápidamente cuentas críticas.</li>
           </motion.ul>
 
+          {/*  INDICADORES QUE PERMITEN REDUCIR LA CARTERA VENCIDA DE FORMA SOSTENIBLE   */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Indicadores que permiten reducir la cartera vencida de forma
+            sostenible
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Muchas empresas únicamente analizan cuánto dinero les deben, pero no
+            monitorean indicadores que permitan identificar a tiempo cuándo la
+            cartera comienza a deteriorarse. Medir la información correcta
+            facilita tomar decisiones oportunas antes de que las cuentas entren
+            en mora prolongada.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Un seguimiento periódico de estos indicadores permite priorizar
+            esfuerzos de cobranza, distribuir mejor los recursos del equipo y
+            disminuir el riesgo de incobrabilidad.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <li>Porcentaje de cartera vencida respecto a las ventas.</li>
+            <li>Días promedio de recaudo (DSO).</li>
+            <li>Valor recuperado mensualmente.</li>
+            <li>Cumplimiento de acuerdos de pago.</li>
+            <li>Cartera clasificada por antigüedad.</li>
+            <li>Clientes con reincidencia en mora.</li>
+            <li>Efectividad de las gestiones de cobranza.</li>
+            <li>Tiempo promedio entre el vencimiento y el primer contacto.</li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Las empresas que convierten estos indicadores en parte de sus
+            reportes financieros detectan problemas con mayor rapidez y pueden
+            implementar estrategias de recuperación antes de que las deudas se
+            vuelvan difíciles de cobrar.
+          </motion.p>
+
+          {/*  COMO MEJORAR EL FLUJO DE CAJA EMPRESARIAL   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -182,6 +250,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             procesos automatizados de seguimiento de cartera.
           </motion.p>
 
+          {/*  COMO HACER SEGUIMIENTO EFECTIVO DE CARTERA VENCIDA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -217,6 +286,75 @@ export default function ReducirCarteraVencidaEmpresa() {
             <li>Generar reportes financieros periódicos.</li>
           </motion.ul>
 
+          {/*  BUENAS PRACTICAS QUE AYUDAN A DISMINUIR LA MORA DE LOS CLIENTES   */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Buenas prácticas que ayudan a disminuir la mora de los clientes
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Reducir la cartera vencida no depende únicamente del departamento de
+            cobranza. También involucra procesos comerciales, administrativos y
+            financieros que permitan prevenir retrasos antes de que ocurran.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Las organizaciones con menores índices de mora suelen trabajar bajo
+            políticas de crédito claras, procesos automatizados y una
+            comunicación permanente con sus clientes durante todo el ciclo
+            comercial.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <li>
+              Definir políticas de crédito desde el inicio de la relación
+              comercial.
+            </li>
+            <li>
+              Enviar facturas inmediatamente después de prestar el servicio.
+            </li>
+            <li>Recordar los vencimientos antes de la fecha límite.</li>
+            <li>Mantener información actualizada del cliente.</li>
+            <li>Registrar todas las gestiones de cobranza.</li>
+            <li>Capacitar periódicamente al equipo encargado del recaudo.</li>
+            <li>
+              Automatizar procesos repetitivos mediante software especializado.
+            </li>
+            <li>Revisar mensualmente el comportamiento de la cartera.</li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            La combinación entre prevención, seguimiento y análisis de
+            indicadores suele generar mejores resultados que concentrar todos
+            los esfuerzos únicamente cuando la deuda ya tiene varios meses de
+            vencimiento.
+          </motion.p>
+
+          {/*  CUANDO INICIAR COBRO PREJURÍDICO O JURÍDICO   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -250,6 +388,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             resultados positivos.
           </motion.p>
 
+          {/*  ERRORES COMUNES QUE AUMENTAN LA CARTERA VENCIDA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -275,6 +414,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             <li>No iniciar acciones jurídicas a tiempo.</li>
           </motion.ul>
 
+          {/*  BENEFICIOS DE REDUCIR LA CARTERA VENCIDA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -299,6 +439,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             <li>Fortalecimiento financiero de la empresa.</li>
           </motion.ul>
 
+          {/*  PREGUNTAS FRECUENTES SOBRE CARTERA VENCIDA EN COLOMBIA   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -365,6 +506,7 @@ export default function ReducirCarteraVencidaEmpresa() {
             deuda supera varios meses sin resultados positivos.
           </motion.p>
 
+          {/*  CONCLUSION: COMO PROTEGER LA ESTABILIDAD FINANCIERA EMPRESARIAL   */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
