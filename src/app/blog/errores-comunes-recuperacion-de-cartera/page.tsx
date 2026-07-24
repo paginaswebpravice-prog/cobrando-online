@@ -49,26 +49,80 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline:
-                "Errores en la recuperación de cartera que reducen tus ingresos y cómo evitarlos",
-              description:
-                "Conoce los errores más comunes en la recuperación de cartera y cómo evitarlos para mejorar la efectividad del cobro.",
-              author: {
-                "@type": "Organization",
-                name: "Cobrando Online",
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "Cobrando Online",
-              },
+              "@id":
+                "https://cobrandoonline.com/blog/errores-comunes-recuperacion-de-cartera#article",
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
                   "https://cobrandoonline.com/blog/errores-comunes-recuperacion-de-cartera",
               },
+              headline:
+                "10 errores comunes en la recuperación de cartera en Colombia que hacen perder dinero a las empresas (y cómo evitarlos)",
+              alternativeHeadline:
+                "Cómo mejorar la recuperación de cartera evitando los errores más frecuentes en la gestión de cobranza empresarial",
+              description:
+                "Guía completa sobre los errores más comunes en la recuperación de cartera en Colombia. Aprende cómo evitar fallas en la gestión de cobranza, mejorar el recaudo, reducir la cartera vencida y proteger el flujo de caja de tu empresa.",
+              keywords: [
+                "errores recuperación de cartera",
+                "errores cobranza",
+                "gestión de cartera",
+                "recuperación de cartera colombia",
+                "cartera vencida",
+                "cobranza empresarial",
+                "cómo recuperar cartera",
+                "proceso de cobranza",
+                "recaudo empresarial",
+                "cobro prejurídico",
+                "cobro jurídico",
+                "cobrando online",
+              ],
+              articleSection: [
+                "Recuperación de cartera",
+                "Cobranza empresarial",
+                "Gestión financiera",
+              ],
+              wordCount: "3400",
+              inLanguage: "es-CO",
               datePublished: "2025-01-01",
-              dateModified: "2026-01-01",
-              inLanguage: "es",
+              dateModified: "2026-07-24",
+              author: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+                url: "https://cobrandoonline.com",
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "Cobrando Online",
+                url: "https://cobrandoonline.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://cobrandoonline.com/logo.png",
+                },
+              },
+              image: {
+                "@type": "ImageObject",
+                url: "https://cobrandoonline.com/og-image.jpg",
+                width: 1200,
+                height: 630,
+              },
+              about: [
+                {
+                  "@type": "Thing",
+                  name: "Recuperación de cartera",
+                },
+                {
+                  "@type": "Thing",
+                  name: "Cobranza empresarial",
+                },
+                {
+                  "@type": "Thing",
+                  name: "Cartera vencida",
+                },
+                {
+                  "@type": "Thing",
+                  name: "Gestión de cartera",
+                },
+              ],
             },
             {
               "@context": "https://schema.org",
