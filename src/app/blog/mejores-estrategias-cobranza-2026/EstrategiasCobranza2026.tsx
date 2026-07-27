@@ -2,145 +2,10 @@
 
 import styles from "./Article.module.css";
 import { motion } from "framer-motion";
-import Head from "next/head";
 
 export default function EstrategiasCobranza2026() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Mejores estrategias de cobranza efectiva en 2026 en Colombia",
-    description:
-      "Conoce las mejores estrategias de cobranza efectiva en Colombia para 2026. Aprende cómo reducir cartera vencida, recuperar deudas y mejorar el flujo de caja empresarial en Bogotá y toda Colombia.",
-    author: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    mainEntityOfPage:
-      "https://pravice.co/blog/mejores-estrategias-cobranza-2026",
-    datePublished: "2026-01-01",
-    dateModified: "2026-06-05",
-    inLanguage: "es-CO",
-    keywords: [
-      "estrategias de cobranza 2026",
-      "cobranza efectiva Colombia",
-      "recuperación de cartera Bogotá",
-      "cartera vencida empresas",
-      "cobro jurídico Colombia",
-      "gestión de cartera empresarial",
-      "reducción de mora",
-      "cobranza empresarial Bogotá",
-    ],
-    about: [
-      "Cobranza empresarial",
-      "Recuperación de cartera",
-      "Cobro jurídico",
-      "Flujo de caja",
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "¿Cuáles son las mejores estrategias de cobranza en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Las mejores estrategias de cobranza en Colombia incluyen automatización de recordatorios, segmentación de clientes, seguimiento constante, acuerdos de pago, cobranza prejurídica y monitoreo de indicadores de cartera.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cómo reducir la cartera vencida en una empresa?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Para reducir la cartera vencida es importante implementar políticas de crédito claras, hacer seguimiento temprano, automatizar procesos de cobranza y escalar oportunamente los casos de mora.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cuándo iniciar cobro jurídico en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Se recomienda iniciar cobro jurídico cuando el cliente incumple acuerdos de pago, evita responder o mantiene la deuda vencida durante varios meses.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Qué empresas necesitan estrategias de recuperación de cartera?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Las estrategias de recuperación de cartera son fundamentales para PYMES, clínicas, IPS, empresas de servicios, constructoras, distribuidoras y compañías con ventas a crédito.",
-        },
-      },
-    ],
-  };
-
   return (
     <>
-      <Head>
-        <title>
-          Mejores estrategias de cobranza efectiva en 2026 | Colombia
-        </title>
-
-        <meta
-          name="description"
-          content="Aprende las mejores estrategias de cobranza efectiva en Colombia para 2026. Descubre cómo reducir cartera vencida, mejorar el flujo de caja y recuperar deudas empresariales en Bogotá y toda Colombia."
-        />
-
-        <meta
-          name="keywords"
-          content="estrategias de cobranza 2026, recuperación de cartera Colombia, cobranza efectiva Bogotá, cartera vencida empresas, cobro jurídico Colombia, recuperación de cartera empresarial"
-        />
-
-        <meta name="robots" content="index, follow" />
-
-        <meta
-          property="og:title"
-          content="Mejores estrategias de cobranza efectiva en 2026"
-        />
-
-        <meta
-          property="og:description"
-          content="Conoce cómo reducir la mora, recuperar cartera vencida y mejorar la cobranza empresarial en Colombia durante 2026."
-        />
-
-        <meta
-          property="og:url"
-          content="https://pravice.co/blog/mejores-estrategias-cobranza-2026"
-        />
-
-        <meta property="og:type" content="article" />
-
-        <meta name="geo.region" content="CO-DC" />
-        <meta name="geo.placename" content="Bogotá, Colombia" />
-        <meta name="language" content="Spanish" />
-
-        <link
-          rel="canonical"
-          href="https://pravice.co/blog/mejores-estrategias-cobranza-2026"
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData),
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      </Head>
-
       <main className={styles.articleContainer}>
         <motion.article
           className={styles.article}
@@ -154,16 +19,17 @@ export default function EstrategiasCobranza2026() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Estrategias de Cobranza
+            Estrategias de Cobranza Empresarial
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Mejores estrategias de cobranza efectiva en 2026 para empresas en
-            Colombia
+            Estrategias de cobranza empresarial 2026 para reducir mora y
+            recuperar cartera vencida
           </motion.h1>
 
           <motion.p
@@ -172,11 +38,12 @@ export default function EstrategiasCobranza2026() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            La recuperación de cartera continúa evolucionando en 2026. Las
-            empresas en Bogotá, Medellín, Cali, Barranquilla y otras ciudades de
-            Colombia ya no dependen únicamente de llamadas de cobranza
-            tradicionales, sino de estrategias más inteligentes, automatizadas y
-            enfocadas en la experiencia del cliente.
+            En 2026, las empresas enfrentan un reto cada vez mayor: recuperar
+            cartera vencida sin afectar la relación con sus clientes. Una
+            gestión de cobranza efectiva requiere mucho más que llamadas de
+            seguimiento; ahora involucra tecnología, análisis de datos,
+            automatización y procesos organizados según el comportamiento de
+            pago de cada cliente.
           </motion.p>
 
           <motion.p
@@ -184,12 +51,12 @@ export default function EstrategiasCobranza2026() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Actualmente, las compañías que implementan procesos modernos de
-            cobranza logran reducir la mora, mejorar el flujo de caja y aumentar
-            las probabilidades de recuperación sin deteriorar la relación
-            comercial. Esto resulta especialmente importante en Colombia, donde
-            muchas empresas enfrentan problemas de liquidez derivados de pagos
-            tardíos, incumplimientos contractuales y aumento de cartera vencida.
+            Las organizaciones que implementan estrategias modernas de cobranza
+            empresarial pueden reducir los niveles de morosidad, mejorar su
+            flujo de caja y aumentar las posibilidades de recuperación de
+            obligaciones pendientes. Esto es especialmente importante para
+            empresas que manejan ventas a crédito, facturación recurrente o
+            grandes volúmenes de cartera.
           </motion.p>
 
           <motion.p
@@ -197,13 +64,14 @@ export default function EstrategiasCobranza2026() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            En 2026, la gestión de cartera dejó de ser únicamente un proceso
-            operativo y pasó a convertirse en una estrategia financiera clave
-            para proteger la estabilidad empresarial. Una cobranza efectiva
-            permite mantener operaciones saludables, pagar proveedores, sostener
-            nóminas y garantizar crecimiento financiero sostenible.
+            Actualmente, la recuperación de cartera dejó de ser un proceso
+            reactivo. Las empresas más eficientes trabajan con modelos
+            preventivos que permiten identificar riesgos antes del vencimiento,
+            clasificar clientes según su comportamiento y aplicar acciones
+            específicas para cada tipo de deuda.
           </motion.p>
 
+          {/*  AUTOMATIZACION DE PROCESOS DE COBRANZA EN COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -253,6 +121,7 @@ export default function EstrategiasCobranza2026() {
             <li>Indicadores automáticos de mora empresarial.</li>
           </motion.ul>
 
+          {/*  SEGMENTACION DE CLIENTES SEGUN NIVEL DE RIESGO FINANCIERO  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -301,6 +170,7 @@ export default function EstrategiasCobranza2026() {
             <li>Cartera crítica superior a 360 días.</li>
           </motion.ul>
 
+          {/*  COBRANZA PERSONALIZADA Y MENOS AGRESIVA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -336,6 +206,7 @@ export default function EstrategiasCobranza2026() {
             distribución comercial en Bogotá y otras ciudades del país.
           </motion.p>
 
+          {/*  USO DE INTELIGENCIA ARTIFICIAL EN RECUPERACION DE CARTERA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -369,6 +240,7 @@ export default function EstrategiasCobranza2026() {
             operativos.
           </motion.p>
 
+          {/*  INDICADORES CLAVE PARA MEDIR LA MORA EMPRESARIAL  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -416,6 +288,7 @@ export default function EstrategiasCobranza2026() {
             de cobranza empresarial.
           </motion.p>
 
+          {/*  CUANDO ESCALAR A COBRO PREJURÍDICO O JURÍDICO EN COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -449,6 +322,7 @@ export default function EstrategiasCobranza2026() {
             probabilidades de éxito y evita riesgos de prescripción.
           </motion.p>
 
+          {/*  ERRORES COMUNES EN LAS ESTRATEGIAS DE COBRANZA EMPRESARIAL  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -474,6 +348,7 @@ export default function EstrategiasCobranza2026() {
             <li>Perder soportes documentales de la deuda.</li>
           </motion.ul>
 
+          {/*  PREGUNTAS FRECUENTES SOBRE COBRANZA EFECTIVA EN COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -543,6 +418,7 @@ export default function EstrategiasCobranza2026() {
             periodos.
           </motion.p>
 
+          {/*  CONCLUSION: COMO MEJORAR LA RECUPERACION DE CARTERA EN 2026  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

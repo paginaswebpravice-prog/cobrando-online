@@ -3,17 +3,24 @@ import IndicadoresCarteraContent from "./IndicadoresCarteraContent";
 
 export const metadata: Metadata = {
   title:
-    "Indicadores de cartera vencida en Colombia: cómo medir y reducir la mora",
+    "Indicadores de cartera vencida: 8 KPIs para medir la mora y mejorar el recaudo | Cobrando Online",
+
   description:
-    "Aprende cuáles son los principales indicadores de cartera vencida en Colombia y cómo medir la mora, el riesgo y el recaudo.",
+    "Aprende cuáles son los principales indicadores de cartera vencida, cómo calcularlos y cómo utilizarlos para reducir la mora, mejorar el flujo de caja y optimizar la gestión de cobranza empresarial.",
 
   keywords: [
     "indicadores de cartera vencida",
-    "mora cartera Colombia",
+    "KPIs de cartera",
+    "indicadores de cobranza",
+    "índice de cartera vencida",
     "rotación de cartera",
+    "edad de cartera",
+    "DSO cartera",
     "índice de recaudo",
-    "gestión de cobranza indicadores",
-    "riesgo financiero cartera",
+    "cómo medir cartera vencida",
+    "gestión de cartera empresas",
+    "seguimiento cartera",
+    "recuperación de cartera",
   ],
 
   alternates: {
@@ -21,12 +28,18 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Indicadores de cartera vencida: mide la mora y mejora tu recaudo",
+    title:
+      "Indicadores de cartera vencida: cómo medir la mora y mejorar el recaudo",
+
     description:
-      "Conoce las métricas clave para controlar la cartera, reducir el riesgo y mejorar la cobranza en tu empresa.",
+      "Descubre los indicadores financieros que utilizan las empresas para controlar la cartera vencida, reducir la mora y mejorar la recuperación de pagos.",
+
     url: "https://cobrandoonline.com/blog/indicadores-de-cartera-vencida",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -47,45 +60,107 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
+
               headline:
-                "Indicadores de cartera vencida en Colombia: cómo medir y reducir la mora",
+                "Indicadores de cartera vencida: 8 KPIs para medir la mora y mejorar el recaudo",
+
               description:
-                "Conoce los indicadores clave para medir la mora, el riesgo financiero y mejorar la recuperación de cartera.",
+                "Guía completa sobre los indicadores de cartera vencida más importantes para evaluar la mora, el recaudo y la eficiencia de la gestión de cobranza empresarial.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id":
                   "https://cobrandoonline.com/blog/indicadores-de-cartera-vencida",
               },
+
               datePublished: "2025-01-01",
-              dateModified: "2026-01-01",
+
+              dateModified: "2026-07-27",
+
               inLanguage: "es",
+
+              keywords: [
+                "indicadores de cartera vencida",
+                "KPIs de cobranza",
+                "índice de cartera",
+                "edad de cartera",
+                "rotación de cartera",
+                "DSO",
+                "índice de recaudo",
+              ],
             },
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
+
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "¿Qué es el índice de cartera vencida?",
+
+                  name: "¿Qué son los indicadores de cartera vencida?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Es el porcentaje de la cartera total que se encuentra en mora.",
+
+                    text: "Son métricas utilizadas para medir el comportamiento de las cuentas por cobrar, el nivel de mora y la eficiencia de la gestión de cobranza de una empresa.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Por qué medir la rotación de cartera?",
+
+                  name: "¿Cuál es el indicador más importante para medir la cartera vencida?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Porque permite conocer cuánto tiempo tardan los clientes en pagar y evaluar el flujo de caja.",
+
+                    text: "El índice de cartera vencida suele ser el principal indicador porque muestra qué porcentaje de la cartera total se encuentra en mora.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cada cuánto deben medirse los indicadores de cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Lo recomendable es realizar un seguimiento semanal o mensual para detectar aumentos en la mora y tomar decisiones antes de que afecten el flujo de caja.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué indicadores ayudan a mejorar la gestión de cobranza?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Entre los más utilizados están el índice de cartera vencida, la rotación de cartera, el DSO, la antigüedad de cartera, el índice de recaudo y la tasa de recuperación.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Por qué una empresa debe controlar estos indicadores?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Porque permiten reducir la mora, mejorar la liquidez, optimizar las estrategias de cobranza y tomar decisiones financieras basadas en información actualizada.",
                   },
                 },
               ],

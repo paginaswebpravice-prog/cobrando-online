@@ -2,21 +2,42 @@ import { Metadata } from "next";
 import KpiCobranza from "./KpiCobranza";
 
 export const metadata: Metadata = {
-  title: "KPIs de cobranza: indicadores para medir la recuperación de cartera",
+  title:
+    "KPIs de cobranza: 7 indicadores para mejorar la recuperación de cartera",
+
   description:
-    "Conoce los principales KPIs de cobranza, cómo medirlos y cómo utilizarlos para mejorar la recuperación de cartera empresarial.",
+    "Conoce los principales KPIs de cobranza empresarial, cómo calcularlos y cómo usar indicadores como DSO, mora y recuperación para mejorar el recaudo.",
+
+  keywords: [
+    "KPIs de cobranza",
+    "indicadores de cobranza",
+    "métricas de recuperación de cartera",
+    "indicadores de gestión de cartera",
+    "DSO cobranza",
+    "índice de recuperación de cartera",
+    "control de cartera empresarial",
+    "medir gestión de cobranza",
+    "cartera vencida indicadores",
+    "eficiencia del proceso de cobranza",
+  ],
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog/kpi-cobranza",
   },
 
   openGraph: {
-    title: "KPIs de cobranza: métricas clave para la gestión de cartera",
+    title:
+      "KPIs de cobranza: indicadores clave para controlar y recuperar cartera",
+
     description:
-      "Aprende cuáles son los indicadores más importantes para medir la efectividad de la cobranza y reducir la morosidad.",
+      "Aprende qué métricas debe medir una empresa para evaluar su proceso de cobranza y mejorar la recuperación de cuentas por cobrar.",
+
     url: "https://cobrandoonline.com/blog/kpi-cobranza",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -36,52 +57,81 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
+
               headline:
-                "KPIs de cobranza: indicadores clave para medir la recuperación de cartera",
+                "KPIs de cobranza: 7 indicadores para mejorar la recuperación de cartera",
+
               description:
-                "Guía sobre los principales indicadores utilizados para evaluar la gestión de cobranza.",
+                "Guía práctica sobre los indicadores clave que permiten medir, analizar y optimizar la gestión de cobranza empresarial.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": "https://cobrandoonline.com/blog/kpi-cobranza",
               },
+
+              keywords:
+                "KPIs de cobranza, indicadores de cartera, DSO, recuperación de cartera, métricas de cobranza",
+
+              articleSection: "Gestión empresarial de cartera",
+
               datePublished: "2026-01-01",
-              dateModified: "2026-01-01",
-              inLanguage: "es",
+
+              dateModified: "2026-07-21",
+
+              inLanguage: "es-CO",
             },
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
+
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "¿Qué es un KPI de cobranza?",
+                  name: "¿Qué son los KPIs de cobranza?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Es un indicador que permite medir la efectividad de la gestión de recuperación de cartera.",
+                    text: "Los KPIs de cobranza son indicadores que permiten medir el desempeño de un proceso de recuperación de cartera, analizar resultados y tomar decisiones basadas en datos.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Cuál es el KPI más utilizado en cobranza?",
+                  name: "¿Cuáles son los indicadores más importantes en cobranza?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Uno de los más utilizados es el DSO, que mide el tiempo promedio de recuperación de las ventas a crédito.",
+                    text: "Entre los principales indicadores están el DSO, porcentaje de cartera vencida, índice de recuperación, rotación de cartera y cumplimiento de acuerdos de pago.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Por qué son importantes los KPIs de cobranza?",
+                  name: "¿Cómo ayudan los KPIs a mejorar la recuperación de cartera?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Porque permiten monitorear resultados, detectar problemas y optimizar la recuperación de cartera.",
+                    text: "Permiten identificar problemas en el proceso de cobro, medir la productividad del equipo y ajustar estrategias para aumentar la recuperación.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+                  name: "¿Qué significa DSO en cobranza?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "El DSO (Days Sales Outstanding) es un indicador que mide el número promedio de días que tarda una empresa en recuperar sus ventas realizadas a crédito.",
                   },
                 },
               ],
