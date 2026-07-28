@@ -2,21 +2,48 @@ import { Metadata } from "next";
 import ModeloCartaCobro from "./ModeloCartaCobro";
 
 export const metadata: Metadata = {
-  title: "Modelos de carta de cobro: ejemplos para recuperación de cartera",
+  title:
+    "Modelo de carta de cobro para empresas: formatos y ejemplos para recuperar cartera",
+
   description:
-    "Descubre diferentes modelos de carta de cobro para recordar pagos, gestionar cartera vencida y mejorar la recuperación de cartera empresarial.",
+    "Conoce modelos de carta de cobro para empresas, ejemplos de cobranza preventiva, cartera vencida y comunicaciones para recuperar pagos pendientes.",
+
+  keywords: [
+    "modelo carta de cobro",
+    "modelo carta de cobro Colombia",
+    "formato carta de cobro",
+    "carta de cobro para clientes morosos",
+    "ejemplo carta de cobranza",
+    "carta para recuperar cartera",
+    "formatos de cobranza empresarial",
+    "gestión de cartera empresarial",
+  ],
+
+  authors: [
+    {
+      name: "Cobrando Online",
+    },
+  ],
+
+  category: "Cobranza empresarial",
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog/modelo-carta-cobro",
   },
 
   openGraph: {
-    title: "Modelos de carta de cobro para empresas",
+    title:
+      "Modelo de carta de cobro para empresas: ejemplos listos para gestionar cartera",
+
     description:
-      "Formatos y ejemplos de cartas de cobranza para gestionar cuentas por cobrar de manera profesional.",
+      "Aprende cómo redactar cartas de cobro profesionales para clientes morosos y mejorar la recuperación de cartera empresarial.",
+
     url: "https://cobrandoonline.com/blog/modelo-carta-cobro",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -36,25 +63,44 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
+
               headline:
-                "Modelos de carta de cobro para recuperación de cartera",
+                "Modelo de carta de cobro para empresas: formatos y ejemplos de cobranza",
+
               description:
-                "Ejemplos y formatos de cartas de cobro para empresas y procesos de recuperación de cartera.",
+                "Guía práctica con modelos de carta de cobro para gestionar clientes morosos, cartera vencida y procesos de recuperación empresarial.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": "https://cobrandoonline.com/blog/modelo-carta-cobro",
               },
+
+              about: [
+                {
+                  "@type": "Thing",
+                  name: "Cobranza empresarial",
+                },
+                {
+                  "@type": "Thing",
+                  name: "Recuperación de cartera",
+                },
+              ],
+
               datePublished: "2026-01-01",
+
               dateModified: "2026-01-01",
-              inLanguage: "es",
+
+              inLanguage: "es-CO",
             },
             {
               "@context": "https://schema.org",
@@ -82,6 +128,40 @@ export default function Page() {
                   acceptedAnswer: {
                     "@type": "Answer",
                     text: "Sí. Las cartas ayudan a documentar las gestiones realizadas y pueden servir como evidencia dentro de procesos de recuperación de cartera.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Qué tipo de carta de cobro debe enviar una empresa?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Depende del estado de la cartera. Puede utilizarse una carta preventiva antes del vencimiento, una carta de mora temprana o una comunicación formal para cartera vencida.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Una carta de cobro ayuda a recuperar cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Sí. Una comunicación clara y oportuna permite recordar obligaciones pendientes, generar evidencia de gestión y facilitar acuerdos de pago con clientes.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué debe evitar una carta de cobranza empresarial?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Debe evitar amenazas, información incorrecta, lenguaje agresivo o mensajes que deterioren la relación comercial con el cliente.",
                   },
                 },
               ],
