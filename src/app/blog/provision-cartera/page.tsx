@@ -2,21 +2,47 @@ import { Metadata } from "next";
 import ProvisionCartera from "./ProvisionCartera";
 
 export const metadata: Metadata = {
-  title: "Provisión de cartera: qué es, para qué sirve y cómo calcularla",
+  title:
+    "Provisión de cartera en Colombia (2026): qué es, cómo calcularla, ejemplos y deterioro de cuentas por cobrar",
+
   description:
-    "Aprende qué es la provisión de cartera, cómo calcularla y cómo utilizarla para gestionar el riesgo financiero de las cuentas por cobrar.",
+    "Aprende qué es la provisión de cartera, cómo calcularla paso a paso, ejemplos prácticos, métodos de provisión, deterioro de cuentas por cobrar, NIIF y estrategias para disminuir el riesgo de incobrabilidad en tu empresa.",
+
+  keywords: [
+    "provisión de cartera",
+    "provision de cartera colombia",
+    "qué es provisión de cartera",
+    "cómo calcular provisión de cartera",
+    "provisión cuentas por cobrar",
+    "deterioro cartera",
+    "deterioro cuentas por cobrar",
+    "provisión contable cartera",
+    "provisión de deudores",
+    "cartera incobrable",
+    "provisión cartera NIIF",
+    "riesgo cartera",
+    "gestión de cartera",
+    "cartera vencida",
+    "cobrando online",
+  ],
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog/provision-cartera",
   },
 
   openGraph: {
-    title: "Provisión de cartera: guía completa para empresas",
+    title:
+      "Provisión de cartera en Colombia: cómo calcularla, ejemplos y métodos contables",
+
     description:
-      "Conoce cómo calcular provisiones de cartera y evaluar el riesgo financiero asociado a las cuentas por cobrar.",
+      "Conoce cómo calcular la provisión de cartera, cuándo debe reconocerse, ejemplos prácticos y cómo reducir el riesgo de incobrabilidad en las cuentas por cobrar.",
+
     url: "https://cobrandoonline.com/blog/provision-cartera",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -36,51 +62,132 @@ export default function Page() {
             {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
-              headline: "Provisión de cartera: qué es y cómo calcularla",
+
+              headline:
+                "Provisión de cartera en Colombia: qué es, cómo calcularla y ejemplos prácticos",
+
               description:
-                "Guía práctica para calcular provisiones de cartera y gestionar el riesgo financiero empresarial.",
+                "Guía completa sobre provisión de cartera, deterioro de cuentas por cobrar, métodos de cálculo, ejemplos y buenas prácticas para empresas.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               publisher: {
                 "@type": "Organization",
                 name: "Cobrando Online",
               },
+
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": "https://cobrandoonline.com/blog/provision-cartera",
               },
-              datePublished: "2026-01-01",
-              dateModified: "2026-01-01",
+
+              datePublished: "2025-01-01",
+
+              dateModified: "2026-07-29",
+
               inLanguage: "es",
             },
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
+
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "¿Qué es una provisión de cartera?",
+
+                  name: "¿Qué es la provisión de cartera?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Es una estimación contable que reconoce el riesgo de no recuperar total o parcialmente determinadas cuentas por cobrar.",
+
+                    text: "La provisión de cartera es una estimación contable que reconoce las posibles pérdidas derivadas de clientes que podrían incumplir el pago de sus obligaciones.",
                   },
                 },
+
                 {
                   "@type": "Question",
+
                   name: "¿Cómo se calcula la provisión de cartera?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Puede calcularse mediante porcentajes sobre cartera vencida, análisis por antigüedad o modelos de pérdida esperada según las políticas de la empresa.",
+
+                    text: "Puede calcularse mediante porcentajes sobre la cartera vencida, análisis por antigüedad de saldos, evaluación individual de clientes o modelos de pérdida esperada conforme a las políticas contables de cada empresa.",
                   },
                 },
+
                 {
                   "@type": "Question",
-                  name: "¿Por qué es importante provisionar la cartera?",
+
+                  name: "¿Qué diferencia existe entre provisión de cartera y castigo de cartera?",
+
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Porque permite reflejar de forma más realista la situación financiera de la empresa y anticipar posibles pérdidas por incumplimiento de clientes.",
+
+                    text: "La provisión reconoce un riesgo futuro de pérdida, mientras que el castigo elimina contablemente una cuenta cuando la recuperación resulta prácticamente imposible.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Qué es el deterioro de cuentas por cobrar?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Es la disminución del valor recuperable de una cuenta por cobrar debido al incremento del riesgo de incumplimiento del deudor.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cuándo debe reconocerse una provisión de cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Debe reconocerse cuando existan evidencias objetivas de riesgo de incobrabilidad, aumento de la mora o deterioro en la capacidad de pago del cliente.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Por qué es importante provisionar las cuentas por cobrar?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Porque permite presentar estados financieros más confiables, anticipar pérdidas potenciales y tomar mejores decisiones financieras.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Cómo reducir la provisión de cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Implementando procesos de evaluación crediticia, seguimiento permanente, cobranza preventiva y recuperación oportuna de cartera.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+
+                  name: "¿Todas las empresas deben calcular provisión de cartera?",
+
+                  acceptedAnswer: {
+                    "@type": "Answer",
+
+                    text: "Las empresas que manejan cuentas por cobrar normalmente deben evaluar periódicamente el riesgo de incobrabilidad conforme a sus políticas contables y la normativa aplicable.",
                   },
                 },
               ],

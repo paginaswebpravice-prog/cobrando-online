@@ -2,134 +2,10 @@
 
 import styles from "./Article.module.css";
 import { motion } from "framer-motion";
-import Head from "next/head";
 
 export default function RecuperacionCarteraClinicasIPS() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Recuperación de cartera para clínicas, IPS y sector salud en Colombia",
-    description:
-      "Guía completa sobre recuperación de cartera para clínicas, IPS, hospitales y empresas del sector salud en Colombia y Bogotá. Estrategias de cobranza, reducción de mora, glosas y cobro jurídico.",
-    author: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    mainEntityOfPage:
-      "https://pravice.co/blog/recuperacion-cartera-clinicas-ips-colombia",
-    keywords:
-      "recuperación de cartera IPS Colombia, recuperación de cartera clínicas Bogotá, cobro jurídico sector salud Colombia, cartera vencida EPS, recuperación cartera hospitales Colombia, cobranza sector salud Bogotá, recuperación de cartera clínicas privadas",
-    articleSection: "Sector Salud",
-    inLanguage: "es-CO",
-    about: [
-      "Recuperación de cartera en Colombia",
-      "Cobranza para IPS",
-      "Cobro jurídico sector salud",
-      "Cartera vencida EPS",
-      "Gestión financiera clínicas Bogotá",
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "¿Cómo recuperar cartera vencida en clínicas e IPS en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "La recuperación de cartera en clínicas e IPS requiere seguimiento constante de facturas, control de glosas, negociación de acuerdos de pago y, en casos complejos, cobro prejurídico o jurídico.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Qué hacer cuando una EPS no paga?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Cuando una EPS presenta retrasos de pago, es importante documentar todas las radicaciones, hacer seguimiento permanente y evaluar acciones legales oportunas para proteger la liquidez de la institución.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Qué afecta la cartera vencida en el sector salud?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "La cartera vencida afecta el flujo de caja, limita la operación médica, retrasa pagos internos y pone en riesgo la estabilidad financiera de clínicas, hospitales e IPS en Colombia.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cuándo iniciar cobro jurídico en el sector salud?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Se recomienda iniciar cobro jurídico cuando existen incumplimientos reiterados, retrasos prolongados o riesgo de prescripción de la deuda.",
-        },
-      },
-    ],
-  };
-
   return (
     <>
-      <Head>
-        <title>
-          Recuperación de cartera para clínicas e IPS en Colombia | Pravice
-        </title>
-
-        <meta
-          name="description"
-          content="Conoce cómo recuperar cartera vencida en clínicas, IPS y hospitales en Colombia y Bogotá. Estrategias de cobranza, control de glosas, recuperación financiera y cobro jurídico."
-        />
-
-        <meta
-          name="keywords"
-          content="recuperación de cartera IPS Colombia, recuperación cartera clínicas Bogotá, cobranza sector salud Colombia, cartera vencida EPS, cobro jurídico IPS, recuperación cartera hospitales"
-        />
-
-        <meta name="robots" content="index, follow" />
-
-        <meta
-          property="og:title"
-          content="Recuperación de cartera para clínicas, IPS y sector salud en Colombia"
-        />
-
-        <meta
-          property="og:description"
-          content="Guía especializada sobre recuperación de cartera para clínicas, IPS y hospitales en Bogotá y Colombia."
-        />
-
-        <meta property="og:type" content="article" />
-
-        <meta
-          property="og:url"
-          content="https://pravice.co/blog/recuperacion-cartera-clinicas-ips-colombia"
-        />
-
-        <link
-          rel="canonical"
-          href="https://pravice.co/blog/recuperacion-cartera-clinicas-ips-colombia"
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData),
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      </Head>
-
       <main className={styles.articleContainer}>
         <motion.article
           className={styles.article}
@@ -146,6 +22,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             Sector Salud
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -183,6 +60,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             organizaciones de salud.
           </motion.p>
 
+          {/* POR QUE EL SECTOR SALUD EN COLOMBIA TIENE ALTOS NIVELES DE CARTERA VENCIDA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -229,6 +107,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             nómina, compra de insumos médicos y capacidad operativa.
           </motion.p>
 
+          {/* PRINCIPALES CAUSAS DE MORA EN CLINICAS E IPS */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -254,6 +133,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             <li>Acumulación de cartera superior a 180 o 360 días.</li>
           </motion.ul>
 
+          {/* ESTRATEGIAS EFECTIVAS DE RECUPERACION DE CARTERA PARA CLINICAS E IPS EN BOGOTA Y COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -326,6 +206,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             EPS y automatización de reportes financieros.
           </motion.p>
 
+          {/* CUANDO INICIAR COBRO PREJURÍDICO O JURÍDICO EN EL SECTOR SALUD */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -358,6 +239,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             la cartera vencida.
           </motion.p>
 
+          {/* ERRORES COMUNES EN LA RECUPERACIÓN DE CARTERA DEL SECTOR SALUD */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -383,6 +265,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             <li>Iniciar acciones legales demasiado tarde.</li>
           </motion.ul>
 
+          {/* BENEFICIOS DE UNA GESTIÓN PROFESIONAL DE CARTERA EN CLÍNICAS E IPS */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -418,6 +301,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             <li>Optimización administrativa.</li>
           </motion.ul>
 
+          {/* PREGUNTAS FRECUENTES SOBRE RECUPERACIÓN DE CARTERA EN IPS Y CLÍNICAS */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -485,6 +369,7 @@ export default function RecuperacionCarteraClinicasIPS() {
             resultados positivos o existe riesgo de prescripción de la deuda.
           </motion.p>
 
+          {/* CONCLUSION: COMO MEJORAR LA RECUPERACION DE CARTERA EN CLINICAS E IPS EN COLOMBIA */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
