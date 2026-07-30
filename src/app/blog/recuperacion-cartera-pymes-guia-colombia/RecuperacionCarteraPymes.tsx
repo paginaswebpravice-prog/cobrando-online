@@ -1,136 +1,11 @@
 "use client";
 
-import Head from "next/head";
 import styles from "./Article.module.css";
 import { motion } from "framer-motion";
 
 export default function RecuperacionCarteraPymes() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Recuperación de cartera para PYMES en Colombia: guía completa",
-    description:
-      "Aprende cómo mejorar la recuperación de cartera en PYMES de Bogotá y Colombia. Estrategias de cobranza, reducción de mora y cobro jurídico empresarial.",
-    author: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Pravice",
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://pravice.co/recuperacion-cartera-pymes-colombia",
-    },
-    keywords: [
-      "recuperación de cartera PYMES",
-      "cobranza para empresas Colombia",
-      "cartera vencida Bogotá",
-      "clientes morosos Colombia",
-      "cobro jurídico PYMES",
-      "estrategias de cobranza",
-      "recuperación de cartera Bogotá",
-      "cobranza empresarial Colombia",
-      "flujo de caja empresas",
-      "empresa de cobranza Bogotá",
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "¿Qué es la recuperación de cartera en una PYME?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "La recuperación de cartera consiste en gestionar el cobro de deudas, facturas y obligaciones pendientes para mejorar la liquidez y reducir riesgos financieros en una empresa.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cómo reducir la mora en una PYME en Colombia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Implementando políticas claras de crédito, seguimiento constante a facturas, recordatorios automáticos y estrategias de cobranza organizadas.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Cuándo iniciar cobro jurídico para recuperar cartera?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Cuando el cliente incumple acuerdos, evita responder o la deuda permanece vencida durante largos periodos afectando el flujo de caja empresarial.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "¿Por qué es importante recuperar cartera rápidamente?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Porque entre más tiempo permanezca la deuda sin gestión, más difícil puede ser recuperar el dinero y mayor impacto tendrá sobre la liquidez de la empresa.",
-        },
-      },
-    ],
-  };
-
   return (
     <>
-      <Head>
-        <title>
-          Recuperación de cartera para PYMES en Colombia | Guía completa
-        </title>
-
-        <meta
-          name="description"
-          content="Descubre cómo mejorar la recuperación de cartera en PYMES de Bogotá y Colombia. Estrategias de cobranza, reducción de mora y cobro jurídico empresarial."
-        />
-
-        <meta
-          name="keywords"
-          content="
-            recuperación de cartera PYMES,
-            cobranza empresarial Colombia,
-            recuperación de cartera Bogotá,
-            cartera vencida Colombia,
-            clientes morosos,
-            cobro jurídico empresas,
-            flujo de caja PYMES,
-            estrategias de cobranza,
-            empresa de cobranza Bogotá,
-            recuperación de pagos
-          "
-        />
-
-        <meta name="robots" content="index, follow" />
-
-        <meta
-          property="og:title"
-          content="Recuperación de cartera para PYMES en Colombia"
-        />
-
-        <meta
-          property="og:description"
-          content="Aprende cómo reducir la mora y recuperar cartera vencida en Bogotá y Colombia usando estrategias de cobranza efectivas."
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(articleSchema),
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      </Head>
-
       <main className={styles.articleContainer}>
         <motion.article
           className={styles.article}
@@ -138,21 +13,24 @@ export default function RecuperacionCarteraPymes() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
+          {/*  HERO  */}
           <motion.span
             className={styles.category}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Recuperación de Cartera para Empresas en Colombia
+            Recuperación de Cartera para PYMES
           </motion.span>
 
+          {/*  HERO  */}
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Recuperación de cartera para PYMES: guía completa en Colombia
+            Recuperación de cartera para PYMES en Colombia: guía completa para
+            reducir la mora, mejorar el flujo de caja y cobrar más rápido
           </motion.h1>
 
           <motion.p
@@ -161,107 +39,251 @@ export default function RecuperacionCarteraPymes() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            La cartera vencida es uno de los problemas financieros más
-            frecuentes en pequeñas y medianas empresas de Bogotá y toda
-            Colombia. Cuando los clientes no pagan a tiempo, disminuye la
-            liquidez, se afectan las operaciones y aumenta el riesgo financiero
+            La recuperación de cartera para PYMES es mucho más que realizar
+            llamadas o enviar recordatorios de pago. Se trata de implementar una
+            estrategia de cobranza preventiva, administrativa, prejurídica y,
+            cuando sea necesario, jurídica, que permita recuperar facturas
+            vencidas sin afectar la relación comercial con los clientes. En
+            Colombia, donde muchas pequeñas y medianas empresas dependen del
+            flujo de caja diario para operar, gestionar oportunamente la cartera
+            vencida puede marcar la diferencia entre crecer, mantener la
+            estabilidad financiera o enfrentar problemas de liquidez.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.55 }}
+          >
+            En esta guía conocerás por qué la mora afecta especialmente a las
+            PYMES, cuáles son las principales causas del incumplimiento de pago,
+            qué estrategias permiten aumentar el recaudo y cuándo conviene
+            apoyarse en una empresa especializada en recuperación de cartera
+            para optimizar los resultados.
+          </motion.p>
+
+          {/*  QUE ES LA RECUPERACION DE CARTERA PARA PYMES  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            ¿Qué es la recuperación de cartera para PYMES y por qué es tan
+            importante en Colombia?
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            La recuperación de cartera para pequeñas y medianas empresas
+            consiste en el conjunto de acciones administrativas, comerciales y
+            de cobranza orientadas a recuperar el dinero correspondiente a
+            facturas, cuentas por cobrar, créditos comerciales u obligaciones
+            que no fueron pagadas dentro del plazo acordado. Su objetivo
+            principal es mantener la liquidez del negocio, disminuir el riesgo
+            financiero y evitar que una deuda reciente termine convirtiéndose en
+            una cartera de difícil recuperación.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            En Colombia, muchas PYMES venden a crédito para ser competitivas
+            dentro de su mercado. Sin embargo, cuando no existen políticas
+            claras de seguimiento, procesos de cobranza o controles sobre los
+            vencimientos, la cartera comienza a acumularse y termina afectando
+            directamente el flujo de caja. Esta situación limita la capacidad de
+            crecimiento de la empresa y aumenta la dependencia de créditos
+            bancarios o fuentes externas de financiación.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Una estrategia de recuperación de cartera no busca únicamente cobrar
+            una factura pendiente. También permite fortalecer la relación
+            comercial con los clientes cumplidos, identificar riesgos de
+            incumplimiento, establecer acuerdos de pago realistas y reducir el
+            porcentaje de cartera vencida antes de que la deuda alcance niveles
+            que hagan más difícil su recuperación.
+          </motion.p>
+
+          {/*  OBJETIVOS DE UNA ESTRATEGIA DE RECUPERACION DE CARTERA PARA PYMES  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Objetivos de una estrategia de recuperación de cartera para pequeñas
+            y medianas empresas
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Implementar una estrategia profesional de cobranza permite que la
+            empresa no reaccione únicamente cuando aparecen problemas de mora,
+            sino que establezca procesos preventivos y correctivos durante todo
+            el ciclo de crédito. Entre los principales objetivos se encuentran:
+          </motion.p>
+
+          <ul>
+            {[
+              "Reducir el porcentaje de cartera vencida.",
+              "Mejorar el flujo de caja y la liquidez empresarial.",
+              "Incrementar la recuperación de facturas pendientes.",
+              "Disminuir el riesgo de incobrabilidad.",
+              "Fortalecer la relación comercial con clientes responsables.",
+              "Optimizar el tiempo del personal encargado de cobranza.",
+              "Evitar que las deudas lleguen innecesariamente a procesos judiciales.",
+              "Mantener una mayor estabilidad financiera para la empresa.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
+
+          {/*  CAUSAS DE LA MORA  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Principales causas por las que las PYMES acumulan cartera vencida en
+            Colombia
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            En la mayoría de los casos, la cartera vencida no aparece de un día
+            para otro. Generalmente es el resultado de pequeñas fallas
+            acumuladas en los procesos de crédito, facturación, seguimiento y
+            cobranza. Identificar estas causas permite implementar medidas
+            preventivas antes de que las cuentas por cobrar afecten la liquidez
             del negocio.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Muchas PYMES en Colombia enfrentan dificultades para mantener un
-            flujo de caja estable debido a pagos atrasados, clientes morosos y
-            procesos de cobranza poco organizados. Por eso, implementar
-            estrategias efectivas de recuperación de cartera es fundamental para
-            proteger la estabilidad y el crecimiento empresarial.
+            Aunque cada empresa enfrenta situaciones diferentes, existen
+            factores que se repiten con frecuencia en pequeñas y medianas
+            empresas colombianas y que incrementan significativamente el riesgo
+            de mora.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            Una gestión adecuada de cobranza permite recuperar pagos pendientes,
-            reducir pérdidas económicas y mejorar la sostenibilidad financiera
-            de cualquier PYME en Bogotá y otras ciudades de Colombia.
-          </motion.p>
+          <ul>
+            {[
+              "Otorgar crédito sin analizar la capacidad de pago del cliente.",
+              "No establecer políticas claras sobre plazos, intereses y condiciones de pago.",
+              "Realizar seguimiento únicamente cuando la factura ya está vencida.",
+              "Facturación tardía o con errores administrativos.",
+              "Ausencia de recordatorios automáticos antes del vencimiento.",
+              "Falta de acuerdos de pago documentados.",
+              "Escasa comunicación entre las áreas comercial, financiera y de cartera.",
+              "No medir periódicamente los indicadores de cartera.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
 
+          {/*  SENALES QUE INDICAN QUE UNA PYME NECESITA FORTALECER SU PROCESO DE RECUPERACION DE CARTERA  */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Qué es la recuperación de cartera y por qué es importante para las
-            PYMES
+            Señales que indican que una PYME necesita fortalecer su proceso de
+            recuperación de cartera
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            La recuperación de cartera consiste en gestionar el cobro de
-            facturas, obligaciones y deudas pendientes para evitar pérdidas
-            financieras y mejorar la liquidez empresarial.
+            Muchas empresas descubren que tienen un problema de cartera cuando
+            el flujo de caja ya se encuentra comprometido. Sin embargo, existen
+            indicadores que permiten actuar con anticipación y evitar que la
+            mora continúe creciendo.
           </motion.p>
+
+          <ul>
+            {[
+              "Incremento constante del porcentaje de cartera vencida.",
+              "Clientes que incumplen repetidamente los acuerdos de pago.",
+              "Disminución del efectivo disponible para cubrir gastos operativos.",
+              "Necesidad frecuente de solicitar créditos para mantener la operación.",
+              "Aumento del tiempo promedio de recaudo de las facturas.",
+              "Concentración de una parte importante de la cartera en pocos clientes.",
+              "Mayor tiempo dedicado por el personal a gestionar cobros manuales.",
+              "Retrasos en pagos a proveedores debido a la falta de liquidez.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            En las pequeñas y medianas empresas, recuperar cartera es aún más
-            importante porque normalmente cuentan con menos capacidad financiera
-            que grandes compañías. Un retraso en pagos puede afectar nómina,
-            proveedores, operación y crecimiento del negocio.
+            Detectar estas señales de manera temprana permite tomar decisiones
+            antes de que la cartera vencida afecte la estabilidad financiera de
+            la empresa. Una gestión preventiva suele ser menos costosa y más
+            efectiva que intentar recuperar obligaciones cuando ya presentan
+            varios meses de mora.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            En Bogotá y Colombia, muchas empresas dependen directamente de la
-            rotación constante de capital. Por eso, controlar la mora y mantener
-            una cartera sana es clave para garantizar estabilidad financiera.
-          </motion.p>
-
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            Principales causas de cartera vencida en las PYMES colombianas
-          </motion.h2>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            Existen múltiples factores que generan problemas de cartera vencida
-            en pequeñas y medianas empresas.
-          </motion.p>
-
-          <motion.ul
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <li>Falta de políticas claras de crédito.</li>
-            <li>No validar antecedentes financieros del cliente.</li>
-            <li>Exceso de confianza comercial.</li>
-            <li>Ausencia de seguimiento a facturas.</li>
-            <li>Procesos de cobranza desorganizados.</li>
-            <li>Dependencia excesiva de pocos clientes.</li>
-            <li>Problemas económicos de los deudores.</li>
-            <li>No documentar correctamente las obligaciones.</li>
-          </motion.ul>
-
+          {/*  COMO REDUCIR LA MORA Y MEJORAR EL FLUJO DE CAJA EN UNA PYME  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -289,6 +311,7 @@ export default function RecuperacionCarteraPymes() {
             niveles de mora.
           </motion.p>
 
+          {/*  ESTRATEGIAS EFECTIVAS DE COBRANZA PARA PYMES EN COLOMBIA  */}
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -313,6 +336,208 @@ export default function RecuperacionCarteraPymes() {
             <li>Contar con apoyo jurídico preventivo.</li>
           </motion.ul>
 
+          {/*  IMPLEMENTACIÓN PASO A PASO  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Cómo implementar una estrategia de recuperación de cartera en una
+            PYME paso a paso
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Una recuperación de cartera efectiva comienza mucho antes del
+            vencimiento de una factura. Las pequeñas y medianas empresas que
+            establecen procesos claros desde el momento en que conceden un
+            crédito logran disminuir significativamente la morosidad y aumentar
+            el porcentaje de recaudo. Implementar un procedimiento organizado
+            también permite optimizar el tiempo del personal administrativo y
+            mejorar la experiencia del cliente durante todo el proceso de
+            cobranza.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            1. Evaluar el riesgo antes de vender a crédito
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Antes de aprobar un crédito es recomendable analizar la capacidad de
+            pago del cliente, su historial comercial, referencias y
+            comportamiento financiero. Una adecuada evaluación reduce el riesgo
+            de incumplimiento y permite establecer condiciones de pago acordes
+            con el perfil del cliente.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            2. Establecer políticas claras de crédito y cobranza
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Las condiciones de pago deben estar definidas desde el inicio de la
+            relación comercial. Fechas de vencimiento, medios de pago,
+            consecuencias por mora y procedimientos de cobranza ayudan a reducir
+            malentendidos y facilitan la gestión posterior.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            3. Realizar seguimiento preventivo antes del vencimiento
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Enviar recordatorios algunos días antes del vencimiento ayuda a
+            disminuir los retrasos ocasionados por olvidos o errores
+            administrativos. Muchas empresas logran mejorar su recaudo
+            únicamente fortaleciendo esta etapa preventiva.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            4. Actuar rápidamente durante los primeros días de mora
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Las probabilidades de recuperación suelen ser mayores cuando el
+            contacto con el cliente se realiza oportunamente. Esperar varios
+            meses para iniciar la cobranza incrementa el riesgo de
+            incobrabilidad y hace más complejo el proceso de negociación.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            5. Negociar acuerdos de pago viables
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Cuando el cliente presenta dificultades temporales de liquidez, un
+            acuerdo de pago bien estructurado puede facilitar la recuperación de
+            la deuda sin afectar la relación comercial. Es recomendable dejar
+            constancia escrita de los compromisos adquiridos y realizar
+            seguimiento permanente a su cumplimiento.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            6. Escalar la gestión cuando la mora continúa aumentando
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Si las gestiones preventivas y de negociación no generan resultados,
+            la PYME debe considerar procesos de cobranza prejurídica y, cuando
+            corresponda, acudir a mecanismos jurídicos para proteger su cartera
+            y reducir el riesgo de pérdida definitiva de la obligación.
+          </motion.p>
+
+          {/*  HERRAMIENTAS QUE AYUDAN A LAS PYMES A RECUPERAR CARTERA  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Herramientas que ayudan a las PYMES a recuperar cartera de forma más
+            eficiente
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            La tecnología también desempeña un papel importante dentro de la
+            recuperación de cartera. Automatizar tareas repetitivas permite
+            reducir tiempos de gestión, mejorar el seguimiento de los clientes y
+            mantener un mayor control sobre las cuentas por cobrar.
+          </motion.p>
+
+          <ul>
+            {[
+              "Software especializado en gestión de cartera.",
+              "Recordatorios automáticos por correo electrónico y WhatsApp.",
+              "Paneles para controlar indicadores de recaudo.",
+              "Alertas sobre facturas próximas a vencer.",
+              "Historial centralizado de llamadas y negociaciones.",
+              "Reportes para medir el comportamiento de los clientes.",
+              "Automatización de acuerdos de pago y seguimiento.",
+              "Integración con sistemas contables y de facturación.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
+
+          {/*  IMPORTANCIA DE ACTUAR RÁPIDAMENTE FRENTE A CLIENTES MOROSOS  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -341,75 +566,162 @@ export default function RecuperacionCarteraPymes() {
             proteger el flujo de caja y aumentar las probabilidades de pago.
           </motion.p>
 
+          {/*  ERRORES COMUNES EN LA RECUPERACIÓN DE CARTERA DE PEQUEÑAS EMPRESAS  */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Errores comunes en la recuperación de cartera de pequeñas empresas
+            Errores que impiden recuperar la cartera en una PYME y cómo
+            evitarlos
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Muchas PYMES no cuentan con procesos claros de cobranza o dependen
-            únicamente de acuerdos verbales.
+            Muchas pequeñas y medianas empresas creen que el principal problema
+            de la cartera vencida es la falta de pago de los clientes. Sin
+            embargo, en la práctica, una gran parte de las pérdidas económicas
+            se originan por errores internos en la gestión de crédito y
+            cobranza. Detectarlos a tiempo permite mejorar considerablemente los
+            indicadores de recaudo.
           </motion.p>
 
-          <motion.ul
+          <ul>
+            {[
+              "Esperar varios meses para iniciar la gestión de cobro.",
+              "No documentar adecuadamente los acuerdos de pago.",
+              "Vender a crédito sin analizar el perfil financiero del cliente.",
+              "No realizar seguimiento después de cada compromiso adquirido.",
+              "Permitir que un mismo cliente acumule múltiples facturas vencidas.",
+              "Utilizar únicamente llamadas telefónicas sin combinar otros canales de comunicación.",
+              "No medir periódicamente los indicadores de recuperación de cartera.",
+              "Pensar que todas las deudas requieren exactamente la misma estrategia de cobranza.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
+
+          <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <li>Esperar demasiado tiempo para cobrar.</li>
-            <li>No realizar seguimiento constante.</li>
-            <li>No documentar acuerdos de pago.</li>
-            <li>Confiar únicamente en acuerdos verbales.</li>
-            <li>No tener contratos o soportes suficientes.</li>
-            <li>Enviar mensajes agresivos al cliente.</li>
-            <li>No clasificar clientes según riesgo.</li>
-          </motion.ul>
+            Evitar estos errores permite aumentar la tasa de recuperación de
+            cartera, disminuir los tiempos promedio de recaudo y optimizar los
+            recursos destinados al proceso de cobranza.
+          </motion.p>
 
+          {/*  INDICADORES  */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Cuándo una PYME debería acudir a cobro jurídico
+            Indicadores que toda PYME debería medir para controlar su cartera
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Cuando el cliente incumple acuerdos, evita responder o mantiene la
-            deuda durante varios meses, puede ser necesario iniciar un proceso
-            de cobro prejurídico o jurídico en Colombia.
+            Administrar correctamente la cartera también implica medir
+            resultados. Los indicadores permiten identificar tendencias,
+            corregir fallas en el proceso de cobranza y tomar decisiones basadas
+            en información objetiva.
+          </motion.p>
+
+          <ul>
+            {[
+              "Porcentaje de cartera vencida respecto a las ventas.",
+              "Edad promedio de la cartera.",
+              "Días promedio de recaudo.",
+              "Valor recuperado mensualmente.",
+              "Número de acuerdos de pago cumplidos.",
+              "Clientes reincidentes en mora.",
+              "Facturas próximas a prescribir.",
+              "Índice de recuperación después del cobro prejurídico.",
+            ].map((item, index) => (
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+              >
+                {item}
+              </motion.li>
+            ))}
+          </ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Revisar estos indicadores de forma periódica ayuda a detectar
+            clientes con mayor riesgo de incumplimiento y facilita la
+            implementación de acciones preventivas antes de que la deuda
+            continúe aumentando.
+          </motion.p>
+
+          {/*  CUÁNDO BUSCAR APOYO  */}
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            ¿Cuándo conviene contratar un servicio especializado en recuperación
+            de cartera?
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Aunque muchas PYMES gestionan inicialmente sus cuentas por cobrar de
+            manera interna, llega un momento en que la cantidad de clientes en
+            mora, el tiempo invertido por el equipo administrativo o la
+            antigüedad de las obligaciones hacen recomendable apoyarse en
+            especialistas en recuperación de cartera.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            El cobro jurídico ayuda a proteger los intereses financieros de la
-            empresa y aumenta las probabilidades de recuperación de cartera en
-            casos complejos.
+            Un equipo especializado aporta metodologías de negociación,
+            herramientas de seguimiento, automatización, análisis de riesgo y
+            procesos de cobranza estructurados que permiten aumentar el recaudo
+            sin deteriorar la relación comercial con los clientes. Además, ayuda
+            a que la empresa concentre sus esfuerzos en las actividades que
+            generan crecimiento mientras la gestión de cartera es administrada
+            por profesionales.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            Muchas empresas en Bogotá recurren a especialistas en recuperación
-            de cartera para optimizar procesos de cobranza y reducir el impacto
-            financiero de clientes morosos.
-          </motion.p>
-
+          {/*  DOCUMENTOS IMPORTANTES PARA RECUPERAR CARTERA EN COLOMBIA  */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -465,93 +777,171 @@ export default function RecuperacionCarteraPymes() {
             <li>Capacitar al equipo de cobranza.</li>
           </motion.ul>
 
+          {/*  PREGUNTAS FRECUENTES  */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Preguntas frecuentes sobre recuperación de cartera para PYMES
+            Preguntas frecuentes sobre recuperación de cartera para PYMES en
+            Colombia
           </motion.h2>
 
           <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            ¿Cómo recuperar cartera vencida rápidamente?
+            ¿Cuál es el mejor momento para iniciar la recuperación de cartera?
           </motion.h3>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Actuar desde los primeros días de mora, hacer seguimiento constante
-            y mantener documentación organizada aumenta las probabilidades de
-            recuperación.
+            Lo recomendable es comenzar la gestión de cobranza desde antes del
+            vencimiento de la factura mediante recordatorios preventivos. Si el
+            cliente incumple la fecha acordada, la empresa debe iniciar un
+            seguimiento inmediato, ya que las probabilidades de recuperación
+            suelen ser mayores durante los primeros días de mora.
           </motion.p>
 
           <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            ¿Cuándo iniciar cobro jurídico en Colombia?
+            ¿Una PYME puede recuperar cartera sin afectar la relación con sus
+            clientes?
           </motion.h3>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Cuando el cliente incumple acuerdos, ignora comunicaciones o la
-            deuda afecta seriamente la liquidez empresarial.
+            Sí. Una gestión profesional se basa en una comunicación clara,
+            respetuosa y orientada a encontrar soluciones. Negociar acuerdos de
+            pago viables y mantener un seguimiento organizado permite recuperar
+            las obligaciones pendientes sin deteriorar la confianza construida
+            con los clientes.
           </motion.p>
 
           <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            ¿Por qué es importante reducir la mora en una PYME?
+            ¿Qué tipo de empresas necesitan implementar procesos de recuperación
+            de cartera?
           </motion.h3>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Porque la mora afecta directamente el flujo de caja, limita la
-            operación del negocio y aumenta riesgos financieros para la empresa.
+            Cualquier empresa que venda productos o servicios a crédito puede
+            beneficiarse de un proceso estructurado de recuperación de cartera.
+            Esto incluye pequeñas, medianas y grandes empresas de sectores como
+            comercio, distribución, manufactura, construcción, tecnología,
+            servicios profesionales y salud.
           </motion.p>
 
+          <motion.h3
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            ¿Cuánto tiempo debería esperar una PYME antes de intensificar la
+            cobranza?
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            No existe un plazo único para todas las empresas, pero en términos
+            generales es recomendable actuar desde los primeros días de mora.
+            Esperar varios meses reduce las probabilidades de recuperación y
+            aumenta el riesgo de que la deuda continúe acumulándose o llegue a
+            ser mucho más difícil de recaudar.
+          </motion.p>
+
+          <motion.h3
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            ¿Qué beneficios obtiene una PYME al profesionalizar la gestión de
+            cartera?
+          </motion.h3>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Una gestión profesional permite mejorar el flujo de caja, reducir
+            los tiempos promedio de recaudo, disminuir el porcentaje de cartera
+            vencida, optimizar los recursos administrativos y tomar decisiones
+            basadas en indicadores que ayudan a prevenir futuras situaciones de
+            mora.
+          </motion.p>
+
+          {/*  CONCLUSIÓN  */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Conclusión: cómo mejorar la recuperación de cartera en una PYME
+            Conclusión: una estrategia de recuperación de cartera fortalece el
+            crecimiento de las PYMES
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Una buena gestión de cartera permite que las pequeñas y medianas
-            empresas reduzcan la mora, mejoren su liquidez y protejan su
-            estabilidad financiera.
+            La recuperación de cartera para PYMES no consiste únicamente en
+            cobrar facturas pendientes. Se trata de implementar procesos
+            preventivos, administrativos y comerciales que permitan proteger la
+            liquidez, reducir la cartera vencida y mantener relaciones
+            sostenibles con los clientes. Las empresas que cuentan con políticas
+            de crédito claras, realizan seguimiento permanente y utilizan
+            herramientas de gestión especializadas suelen recuperar sus cuentas
+            por cobrar con mayor rapidez y disminuir el riesgo financiero.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            En Bogotá y toda Colombia, actuar rápido, documentar correctamente
-            las deudas y aplicar estrategias efectivas de cobranza ayuda a
-            aumentar significativamente las probabilidades de recuperación de
-            cartera y fortalecer el crecimiento empresarial.
+            En un entorno empresarial cada vez más competitivo, fortalecer la
+            gestión de cartera se convierte en una ventaja estratégica. Actuar
+            de manera oportuna, medir indicadores, automatizar procesos y
+            apoyarse en especialistas cuando sea necesario permite que las
+            pequeñas y medianas empresas concentren sus esfuerzos en crecer,
+            invertir y generar nuevas oportunidades de negocio sin que la mora
+            limite su desarrollo.
           </motion.p>
         </motion.article>
       </main>
