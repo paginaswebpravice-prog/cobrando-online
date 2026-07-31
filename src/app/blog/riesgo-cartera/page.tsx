@@ -2,21 +2,29 @@ import { Metadata } from "next";
 import RiesgoCartera from "./RiesgoCartera";
 
 export const metadata: Metadata = {
-  title: "Riesgo de cartera: cómo evaluar el riesgo financiero de los clientes",
+  title:
+    "Riesgo de cartera: cómo identificar, medir y reducir el riesgo de crédito en empresas | Guía 2026",
+
   description:
-    "Aprende qué es el riesgo de cartera, cómo medirlo y qué estrategias implementar para reducir pérdidas por cartera vencida.",
+    "Aprende qué es el riesgo de cartera, cómo evaluar el riesgo de crédito de tus clientes, qué indicadores utilizar y cómo reducir la cartera vencida antes de afectar el flujo de caja.",
 
   alternates: {
     canonical: "https://cobrandoonline.com/blog/riesgo-cartera",
   },
 
   openGraph: {
-    title: "Riesgo de cartera: evaluación y control del riesgo financiero",
+    title:
+      "Riesgo de cartera: cómo evaluar el riesgo de crédito y reducir la morosidad",
+
     description:
-      "Guía completa para identificar, medir y reducir el riesgo asociado a las cuentas por cobrar.",
+      "Guía completa para identificar clientes de alto riesgo, medir la cartera vencida y proteger la liquidez empresarial.",
+
     url: "https://cobrandoonline.com/blog/riesgo-cartera",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -37,9 +45,9 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               headline:
-                "Riesgo de cartera: cómo evaluar el riesgo financiero de los clientes",
+                "Riesgo de cartera: cómo identificar, medir y disminuir el riesgo de crédito en las empresas colombianas",
               description:
-                "Guía para entender el riesgo de cartera y proteger la liquidez empresarial.",
+                "Guía completa para evaluar el riesgo de cartera, prevenir la morosidad y mejorar la recuperación de cuentas por cobrar.",
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
@@ -82,6 +90,30 @@ export default function Page() {
                   acceptedAnswer: {
                     "@type": "Answer",
                     text: "Implementando análisis crediticios, monitoreo constante, políticas de crédito claras y procesos efectivos de cobranza.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Qué empresas deben medir el riesgo de cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Toda empresa que venda a crédito debería medir periódicamente el riesgo de cartera para prevenir pérdidas y mejorar la recuperación de cuentas por cobrar.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Cuál es el principal indicador del riesgo de cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Los indicadores más utilizados son el porcentaje de cartera vencida, la antigüedad de cartera, el índice de morosidad y el DSO.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Cómo identificar clientes con alto riesgo de incumplimiento?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Analizando su comportamiento de pago, capacidad financiera, historial crediticio, nivel de endeudamiento y frecuencia de retrasos.",
                   },
                 },
               ],

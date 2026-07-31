@@ -3,17 +3,22 @@ import SeguimientoRecuperacionCartera from "./SeguimientoRecuperacionCartera";
 
 export const metadata: Metadata = {
   title:
-    "Seguimiento de cartera en Colombia: cómo aumentar el recaudo y reducir la mora",
+    "Seguimiento de recuperación de cartera: 15 estrategias para cobrar más rápido | Cobrando Online",
+
   description:
-    "Descubre por qué el seguimiento es clave en la recuperación de cartera en Colombia y cómo mejora la tasa de recaudo y el flujo de caja.",
+    "Aprende cómo hacer seguimiento a la recuperación de cartera, reducir la mora, aumentar el recaudo y mejorar el flujo de caja con procesos y herramientas efectivas.",
 
   keywords: [
-    "seguimiento cartera Colombia",
-    "recuperacion de cartera seguimiento",
-    "cobranza efectiva Colombia",
-    "gestión de cartera vencida",
-    "mejorar recaudo empresas",
-    "flujo de caja empresas Colombia",
+    "seguimiento recuperación de cartera",
+    "seguimiento cartera",
+    "cómo recuperar cartera vencida",
+    "gestión de cartera empresas",
+    "seguimiento cobranza",
+    "automatización de cartera",
+    "control de cartera vencida",
+    "recuperación de cartera empresarial",
+    "software seguimiento cartera",
+    "recaudo empresas Colombia",
   ],
 
   alternates: {
@@ -23,12 +28,17 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Seguimiento de cartera en Colombia: aumenta el recaudo y reduce la mora",
+      "Seguimiento de recuperación de cartera: cómo cobrar más rápido y reducir la mora",
+
     description:
-      "El seguimiento constante es clave para mejorar la recuperación de cartera y reducir la mora en empresas.",
+      "Descubre cómo las empresas aumentan el recaudo mediante estrategias de seguimiento, automatización y control de cartera.",
+
     url: "https://cobrandoonline.com/blog/seguimiento-recuperacion-cartera",
+
     siteName: "Cobrando Online",
+
     locale: "es_CO",
+
     type: "article",
   },
 
@@ -50,9 +60,11 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               headline:
-                "Seguimiento de cartera en Colombia: cómo aumentar el recaudo y reducir la mora",
+                "Seguimiento de recuperación de cartera: estrategias para aumentar el recaudo y reducir la mora",
+
               description:
-                "El seguimiento en la recuperación de cartera mejora la tasa de recaudo y reduce la mora en empresas.",
+                "Guía completa para realizar seguimiento a clientes, acuerdos de pago y cartera vencida mediante procesos, indicadores y automatización.",
+
               author: {
                 "@type": "Organization",
                 name: "Cobrando Online",
@@ -88,6 +100,38 @@ export default function Page() {
                   acceptedAnswer: {
                     "@type": "Answer",
                     text: "Antes del vencimiento con recordatorios y después del vencimiento con gestión constante hasta el pago.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Cada cuánto debe hacerse seguimiento a una cartera vencida?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Depende de la política de crédito de cada empresa, pero lo recomendable es realizar contactos periódicos desde antes del vencimiento y mantener una frecuencia constante mientras exista saldo pendiente.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Qué indicadores permiten medir el seguimiento de cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Los principales son porcentaje de recuperación, DSO, rotación de cartera, cartera vencida, cumplimiento de acuerdos de pago y tiempo promedio de recaudo.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Se puede automatizar el seguimiento de cartera?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Sí. Actualmente existen plataformas que permiten programar recordatorios, registrar comunicaciones, generar alertas y controlar automáticamente el estado de cada obligación.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "¿Qué errores deben evitarse durante el seguimiento de clientes morosos?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "No documentar las comunicaciones, contactar demasiado tarde al cliente, no confirmar acuerdos de pago y utilizar procesos diferentes para cada asesor.",
                   },
                 },
               ],
