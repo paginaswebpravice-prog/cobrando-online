@@ -415,6 +415,321 @@ export default function TiposDeRecuperacionDeCarteraContent() {
             y mejora considerablemente la tasa de recuperación.
           </motion.p>
         </motion.section>
+
+        {/* ================= PROCESO COMPLETO ================= */}
+
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <motion.h2
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            ¿Cómo implementar un proceso de recuperación de cartera realmente
+            efectivo?
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Independientemente del tamaño de la empresa, la recuperación de
+            cartera no debería depender de llamadas improvisadas o decisiones
+            aisladas de cada asesor. Las organizaciones que obtienen mejores
+            indicadores de recaudo trabajan bajo procesos estandarizados donde
+            cada cliente recibe un tratamiento según el nivel de riesgo, el
+            tiempo de mora y su historial de pagos.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Un proceso organizado permite disminuir el tiempo promedio de
+            recuperación, reducir costos operativos y aumentar considerablemente
+            la probabilidad de recaudo sin afectar la relación comercial con el
+            cliente.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>Clasificación automática de clientes según riesgo.</li>
+
+            <li>Políticas claras de crédito y cobranza.</li>
+
+            <li>Seguimiento permanente de cada obligación.</li>
+
+            <li>Automatización de recordatorios y notificaciones.</li>
+
+            <li>Negociación temprana cuando aparecen dificultades de pago.</li>
+
+            <li>
+              Escalamiento oportuno hacia recuperación jurídica cuando sea
+              necesario.
+            </li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Este tipo de metodología permite que la empresa mantenga el control
+            sobre toda la cartera, evitando que pequeñas cuentas vencidas
+            terminen convirtiéndose en pérdidas financieras de gran impacto.
+          </motion.p>
+        </motion.section>
+
+        {/* ================= DIFERENCIA ENTRE ETAPAS ================= */}
+
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <motion.h2
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            Diferencias entre recuperación preventiva, administrativa y jurídica
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Aunque las tres etapas tienen como objetivo recuperar el dinero
+            adeudado, cada una responde a momentos completamente diferentes
+            dentro del ciclo de crédito.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Comprender estas diferencias permite aplicar estrategias más
+            eficientes y evitar iniciar procesos jurídicos cuando todavía
+            existen posibilidades de negociación o, por el contrario, perder
+            tiempo en gestiones administrativas cuando la recuperación judicial
+            resulta inevitable.
+          </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <li>
+              <strong>Cobranza preventiva:</strong> busca evitar que la
+              obligación llegue a mora mediante recordatorios y seguimiento
+              antes del vencimiento.
+            </li>
+
+            <li>
+              <strong>Cobranza administrativa o prejurídica:</strong> intenta
+              recuperar la deuda mediante negociación, llamadas, correos,
+              WhatsApp y acuerdos de pago sin acudir a procesos judiciales.
+            </li>
+
+            <li>
+              <strong>Cobranza jurídica:</strong> inicia cuando las gestiones
+              anteriores no generan resultados y se requiere acudir a mecanismos
+              legales para obtener el pago de la obligación.
+            </li>
+          </motion.ul>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            La mayoría de empresas exitosas combinan las tres etapas dentro de
+            una estrategia integral de recuperación de cartera, permitiendo
+            intervenir en el momento adecuado según el comportamiento del
+            cliente.
+          </motion.p>
+        </motion.section>
+
+        {/* ================= CONCLUSIÓN ================= */}
+
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            ¿Cuál es el mejor tipo de recuperación de cartera para una empresa?
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            No existe una única estrategia que funcione para todas las empresas.
+            El éxito en la recuperación de cartera depende de aplicar el tipo de
+            gestión adecuado según la antigüedad de la deuda, el comportamiento
+            del cliente, el monto pendiente y la probabilidad real de recaudo.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Las organizaciones que obtienen mejores resultados suelen
+            implementar un proceso escalonado: primero utilizan acciones
+            preventivas para disminuir la mora, posteriormente aplican una
+            cobranza administrativa con seguimiento permanente y acuerdos de
+            pago, y solo recurren a la recuperación jurídica cuando las
+            alternativas de negociación se han agotado.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            Además, complementar estas etapas con herramientas de
+            automatización, segmentación de clientes, indicadores de gestión y
+            seguimiento continuo permite incrementar el porcentaje de
+            recuperación, reducir costos operativos y mantener un flujo de caja
+            mucho más estable.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            En Cobrando Online creemos que una estrategia integral de
+            recuperación de cartera no consiste únicamente en cobrar una deuda,
+            sino en establecer un proceso organizado, medible y escalable que
+            permita disminuir la mora, fortalecer la relación con los clientes y
+            mejorar la rentabilidad de la empresa a largo plazo.
+          </motion.p>
+        </motion.section>
+
+        {/* ================= FAQ ================= */}
+
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <motion.h2
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            Preguntas frecuentes sobre los tipos de recuperación de cartera
+          </motion.h2>
+
+          <h3>
+            ¿Cuáles son los tipos de recuperación de cartera más utilizados en
+            Colombia?
+          </h3>
+
+          <p>
+            Generalmente las empresas implementan tres etapas: recuperación
+            preventiva, recuperación administrativa o prejurídica y recuperación
+            jurídica. Cada una responde al nivel de mora del cliente y al riesgo
+            de incumplimiento.
+          </p>
+
+          <h3>
+            ¿Cuál es la diferencia entre cobranza preventiva y cobranza
+            administrativa?
+          </h3>
+
+          <p>
+            La cobranza preventiva busca evitar que la factura entre en mora
+            mediante recordatorios y seguimiento oportuno. La cobranza
+            administrativa inicia cuando la obligación ya venció y se busca
+            recuperar el dinero mediante negociación, seguimiento y acuerdos de
+            pago.
+          </p>
+
+          <h3>¿Cuándo debe iniciarse una recuperación jurídica de cartera?</h3>
+
+          <p>
+            Normalmente se inicia cuando el cliente incumple reiteradamente sus
+            obligaciones, no responde a las gestiones administrativas o incumple
+            los acuerdos de pago previamente suscritos.
+          </p>
+
+          <h3>¿Qué tipo de recuperación ofrece mejores resultados?</h3>
+
+          <p>
+            La recuperación preventiva suele generar el mayor porcentaje de
+            éxito, debido a que evita que la deuda aumente y permite mantener
+            una comunicación permanente con el cliente antes del vencimiento.
+          </p>
+
+          <h3>
+            ¿Es recomendable combinar las diferentes etapas de recuperación?
+          </h3>
+
+          <p>
+            Sí. La mayoría de empresas implementan un proceso escalonado donde
+            la cobranza preventiva evoluciona hacia la recuperación
+            administrativa y, únicamente cuando resulta necesario, hacia la
+            recuperación jurídica.
+          </p>
+
+          <h3>
+            ¿Qué herramientas ayudan a mejorar la recuperación de cartera?
+          </h3>
+
+          <p>
+            Los software especializados de cobranza, CRM, plataformas de
+            automatización, recordatorios por correo electrónico, WhatsApp
+            empresarial, indicadores de gestión y tableros de seguimiento
+            permiten aumentar significativamente la eficiencia del proceso.
+          </p>
+
+          <h3>¿Cómo saber qué estrategia utilizar con cada cliente?</h3>
+
+          <p>
+            Lo recomendable es segmentar la cartera según el comportamiento de
+            pago, la antigüedad de la deuda, el valor pendiente y el nivel de
+            riesgo. De esta manera cada cliente recibe una estrategia de
+            recuperación acorde con su perfil.
+          </p>
+
+          <h3>
+            ¿Cómo reducir la mora sin afectar la relación con los clientes?
+          </h3>
+
+          <p>
+            Implementando procesos preventivos, comunicaciones respetuosas,
+            automatización de recordatorios, acuerdos de pago flexibles y
+            seguimiento constante antes de considerar acciones más estrictas.
+          </p>
+        </motion.section>
       </motion.article>
     </main>
   );
